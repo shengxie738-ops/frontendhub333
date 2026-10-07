@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 
 import MotionLink from './MotionLink';
+import { isManagedFeaturedVideo, ManagedFeaturedVideo, useFeaturedMediaEnvironment } from './ManagedFeaturedVideo';
 import { resolveFeaturedVideoSource } from './featured-video-source';
 import { canUseHover, prefersReducedMotion, scrollProgress, Spring, startTicker } from './motion';
 
@@ -154,12 +155,24 @@ function WorkGridCard({
 }) {
   const [active, setActive] = useState(0);
   const [loaded, setLoaded] = useState<number[]>([]);
+  const [failed, setFailed] = useState<number[]>([]);
+  const [mediaHovered, setMediaHovered] = useState(false);
   const frameRef = useRef<HTMLDivElement | null>(null);
+  const managed = useMemo(() => layers.map(layer => layer.kind === 'video' && isManagedFeaturedVideo(card.slug, layer)), [card.slug, layers]);
+  const hasManaged = managed.some(Boolean);
+  const environment = useFeaturedMediaEnvironment(frameRef, hasManaged);
+  const imageFallback = layers.findIndex(layer => layer.kind === 'image');
 
   /* module 1959: `y = multimedia.length + thumbnails.length + 1`, i.e. the layer count */
   const total = layers.length;
 
   const markLoaded = useCallback((i: number) => setLoaded((prev) => (prev.includes(i) ? prev : [...prev, i])), []);
+  const markFailed = useCallback((i: number) => setFailed((prev) => (prev.includes(i) ? prev : [...prev, i])), []);
+  // Keep legacy selection outside the five local candidates. Within this slice,
+  // actual layer indices avoid count-based selection of an unready/wrong layer.
+  const selected = hasManaged && imageFallback >= 0 && (
+    environment.reducedMotion || failed.includes(active) || (managed[active] && !loaded.includes(active))
+  ) ? imageFallback : active;
 
   /**
    * Verbatim pointer model: the horizontal position inside the card picks which layer
@@ -169,7 +182,14 @@ function WorkGridCard({
     const rect = e.currentTarget.getBoundingClientRect();
     const rel = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
     const i = Math.round((total - 2) * rel) + 1;
-    setActive(Math.round(i % Math.max(1, loaded.length || 1)));
+    if (hasManaged) {
+      const target = Math.round(i % Math.max(1, total));
+      // Keep an unready video target requested so its readiness can activate it
+      // without another pointer event. Images still require their actual index.
+      if (managed[target] || loaded.includes(target)) setActive(target);
+    } else {
+      setActive(Math.round(i % Math.max(1, loaded.length || 1)));
+    }
   };
 
   useEffect(() => {
@@ -187,9 +207,10 @@ function WorkGridCard({
     <Link
       href={`/work/${card.slug}`}
       className={`FeaturedWorkGrid_item__hQBLy ${cursorClass}`.trim()}
-      onMouseEnter={() => onHoverChange(true)}
+      onMouseEnter={() => { onHoverChange(true); setMediaHovered(true); }}
       onMouseLeave={() => {
         onHoverChange(false);
+        setMediaHovered(false);
         setActive(0);
       }}
       onClick={onClicked}
@@ -207,19 +228,30 @@ function WorkGridCard({
                 key={i}
                 className="absolute bottom-0 left-0 right-0 top-0 z-10"
                 style={{
-                  opacity: active === i ? 1 : 0,
+                  opacity: selected === i ? 1 : 0,
                   transitionProperty: 'opacity',
                   transitionDuration: '125ms',
                   transitionTimingFunction: 'cubic-bezier(0.165, 0.84, 0.44, 1)',
                 }}
-                aria-hidden={active !== i}
+                aria-hidden={selected !== i}
               >
                 {layer.kind === 'image' ? (
                   <CardImage layer={layer} onLoaded={() => markLoaded(i)} priority={i === 0 && index < 2} />
                 ) : (
                   <div className="pointer-events-none relative h-full w-full overflow-hidden">
                     <div className="absolute left-1/2 top-1/2 h-full min-w-full -translate-x-1/2 -translate-y-1/2">
-                      <CardVideo layer={layer} active={active === i} />
+                      {managed[i] ? (
+                        <ManagedFeaturedVideo
+                          source={layer.source}
+                          prepare={environment.pageVisible && !environment.reducedMotion && (environment.near || environment.visible || mediaHovered)}
+                          active={selected === i}
+                          visible={environment.visible}
+                          pageVisible={environment.pageVisible}
+                          reducedMotion={environment.reducedMotion}
+                          onReady={() => markLoaded(i)}
+                          onFailure={() => markFailed(i)}
+                        />
+                      ) : <CardVideo layer={layer} active={selected === i} />}
                     </div>
                   </div>
                 )}

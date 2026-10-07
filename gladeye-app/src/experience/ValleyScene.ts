@@ -168,6 +168,21 @@ function captureShaderLog<T>(run: () => T): { result: T; issues: ShaderIssue[] }
   }
 }
 
+/** Release every owned resource, then surface the first cleanup error. */
+function releaseAll(releases: Array<() => void>): void {
+  let failed = false;
+  let firstError: unknown;
+  for (const release of releases) {
+    try {
+      release();
+    } catch (error) {
+      if (!failed) firstError = error;
+      failed = true;
+    }
+  }
+  if (failed) throw firstError;
+}
+
 /* ------------------------------------------------------------------ *
  * FlowerValleyScene
  * ------------------------------------------------------------------ */
@@ -232,6 +247,8 @@ export class FlowerValleyScene {
   private renderer: WebGLRenderer | null = null;
   private resizeTimeout: ReturnType<typeof setTimeout> | undefined;
   private textureCache: Record<string, Texture> = {};
+  private readonly pendingTextures = new Set<Texture>();
+  private disposed = false;
   private gltfCamPosition = new Vector3();
   private disposedGeometry: BufferGeometry | null = null;
   private disposedMaterial: ShaderMaterial | null = null;
@@ -272,7 +289,13 @@ export class FlowerValleyScene {
       colorSpace: SRGBColorSpace,
     });
 
-    this.uniforms = this.buildUniforms();
+    try {
+      this.uniforms = this.buildUniforms();
+    } catch (error) {
+      // The constructor has not returned, so its caller cannot own this FBO yet.
+      try { this.fbo.dispose(); } catch { /* Preserve the initialization error. */ }
+      throw error;
+    }
   }
 
   /* ---------------- uniform bag — page-…js:13100-15520, verbatim --------------- */
@@ -350,58 +373,87 @@ export class FlowerValleyScene {
   /* ---------------- assets — page-…js:17440-18000 (`loadAssets`) --------------- */
 
   async loadAssets(): Promise<void> {
+    if (this.disposed) return;
     const loader = new TextureLoader();
     const urls = ASSETS.textureOrder;
     const total = urls.length + 1;
-    this.callbacks.onProgress?.(0, total);
+    const pending = new Set<Texture>();
+    let abandoned = false;
 
-    const results = await Promise.all(
-      urls.map(
-        (url) =>
-          new Promise<{ url: string; texture: Texture | null }>((resolve) => {
-            loader.load(
-              assetUrl(url),
-              (texture) => resolve({ url, texture }),
-              undefined,
-              () => resolve({ url, texture: null }),
-            );
-          }),
-      ),
-    );
+    try {
+      this.callbacks.onProgress?.(0, total);
+      if (this.disposed) return;
+      const results = await Promise.all(
+        urls.map(
+          (url) =>
+            new Promise<{ url: string; texture: Texture | null }>((resolve) => {
+              loader.load(
+                assetUrl(url),
+                (texture) => {
+                  if (this.disposed || abandoned) {
+                    texture.dispose();
+                    resolve({ url, texture: null });
+                    return;
+                  }
+                  // Own successes immediately, even while another request is pending.
+                  pending.add(texture);
+                  this.pendingTextures.add(texture);
+                  resolve({ url, texture });
+                },
+                undefined,
+                () => resolve({ url, texture: null }),
+              );
+            }),
+        ),
+      );
+      if (this.disposed) return;
 
-    let loaded = 0;
-    for (const item of results) {
+      let loaded = 0;
+      for (const item of results) {
+        loaded += 1;
+        this.callbacks.onProgress?.(loaded, total);
+        if (this.disposed) return;
+        if (item.texture) {
+          pending.delete(item.texture);
+          this.pendingTextures.delete(item.texture);
+          // `e.colorSpace = SRGBColorSpace` × 7 (EVIDENCE.md §5)
+          item.texture.colorSpace = SRGBColorSpace;
+          this.textureCache[item.url] = item.texture;
+        } else {
+          this.assetFailures.push({ url: assetUrl(item.url), kind: 'texture', message: 'load failed' });
+        }
+      }
+
+      const pool = this.textureCache[ASSETS.spritePoolSummer];
+      const pool2 = this.textureCache[ASSETS.spritePoolWinter];
+      if (!pool || !pool2) throw new Error('flower sprite sheets failed to load');
+      this.uniforms.uSpriteSheetPool.value = pool;
+      this.uniforms.uSpriteSheetPool2.value = pool2;
+
+      // `this.terrainMapImage = new Image(); … .onload = async () => { await buildScene(); startRender(); }`
+      const terrainImage = await loadImage(assetUrl(ASSETS.terrain));
+      if (this.disposed) return;
+      this.terrainImage = terrainImage;
       loaded += 1;
       this.callbacks.onProgress?.(loaded, total);
-      if (item.texture) {
-        // `e.colorSpace = SRGBColorSpace` × 7 (EVIDENCE.md §5)
-        item.texture.colorSpace = SRGBColorSpace;
-        this.textureCache[item.url] = item.texture;
-      } else {
-        this.assetFailures.push({ url: assetUrl(item.url), kind: 'texture', message: 'load failed' });
-      }
+      if (this.disposed) return;
+
+      this.cameraAnim = new CameraAnimator(this.cameraContainer);
+      await this.buildScene(terrainImage);
+      if (this.disposed) return;
+      this.callbacks.onReady?.();
+    } catch (error) {
+      abandoned = true;
+      pending.forEach((texture) => {
+        if (this.pendingTextures.delete(texture)) texture.dispose();
+      });
+      throw error;
     }
-
-    const pool = this.textureCache[ASSETS.spritePoolSummer];
-    const pool2 = this.textureCache[ASSETS.spritePoolWinter];
-    if (!pool || !pool2) throw new Error('flower sprite sheets failed to load');
-    this.uniforms.uSpriteSheetPool.value = pool;
-    this.uniforms.uSpriteSheetPool2.value = pool2;
-
-    // `this.terrainMapImage = new Image(); … .onload = async () => { await buildScene(); startRender(); }`
-    const terrainImage = await loadImage(assetUrl(ASSETS.terrain));
-    this.terrainImage = terrainImage;
-    loaded += 1;
-    this.callbacks.onProgress?.(loaded, total);
-
-    this.cameraAnim = new CameraAnimator(this.cameraContainer);
-    await this.buildScene(terrainImage);
-    this.callbacks.onReady?.();
   }
 
   /** Re-runs `terrainLookUp` + geometry at the current tier (used by `setQuality`). */
   async reloadPlacement(): Promise<void> {
-    if (!this.terrainImage || !this.cameraAnim) return;
+    if (this.disposed || !this.terrainImage || !this.cameraAnim) return;
     this.cameraAnim = new CameraAnimator(this.cameraContainer);
     await this.buildScene(this.terrainImage);
   }
@@ -409,6 +461,7 @@ export class FlowerValleyScene {
   /* ---------------- buildScene — page-…js:19860-20950 --------------- */
 
   async buildScene(terrainImage: HTMLImageElement): Promise<void> {
+    if (this.disposed) return;
     const tier = QUALITY_TIERS[this.qualityTier];
     if (!this.cameraAnim) throw new Error('camera path not initialised');
 
@@ -725,10 +778,11 @@ export class FlowerValleyScene {
   }
 
   resize = (): void => {
+    if (this.disposed) return;
     this.updateSize();
     if (this.resizeTimeout !== undefined) clearTimeout(this.resizeTimeout);
     this.resizeTimeout = setTimeout(() => {
-      this.updateSize();
+      if (!this.disposed) this.updateSize();
     }, 50);
   };
 
@@ -757,38 +811,48 @@ export class FlowerValleyScene {
   }
 
   dispose(): void {
-    if (this.resizeTimeout !== undefined) clearTimeout(this.resizeTimeout);
+    if (this.disposed) return;
+    this.disposed = true;
+    // Detach ownership before releasing: a throwing cleanup must not prevent
+    // another resource from being released or let a repeated dispose retry it.
+    const resizeTimeout = this.resizeTimeout;
+    const scroller = this.scroller;
+    const points = this.points;
+    const vignette = this.vignette;
+    const dust = this.dust;
+    const godRays = this.godRays;
+    const cameraAnim = this.cameraAnim;
+    const composer = this.composer;
+    const textures = [...Object.values(this.textureCache), ...Array.from(this.pendingTextures)];
     this.resizeTimeout = undefined;
-
-    this.scroller?.destroy();
     this.scroller = null;
-
-    if (this.points) {
-      this.points.geometry.dispose();
-      (this.points.material as ShaderMaterial).dispose();
-      this.scene.remove(this.points);
-      this.points = null;
-    }
+    this.points = null;
     this.disposedGeometry = null;
     this.disposedMaterial = null;
-
-    this.vignette?.dispose();
     this.vignette = null;
-    this.dust?.dispose();
     this.dust = null;
-    this.godRays?.dispose();
     this.godRays = null;
-    this.cameraAnim?.destroy();
     this.cameraAnim = null;
-
-    if (this.composer) {
-      disposePostFX(this.composer);
-      this.composer = null;
-    }
-    this.fbo.dispose();
-
-    Object.values(this.textureCache).forEach((texture) => texture.dispose());
+    this.composer = null;
     this.textureCache = {};
+    this.pendingTextures.clear();
+    this.terrainImage = null;
+    this.renderer = null;
+
+    releaseAll([
+      () => { if (resizeTimeout !== undefined) clearTimeout(resizeTimeout); },
+      () => scroller?.destroy(),
+      () => points?.geometry.dispose(),
+      () => { if (points) (points.material as ShaderMaterial).dispose(); },
+      () => { if (points) this.scene.remove(points); },
+      () => vignette?.dispose(),
+      () => dust?.dispose(),
+      () => godRays?.dispose(),
+      () => cameraAnim?.destroy(),
+      () => { if (composer) disposePostFX(composer); },
+      () => this.fbo.dispose(),
+      ...textures.map((texture) => () => texture.dispose()),
+    ]);
   }
 }
 
@@ -846,59 +910,80 @@ export class HomeExperience {
       window.innerHeight < this.performanceBoostModeDimensionCutoff;
 
     this.renderer = new WebGLRenderer({ antialias: !this.useBoostPerformance });
-    this.canvas = this.renderer.domElement;
+    const rollback: Array<() => void> = [() => this.renderer.dispose()];
+    try {
+      this.canvas = this.renderer.domElement;
+      const canvas = this.canvas;
+      rollback.push(() => { if (canvas.parentElement) canvas.parentElement.removeChild(canvas); });
 
-    this.valleyScene = new FlowerValleyScene(
-      options.container,
-      this.useBoostPerformance,
-      this.managerSettings.cameraMaxRotationX,
-      this.managerSettings.cameraMaxRotationY,
-      {
-        ...options,
-        onProgress: (loaded, total) => {
-          this.progress = { loaded, total };
-          options.onProgress?.(loaded, total);
+      this.valleyScene = new FlowerValleyScene(
+        options.container,
+        this.useBoostPerformance,
+        this.managerSettings.cameraMaxRotationX,
+        this.managerSettings.cameraMaxRotationY,
+        {
+          ...options,
+          onProgress: (loaded, total) => {
+            if (this.destroyed) return;
+            this.progress = { loaded, total };
+            options.onProgress?.(loaded, total);
+          },
+          onReady: () => this.markValleyReady(),
         },
-        onReady: () => this.markValleyReady(),
-      },
-    );
-    this.valleyScene.qualityTier = options.quality ?? (this.useBoostPerformance ? 'boost' : 'high');
-    this.valleyScene.enableDormantLayers = options.enableDormantLayers === true;
+      );
+      rollback.push(() => this.valleyScene.dispose());
+      this.valleyScene.qualityTier = options.quality ?? (this.useBoostPerformance ? 'boost' : 'high');
+      this.valleyScene.enableDormantLayers = options.enableDormantLayers === true;
 
-    this.renderer.outputColorSpace = SRGBColorSpace;
-    this.valleyScene.attachRenderer(this.renderer);
+      this.renderer.outputColorSpace = SRGBColorSpace;
+      this.valleyScene.attachRenderer(this.renderer);
 
-    // `document.getElementsByClassName("js-canvas-container")[0].prepend(renderer.domElement)`
-    // — scoped to *our* wrapper instead of a global query, so a parallel shell
-    //   can never steal the canvas.
-    const mountNode =
-      this.container.querySelector(`.${DOM_CLASS_NAMES.canvasContainer}`) ?? this.container;
-    mountNode.prepend(this.canvas);
-    document.documentElement.classList.add(DOM_CLASS_NAMES.htmlClass);
+      // `document.getElementsByClassName("js-canvas-container")[0].prepend(renderer.domElement)`
+      // — scoped to *our* wrapper instead of a global query, so a parallel shell
+      //   can never steal the canvas.
+      const mountNode =
+        this.container.querySelector(`.${DOM_CLASS_NAMES.canvasContainer}`) ?? this.container;
+      mountNode.prepend(this.canvas);
+      const hadHomepageClass = document.documentElement.classList.contains(DOM_CLASS_NAMES.htmlClass);
+      rollback.push(() => {
+        if (!hadHomepageClass) document.documentElement.classList.remove(DOM_CLASS_NAMES.htmlClass);
+      });
+      document.documentElement.classList.add(DOM_CLASS_NAMES.htmlClass);
 
-    activeRuntimes += 1;
+      activeRuntimes += 1;
+      rollback.push(() => { activeRuntimes = Math.max(0, activeRuntimes - 1); });
 
-    this.updateSize();
-    window.addEventListener('resize', this.resize);
-    window.addEventListener('pointermove', this.onMouseMove);
+      this.updateSize();
+      rollback.push(() => window.removeEventListener('resize', this.resize));
+      window.addEventListener('resize', this.resize);
+      rollback.push(() => window.removeEventListener('pointermove', this.onMouseMove));
+      window.addEventListener('pointermove', this.onMouseMove);
 
-    this.valleyScene.scroller = createVirtualScroll(options.container);
-    this.valleyScene.clock.getDelta();
+      this.valleyScene.scroller = createVirtualScroll(options.container);
+      this.valleyScene.clock.getDelta();
 
-    void this.load();
-    this.bootMs = performance.now() - bootStart;
+      void this.load();
+      this.bootMs = performance.now() - bootStart;
+    } catch (error) {
+      this.destroyed = true;
+      try { releaseAll(rollback.reverse()); } catch { /* Preserve the initialization error. */ }
+      throw error;
+    }
   }
 
   private async load(): Promise<void> {
+    if (this.destroyed) return;
     this.status = 'loading';
     try {
       await this.valleyScene.loadAssets();
+      if (this.destroyed) return;
       this.valleyScene.shaderIssues = this.valleyScene.validatePrograms();
       if (this.valleyScene.shaderIssues.length > 0) {
         this.degradeReasons.push('shader-compile-failed');
       }
       this.status = 'ready';
     } catch (error) {
+      if (this.destroyed) return;
       this.status = 'failed';
       this.failures.push({
         url: assetUrl(ASSETS.terrain),
@@ -913,13 +998,14 @@ export class HomeExperience {
   /* ---------------- loop — page-…js:32000-32300 --------------- */
 
   markValleyReady(): void {
+    if (this.destroyed) return;
     this.valleyReady = true;
     this.clock.getDelta();
     this.startRender();
   }
 
   private startRender(): void {
-    if (this.rafID || !this.valleyReady) return;
+    if (this.destroyed || this.rafID || !this.valleyReady) return;
     this.rafID = window.requestAnimationFrame(this.onFrame);
   }
 
@@ -927,6 +1013,8 @@ export class HomeExperience {
     if (this.destroyed) return;
     this.valleyScene.onFrameAlwaysRun();
     this.valleyScene.onFrame();
+    // User progress/intro callbacks may synchronously destroy this owner.
+    if (this.destroyed) return;
     this.valleyScene.render();
 
     const delta = this.clock.getDelta();
@@ -1006,10 +1094,11 @@ export class HomeExperience {
   }
 
   private readonly resize = (): void => {
+    if (this.destroyed) return;
     this.updateSize();
     if (this.resizeTimeout !== undefined) clearTimeout(this.resizeTimeout);
     this.resizeTimeout = setTimeout(() => {
-      this.updateSize();
+      if (!this.destroyed) this.updateSize();
     }, 50);
   };
 
@@ -1129,19 +1218,27 @@ export class HomeExperience {
   destroy(): void {
     if (this.destroyed) return;
     this.destroyed = true;
-    window.cancelAnimationFrame(this.rafID);
-    window.cancelAnimationFrame(this.exitTweenRaf);
-    if (this.resizeTimeout !== undefined) clearTimeout(this.resizeTimeout);
-    window.removeEventListener('resize', this.resize);
-    window.removeEventListener('pointermove', this.onMouseMove);
-    document.documentElement.classList.remove(DOM_CLASS_NAMES.htmlClass);
+    this.valleyReady = false;
+    const rafID = this.rafID;
+    const exitTweenRaf = this.exitTweenRaf;
+    const resizeTimeout = this.resizeTimeout;
+    this.rafID = 0;
+    this.exitTweenRaf = 0;
+    this.resizeTimeout = undefined;
 
-    this.valleyScene.dispose();
-    this.renderer.dispose();
-    if (this.canvas.parentElement) this.canvas.parentElement.removeChild(this.canvas);
-
-    activeRuntimes = Math.max(0, activeRuntimes - 1);
-    this.callbacks.onScrollProgress?.(0);
+    releaseAll([
+      () => window.cancelAnimationFrame(rafID),
+      () => window.cancelAnimationFrame(exitTweenRaf),
+      () => { if (resizeTimeout !== undefined) clearTimeout(resizeTimeout); },
+      () => window.removeEventListener('resize', this.resize),
+      () => window.removeEventListener('pointermove', this.onMouseMove),
+      () => document.documentElement.classList.remove(DOM_CLASS_NAMES.htmlClass),
+      () => this.valleyScene.dispose(),
+      () => this.renderer.dispose(),
+      () => { if (this.canvas.parentElement) this.canvas.parentElement.removeChild(this.canvas); },
+      () => { activeRuntimes = Math.max(0, activeRuntimes - 1); },
+      () => this.callbacks.onScrollProgress?.(0),
+    ]);
   }
 }
 
