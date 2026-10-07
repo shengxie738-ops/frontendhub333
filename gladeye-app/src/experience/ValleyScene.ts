@@ -151,33 +151,29 @@ export function probeWebgl(): WebglSupport {
   return cachedSupport;
 }
 
-/** Captures three's `WebGLProgram` console output while `run()` compiles. */
+/** Captures recognized Three program errors during synchronous scene compile. */
 function captureShaderLog<T>(run: () => T): { result: T; issues: ShaderIssue[] } {
   const issues: ShaderIssue[] = [];
   const originalError = console.error;
-  const originalWarn = console.warn;
 
-  const sink =
-    (stage: ShaderIssue['stage']) =>
-    (message?: unknown, ...rest: unknown[]): void => {
-      const text = [message, ...rest]
-        .map((part) => (typeof part === 'string' ? part : ''))
-        .join(' ')
-        .trim();
-      if (/shader|program|glsl|link|compile/i.test(text)) {
-        issues.push({ name: 'WebGLProgram', stage, message: text.slice(0, 4000) });
-      }
-      if (stage === 'fragment') originalError(message, ...rest);
-      else originalWarn(message, ...rest);
-    };
+  const sink = (message?: unknown, ...rest: unknown[]): void => {
+    const text = [message, ...rest]
+      .map((part) => (typeof part === 'string' ? part : ''))
+      .join(' ')
+      .trim();
+    // r154 uses the error channel for a failed link, while Program Info Log
+    // and other compiler warnings can describe runnable programs.
+    if (/THREE\.WebGLProgram:\s*(?:Shader Error\b|shader compile failed\b)/i.test(text)) {
+      issues.push({ name: 'WebGLProgram', stage: 'program', message: text.slice(0, 4000) });
+    }
+    originalError(message, ...rest);
+  };
 
   try {
-    console.error = sink('program');
-    console.warn = sink('program');
+    console.error = sink;
     return { result: run(), issues };
   } finally {
     console.error = originalError;
-    console.warn = originalWarn;
   }
 }
 
@@ -634,7 +630,7 @@ export class FlowerValleyScene {
     sortByCameraDepth(points, this.camera);
   }
 
-  /** Compiles every program so shader errors surface before the first frame. */
+  /** Checks valley scene programs; composer-only passes are outside this compile. */
   validatePrograms(): ShaderIssue[] {
     if (!this.renderer) return [];
     const { issues } = captureShaderLog(() => {
@@ -679,6 +675,7 @@ export class FlowerValleyScene {
         if (!this.introDoneFired) {
           this.introDoneFired = true;
           this.callbacks.onIntroDone?.();
+          if (this.disposed) return;
         }
       }
       if (this.introCameraAngle <= (MOTION.introSettledThresholdDeg * Math.PI) / 180) {
@@ -768,6 +765,7 @@ export class FlowerValleyScene {
     this.uniforms.uContainerPos.value = this.gltfCamPosition;
     this.uniforms.uTime.value = elapsed;
     this.callbacks.onScrollProgress?.(progress);
+    if (this.disposed) return;
 
     if (this.vignette) {
       const shrinkage = remap(
@@ -989,7 +987,8 @@ export class HomeExperience {
             this.progress = { loaded, total };
             options.onProgress?.(loaded, total);
           },
-          onReady: () => this.markValleyReady(),
+          // Asset completion alone must not publish render readiness.
+          onReady: undefined,
         },
       );
       rollback.push(() => this.valleyScene.dispose());
@@ -1037,12 +1036,6 @@ export class HomeExperience {
     this.status = 'loading';
     try {
       await this.valleyScene.loadAssets();
-      if (this.destroyed) return;
-      this.valleyScene.shaderIssues = this.valleyScene.validatePrograms();
-      if (this.valleyScene.shaderIssues.length > 0) {
-        this.degradeReasons.push('shader-compile-failed');
-      }
-      this.status = 'ready';
     } catch (error) {
       if (this.destroyed) return;
       this.status = 'failed';
@@ -1057,40 +1050,82 @@ export class HomeExperience {
         try { this.destroy(); } catch { /* Preserve the timeout diagnostic. */ }
       }
       // A failed scene must never break navigation: report and stay silent.
+      return;
     }
+    if (this.destroyed) return;
+    try {
+      const issues = this.valleyScene.validatePrograms();
+      if (this.destroyed) return;
+      this.valleyScene.shaderIssues = issues;
+    } catch (error) {
+      if (this.destroyed) return;
+      this.valleyScene.shaderIssues = [{
+        name: 'WebGLProgram',
+        stage: 'program',
+        message: error instanceof Error ? error.message : 'shader compilation failed',
+      }];
+    }
+    if (this.valleyScene.shaderIssues.length > 0) {
+      this.failRender('shader-compile-failed');
+      return;
+    }
+    this.status = 'ready';
+    this.markValleyReady();
+  }
+
+  private failRender(reason: 'shader-compile-failed' | 'renderer-crashed'): void {
+    if (this.destroyed) return;
+    this.status = 'failed';
+    this.valleyReady = false;
+    this.fps = 0;
+    this.degradeReasons.push(reason);
+    // Keep terminal diagnostics even if an individual owned cleanup throws.
+    try { this.destroy(); } catch { /* releaseAll still releases every owner. */ }
   }
 
   /* ---------------- loop — page-…js:32000-32300 --------------- */
 
   markValleyReady(): void {
-    if (this.destroyed) return;
-    this.valleyReady = true;
-    this.clock.getDelta();
-    this.startRender();
+    if (this.destroyed || this.status !== 'ready' || this.valleyReady) return;
+    try {
+      this.valleyReady = true;
+      this.clock.getDelta();
+      this.startRender();
+    } catch {
+      this.failRender('renderer-crashed');
+    }
   }
 
   private startRender(): void {
-    if (this.destroyed || this.rafID || !this.valleyReady) return;
+    if (this.destroyed || this.status !== 'ready' || this.rafID || !this.valleyReady) return;
     this.rafID = window.requestAnimationFrame(this.onFrame);
   }
 
   private readonly onFrame = (): void => {
-    if (this.destroyed) return;
-    this.valleyScene.onFrameAlwaysRun();
-    this.valleyScene.onFrame();
-    // User progress/intro callbacks may synchronously destroy this owner.
-    if (this.destroyed) return;
-    this.valleyScene.render();
+    if (this.destroyed || this.status !== 'ready' || !this.valleyReady) return;
+    this.rafID = 0;
+    try {
+      this.valleyScene.onFrameAlwaysRun();
+      if (this.destroyed) return;
+      this.valleyScene.onFrame();
+      // User progress/intro callbacks may synchronously destroy this owner.
+      if (this.destroyed) return;
+      this.valleyScene.render();
+      if (this.destroyed) return;
 
-    const delta = this.clock.getDelta();
-    this.frameTimes.push(delta);
-    if (this.frameTimes.length > 30) this.frameTimes.shift();
-    const mean =
-      this.frameTimes.reduce((total, value) => total + value, 0) /
-      Math.max(1, this.frameTimes.length);
-    this.fps = mean > 0 ? Math.round(1 / mean) : 0;
+      const delta = this.clock.getDelta();
+      if (this.destroyed) return;
+      this.frameTimes.push(delta);
+      if (this.frameTimes.length > 30) this.frameTimes.shift();
+      const mean =
+        this.frameTimes.reduce((total, value) => total + value, 0) /
+        Math.max(1, this.frameTimes.length);
+      this.fps = mean > 0 ? Math.round(1 / mean) : 0;
 
-    this.rafID = window.requestAnimationFrame(this.onFrame);
+      this.rafID = window.requestAnimationFrame(this.onFrame);
+    } catch {
+      this.failRender('renderer-crashed');
+    }
   };
 
   /* ---------------- transitions — page-…js:31050-31400 --------------- */
