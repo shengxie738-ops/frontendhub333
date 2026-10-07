@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef } from "react";
 
 import { LogoWordmark } from "@/components/shared/icons";
 import { Button } from "@/components/shell/Button";
@@ -35,14 +34,8 @@ import type { CSSProperties } from "react";
 export function SiteHeader() {
   const { open, toggleMenu, setTrigger } = useMenu();
   const { headerTheme, pageThemeVars, headerThemeVars } = useTheme();
-  const buttonRef = useRef<HTMLButtonElement>(null);
 
   const wrapperTheme = open ? MENU_THEME : headerTheme;
-
-  useEffect(() => {
-    setTrigger(buttonRef.current);
-    return () => setTrigger(null);
-  }, [setTrigger]);
 
   const style = { ...pageThemeVars, ...headerThemeVars } as CSSProperties;
 
@@ -66,9 +59,10 @@ export function SiteHeader() {
               filled={false}
               className={`Header_button__qn2Wj pointer-events-auto`}
               onClick={toggleMenu}
+              elementRef={setTrigger}
               ariaLabel={open ? "Close menu" : "Open menu"}
-              aria-expanded={open}
-              aria-controls="site-menu"
+              ariaExpanded={open}
+              ariaControls="site-menu"
             >
               <span ref={undefined}>{open ? "Close" : "Menu"}</span>
             </Button>

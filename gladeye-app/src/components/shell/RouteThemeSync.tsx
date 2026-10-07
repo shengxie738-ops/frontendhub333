@@ -1,9 +1,11 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 import { pageThemeForPath, useMenu, useTheme } from "@/lib/theme";
+
+import type { ThemeName } from "@/lib/theme";
 
 /**
  * The fixed header lives outside each route's `data-theme` section, so it can
@@ -19,12 +21,21 @@ export function RouteThemeSync() {
   const pathname = usePathname();
   const { setPageTheme, setHeaderTheme } = useTheme();
   const { open } = useMenu();
+  const pendingHeaderTheme = useRef<ThemeName | null>(null);
 
   useEffect(() => {
     const theme = pageThemeForPath(pathname);
     setPageTheme(theme);
-    if (!open) setHeaderTheme(theme);
-  }, [pathname, open, setPageTheme, setHeaderTheme]);
+    pendingHeaderTheme.current = theme;
+  }, [pathname, setPageTheme]);
+
+  useEffect(() => {
+    // Only a new route owns this update. A same-route menu close must leave
+    // section themes and the overlay's delayed theme restoration intact.
+    if (open || pendingHeaderTheme.current === null) return;
+    setHeaderTheme(pendingHeaderTheme.current);
+    pendingHeaderTheme.current = null;
+  }, [pathname, open, setHeaderTheme]);
 
   return null;
 }

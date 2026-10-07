@@ -52,13 +52,13 @@ function ContactGroup({ group, interactive }: { group: ContactBlock; interactive
  *  2. The page is a single `min-h-screen` flex column with `md:justify-between`,
  *     so the greeting band sits at the top and the contact block is pushed to
  *     the bottom of the first screen.
- *  3. The copyright line inside this section reads `© Gladeye 2023` while the
- *     shared footer, on the same page, reads `© Gladeye 2025`. Both are kept
- *     verbatim; they are not the same string and neither is "today's" year.
+ *  3. This section's own copyright reads `© Gladeye 2023`. Contact suppresses
+ *     the shared newsletter/footer: the captured page chunk does so on mount,
+ *     and current live DOM at 1180×757 confirmed no footer or Subscribe text.
  *
- * There is no form on this route. The only form in the frozen HTML is the
- * footer newsletter (`ContactSignUp_form__wMRUI`), which belongs to the shared
- * shell and is out of this scope. Nothing here posts, fetches or mails.
+ * There is no form on this route. The existing business links remain anchors;
+ * this component does not post, fetch, or send mail. The physics layer below
+ * remains an explicitly pending placeholder, not a completed reproduction.
  */
 export default function ContactPageView() {
   const groups = data.blocks.groups;
@@ -69,10 +69,11 @@ export default function ContactPageView() {
         {/*
           The frozen page also mounts a full-viewport canvas here:
             <div class="fixed inset-0 z-20"><canvas class="h-full w-full"></canvas></div>
-          What it draws is unknown — its component lives in the uncaptured
-          /contact page bundle chunk. It is reproduced as an inert, transparent,
-          pointer-events:none layer so the DOM and stacking order match without
-          inventing a visual or swallowing clicks. UNVERIFIED (see report).
+          Current live evidence and captured module 1385 show draggable wave
+          sprites driven by Matter physics. That implementation is pending and
+          outside this slice. This inert, transparent pointer-events:none
+          placeholder preserves the existing layer without claiming the
+          physics, canvas dimensions, or sprite behavior are complete.
         */}
         <div className='fixed inset-0 z-20 pointer-events-none' aria-hidden='true'>
           <canvas className='h-full w-full' />

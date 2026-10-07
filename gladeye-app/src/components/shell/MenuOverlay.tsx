@@ -12,7 +12,6 @@ import {
   isMenuEntrySelected,
   releaseScrollLock,
   useEscapeToClose,
-  useFocusTrap,
   useMenu,
   useTheme,
 } from "@/lib/theme";
@@ -68,10 +67,20 @@ export function MenuOverlay() {
     setHeaderTheme,
   } = useTheme();
   const [mounted, setMounted] = useState(open);
+  const navRef = useRef<HTMLElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
   const previousHeaderTheme = useRef<ThemeName | null>(null);
   const wasOpen = useRef(false);
   const pathname = usePathname();
+  const previousPathname = useRef(pathname);
+
+  /* Header links and browser history can navigate without a menu-link click. */
+  useEffect(() => {
+    if (previousPathname.current === pathname) return;
+    previousPathname.current = pathname;
+    previousHeaderTheme.current = null;
+    closeMenu();
+  }, [pathname, closeMenu]);
 
   /* keep the panel mounted through the exit transition ------------------- */
   useEffect(() => {
@@ -86,41 +95,60 @@ export function MenuOverlay() {
 
   /* theme swap: menu + header go `green`, header restores 450ms later ---- */
   useEffect(() => {
-    if (open && !wasOpen.current) {
-      previousHeaderTheme.current = headerTheme;
+    let timer: number | undefined;
+    if (open) {
+      // A reopen during exit still belongs to the original menu session.
+      // Do not replace that session's underlying theme with menu green.
+      if (!wasOpen.current) previousHeaderTheme.current ??= headerTheme;
+      else if (headerTheme !== MENU_THEME) previousHeaderTheme.current = headerTheme;
       setMenuTheme(MENU_THEME);
-      setHeaderTheme(MENU_THEME);
+      if (headerTheme !== MENU_THEME) setHeaderTheme(MENU_THEME);
     }
     if (!open && wasOpen.current) {
-      window.setTimeout(() => {
+      timer = window.setTimeout(() => {
         setMenuTheme(MENU_THEME);
         const restore = previousHeaderTheme.current;
         if (restore) setHeaderTheme(restore);
         previousHeaderTheme.current = null;
       }, EXIT_MS);
     }
+    if (!open && !wasOpen.current && headerTheme !== MENU_THEME) {
+      // A route/section update now owns the header, so its theme must survive.
+      previousHeaderTheme.current = null;
+    }
     wasOpen.current = open;
-  }, [open, headerTheme, setMenuTheme, setHeaderTheme]);
+    return () => {
+      if (timer !== undefined) window.clearTimeout(timer);
+    };
+  }, [open, headerTheme, pathname, setMenuTheme, setHeaderTheme]);
 
   /* page scroll freeze on the panel (module 5299 disablePageScroll(el)) -- */
   /* `mounted` is a dependency because the panel only exists from the render
      AFTER `open` flips: reading panelRef in an [open]-only effect always saw
-     null and silently skipped both the lock and the focus trap. */
+     null and silently skipped the lock. */
   useEffect(() => {
-    if (!mounted) return;
+    if (!open || !mounted) return;
     const panel = panelRef.current;
     if (!panel) return;
-    if (open) acquireScrollLock(SCROLL_LOCK_OWNER, { target: panel });
-    else releaseScrollLock(SCROLL_LOCK_OWNER);
+    acquireScrollLock(SCROLL_LOCK_OWNER, { target: panel });
+    return () => releaseScrollLock(SCROLL_LOCK_OWNER);
   }, [open, mounted]);
 
+  /* React 18 does not serialize boolean inert; use the native DOM attribute. */
   useEffect(() => {
-    // Safety net: unmounting while still open must not leak the lock.
-    return () => releaseScrollLock(SCROLL_LOCK_OWNER);
-  }, []);
+    navRef.current?.toggleAttribute("inert", !open);
+  }, [open, mounted]);
+
+  /* Keep the source's native header tab order; closing returns to Menu. */
+  useEffect(() => {
+    if (!open) return;
+    const trigger = triggerRef.current;
+    return () => {
+      if (trigger?.isConnected) trigger.focus({ preventScroll: true });
+    };
+  }, [open, triggerRef]);
 
   useEscapeToClose(open, closeMenu);
-  useFocusTrap(open && mounted, panelRef, triggerRef);
 
   const handleNavigate = useCallback(() => {
     closeMenu();
@@ -132,7 +160,9 @@ export function MenuOverlay() {
 
   return (
     <nav
+      ref={navRef}
       aria-label="Main"
+      aria-hidden={!open}
       id="site-menu"
       data-menu-open={open ? "true" : "false"}
       className="fixed inset-0 z-Menu"

@@ -152,6 +152,9 @@ export function Button(props: ButtonProps) {
         title,
         target,
         rel: rel ?? (target === "_blank" ? "nofollow noopener" : undefined),
+        "aria-label": ariaLabel,
+        "aria-expanded": ariaExpanded,
+        "aria-controls": ariaControls,
       };
       return (
         <a ref={elementRef} {...anchorProps} onClick={onClick}>
@@ -161,6 +164,7 @@ export function Button(props: ButtonProps) {
     }
     return (
       <Link
+        ref={elementRef}
         href={link}
         className={classes}
         onClick={onClick}

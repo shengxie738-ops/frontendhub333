@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test:header-menu": "node --test --test-concurrency=1 scripts/header-menu.test.cjs"
   },
   "dependencies": {
     "gsap": "^3.12.5",
@@ -23,6 +24,7 @@
     "@types/three": "^0.154.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
+    "jsdom": "30.0.1",
     "playwright": "^1.55.0",
     "pngjs": "^7.0.0",
     "postcss": "^8",

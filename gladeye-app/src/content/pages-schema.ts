@@ -324,18 +324,22 @@ export interface MarqueeParams {
   copies: number;
   /**
    * `true` when the rate is backed by shipped CSS/JS; `false` when the value is
-   * our own reproducible placeholder. Both marquees on these pages are
-   * `false` — the page bundles that computed them were not captured.
+   * our own reproducible placeholder. This describes the timing input's
+   * provenance, not completed multi-viewport visual acceptance.
    */
   rateVerified: boolean;
 }
 
-/** VERIFIED structurally, UNVERIFIED numerically — see the builder report. */
+/**
+ * Captured module 983 rounds first-copy clientWidth / 100 to whole seconds.
+ * Live Contact samples at 1180×757 on 2026-10-07 measured ≈99.865px/s.
+ * The source-backed 100px/s input is verified; four-viewport QA is pending.
+ */
 export const CONTACT_MARQUEE: MarqueeParams = {
-  speedPxPerSecond: 60,
+  speedPxPerSecond: 100,
   direction: 'left',
   copies: 2,
-  rateVerified: false,
+  rateVerified: true,
 };
 
 /** Same engine as the greeting band; shape cycle comes from shipped CSS. */
