@@ -1,0 +1,59 @@
+
+> gladeye-app@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.5
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+
+./src/components/case-study/CaseImage.tsx
+58:7  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+66:7  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./src/components/case-study/RichInline.tsx
+52:51  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./src/components/case-study/RichText.tsx
+74:46  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./src/components/work/FeaturedWorkGrid.tsx
+255:7  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+274:7  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./src/lib/theme/menu-provider.tsx
+137:35  Warning: The ref value 'restoreRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'restoreRef.current' to a variable inside the effect, and use that variable in the cleanup function.  react-hooks/exhaustive-deps
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+   Collecting page data ...
+   Generating static pages (0/51) ...
+   Generating static pages (12/51) 
+   Generating static pages (25/51) 
+   Generating static pages (38/51) 
+ ✓ Generating static pages (51/51)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    169 kB          256 kB
+├ ○ /_not-found                          871 B            88 kB
+├ ○ /about                               1.31 kB        88.4 kB
+├ ○ /careers                             1.76 kB        88.9 kB
+├ ○ /contact                             1.06 kB        88.2 kB
+├ ○ /work                                5.46 kB         212 kB
+└ ● /work/[slug]                         4.1 kB          211 kB
+    ├ /work/21st-century-gold-rush
+    ├ /work/aeroqual
+    ├ /work/allpress-culture-manual
+    └ [+39 more paths]
++ First Load JS shared by all            87.1 kB
+  ├ chunks/23-f849d376ad42fa6c.js        31.5 kB
+  ├ chunks/fd9d1056-e7d068fb33534f74.js  53.6 kB
+  └ other shared chunks (total)          1.93 kB
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses getStaticProps)
+
+BUILD_EXIT=0

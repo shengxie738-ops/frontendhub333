@@ -1,0 +1,144 @@
+[
+ {
+  "key": "work__25pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 144.92,
+   "stdev": 110.42,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 410
+  },
+  "candidate": {
+   "meanLuma": 253.57,
+   "stdev": 16.89,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 60
+  },
+  "meanAbsDiff": 114.91,
+  "pctPixelsOver12": 52.16,
+  "pctPixelsOver60": 50.91,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "work__50pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 165.39,
+   "stdev": 120.49,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 32
+  },
+  "candidate": {
+   "meanLuma": 250.48,
+   "stdev": 29.22,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 30
+  },
+  "meanAbsDiff": 92.63,
+  "pctPixelsOver12": 38.32,
+  "pctPixelsOver60": 37.49,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "work__0_top",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 178.31,
+   "stdev": 88.74,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1265
+  },
+  "candidate": {
+   "meanLuma": 217.92,
+   "stdev": 79.16,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 631
+  },
+  "meanAbsDiff": 45.51,
+  "pctPixelsOver12": 32.88,
+  "pctPixelsOver60": 29.57,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "work__75pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 247.98,
+   "stdev": 36.05,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 30
+  },
+  "candidate": {
+   "meanLuma": 247.7,
+   "stdev": 36.67,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 30
+  },
+  "meanAbsDiff": 12.99,
+  "pctPixelsOver12": 8.16,
+  "pctPixelsOver60": 6.83,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "work__0pct",
+  "status": "no-reference"
+ },
+ {
+  "key": "work__full",
+  "status": "dim-mismatch",
+  "ref": {
+   "meanLuma": 199.87,
+   "stdev": 95.75,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1570
+  },
+  "candidate": {
+   "meanLuma": 211.63,
+   "stdev": 89.28,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1032
+  },
+  "meanAbsDiff": null,
+  "pctPixelsOver12": null,
+  "pctPixelsOver60": null,
+  "size": [
+   1440,
+   7721
+  ],
+  "flags": [
+   "DIM-MISMATCH ref=1440x7625 can=1440x7721"
+  ]
+ }
+]

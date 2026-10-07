@@ -1,0 +1,162 @@
+{
+ "file": "evidence/source-assets/valley/camera-path07.glb",
+ "header": {
+  "magic": 1179937895,
+  "version": 2,
+  "length": 10132
+ },
+ "chunks": [
+  {
+   "ctype": "JSON",
+   "clen": 1304
+  },
+  {
+   "ctype": "BIN\u0000",
+   "clen": 8800
+  }
+ ],
+ "binLength": 0,
+ "json": {
+  "asset": {
+   "generator": "Khronos glTF Blender I/O v3.2.43",
+   "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+   {
+    "name": "Scene",
+    "nodes": [
+     0
+    ]
+   }
+  ],
+  "nodes": [
+   {
+    "camera": 0,
+    "name": "Camera",
+    "rotation": [
+     0,
+     -0.03702882304787636,
+     0,
+     0.9993141889572144
+    ]
+   }
+  ],
+  "cameras": [
+   {
+    "name": "Camera.001",
+    "perspective": {
+     "aspectRatio": 1.7777777777777777,
+     "yfov": 0.39959648408210363,
+     "zfar": 1000,
+     "znear": 0.10000000149011612
+    },
+    "type": "perspective"
+   }
+  ],
+  "animations": [
+   {
+    "channels": [
+     {
+      "sampler": 0,
+      "target": {
+       "node": 0,
+       "path": "translation"
+      }
+     },
+     {
+      "sampler": 1,
+      "target": {
+       "node": 0,
+       "path": "rotation"
+      }
+     },
+     {
+      "sampler": 2,
+      "target": {
+       "node": 0,
+       "path": "scale"
+      }
+     }
+    ],
+    "name": "Action.001",
+    "samplers": [
+     {
+      "input": 0,
+      "interpolation": "LINEAR",
+      "output": 1
+     },
+     {
+      "input": 0,
+      "interpolation": "LINEAR",
+      "output": 2
+     },
+     {
+      "input": 0,
+      "interpolation": "LINEAR",
+      "output": 3
+     }
+    ]
+   }
+  ],
+  "accessors": [
+   {
+    "bufferView": 0,
+    "componentType": 5126,
+    "count": 200,
+    "max": [
+     8.291666666666666
+    ],
+    "min": [
+     0
+    ],
+    "type": "SCALAR"
+   },
+   {
+    "bufferView": 1,
+    "componentType": 5126,
+    "count": 200,
+    "type": "VEC3"
+   },
+   {
+    "bufferView": 2,
+    "componentType": 5126,
+    "count": 200,
+    "type": "VEC4"
+   },
+   {
+    "bufferView": 3,
+    "componentType": 5126,
+    "count": 200,
+    "type": "VEC3"
+   }
+  ],
+  "bufferViews": [
+   {
+    "buffer": 0,
+    "byteLength": 800,
+    "byteOffset": 0
+   },
+   {
+    "buffer": 0,
+    "byteLength": 2400,
+    "byteOffset": 800
+   },
+   {
+    "buffer": 0,
+    "byteLength": 3200,
+    "byteOffset": 3200
+   },
+   {
+    "buffer": 0,
+    "byteLength": 2400,
+    "byteOffset": 6400
+   }
+  ],
+  "buffers": [
+   {
+    "byteLength": 8800
+   }
+  ]
+ }
+}

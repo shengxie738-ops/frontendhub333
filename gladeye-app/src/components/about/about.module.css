@@ -1,0 +1,42 @@
+/**
+ * about.module.css — page-local styles for /about.
+ *
+ * Everything that comes from the shipped site CSS lives in
+ * `gladeye-info-tokens.module.css` with the original class names. This file only
+ * holds the handful of things the original expressed with an inline `style`
+ * attribute that Framer Motion drove at runtime.
+ */
+
+/* The frozen DOM renders the image wrapper as
+     <div class="h-full w-full" style="opacity: 0">
+   and fades it in client-side once the asset decodes. We do the same with a
+   CSS animation so the page is correct without JS, and stays visible when
+   motion is reduced.
+
+   It used to be gated behind `@supports not (animation-timeline: scroll())`.
+   That gate was a bug: Chromium 115+ supports `animation-timeline: scroll()`,
+   so the gate skipped the animation and every image layer — the /about hero,
+   the two "Our process" cells, the whole /careers photo band — stayed at
+   `opacity: 0` and painted as flat black / flat `bg-yellow`. The reveal is now
+   unconditional and `forwards`, i.e. it always ends visible. */
+.revealLayer {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  animation: reveal 0.75s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  transition: opacity 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes reveal {
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .revealLayer {
+    opacity: 1;
+    animation: none;
+    transition: none;
+  }
+}

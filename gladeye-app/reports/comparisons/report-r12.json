@@ -1,0 +1,60 @@
+[
+ {
+  "key": "work__0_top",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 178.31,
+   "stdev": 88.74,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1265
+  },
+  "candidate": {
+   "meanLuma": 159.97,
+   "stdev": 110.18,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 660
+  },
+  "meanAbsDiff": 30.72,
+  "pctPixelsOver12": 33.08,
+  "pctPixelsOver60": 25.33,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "work__0pct",
+  "status": "no-reference"
+ },
+ {
+  "key": "work__full",
+  "status": "dim-mismatch",
+  "ref": {
+   "meanLuma": 199.87,
+   "stdev": 95.75,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1570
+  },
+  "candidate": {
+   "meanLuma": 204.83,
+   "stdev": 94.52,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1023
+  },
+  "meanAbsDiff": null,
+  "pctPixelsOver12": null,
+  "pctPixelsOver60": null,
+  "size": [
+   1440,
+   7721
+  ],
+  "flags": [
+   "DIM-MISMATCH ref=1440x7625 can=1440x7721"
+  ]
+ }
+]

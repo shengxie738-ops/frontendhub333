@@ -1,0 +1,392 @@
+[
+ {
+  "key": "home__scroll-x10",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 65.23,
+   "stdev": 69.28,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 2160
+  },
+  "candidate": {
+   "meanLuma": 49.96,
+   "stdev": 59.47,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1599
+  },
+  "meanAbsDiff": 40.86,
+  "pctPixelsOver12": 72.22,
+  "pctPixelsOver60": 21.87,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x8",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 42.81,
+   "stdev": 47.95,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1794
+  },
+  "candidate": {
+   "meanLuma": 51.03,
+   "stdev": 59.86,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1609
+  },
+  "meanAbsDiff": 40.81,
+  "pctPixelsOver12": 72.05,
+  "pctPixelsOver60": 19,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x2",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 40.97,
+   "stdev": 43.81,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1731
+  },
+  "candidate": {
+   "meanLuma": 47.67,
+   "stdev": 53.72,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1673
+  },
+  "meanAbsDiff": 39.03,
+  "pctPixelsOver12": 70.84,
+  "pctPixelsOver60": 18.09,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__pointer-0.12-0.85",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 41.36,
+   "stdev": 43.56,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1686
+  },
+  "candidate": {
+   "meanLuma": 46.23,
+   "stdev": 49.83,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1895
+  },
+  "meanAbsDiff": 37.66,
+  "pctPixelsOver12": 72.14,
+  "pctPixelsOver60": 18.3,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x6",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 44.88,
+   "stdev": 47.17,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1916
+  },
+  "candidate": {
+   "meanLuma": 42.37,
+   "stdev": 46.69,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1491
+  },
+  "meanAbsDiff": 37.07,
+  "pctPixelsOver12": 71.24,
+  "pctPixelsOver60": 17.4,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__pointer-0.88-0.85",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 46.05,
+   "stdev": 46.63,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1830
+  },
+  "candidate": {
+   "meanLuma": 41.81,
+   "stdev": 46.03,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1612
+  },
+  "meanAbsDiff": 35.86,
+  "pctPixelsOver12": 71.01,
+  "pctPixelsOver60": 17.33,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x5",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 47.55,
+   "stdev": 50.12,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1820
+  },
+  "candidate": {
+   "meanLuma": 45.19,
+   "stdev": 51.38,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1479
+  },
+  "meanAbsDiff": 35.37,
+  "pctPixelsOver12": 70.59,
+  "pctPixelsOver60": 16.35,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__01_stable",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 41.37,
+   "stdev": 42.83,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1680
+  },
+  "candidate": {
+   "meanLuma": 47.32,
+   "stdev": 44.4,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1897
+  },
+  "meanAbsDiff": 34.55,
+  "pctPixelsOver12": 70.98,
+  "pctPixelsOver60": 15.94,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x1",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 41.55,
+   "stdev": 43.59,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1704
+  },
+  "candidate": {
+   "meanLuma": 41.88,
+   "stdev": 46.82,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1604
+  },
+  "meanAbsDiff": 34.17,
+  "pctPixelsOver12": 69,
+  "pctPixelsOver60": 15.25,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__pointer-0.5-0.5",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 40.83,
+   "stdev": 42.69,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1673
+  },
+  "candidate": {
+   "meanLuma": 47,
+   "stdev": 45.3,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1665
+  },
+  "meanAbsDiff": 34.13,
+  "pctPixelsOver12": 70.57,
+  "pctPixelsOver60": 15.38,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x3",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 42.77,
+   "stdev": 45.09,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1797
+  },
+  "candidate": {
+   "meanLuma": 38.67,
+   "stdev": 43.72,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1286
+  },
+  "meanAbsDiff": 33.71,
+  "pctPixelsOver12": 68.56,
+  "pctPixelsOver60": 14.46,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x4",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 42.32,
+   "stdev": 45.6,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1766
+  },
+  "candidate": {
+   "meanLuma": 38.62,
+   "stdev": 43,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1468
+  },
+  "meanAbsDiff": 33.7,
+  "pctPixelsOver12": 70.44,
+  "pctPixelsOver60": 14.61,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__pointer-0.12-0.2",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 37.77,
+   "stdev": 41.97,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1523
+  },
+  "candidate": {
+   "meanLuma": 44.56,
+   "stdev": 44.33,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1773
+  },
+  "meanAbsDiff": 33.19,
+  "pctPixelsOver12": 69.19,
+  "pctPixelsOver60": 14.12,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__00_intro",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 41,
+   "stdev": 42.89,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1687
+  },
+  "candidate": {
+   "meanLuma": 42.78,
+   "stdev": 41.3,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1577
+  },
+  "meanAbsDiff": 32.23,
+  "pctPixelsOver12": 70.91,
+  "pctPixelsOver60": 12.9,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__pointer-0.88-0.2",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 40.39,
+   "stdev": 43.18,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1616
+  },
+  "candidate": {
+   "meanLuma": 40.47,
+   "stdev": 42.96,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1568
+  },
+  "meanAbsDiff": 32.22,
+  "pctPixelsOver12": 69.12,
+  "pctPixelsOver60": 13.37,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ }
+]

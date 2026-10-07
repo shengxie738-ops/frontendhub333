@@ -1,0 +1,443 @@
+{
+ "source": "https://www.gladeye.com",
+ "capturedAt": "2026-10-06T19:20Z",
+ "captureMethod": "curl HTTP status + parsed DOM per route",
+ "scope": "desktop only; primary 1440x900 + 1366x768 / 1920x1080 / 2560x1440",
+ "correction": "The plan document listed 19 routes. The live /work archive actually exposes 42 case slugs, so the true public route count is 47. All 47 were fetched with HTTP 200 and frozen to evidence/source-pages/.",
+ "counts": {
+  "total": 47,
+  "reachable": 47,
+  "sourceUnavailable": 0,
+  "caseStudies": 42
+ },
+ "outOfScope": [
+  "client websites linked via Visit Site on case pages",
+  "mobile/touch layouts",
+  "real CMS/backend"
+ ],
+ "routes": [
+  {
+   "path": "/",
+   "file": "_.html",
+   "status": 200,
+   "bytes": 35801,
+   "template": "flower-valley-3d",
+   "depth": "full",
+   "cloneRoute": "/"
+  },
+  {
+   "path": "/about",
+   "file": "_about.html",
+   "status": 200,
+   "bytes": 114411,
+   "template": "about",
+   "depth": "full",
+   "cloneRoute": "/about"
+  },
+  {
+   "path": "/careers",
+   "file": "_careers.html",
+   "status": 200,
+   "bytes": 217336,
+   "template": "careers",
+   "depth": "full",
+   "cloneRoute": "/careers"
+  },
+  {
+   "path": "/contact",
+   "file": "_contact.html",
+   "status": 200,
+   "bytes": 44919,
+   "template": "contact",
+   "depth": "full",
+   "cloneRoute": "/contact"
+  },
+  {
+   "path": "/work",
+   "file": "_work.html",
+   "status": 200,
+   "bytes": 957351,
+   "template": "work-index",
+   "depth": "full",
+   "cloneRoute": "/work"
+  },
+  {
+   "path": "/work/21st-century-gold-rush",
+   "file": "_work_21st-century-gold-rush.html",
+   "status": 200,
+   "bytes": 111226,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/21st-century-gold-rush"
+  },
+  {
+   "path": "/work/aeroqual",
+   "file": "_work_aeroqual.html",
+   "status": 200,
+   "bytes": 104320,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/aeroqual"
+  },
+  {
+   "path": "/work/allpress-culture-manual",
+   "file": "_work_allpress-culture-manual.html",
+   "status": 200,
+   "bytes": 116699,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/allpress-culture-manual"
+  },
+  {
+   "path": "/work/allpress-flavour-finder",
+   "file": "_work_allpress-flavour-finder.html",
+   "status": 200,
+   "bytes": 118237,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/allpress-flavour-finder"
+  },
+  {
+   "path": "/work/america-s-most-admired-lawbreaker",
+   "file": "_work_america-s-most-admired-lawbreaker.html",
+   "status": 200,
+   "bytes": 174554,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/america-s-most-admired-lawbreaker"
+  },
+  {
+   "path": "/work/bombas-impact-report",
+   "file": "_work_bombas-impact-report.html",
+   "status": 200,
+   "bytes": 144758,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/bombas-impact-report"
+  },
+  {
+   "path": "/work/chartwell",
+   "file": "_work_chartwell.html",
+   "status": 200,
+   "bytes": 163585,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/chartwell"
+  },
+  {
+   "path": "/work/cyberbrokers",
+   "file": "_work_cyberbrokers.html",
+   "status": 200,
+   "bytes": 236417,
+   "template": "case-study",
+   "depth": "full",
+   "cloneRoute": "/work/cyberbrokers"
+  },
+  {
+   "path": "/work/data-disappeared",
+   "file": "_work_data-disappeared.html",
+   "status": 200,
+   "bytes": 155624,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/data-disappeared"
+  },
+  {
+   "path": "/work/detained",
+   "file": "_work_detained.html",
+   "status": 200,
+   "bytes": 112291,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/detained"
+  },
+  {
+   "path": "/work/ekos-genesis",
+   "file": "_work_ekos-genesis.html",
+   "status": 200,
+   "bytes": 161916,
+   "template": "case-study",
+   "depth": "full",
+   "cloneRoute": "/work/ekos-genesis"
+  },
+  {
+   "path": "/work/elemental-excelerator-cohort-x",
+   "file": "_work_elemental-excelerator-cohort-x.html",
+   "status": 200,
+   "bytes": 103922,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/elemental-excelerator-cohort-x"
+  },
+  {
+   "path": "/work/endowment-for-climate-intelligence",
+   "file": "_work_endowment-for-climate-intelligence.html",
+   "status": 200,
+   "bytes": 118595,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/endowment-for-climate-intelligence"
+  },
+  {
+   "path": "/work/eqty-lab-website",
+   "file": "_work_eqty-lab-website.html",
+   "status": 200,
+   "bytes": 145285,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/eqty-lab-website"
+  },
+  {
+   "path": "/work/exit-films",
+   "file": "_work_exit-films.html",
+   "status": 200,
+   "bytes": 99971,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/exit-films"
+  },
+  {
+   "path": "/work/fml-millennials-are-screwed",
+   "file": "_work_fml-millennials-are-screwed.html",
+   "status": 200,
+   "bytes": 155804,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/fml-millennials-are-screwed"
+  },
+  {
+   "path": "/work/free-markets-destroy",
+   "file": "_work_free-markets-destroy.html",
+   "status": 200,
+   "bytes": 162196,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/free-markets-destroy"
+  },
+  {
+   "path": "/work/huffpost-highline",
+   "file": "_work_huffpost-highline.html",
+   "status": 200,
+   "bytes": 177374,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/huffpost-highline"
+  },
+  {
+   "path": "/work/hypercinema",
+   "file": "_work_hypercinema.html",
+   "status": 200,
+   "bytes": 212398,
+   "template": "case-study",
+   "depth": "full",
+   "cloneRoute": "/work/hypercinema"
+  },
+  {
+   "path": "/work/into-the-amazon",
+   "file": "_work_into-the-amazon.html",
+   "status": 200,
+   "bytes": 148727,
+   "template": "case-study",
+   "depth": "full",
+   "cloneRoute": "/work/into-the-amazon"
+  },
+  {
+   "path": "/work/latitudepay",
+   "file": "_work_latitudepay.html",
+   "status": 200,
+   "bytes": 111601,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/latitudepay"
+  },
+  {
+   "path": "/work/listen-to-america",
+   "file": "_work_listen-to-america.html",
+   "status": 200,
+   "bytes": 128228,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/listen-to-america"
+  },
+  {
+   "path": "/work/long-lead",
+   "file": "_work_long-lead.html",
+   "status": 200,
+   "bytes": 114554,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/long-lead"
+  },
+  {
+   "path": "/work/mitoq",
+   "file": "_work_mitoq.html",
+   "status": 200,
+   "bytes": 166350,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/mitoq"
+  },
+  {
+   "path": "/work/openavn",
+   "file": "_work_openavn.html",
+   "status": 200,
+   "bytes": 120941,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/openavn"
+  },
+  {
+   "path": "/work/orcon-app",
+   "file": "_work_orcon-app.html",
+   "status": 200,
+   "bytes": 100726,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/orcon-app"
+  },
+  {
+   "path": "/work/orcon-website",
+   "file": "_work_orcon-website.html",
+   "status": 200,
+   "bytes": 118185,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/orcon-website"
+  },
+  {
+   "path": "/work/saga-branding",
+   "file": "_work_saga-branding.html",
+   "status": 200,
+   "bytes": 157123,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/saga-branding"
+  },
+  {
+   "path": "/work/saga-website",
+   "file": "_work_saga-website.html",
+   "status": 200,
+   "bytes": 74838,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/saga-website"
+  },
+  {
+   "path": "/work/serato-dj-808",
+   "file": "_work_serato-dj-808.html",
+   "status": 200,
+   "bytes": 82738,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/serato-dj-808"
+  },
+  {
+   "path": "/work/shadows-in-the-dark",
+   "file": "_work_shadows-in-the-dark.html",
+   "status": 200,
+   "bytes": 104257,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/shadows-in-the-dark"
+  },
+  {
+   "path": "/work/social-mobility-in-the-digital-age",
+   "file": "_work_social-mobility-in-the-digital-age.html",
+   "status": 200,
+   "bytes": 132720,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/social-mobility-in-the-digital-age"
+  },
+  {
+   "path": "/work/tech-radar",
+   "file": "_work_tech-radar.html",
+   "status": 200,
+   "bytes": 86873,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/tech-radar"
+  },
+  {
+   "path": "/work/templar",
+   "file": "_work_templar.html",
+   "status": 200,
+   "bytes": 109294,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/templar"
+  },
+  {
+   "path": "/work/the-dj-and-the-war-crimes",
+   "file": "_work_the-dj-and-the-war-crimes.html",
+   "status": 200,
+   "bytes": 177343,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/the-dj-and-the-war-crimes"
+  },
+  {
+   "path": "/work/the-examination",
+   "file": "_work_the-examination.html",
+   "status": 200,
+   "bytes": 203555,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/the-examination"
+  },
+  {
+   "path": "/work/the-good-kind",
+   "file": "_work_the-good-kind.html",
+   "status": 200,
+   "bytes": 110974,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/the-good-kind"
+  },
+  {
+   "path": "/work/the-sweetshop",
+   "file": "_work_the-sweetshop.html",
+   "status": 200,
+   "bytes": 132629,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/the-sweetshop"
+  },
+  {
+   "path": "/work/the-virtual-economy",
+   "file": "_work_the-virtual-economy.html",
+   "status": 200,
+   "bytes": 160755,
+   "template": "case-study",
+   "depth": "full",
+   "cloneRoute": "/work/the-virtual-economy"
+  },
+  {
+   "path": "/work/where-opportunity-takes-root",
+   "file": "_work_where-opportunity-takes-root.html",
+   "status": 200,
+   "bytes": 101634,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/where-opportunity-takes-root"
+  },
+  {
+   "path": "/work/wildsam",
+   "file": "_work_wildsam.html",
+   "status": 200,
+   "bytes": 142769,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/wildsam"
+  },
+  {
+   "path": "/work/wtf-is-data-science",
+   "file": "_work_wtf-is-data-science.html",
+   "status": 200,
+   "bytes": 135550,
+   "template": "case-study",
+   "depth": "sampled",
+   "cloneRoute": "/work/wtf-is-data-science"
+  }
+ ]
+}

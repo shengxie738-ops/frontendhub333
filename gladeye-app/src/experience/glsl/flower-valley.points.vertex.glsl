@@ -1,0 +1,519 @@
+// Extracted verbatim from evidence\source-assets\js\app\page-4c279de0997d388f.js module 9169 (18080 chars)
+// Evidence: CONFIRMED-BUNDLE (original site GLSL source, minified bundle string literal)
+uniform float uFlowerBloomDistance;
+uniform float uLeafGrowDistance;
+uniform float uFlowerBaseScale;
+uniform float uLeavesBaseScale;
+uniform float uTerrainOffsetY;
+uniform float uTerrainOffsetX;
+uniform float uMaxDispersedPosX;
+uniform float uMaxDispersedPosY;
+uniform float uNegativeSpaceDeepness;
+uniform vec3 uContainerPos;
+attribute float aSpriteScale;
+uniform float uCamNear;
+uniform float uCamFar;
+uniform sampler2D uCanvasTexture;
+uniform float uRepulsionStrength;
+uniform float uComposerPixelRatio;
+uniform vec2 res;
+uniform float uDispersalProgress;
+uniform float uCamFov;
+uniform float uCamFovBase;
+uniform float uDispersalAmountMultiplier;
+uniform float uDispersalRandomnessWeight;
+uniform float uDispersalIsFlowerWeight;
+uniform float uDispersalPositionYWeight;
+uniform vec2 uMousePosition;
+uniform float uInteractionPositionOffset;
+uniform float uTime;
+
+attribute float aRandomSeed;
+varying float vRandomSeed;
+
+attribute vec2 aColorCoordinate;
+varying vec2 vColorCoordinate;
+
+attribute float aIsFloorDiscard;
+
+attribute float aIsFloorPool;
+varying float vIsFloorPool;
+
+attribute float aPoolId;
+varying float vPoolId;
+
+attribute float aValleySide;
+
+attribute float aSpriteIndex;
+varying float vSpriteIndex;
+
+attribute float aTerrainNoise;
+attribute float aYNoise;
+attribute float aFlowerGrowNoise;
+
+varying vec3 vPosition;
+varying float vGrowth;
+varying float vNoiseValue;
+varying float vIsLeaf;
+varying float vMouseInfo;
+varying float vDebug;
+varying vec3 v_position;
+varying vec3 vPositionWorldSpace;
+varying float vFogAmount;
+varying float vHoverValue;
+
+
+float random(vec2 co){
+    return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);
+}
+// /* discontinuous pseudorandom uniformly distributed in [-0.5, +0.5]^3 */
+vec3 random3(vec3 c) {
+    float j = 4096.0*sin(dot(c,vec3(17.0, 59.4, 15.0)));
+    vec3 r;
+    r.z = fract(512.0*j);
+    j *= .125;
+    r.x = fract(512.0*j);
+    j *= .125;
+    r.y = fract(512.0*j);
+    return r-0.5;
+}
+
+/* skew constants for 3d simplex functions */
+const float F3 =  0.3333333;
+const float G3 =  0.1666667;
+
+/* 3d simplex noise */
+float simplex3d(vec3 p) {
+     /* 1. find current tetrahedron T and it's four vertices */
+     /* s, s+i1, s+i2, s+1.0 - absolute skewed (integer) coordinates of T vertices */
+     /* x, x1, x2, x3 - unskewed coordinates of p relative to each of T vertices*/
+
+     /* calculate s and x */
+     vec3 s = floor(p + dot(p, vec3(F3)));
+     vec3 x = p - s + dot(s, vec3(G3));
+
+     /* calculate i1 and i2 */
+     vec3 e = step(vec3(0.0), x - x.yzx);
+     vec3 i1 = e*(1.0 - e.zxy);
+     vec3 i2 = 1.0 - e.zxy*(1.0 - e);
+
+     /* x1, x2, x3 */
+     vec3 x1 = x - i1 + G3;
+     vec3 x2 = x - i2 + 2.0*G3;
+     vec3 x3 = x - 1.0 + 3.0*G3;
+
+     /* 2. find four surflets and store them in d */
+     vec4 w, d;
+
+     /* calculate surflet weights */
+     w.x = dot(x, x);
+     w.y = dot(x1, x1);
+     w.z = dot(x2, x2);
+     w.w = dot(x3, x3);
+
+     /* w fades from 0.6 at the center of the surflet to 0.0 at the margin */
+     w = max(0.6 - w, 0.0);
+
+     /* calculate surflet components */
+     d.x = dot(random3(s), x);
+     d.y = dot(random3(s + i1), x1);
+     d.z = dot(random3(s + i2), x2);
+     d.w = dot(random3(s + 1.0), x3);
+
+     /* multiply d by w^4 */
+     w *= w;
+     w *= w;
+     d *= w;
+
+     /* 3. return the sum of the four surflets */
+     return dot(d, vec4(52.0));
+}
+
+/* const matrices for 3d rotation */
+const mat3 rot1 = mat3(-0.37, 0.36, 0.85,-0.14,-0.93, 0.34,0.92, 0.01,0.4);
+const mat3 rot2 = mat3(-0.55,-0.39, 0.74, 0.33,-0.91,-0.24,0.77, 0.12,0.63);
+const mat3 rot3 = mat3(-0.71, 0.52,-0.47,-0.08,-0.72,-0.68,-0.7,-0.45,0.56);
+
+float simplex3d_fractal(vec3 m) {
+    return   0.5333333*simplex3d(m*rot1)
+            +0.2666667*simplex3d(2.0*m*rot2)
+            +0.1333333*simplex3d(4.0*m*rot3)
+            +0.0666667*simplex3d(8.0*m);
+}
+
+
+
+// USE:
+
+// use with simplex
+// vec3 p3 = vec3(time*0.0001,  vUv.x, vUv.y);
+// float shade = simplex3d_fractal(p3*6.0+7.0);
+
+
+
+// // Simplex 2D noise
+//
+vec3 permute(vec3 x) { return mod(((x*34.0)+1.0)*x, 289.0); }
+
+float simplex(vec2 v){
+  const vec4 C = vec4(0.211324865405187, 0.366025403784439,
+           -0.577350269189626, 0.024390243902439);
+  vec2 i  = floor(v + dot(v, C.yy) );
+  vec2 x0 = v -   i + dot(i, C.xx);
+  vec2 i1;
+  i1 = (x0.x > x0.y) ? vec2(1.0, 0.0) : vec2(0.0, 1.0);
+  vec4 x12 = x0.xyxy + C.xxzz;
+  x12.xy -= i1;
+  i = mod(i, 289.0);
+  vec3 p = permute( permute( i.y + vec3(0.0, i1.y, 1.0 ))
+  + i.x + vec3(0.0, i1.x, 1.0 ));
+  vec3 m = max(0.5 - vec3(dot(x0,x0), dot(x12.xy,x12.xy),
+    dot(x12.zw,x12.zw)), 0.0);
+  m = m*m ;
+  m = m*m ;
+  vec3 x = 2.0 * fract(p * C.www) - 1.0;
+  vec3 h = abs(x) - 0.5;
+  vec3 ox = floor(x + 0.5);
+  vec3 a0 = x - ox;
+  m *= 1.79284291400159 - 0.85373472095314 * ( a0*a0 + h*h );
+  vec3 g;
+  g.x  = a0.x  * x0.x  + h.x  * x0.y;
+  g.yz = a0.yz * x12.xz + h.yz * x12.yw;
+  return 130.0 * dot(m, g);
+}
+
+#ifndef HALF_PI
+#define HALF_PI 1.5707963267948966
+#endif
+
+float sineOut(float t) {
+  return sin(t * HALF_PI);
+}
+
+
+
+
+// vec2 toScreenSpace(vec3 pos) {
+//     vec4 modelViewPosition = modelViewMatrix * vec4(pos, 1.0);
+//     vec4 rawPos = projectionMatrix * modelViewPosition;
+//     return rawPos.xy / rawPos.w;
+// }
+
+float distanceFromCamera(vec3 pos){
+	vec3 camPos = projectionMatrix[3].xyz;
+	return distance(pos, camPos);
+}
+
+// Ultra-fast noise using trigonometric functions - much faster than simplex
+vec3 fastNoise3d(vec3 pos, float time) {
+	// Scale position for different noise frequencies
+	vec3 p1 = pos * 0.1 + time * 0.02;
+	vec3 p2 = pos * 0.15 + time * 0.03;
+	vec3 p3 = pos * 0.08 + time * 0.025;
+
+	// Generate 3 independent noise values using sin/cos combinations
+	// This is extremely fast on GPU and produces organic-looking results
+	float noise1 = sin(p1.x * 2.1 + cos(p1.y * 1.7) + sin(p1.z * 2.3)) *
+	               cos(p1.y * 1.9 + sin(p1.z * 1.3) + cos(p1.x * 2.7)) *
+	               sin(p1.z * 1.5 + cos(p1.x * 2.9) + sin(p1.y * 1.1));
+
+	float noise2 = cos(p2.x * 1.8 + sin(p2.y * 2.4) + cos(p2.z * 1.6)) *
+	               sin(p2.y * 2.2 + cos(p2.z * 1.8) + sin(p2.x * 1.4)) *
+	               cos(p2.z * 2.6 + sin(p2.x * 1.2) + cos(p2.y * 2.8));
+
+	float noise3 = sin(p3.x * 1.3 + cos(p3.y * 2.7) + sin(p3.z * 1.9)) *
+	               cos(p3.y * 1.7 + sin(p3.z * 2.1) + cos(p3.x * 1.5)) *
+	               sin(p3.z * 2.5 + cos(p3.x * 1.1) + sin(p3.y * 2.3));
+
+	return vec3(noise1, noise2, noise3) * 0.5; // Already in -0.5 to 0.5 range
+}
+
+// Realistic grass wind simulation
+vec3 grassWind(vec3 pos, float time) {
+	// Height factor - grass bends more at the tips, less at the base
+	float heightFactor = clamp((pos.y + 2.0) / 4.0, 0.0, 1.0); // Adjust range as needed
+	heightFactor = heightFactor * heightFactor; // Quadratic curve for more natural bending
+
+	// Main wind direction (gentle breeze from southwest)
+	vec2 windDir = normalize(vec2(1.0, 0.7));
+
+	// Large scale wind waves (main wind gusts)
+	float mainWind = sin(time * 0.8 + pos.x * 0.1 + pos.z * 0.15) *
+	                 cos(time * 0.6 + pos.z * 0.12);
+
+	// Medium scale turbulence (local air currents)
+	float turbulence = sin(time * 2.3 + pos.x * 0.3 + pos.z * 0.4) * 0.6 +
+	                   cos(time * 1.7 + pos.x * 0.25 + pos.z * 0.35) * 0.4;
+
+	// Small scale flutter (individual blade movement)
+	float flutter = sin(time * 4.5 + pos.x * 0.8 + pos.z * 0.9 + aRandomSeed * 6.28) * 0.3;
+
+	// Combine wind components
+	float windStrength = (mainWind + turbulence * 0.5 + flutter * 0.3) * heightFactor;
+
+	// Apply wind direction to X and Z
+	vec3 windDisplacement = vec3(0.0);
+	windDisplacement.x = windDir.x * windStrength;
+	windDisplacement.z = windDir.y * windStrength;
+
+	// Add slight vertical bobbing (grass tips bounce slightly)
+	windDisplacement.y = sin(time * 1.5 + pos.x * 0.2 + pos.z * 0.3) * heightFactor * 0.2;
+
+	// Add some randomness per blade
+	windDisplacement.x += sin(time * 3.2 + aRandomSeed * 12.56) * heightFactor * 0.15;
+	windDisplacement.z += cos(time * 2.8 + aRandomSeed * 9.42) * heightFactor * 0.15;
+
+	return windDisplacement;
+}
+
+void main() {
+    vColorCoordinate = aColorCoordinate;
+    vRandomSeed = aRandomSeed;
+    vSpriteIndex = aSpriteIndex;
+    vIsFloorPool = aIsFloorPool;
+	vPoolId = aPoolId;
+
+
+     // Get the original vertex position
+    vec3 pos = position.xyz;
+    float offsetDirection = aValleySide * -1.;
+
+
+    // Generate noise value based on vertex pos
+    // Example usage:
+    // vec3 animatedNoise = fastNoise3d(position, uTime);
+    // vec3 windEffect = grassWind(position, uTime);
+
+
+    /////////// TERRAIN BUILDING/////////////////////////////////////////////
+    // Offset the x/y pos based on 3dnoise
+    float terrainNoise = aTerrainNoise; // simplex3d(noiseCoordinate * 0.4 );
+    float yNoise = aYNoise; // random(noiseCoordinate.xy);//simplex3d(noiseCoordinate * terrainVariation);
+
+    bool isFloorTexture = vIsFloorPool>0.5;
+    bool isTooDeep = uNegativeSpaceDeepness * 0.009 > terrainNoise && !isFloorTexture;
+    float isLeaf = uNegativeSpaceDeepness > terrainNoise ? 1. : 0.;
+
+    vDebug=terrainNoise;
+
+    //  terrainNoise=0.0;
+
+    // because it's a valley we need to offset to be directed toward the center
+    pos.y += terrainNoise * uTerrainOffsetY * yNoise;
+    pos.x += terrainNoise * uTerrainOffsetX * offsetDirection;
+
+	vPositionWorldSpace = pos;
+    /////////// END TERRAIN BUILDING/////////////////////////////////////////////
+
+
+
+
+
+    /////////// CREATE SCREEN TERRAIN COORDS/////////////////////////////////////////////
+    vec4 modelViewPosition = modelViewMatrix * vec4(pos, 1.0);
+
+	// SPECIAL OFFSET FOR LEAVES
+    float randomOffset=random(vec2(position.x));
+	modelViewPosition.x += randomOffset * offsetDirection * isLeaf;
+	modelViewPosition.y -= randomOffset * isLeaf;
+
+    vec4 finalPosRaw=projectionMatrix * modelViewPosition;
+    vec4 finalPos = finalPosRaw;
+    /////////// END CREATE SCREEN TERRAIN COORDS/////////////////////////////////////////////
+
+
+
+
+
+    /////////// FLOWER GROWTH /////////////////////////////////////////////
+    // Apply a random offset,based on noise so the flowers bloom at a more
+    // varied and organic distance
+    vec4 modelViewPosition2 = modelViewMatrix * vec4(position, 1.0);
+    vec4 rawPos = projectionMatrix * modelViewPosition2;
+    float distanceOnScreen = rawPos.z;
+    float flowerGrowNoise = aFlowerGrowNoise; // simplex(noiseCoordinate.xy * 0.4 );
+    float halfBloomDist=uFlowerBloomDistance * 0.5;
+    float flowerBloomDistance = halfBloomDist + flowerGrowNoise  * halfBloomDist;
+
+
+    float startFlowerBloomDistance=flowerBloomDistance * (1.5  + flowerGrowNoise*0.5);
+    float startLeafBloomDistance=uLeafGrowDistance * 1.5;
+
+    float flowerPct = 1.0 - smoothstep(flowerBloomDistance , startFlowerBloomDistance, distanceOnScreen);
+    float leafPct =  1.0 - smoothstep(uLeafGrowDistance , startLeafBloomDistance, distanceOnScreen);
+
+    float growthPct = leafPct * isLeaf + flowerPct * (1. - isLeaf);
+
+    growthPct = sineOut(growthPct);
+
+	vGrowth = growthPct;
+
+    float animatedScale = growthPct * aSpriteScale;
+
+    float offsetX = (1.0 * -offsetDirection) * terrainNoise;
+    float offsetY = uTerrainOffsetY * -1.0;
+    float powPctY = growthPct*growthPct;
+
+
+    finalPos.x += offsetX + (-powPctY * offsetX);
+    finalPos.y += offsetY + (-powPctY * offsetY);
+
+    /////////// END FLOWER GROWTH /////////
+
+
+
+
+    /////////// FLOWER DISTORTION BASED ON TEXTURE //////////////////////////////
+    // offset based on texture (updated by mouse position)
+
+    // normalized device coordinates (NDC)
+    // This step transforms the position from the homogeneous clip space to a normalized space where the visible volume is between -1 and 1 on all axes.
+    // vec3 ndc = finalPos.xyz / finalPos.w;
+    // The NDC coordinates are further transformed to viewport coordinates. [0 -1]
+	// vec3 viewportCoord = ndc.xyz * 0.5 + 0.5;
+    // vec4 mouseTrail = texture2D(uCanvasTexture, viewportCoord.xy);
+
+    // vec3 cameraContainerPos = uContainerPos;
+
+    // float distanceBetweenPointAndCam =  1.0- clamp(( distance(position, cameraContainerPos)) / uCamFar,0.0,1.0);
+	// float distanceScale = 4.;
+	// float scaledDistanceBetweenPointAndCam = pow(distanceBetweenPointAndCam, distanceScale);  // TODO: Possibly do something other than pow
+
+    // float cursorActive = mouseTrail.r;
+    // float amountActive = (cursorActive - (1. - scaledDistanceBetweenPointAndCam)) / scaledDistanceBetweenPointAndCam;
+    // amountActive = clamp(amountActive, 0., 1.);
+    // if(isLeaf)amountActive=0.0;
+
+
+    // vMouseInfo = amountActive;
+
+
+
+    // finalPos.y += uInteractionPositionOffset * amountActive * growthPct;
+    // float repulstionStrength = -uRepulsionStrength;
+    // vec3 repulsionDirection = normalize(finalPos.xyz - mouseTrail.xyz);
+    // finalPos.xyz += repulsionDirection * amountActive * repulstionStrength;
+    // finalPos.x += repulsionDirection.x * amountActive * repulstionStrength * -offsetDirection;
+    // animatedScale -= repulsionDirection.x * amountActive  * offsetDirection * powPctY;
+
+    /////////// END FLOWER DISTORTION BASED ON TEXTURE /////////
+
+
+
+
+
+
+
+    /////////// SCALE THE POINT BASE ON THE CAM DISTANCE /////////
+     // scale the point depending on distance to the cam
+    // 63 is the limit for ThreeJS apparently
+    float size = uLeavesBaseScale * isLeaf + uFlowerBaseScale * (1. - isLeaf);
+    float pSize = size / abs(pos.z-uContainerPos.z);
+    /////////// END SCALE THE POINT BASE ON THE CAM DISTANCE /////////
+
+
+
+
+    finalPos=finalPosRaw * vIsFloorPool + finalPos * (1. - vIsFloorPool);// finalPos = vIsFloorPool ? finalPosRaw : finalPos;
+    // Pass the position to the fragment shader
+    vPosition = finalPos.xyz;
+    vNoiseValue = terrainNoise;
+    vIsLeaf = isLeaf;
+
+	// Add some fog, this might need a revisit https://snayss.medium.com/three-js-fog-hacks-fc0b42f63386
+	float fogDistance = length(finalPos.xyz);
+    float fogAmount = smoothstep(uCamNear, uCamFar, fogDistance);
+
+	// Dispersed position
+	vec4 dispersedPos = finalPos ;
+	dispersedPos.x += uMaxDispersedPosX * aValleySide * uDispersalAmountMultiplier * aRandomSeed;
+	dispersedPos.y += (position.y + 1.) * uMaxDispersedPosY * uDispersalAmountMultiplier * aRandomSeed;
+
+    // inverseFogAmount: that is like the fog you applied to make the further away particles darker, but inside of this using it in the inverse to affect the delay (I can't remember if this is further back particles are more delayed, or closer particles are more delayed)
+	float inverseFogAmount = 1. - fogAmount;
+
+    // Dispersed progress for particle
+    // uDispersalRandomnessWeight * aRandomSeed: each particle is assigned a random number when the particle is generated - we are using this to affect the delay (uDispersalRandomnessWeight is in the slider as you probably realise, so that affects how much the aRandomSeed affects the delay)
+    // uDispersalIsFlowerWeight * (1. - isLeaf): same as above but delay is affected by whether the particle is a flower (1. - isLeaf is either 0 if its a leaf or 1 if its a flower)
+    // uDispersalPositionYWeight * (4. - (position.y + 2.)) : same as above but delay is affected by the y position of the particle. The numbers 4 and 2 I think were selected by just looking at what visually looked good so feel free to change those
+    // That delay is clamped between 0 - 1
+
+    // delay: This is the amount that each particle/flower will be delayed (percentage-wise) before starting to animate out
+	// float delay = inverseFogAmount * clamp( uDispersalRandomnessWeight * aRandomSeed + uDispersalIsFlowerWeight * (1. - isLeaf) + uDispersalPositionYWeight * (4. - (position.y + 2.)), 0., 1.); // proportional to uDispersalProgress
+	float delay =  uDispersalIsFlowerWeight * (1. - isLeaf) ;
+
+    float thisDispersalProgress = clamp(uDispersalProgress - delay, 0., 1.);
+	// thisDispersalProgress = pow(thisDispersalProgress, 2.);
+
+	// Update position between finalPos and dispersedPos
+	finalPos = mix(finalPos, dispersedPos, thisDispersalProgress);
+
+	// Pass fog amount to fragment shader
+	vFogAmount = fogAmount;
+
+    // Pass the position to the fragment shader
+	float relativeScale = res.y * 0.00125; // 0.00125 = 1/800 (800 is the base, considering my laptop is 800px ish high)
+    gl_PointSize = pSize * animatedScale * 0.5 * uComposerPixelRatio * relativeScale;
+	gl_PointSize *= uCamFovBase / uCamFov; // scaling based on camera FOV change
+
+
+    // set outside the renderview, so we won't rasterize
+    finalPos = aIsFloorDiscard > 0.5 ? vec4(2.0, 2.0, 2.0, 1.0) : finalPos;
+
+
+
+
+	////////////////////////////
+	// ANIMATE THE POINT
+	////////////////////////////
+	vec3 animatedNoise = fastNoise3d(finalPos.xyz*2., uTime*.2);
+	// vec3 animatedNoise = grassWind(finalPos.xyz+vec3(0.,10.,0.), uTime*1.);
+	finalPos.x += animatedNoise.x * .2;
+	finalPos.y += animatedNoise.y * .2;
+	// finalPos.z += animatedNoise.z * .2;
+	////////////////////////////
+	// END ANIMATE THE POINT
+	////////////////////////////
+
+
+
+
+	////////////////////////////////////
+	// DO THE MOUSE INTERACTION STUFF HERE
+	////////////////////////////////////
+	float ratio = res.x / res.y;
+
+	vec2 mousePos = uMousePosition;
+	vec3 screenSpace = finalPos.xyz / finalPos.w;
+
+	screenSpace.x *= ratio;
+	mousePos.x *= ratio;
+	float distanceToMouse = distance(screenSpace.xy, mousePos * -1. );
+
+	float zDistance = distanceFromCamera(finalPos.xyz);
+	float maxDist = 1.;
+
+	vec2 diff= mousePos * -1. - screenSpace.xy;
+	float angle = atan(diff.y, diff.x);
+	float moveDist = maxDist/ (zDistance  / 5.);
+
+	// ith the max() the mouse interaction is only active when the mouse is close to the point
+	// finalPos.x += max(0.,moveDist-distanceToMouse) * cos(angle);
+	// finalPos.y += max(0.,moveDist-distanceToMouse) * sin(angle);
+
+	//remove the max() to make the whole screen move a bit
+
+	float moveVal = moveDist-distanceToMouse;
+	finalPos.x += moveVal * cos(angle);
+	finalPos.y += moveVal * sin(angle);
+
+	vHoverValue = max(0.,moveVal) + uDispersalProgress;
+
+	////////////////////////////////////
+	// END MOUSE INTERACTION STUFF HERE
+	////////////////////////////////////
+
+	gl_Position = finalPos;
+
+
+}

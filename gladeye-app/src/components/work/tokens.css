@@ -1,0 +1,441 @@
+/**
+ * Verbatim design tokens for /work and /work/[slug].
+ *
+ * Every value below is copied character-for-character from the original site's
+ * published CSS (evidence/source-assets/_next/static/css/70ccb8e7fa150b80.css +
+ * c77e5212fefa8e87.css, and /_next/static/css/9a69c23846b114c0.css fetched from the
+ * live origin), because tailwind.config.ts and src/app/globals.css are owned by the
+ * shell builder and cannot carry these utilities.
+ *
+ * Imported by src/app/work/page.tsx and src/app/work/[slug]/page.tsx.
+ */
+
+/* ------------------------------------------------------------------ fonts --- */
+
+@font-face {
+  font-family: 'Epicene';
+  src: url('../../app/fonts/epicene-text-light.0650b0f0.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epicene';
+  src: url('../../app/fonts/epicene-text-light-italic.bab9dcbf.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Soehne';
+  src: url('../../app/fonts/soehne-leicht.31cd3571.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Soehne';
+  src: url('../../app/fonts/soehne-kraftig.9c83d0e0.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ------------------------------------------------------------ typography --- */
+
+.t-hero {
+  font-size: max(4.5vw, 2rem);
+  font-family: Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: 0;
+}
+.t-h1 {
+  font-size: clamp(2.5rem, 6.5vw + 1rem, 8rem);
+  font-family: Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+}
+.t-h2 {
+  font-size: clamp(2rem, 3.5vw + 1.2rem, 5rem);
+  font-family: Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+}
+.t-h3 {
+  font-size: clamp(1.5rem, 2.4vw + 0.9rem, 3.5rem);
+  font-family: Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+}
+.t-h5 {
+  font-size: clamp(1rem, 1.2vw + 0.7rem, 2rem);
+  font-family: Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+}
+.t-d2 {
+  font-size: clamp(2.625rem, 4.6vw + 1.6rem, 6.5rem);
+  font-family: Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+}
+.t-d3 {
+  font-size: clamp(1.6875rem, 5.7vw + 0.4rem, 6.5rem);
+  font-family: Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+}
+.t-p {
+  font-size: clamp(1rem, 0.2vw + 0.9rem, 1.1875rem);
+  line-height: 145%;
+  font-family: Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+.t-p-sm {
+  font-size: clamp(0.875rem, 0.1vw + 0.8rem, 1rem);
+  line-height: 140%;
+  font-family: Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+.t-p-md {
+  font-size: clamp(1.1875rem, 0.4vw + 1.1rem, 1.5rem);
+  font-weight: 300;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  font-family: Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+}
+.t-p-md-alt {
+  font-size: clamp(1.1875rem, 0.4vw + 1.1rem, 1.5rem);
+  font-weight: 300;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  font-family: Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+.t-p-lg {
+  font-size: clamp(1.25rem, 0.6vw + 1.1rem, 1.75rem);
+  font-weight: 300;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  font-family: Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+}
+.t-p-lg-alt {
+  font-size: clamp(1.25rem, 0.6vw + 1.1rem, 1.75rem);
+  font-weight: 300;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  font-family: Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+.t-meta {
+  font-size: clamp(0.5rem, 0.3vw + 0.4rem, 0.75rem);
+  font-family: Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.t-list {
+  font-size: clamp(0.75rem, 0.9vw + 0.5rem, 1.5rem);
+  font-family: Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+}
+.t-list-sm {
+  font-size: clamp(0.75rem, 0.3vw + 0.7rem, 1rem);
+  font-family: Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+}
+.t-team-meta {
+  font-size: clamp(0.5rem, 0.8vw + 0.3rem, 1.1875rem);
+  font-weight: 300;
+  line-height: 145%;
+  font-family: Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  letter-spacing: -0.01em;
+}
+.t-work-stat {
+  font-size: clamp(0.75rem, 0.5vw + 0.6rem, 1.1875rem);
+  font-family: Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  font-weight: 300;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+}
+.t-work-award {
+  font-size: clamp(0.75rem, 0.9vw + 0.5rem, 1.5rem);
+  font-family: Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  font-weight: 300;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+}
+.t-work-award-alt {
+  font-size: clamp(0.75rem, 0.9vw + 0.5rem, 1.5rem);
+  font-family: Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+}
+
+/* --------------------------------------------------------------- spacing --- */
+
+.px-sms {
+  padding-left: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+  padding-right: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+}
+.my-sgs {
+  margin-top: clamp(0.625rem, 1vw + 0.4rem, 1.5rem);
+  margin-bottom: clamp(0.625rem, 1vw + 0.4rem, 1.5rem);
+}
+.gap-y-sgs {
+  row-gap: clamp(0.625rem, 1vw + 0.4rem, 1.5rem);
+}
+.gap-x-sgs {
+  column-gap: clamp(0.625rem, 1vw + 0.4rem, 1.5rem);
+}
+.gap-y-xl-6 {
+  row-gap: clamp(0.5rem, 1.2vw + 0.2rem, 1.5rem);
+}
+.gap-y-xl-8 {
+  row-gap: clamp(0.75rem, 1.5vw + 0.4rem, 2rem);
+}
+.my-xl-20 {
+  margin-top: clamp(2.25rem, 3.3vw + 1.5rem, 5rem);
+  margin-bottom: clamp(2.25rem, 3.3vw + 1.5rem, 5rem);
+}
+.my-xl-40 {
+  margin-top: clamp(4rem, 7.1vw + 2.3rem, 10rem);
+  margin-bottom: clamp(4rem, 7.1vw + 2.3rem, 10rem);
+}
+.mb-xl-20 {
+  margin-bottom: clamp(2.25rem, 3.3vw + 1.5rem, 5rem);
+}
+.mt-xl-40 {
+  margin-top: clamp(4rem, 7.1vw + 2.3rem, 10rem);
+}
+.h-xl-60 {
+  height: clamp(9rem, 7.1vw + 7.3rem, 15rem);
+}
+.pb-xl-12 {
+  padding-bottom: clamp(1.5rem, 1.8vw + 1.1rem, 3rem);
+}
+.pb-xl-40 {
+  padding-bottom: clamp(4rem, 7.1vw + 2.3rem, 10rem);
+}
+.py-xl-7 {
+  padding-top: clamp(0.625rem, 1.3vw + 0.3rem, 1.75rem);
+  padding-bottom: clamp(0.625rem, 1.3vw + 0.3rem, 1.75rem);
+}
+.py-s-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.px-s-1\.5 {
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+}
+.h-s-4 {
+  height: 1rem;
+}
+.w-s-4 {
+  width: 1rem;
+}
+.h-lg-4 {
+  height: clamp(0.5rem, 0.6vw + 0.4rem, 1rem);
+}
+.w-lg-4 {
+  width: clamp(0.5rem, 0.6vw + 0.4rem, 1rem);
+}
+.space-y-s-1 > :not([hidden]) ~ :not([hidden]) {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.indent-20 {
+  text-indent: clamp(3.5rem, 1.8vw + 3.1rem, 5rem);
+}
+.duration-theme {
+  transition-duration: 0.5s;
+}
+.duration-750 {
+  transition-duration: 750ms;
+}
+.transition-bg {
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.15s;
+}
+
+@media (min-width: 768px) {
+  .md\:my-xl-40 {
+    margin-top: clamp(4rem, 7.1vw + 2.3rem, 10rem);
+    margin-bottom: clamp(4rem, 7.1vw + 2.3rem, 10rem);
+  }
+  .md\:mt-xl-60 {
+    margin-top: clamp(9rem, 7.1vw + 7.3rem, 15rem);
+  }
+}
+@media (min-width: 640px) {
+  .sm\:h-lg-4 {
+    height: clamp(0.5rem, 0.6vw + 0.4rem, 1rem);
+  }
+  .sm\:w-lg-4 {
+    width: clamp(0.5rem, 0.6vw + 0.4rem, 1rem);
+  }
+}
+
+/* ------------------------------------------------------------------ grid --- */
+
+.ui-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: clamp(0.625rem, 1vw + 0.4rem, 1.5rem);
+  padding-left: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+  padding-right: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+}
+.max-w-site {
+  max-width: 1828px;
+}
+.h-Header-height {
+  height: var(--site-header-height, 64px);
+}
+@media (min-width: 1024px) {
+  .ui-grid {
+    grid-template-columns: repeat(24, minmax(0, 1fr));
+  }
+  .lg\:col-span-15 {
+    grid-column: span 15 / span 15;
+  }
+  .lg\:col-span-17 {
+    grid-column: span 17 / span 17;
+  }
+  .lg\:col-span-20 {
+    grid-column: span 20 / span 20;
+  }
+  .lg\:col-start-3 {
+    grid-column-start: 3;
+  }
+  .lg\:col-start-8 {
+    grid-column-start: 8;
+  }
+  .lg\:grid-cols-17 {
+    grid-template-columns: repeat(17, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:col-span-15 {
+    grid-column: span 15 / span 15;
+  }
+  .xl\:col-start-10 {
+    grid-column-start: 10;
+  }
+  .xl\:col-start-13 {
+    grid-column-start: 13;
+  }
+  .xl\:col-start-16 {
+    grid-column-start: 16;
+  }
+  .xl\:grid-cols-15 {
+    grid-template-columns: repeat(15, minmax(0, 1fr));
+  }
+}
+
+/* -------------------------------------------------------- theme + colours --- */
+
+.bg-theme-primary {
+  background-color: rgb(var(--theme-primary) / var(--tw-bg-opacity, 1));
+}
+.bg-theme-secondary {
+  background-color: rgb(var(--theme-secondary) / var(--tw-bg-opacity, 1));
+}
+.text-theme-secondary {
+  color: rgb(var(--theme-secondary) / var(--tw-text-opacity, 1));
+}
+.text-theme-header {
+  color: rgb(var(--theme-header) / var(--tw-text-opacity, 1));
+}
+.from-theme-primary {
+  --tw-gradient-from: rgb(var(--theme-primary) / 1) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(var(--theme-primary) / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.border-theme-secondary {
+  border-color: rgb(var(--theme-secondary) / var(--tw-border-opacity, 1));
+}
+.border-theme-secondary\/20 {
+  border-color: rgb(var(--theme-secondary) / 0.2);
+}
+.bg-yellow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 197 0 / var(--tw-bg-opacity));
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 16 16 / var(--tw-bg-opacity));
+}
+.z-main {
+  z-index: 100;
+}
+.z-Header {
+  z-index: 200;
+}
+.z-Footer {
+  z-index: 50;
+}
+
+/* orientation utilities used by the case-study hero (verbatim) */
+@media (orientation: portrait) {
+  .portrait\:hidden {
+    display: none;
+  }
+}
+@media (orientation: landscape) {
+  .landscape\:hidden {
+    display: none;
+  }
+}
+
+/* ---------------------------------------------------------------- links ----- */
+
+.ui-link {
+  position: relative;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+.ui-link:hover {
+  opacity: 0.6;
+}
+.rich-text > * + * {
+  margin-top: 0;
+}
+.rich-text p {
+  margin: 0;
+}
+.rich-text ul {
+  list-style: disc;
+  padding-left: 1.25em;
+}
+.rich-text li + li {
+  margin-top: 0.35em;
+}

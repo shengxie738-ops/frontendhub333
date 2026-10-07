@@ -1,0 +1,959 @@
+{
+ "route": "/work/the-examination",
+ "imgs": [
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2156x4036/f84a34cc23/case-study-hero-mobile.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2156x4036/f84a34cc23/case-study-hero-mobile.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/6132x3476/cbc738e79b/case-study-hero-desktop-v2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/6132x3476/cbc738e79b/case-study-hero-desktop-v2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/976f583adb/frame-36784.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/976f583adb/frame-36784.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/80d2f6fb6b/frame-36782.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/80d2f6fb6b/frame-36782.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/7d5b88a00e/frame-36780.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/7d5b88a00e/frame-36780.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/fe07b690ab/frame-36781.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/fe07b690ab/frame-36781.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/218ad85aac/frame-36786.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/218ad85aac/frame-36786.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/0a371d5ed4/frame-36787.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/0a371d5ed4/frame-36787.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/b1c865853b/frame-36785.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/b1c865853b/frame-36785.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/e81aa60205/frame-36783.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/e81aa60205/frame-36783.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/ab0bb963bc/frame-36731.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/ab0bb963bc/frame-36731.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/9cf42a930b/frame-36739.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/9cf42a930b/frame-36739.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/6b77b4d579/frame-36740.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/6b77b4d579/frame-36740.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/8411b9ffc9/frame-36741.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/8411b9ffc9/frame-36741.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/60c06a07c5/frame-36777.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/60c06a07c5/frame-36777.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/610d82f0a0/frame-36752.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/610d82f0a0/frame-36752.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/de89e3da36/frame-36760.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/de89e3da36/frame-36760.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/b8ca408edb/frame-36759.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/b8ca408edb/frame-36759.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/14b6ae1031/frame-36755.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/14b6ae1031/frame-36755.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/e2fc7885aa/frame-36757.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/e2fc7885aa/frame-36757.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/93fd8fb598/frame-36770.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/93fd8fb598/frame-36770.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/573b7febe1/frame-36771.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/573b7febe1/frame-36771.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/f1b9a383d8/frame-36769.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4096x4096/f1b9a383d8/frame-36769.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2048x2048/a9c25211be/frame-36756.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2048x2048/a9c25211be/frame-36756.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2048x2048/7e94719888/frame-36753.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2048x2048/7e94719888/frame-36753.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2048x2048/e753f6bb75/404.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2048x2048/e753f6bb75/404.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/e725d20516/polluting-industries-smokestacks.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/e725d20516/polluting-industries-smokestacks.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/53faa3fd22/industrialized-food-beakers.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/53faa3fd22/industrialized-food-beakers.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/c4d4d8debe/polluting-industries-handshakes.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/c4d4d8debe/polluting-industries-handshakes.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/ed3f1bf506/big-tobacco-cigarettes.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/ed3f1bf506/big-tobacco-cigarettes.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/3195f88f65/industrialized-food-labels.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/3195f88f65/industrialized-food-labels.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/174ca9a5c2/big-tobacco-packs.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/174ca9a5c2/big-tobacco-packs.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  }
+ ],
+ "vids": [
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/865174986/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=8ee70d473585adc474895cdcd348a9aa508f83d16bbeb193cd0748505b0ed2d5\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/865174916/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=68182c22087a496f968935ab9f6184d93fdf52661421bdb215ec87144aa6c7dd\" muted=\"\" loop=\"\" playsInline=\"\" color=\"#08C760\" _uid=\"0791c65f-6037-48df-8696-8636685a8397\" cms_label=\"\" component=\"work_bloks_video\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/865191062/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=a2712d7a637a4aed8ba045c8ae42f169e4265511795b8a6c4a45542302d934b3\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/865449892/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=577ee70c4cafa958efd2ebe402e8ff438d24b9a6a2f49abda71a315588ee84fb\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/865174944/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=a4a8f1b9c488fd145cb87a6d4b4ba12c4ab7b9f62b90aa789d445ee64b601de9\" muted=\"\" loop=\"\" playsInline=\"\" color=\"#08C760\" _uid=\"88c83a1f-a087-4494-b1b0-9de54a6d3580\" cms_label=\"\" component=\"work_bloks_video\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/865191118/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=20b5361a51a0870026200468260d8d8d4722a98472021a755c75214f86bd7dc2\" muted=\"\" loop=\"\" playsInline=\"\"></video>"
+ ],
+ "headings": [
+  {
+   "level": 1,
+   "html": "The Examination",
+   "text": "The Examination"
+  },
+  {
+   "level": 2,
+   "html": "A bold newsroom tackling corporations vs <i>human health</i>",
+   "text": "A bold newsroom tackling corporations vs human health"
+  },
+  {
+   "level": 3,
+   "html": "Client",
+   "text": "Client"
+  },
+  {
+   "level": 4,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://theexamination.org/\"><span class=\"relative\"><span>The Examination</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.",
+   "text": "The Examination"
+  },
+  {
+   "level": 3,
+   "html": "Category",
+   "text": "Category"
+  },
+  {
+   "level": 4,
+   "html": "Brand + Website",
+   "text": "Brand + Website"
+  },
+  {
+   "level": 3,
+   "html": "Date",
+   "text": "Date"
+  },
+  {
+   "level": 4,
+   "html": "2023 - ∞",
+   "text": "2023 - ∞"
+  },
+  {
+   "level": 3,
+   "html": "Introducing The Examination",
+   "text": "Introducing The Examination"
+  },
+  {
+   "level": 3,
+   "html": "Finding the brand",
+   "text": "Finding the brand"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span>We were playing with the idea of multi-layered investigation and the revealing of the truth.<span>”</span>",
+   "text": "“We were playing with the idea of multi-layered investigation and the revealing of the truth.”"
+  },
+  {
+   "level": 4,
+   "html": "Kate Forsythe",
+   "text": "Kate Forsythe"
+  },
+  {
+   "level": 5,
+   "html": "Brand Designer, Gladeye",
+   "text": "Brand Designer, Gladeye"
+  },
+  {
+   "level": 3,
+   "html": "Critical investigation",
+   "text": "Critical investigation"
+  },
+  {
+   "level": 3,
+   "html": "Designing the news",
+   "text": "Designing the news"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span>We had a document of features that we wanted to build for Huffington Post… it was every cool thing that an editorial website could have.<span>”</span>",
+   "text": "“We had a document of features that we wanted to build for Huffington Post… it was every cool thing that an editorial website could have.”"
+  },
+  {
+   "level": 4,
+   "html": "Nathan Walker",
+   "text": "Nathan Walker"
+  },
+  {
+   "level": 5,
+   "html": "Designer, Gladeye",
+   "text": "Designer, Gladeye"
+  },
+  {
+   "level": 3,
+   "html": "Big topics",
+   "text": "Big topics"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span>We had to house many related topics and give them a unifying framework. <span>”</span>",
+   "text": "“We had to house many related topics and give them a unifying framework. ”"
+  },
+  {
+   "level": 4,
+   "html": "Nathan Walker",
+   "text": "Nathan Walker"
+  },
+  {
+   "level": 5,
+   "html": "Designer, Gladeye",
+   "text": "Designer, Gladeye"
+  },
+  {
+   "level": 3,
+   "html": "Standing out",
+   "text": "Standing out"
+  },
+  {
+   "level": 3,
+   "html": "Boldness",
+   "text": "Boldness"
+  },
+  {
+   "level": 3,
+   "html": "Color themes",
+   "text": "Color themes"
+  },
+  {
+   "level": 3,
+   "html": "Connecting the dots",
+   "text": "Connecting the dots"
+  },
+  {
+   "level": 3,
+   "html": "Flexible platform",
+   "text": "Flexible platform"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span>The Gladeye team is amazing to work with - and the quality of the work speaks for itself.<span>”</span>",
+   "text": "“The Gladeye team is amazing to work with - and the quality of the work speaks for itself.”"
+  },
+  {
+   "level": 4,
+   "html": "Ben Hallman",
+   "text": "Ben Hallman"
+  },
+  {
+   "level": 5,
+   "html": "Executive Director, The Examination",
+   "text": "Executive Director, The Examination"
+  },
+  {
+   "level": 3,
+   "html": "Project Awards",
+   "text": "Project Awards"
+  },
+  {
+   "level": 4,
+   "html": "CSS Winner",
+   "text": "CSS Winner"
+  },
+  {
+   "level": 5,
+   "html": "Site of the Day",
+   "text": "Site of the Day"
+  },
+  {
+   "level": 4,
+   "html": "CSS Design Awards",
+   "text": "CSS Design Awards"
+  },
+  {
+   "level": 5,
+   "html": "Special Kudos, Innovation, UX Design, UI Design",
+   "text": "Special Kudos, Innovation, UX Design, UI Design"
+  },
+  {
+   "level": 3,
+   "html": "Up Next",
+   "text": "Up Next"
+  },
+  {
+   "level": 3,
+   "html": "HuffPost",
+   "text": "HuffPost"
+  },
+  {
+   "level": 4,
+   "html": "The Good Kind",
+   "text": "The Good Kind"
+  },
+  {
+   "level": 4,
+   "html": "Stories of <i>unexpected kindness </i>from around America",
+   "text": "Stories of unexpected kindness from around America"
+  },
+  {
+   "level": 2,
+   "html": "<span>Subscribe to<br/>our newsletter</span>",
+   "text": "Subscribe toour newsletter"
+  },
+  {
+   "level": 3,
+   "html": "Request a proposal",
+   "text": "Request a proposal"
+  },
+  {
+   "level": 3,
+   "html": "Follow us",
+   "text": "Follow us"
+  },
+  {
+   "level": 3,
+   "html": "Join the team",
+   "text": "Join the team"
+  },
+  {
+   "level": 3,
+   "html": "Find us",
+   "text": "Find us"
+  }
+ ],
+ "paragraphs": [
+  {
+   "html": "</path></svg></a></div><div class=\"flex justify-center Header_buttonContainer__rN6i5\"><button class=\"pointer-events-auto Header_button__qn2Wj Button_main__NewW7 Button_default__CcbQU\"><span class=\"Button_inner__d7ZPg\">Menu</span></button></div><div class=\"hidden w-[130px] justify-end md:flex\"><a class=\"pointer-events-auto\" aria-label=\"About\" href=\"/about\"></a></div></div></div><main style=\"--theme-primary:16 16 16;--theme-secondary:255 255 255;--theme-tertiary:255 255 255\" class=\"bg-black\"><div style=\"opacity:1\"><div class=\"relative z-main bg-theme-primary transition-bg duration-theme\"><sectio",
+   "text": "MenuThe ExaminationA bold newsroom tackling corporations vs human healthVisit SiteThe Examination is an online newsroom whose mission is to hold the powerful to account. They expose corporate malfeasance that profits from harming human health. Industries refer to hidden costs on society as “externalities”… while those affected by them use stronger names - like infertility, lung cancer, or dead rivers."
+  },
+  {
+   "html": "</path></svg></span></span></a></div></h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Category</h3><h4>Brand + Website</h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Date</h3><h4>2023 - ∞</h4></div></div></div></div></div></section><section data-theme=\"light\" class=\"text-theme-secondary transition-colors duration-theme\"><div class=\"WrokBloks_main__IqYqU\"><div class=\"ui-grid mx-auto my-xl-20 max-w-site gap-y-6 md:my-xl-40\"><div class=\"col-span-full lg:col-span-7 xl:col-span-12\"><h3 class=\"t-p-md font-medi",
+   "text": "CategoryBrand + WebsiteDate2023 - ∞Introducing The ExaminationThe Examination’s team of journalists probe unethical practices across big tobacco, industrial food, and polluting industries."
+  },
+  {
+   "html": "This is storytelling to save lives, accountability journalism. With all the depth of investigative journalism but unafraid to have a point-of-view - they actively explore solutions and celebrate change.",
+   "text": "This is storytelling to save lives, accountability journalism. With all the depth of investigative journalism but unafraid to have a point-of-view - they actively explore solutions and celebrate change."
+  },
+  {
+   "html": "They needed a brand and digital platform to bring these stories to life and showcase their mission, capturing the imagination of readers, donors and activists globally.",
+   "text": "They needed a brand and digital platform to bring these stories to life and showcase their mission, capturing the imagination of readers, donors and activists globally."
+  },
+  {
+   "html": "We distilled their core values and explored creative territories and visual metaphors to express them. We found the answer in their name.",
+   "text": "We distilled their core values and explored creative territories and visual metaphors to express them. We found the answer in their name."
+  },
+  {
+   "html": "The Examination is an <i>ongoing</i> investigation of the inner workings of business, government and white collar crime. Where every article and topic forms part of a resolute whole.",
+   "text": "The Examination is an ongoing investigation of the inner workings of business, government and white collar crime. Where every article and topic forms part of a resolute whole."
+  },
+  {
+   "html": "We crafted an identity system that feels as if a dossier of critical information has been placed in your hands. Organized. Essential. Prepared for you.",
+   "text": "We crafted an identity system that feels as if a dossier of critical information has been placed in your hands. Organized. Essential. Prepared for you."
+  },
+  {
+   "html": "There&#x27;s a sense of uncovering and revealing, of sliding open to reveal information in hidden documents. The bright colours of highlighted words bring a sense of urgency, drawing attention to key information.",
+   "text": "There&#x27;s a sense of uncovering and revealing, of sliding open to reveal information in hidden documents. The bright colours of highlighted words bring a sense of urgency, drawing attention to key information."
+  },
+  {
+   "html": "Gladeye has designed a series of award-winning long-form articles for publications including <a href=\"https://investigation.rollingstone.com/dj-photo-war-crimes-bosnia/\" target=\"_blank\">Rolling Stone</a>, <a href=\"https://highline.huffingtonpost.com/articles/en/poor-millennials/\" target=\"_blank\">HuffPost</a> and <a href=\"https://www.themarshallproject.org/2019/09/24/detained\" target=\"_blank\">The Marshall Project</a>. We’d developed a deep understanding of editorial storytelling but had yet to develop a journalism platform from the ground up.",
+   "text": "Gladeye has designed a series of award-winning long-form articles for publications including Rolling Stone, HuffPost and The Marshall Project. We’d developed a deep understanding of editorial storytelling but had yet to develop a journalism platform from the ground up."
+  },
+  {
+   "html": "We were excited to be able to realise this vision.",
+   "text": "We were excited to be able to realise this vision."
+  },
+  {
+   "html": "Over time The Examination will grow to encompass many topics but beginning with the urgent health issues of Tobacco, Pollution, and Industrialised Food.",
+   "text": "Over time The Examination will grow to encompass many topics but beginning with the urgent health issues of Tobacco, Pollution, and Industrialised Food."
+  },
+  {
+   "html": "We faced the challenge of translating this broad array of topics into a visually cohesive, engaging website.",
+   "text": "We faced the challenge of translating this broad array of topics into a visually cohesive, engaging website."
+  },
+  {
+   "html": "The Examination exists to tell stories not told elsewhere.",
+   "text": "The Examination exists to tell stories not told elsewhere."
+  },
+  {
+   "html": "As a new brand they saw the value of uniqueness - of standing out from the templated grid layout and category nav that is everywhere in digital journalism.",
+   "text": "As a new brand they saw the value of uniqueness - of standing out from the templated grid layout and category nav that is everywhere in digital journalism."
+  },
+  {
+   "html": "We looked to combine the monochromatic authority of The NY Times or The Guardian - with a sense of punk energy; disruptors of the status quo.",
+   "text": "We looked to combine the monochromatic authority of The NY Times or The Guardian - with a sense of punk energy; disruptors of the status quo."
+  },
+  {
+   "html": "We want The Examination to be graphic - big type, big  images, bold colour palette and illustration, but with a brilliant reading experience at the heart of it.",
+   "text": "We want The Examination to be graphic - big type, big  images, bold colour palette and illustration, but with a brilliant reading experience at the heart of it."
+  },
+  {
+   "html": "There is a sense of uncovering secrets in the site&#x27;s  animations and interactions. Topics are presented as sliding drawers, creating moments of discovery for the reader as they unlock new knowledge.",
+   "text": "There is a sense of uncovering secrets in the site&#x27;s  animations and interactions. Topics are presented as sliding drawers, creating moments of discovery for the reader as they unlock new knowledge."
+  },
+  {
+   "html": "Each topic has its own theme colour, flowing throughout the UI design and allowing readers to easily find what they connect with on return visits.",
+   "text": "Each topic has its own theme colour, flowing throughout the UI design and allowing readers to easily find what they connect with on return visits."
+  },
+  {
+   "html": "To complement this brand language our Illustrator, <a href=\"https://sugacyan.com/\" target=\"_blank\">Pablo Espinosa</a> delivered striking visuals for each topic. Simple and graphic, they provide a sense of grit to balance the sleek designs.",
+   "text": "To complement this brand language our Illustrator, Pablo Espinosa delivered striking visuals for each topic. Simple and graphic, they provide a sense of grit to balance the sleek designs."
+  },
+  {
+   "html": "The Examination articles will often expand into series or follow-ups. We’ve laid the foundation in the first release for a powerful feature called “Objects of Interest&#x27;&#x27;. Initially these are footnotes allowing you to follow characters across different stories.",
+   "text": "The Examination articles will often expand into series or follow-ups. We’ve laid the foundation in the first release for a powerful feature called “Objects of Interest&#x27;&#x27;. Initially these are footnotes allowing you to follow characters across different stories."
+  },
+  {
+   "html": "They’ll grow into their own “dossiers”, where you can explore every article, quote and reference tied to corporations, individuals and their actions over time.",
+   "text": "They’ll grow into their own “dossiers”, where you can explore every article, quote and reference tied to corporations, individuals and their actions over time."
+  },
+  {
+   "html": "<a href=\"https://www.storyblok.com/\" target=\"_blank\">Storyblok</a> has the ability for live previews of a headless website - a powerful feature which makes editing content far more tactile. We work closely with clients to align our CMS configuration with their workflow, and The Examination was no exception.",
+   "text": "Storyblok has the ability for live previews of a headless website - a powerful feature which makes editing content far more tactile. We work closely with clients to align our CMS configuration with their workflow, and The Examination was no exception."
+  },
+  {
+   "html": "It’s an interactive space where serious journalism meets beautifully flexible digital design. The editorial team are also able to integrate themed <a href=\"https://www.datawrapper.de/\" target=\"_blank\">Datawrapper</a> infographics, charts and other elements directly into the flow of articles.",
+   "text": "It’s an interactive space where serious journalism meets beautifully flexible digital design. The editorial team are also able to integrate themed Datawrapper infographics, charts and other elements directly into the flow of articles."
+  },
+  {
+   "html": "</path></svg></div></div></a><a class=\"Awards_item__YgOl7\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.cssdesignawards.com/sites/the-examination/44307/\"><div class=\"flex items-center justify-start gap-x-2 py-3 sm:gap-x-4 sm:py-4\"><h4 class=\"t-work-award flex-shrink-0 font-medium\">CSS Design Awards</h4><h5 class=\"t-work-award-alt truncate\">Special Kudos, Innovation, UX Design, UI Design</h5><div class=\"h-3 w-3 flex-shrink-0 sm:h-lg-4 sm:w-lg-4\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.0",
+   "text": "CSS Design AwardsSpecial Kudos, Innovation, UX Design, UI DesignUp NextHuffPostThe Good KindStories of unexpected kindness from around AmericaNext ProjectSubscribe toour newsletterRequest a proposalhello@gladeye.comhello@gladeye.comFollow usInstagramInstagram|LinkedInLinkedIn|XXJoin the teamcareers@gladeye.comcareers@gladeye.comFind us29 Princes Street, Auckland 101029 Princes Street, Auckland 1010© Gladeye 2025"
+  }
+ ],
+ "links": [
+  {
+   "href": "/",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "/about",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "https://theexamination.org/",
+   "text": "Visit Site",
+   "cls": "Button_main__NewW7 Button_default__CcbQU"
+  },
+  {
+   "href": "https://theexamination.org/",
+   "text": "The Examination",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://investigation.rollingstone.com/dj-photo-war-crimes-bosnia/",
+   "text": "Rolling Stone"
+  },
+  {
+   "href": "https://highline.huffingtonpost.com/articles/en/poor-millennials/",
+   "text": "HuffPost"
+  },
+  {
+   "href": "https://www.themarshallproject.org/2019/09/24/detained",
+   "text": "The Marshall Project"
+  },
+  {
+   "href": "https://sugacyan.com/",
+   "text": "Pablo Espinosa"
+  },
+  {
+   "href": "https://www.storyblok.com/",
+   "text": "Storyblok"
+  },
+  {
+   "href": "https://www.datawrapper.de/",
+   "text": "Datawrapper"
+  },
+  {
+   "href": "https://www.csswinner.com/details/the-examination/17505",
+   "text": "CSS WinnerSite of the Day",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "https://www.cssdesignawards.com/sites/the-examination/44307/",
+   "text": "CSS Design AwardsSpecial Kudos, Innovation, UX Design, UI Design",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "/work/the-good-kind",
+   "text": "Next Project",
+   "cls": "Button_main__NewW7 Button_default__CcbQU Button_ghost__gZqlA"
+  },
+  {
+   "href": "mailto:hello@gladeye.com",
+   "text": "hello@gladeye.comhello@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.instagram.com/gladeyedigital/",
+   "text": "InstagramInstagram",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://linkedin.com/company/gladeye",
+   "text": "LinkedInLinkedIn",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://twitter.com/gladeye",
+   "text": "XX",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "mailto:careers@gladeye.com",
+   "text": "careers@gladeye.comcareers@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.google.com/maps/place/Gladeye/@-36.8497288,174.7662306,17z/data=!3m1!4b1!4m6!3m5!1s0x6d0d480fd64adab1:0xfa505ffed6ead32a!8m2!3d-36.8497288!4d174.7688055!16s%2Fg%2F1q5gm4f92?entry=ttu",
+   "text": "29 Princes Street, Auckland 101029 Princes Street, Auckland 1010",
+   "cls": "MotionLink_main__kgq4W"
+  }
+ ],
+ "svgCount": 8,
+ "svgs": [
+  "<svg viewBox=\"0 0 2401 590\" class=\"h-auto w-full fill-current\"><path d=\"M577.79 473.96h-86.85V.2h86.85v473.76Zm315.55-34.35c-13.61 16.85-47.96 40.18-103.69 40.18-105.64 0-177.58-71.94-177.58-179.52S683.36 121.4 789.65 121.4c42.77 0 82.31 15.55 102.4 38.24v-32.4h82.31v346.72h-81.01v-34.35Zm-98.51-36.94c58.33 0 95.27-43.42 95.27-102.4s-39.53-101.75-95.27-101.75c-58.98 0-95.92 44.07-95.92 101.75s38.89 102.4 95.92 102.4Zm495.34 36.94c-20.74 22.04-58.33 40.18-102.4 40.18-107.58 0-178.87-73.88-178.87-178.23s71.29-180.17 175.63-180.17c44.07 0 78.42 14.26 99.81 33.7V.2h86.84v473.76h-81.01v-34.35Zm-98.51-37.59c58.33 0 95.27-44.07 95.27-101.75s-38.24-101.75-95.27-101.75-95.92 44.07-95.92 101.75 39.54 101.75 95.92 101.75Zm304.73-73.23c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm316.79 324.02 46.66-127.03-132.21-333.12h95.92l81.01 215.17 78.42-215.17h89.44l-174.99 460.15h-84.25Zm336.41-258.56c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm-1798.2-34.75H243.77v84.75H352.8v35.82l-10.84 10.07c-18.8 19.44-55.09 39.53-106.94 39.53-81.01 0-140.64-58.98-140.64-149.71s55.74-148.41 136.75-148.41c59.62 0 93.33 29.16 114.06 57.03l69.99-51.85c-31.11-47.96-89.44-88.79-184.06-88.79C92.44 17.05.41 121.39.41 249.07c0 139.34 93.97 232.67 230.72 232.67 24.9 0 46.59-3.69 64.99-9.65.05 0 .1-.02.15-.05 2.59-.85 5.16-1.72 7.63-2.67 15.15-5.71 27.79-12.99 37.91-20.89.23-.17 5.29-4.11 10.99-8.52v33.98h84.75V310.82c0-45.37-36.89-82.26-82.26-82.26v.02Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>"
+ ],
+ "themes": [
+  "--theme-primary:16 16 16",
+  "--theme-secondary:255 255 255",
+  "--theme-tertiary:255 255 255",
+  "--theme-header:255 255 255",
+  "--theme-header-secondary:125 125 125",
+  "--theme-header-button-text-default:255 255 255",
+  "--theme-header-button-text-roll-over:0 0 0",
+  "--theme-header-button-bg-default:125 125 125",
+  "--theme-header-button-bg-roll-over:255 255 255"
+ ],
+ "title": ""
+}

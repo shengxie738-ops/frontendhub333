@@ -1,0 +1,19 @@
+@import "../styles/tokens.css";
+@import "../styles/typography.css";
+@import "../styles/keyframes.css";
+@import "../styles/components.css";
+@import "../styles/info-tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------
+   Scaffolding helpers retained from the Next.js starter that the rest of the
+   site still relies on. Everything Gladeye-specific lives in src/styles/*.
+   ------------------------------------------------------------------------- */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

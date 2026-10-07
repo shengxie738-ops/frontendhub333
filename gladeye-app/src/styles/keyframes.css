@@ -1,0 +1,97 @@
+/* ==========================================================================
+   GLADEYE — keyframes, transcribed verbatim from the original stylesheets.
+   The animation names keep the original CSS-module hashes so evidence class
+   strings (EVIDENCE §2/§10) remain greppable in this codebase.
+   ========================================================================== */
+
+/* 70ccb8e7fa150b80.css — RandomFlower_svg__Fz3ul / RandomFlower_rotate__XOc7J */
+@keyframes RandomFlower_rotate__XOc7J {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+/* 2347d98ee8e65578.css — Loader_rotate__X4lFd */
+@keyframes Loader_rotate__X4lFd {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+/* 2347d98ee8e65578.css — Loader_circle-animation__kG_YY */
+@keyframes Loader_circle-animation__kG_YY {
+  0% {
+    transform: translateX(80%) rotate(0deg);
+    border-radius: 50%;
+  }
+  25% {
+    transform: translateX(120%) rotate(90deg);
+    border-radius: 30%;
+  }
+  50% {
+    transform: translateX(80%) rotate(180deg);
+    border-radius: 50%;
+  }
+  75% {
+    transform: translateX(120%) rotate(270deg);
+    border-radius: 50%;
+  }
+  to {
+    transform: translateX(80%) rotate(1turn);
+    border-radius: 50%;
+  }
+}
+
+/* 2347d98ee8e65578.css — FlowerValleyText_animate-in__CIGec / _animate-out__JgJtR */
+@keyframes FlowerValleyText_animate-in__CIGec {
+  0% {
+    transform: translateY(130%);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes FlowerValleyText_animate-out__JgJtR {
+  to {
+    transform: translateY(-130%);
+  }
+}
+
+/* Shell additions (not present on the original, which drives these with
+   Framer Motion): menu backdrop wipe + item reveal, matching the original
+   variant numbers — duration .45s, ease [0,.55,.45,1] on the backdrop. */
+@keyframes gladeye-menu-backdrop-in {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes gladeye-menu-backdrop-out {
+  from {
+    transform: scaleY(1);
+  }
+  to {
+    transform: scaleY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .RandomFlower_svg__Fz3ul {
+    animation: none;
+  }
+
+  .Loader_spinner__lGyv4,
+  .Loader_circle__bdxRu {
+    animation: none;
+  }
+}

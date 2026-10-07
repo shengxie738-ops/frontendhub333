@@ -1,0 +1,698 @@
+/* ==========================================================================
+   GLADEYE — original CSS-module rules, transcribed verbatim.
+   The site ships these as CSS-module scoped classes (`Button_main__NewW7`).
+   They are kept as *global* classes with identical names so the markup in
+   EVIDENCE §10 and `evidence/content/*.json` (`cls` fields) maps 1:1.
+
+   Provenance:
+     Button / MotionLink / Menu / RandomFlower  -> 70ccb8e7fa150b80.css, 2347d98ee8e65578.css
+     Header_buttonContainer                     -> 70ccb8e7fa150b80.css
+     Loader / FlowerValleyText / AudioControl   -> 2347d98ee8e65578.css
+     ContactSignUp                              -> 70ccb8e7fa150b80.css
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Button  (evidence module 3757: main/inner/ghost/filled/icon/default/small)
+   -------------------------------------------------------------------------- */
+.Button_main__NewW7 {
+  --size: 40px;
+  --padding: 4px;
+  height: var(--size);
+  padding: var(--padding);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-stack-sans);
+  font-weight: 500;
+  line-height: 1;
+  border-radius: 9999px;
+  font-size: 20px;
+  leading-trim: both;
+  text-edge: cap;
+  letter-spacing: 0.04em;
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--theme-primary) / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(var(--theme-secondary) / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill,
+    stroke;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.5s;
+  overflow: hidden;
+  will-change: transform;
+}
+
+.Button_main__NewW7:before {
+  --tw-content: "";
+  content: var(--tw-content);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 20;
+  border-radius: 9999px;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(var(--theme-secondary) / var(--tw-border-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill,
+    stroke;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.5s;
+}
+
+.Button_main__NewW7:after {
+  --tw-content: "";
+  content: var(--tw-content);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--theme-secondary) / var(--tw-bg-opacity));
+  border-radius: 9999px;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.5s;
+  transform-origin: right center;
+  transform: scaleX(0) translateZ(0);
+}
+
+.Button_inner__d7ZPg {
+  position: relative;
+  z-index: 30;
+  transform: translateY(-0.05em);
+}
+
+.Button_ghost__gZqlA {
+  background-color: transparent;
+}
+
+.Button_filled__HP3yZ {
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--theme-secondary) / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(var(--theme-primary) / var(--tw-text-opacity));
+}
+
+.Button_filled__HP3yZ:after,
+.Button_filled__HP3yZ .Button_icon__OWfxs {
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--theme-primary) / var(--tw-bg-opacity));
+}
+
+.Button_filled__HP3yZ .Button_icon__OWfxs {
+  --tw-text-opacity: 1;
+  color: rgb(var(--theme-secondary) / var(--tw-text-opacity));
+}
+
+.Button_main__NewW7.Button_default__CcbQU {
+  --size: 40px;
+  --padding: 4px;
+}
+
+.Button_main__NewW7.Button_default__CcbQU .Button_inner__d7ZPg {
+  padding-left: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+  padding-right: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+}
+
+.Button_main__NewW7.Button_small__pgXYR {
+  --size: 32px;
+  --padding: 2px;
+  font-size: 16px;
+}
+
+@media (min-width: 1024px) {
+  .Button_main__NewW7.Button_small__pgXYR {
+    --size: 36px;
+    --padding: 4px;
+    font-size: 19px;
+  }
+}
+
+.Button_main__NewW7.Button_small__pgXYR .Button_inner__d7ZPg {
+  --tw-translate-y: -1px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate))
+    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
+    scaleY(var(--tw-scale-y));
+  padding-left: clamp(0.75rem, 0.3vw + 0.7rem, 1rem);
+  padding-right: clamp(0.75rem, 0.3vw + 0.7rem, 1rem);
+}
+
+.Button_icon__OWfxs {
+  --icon-size: calc(var(--size) - (var(--padding) * 2));
+  height: var(--icon-size);
+  width: var(--icon-size);
+  position: relative;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--theme-secondary) / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(var(--theme-primary) / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.5s;
+}
+
+.Button_icon__OWfxs svg {
+  --svg-size: calc(var(--icon-size) / 2.5);
+  width: var(--svg-size);
+  height: var(--svg-size);
+  fill: currentColor;
+}
+
+@media (hover: hover) {
+  .Button_main__NewW7:hover {
+    --tw-text-opacity: 1;
+    color: rgb(var(--theme-primary) / var(--tw-text-opacity));
+  }
+  .Button_main__NewW7:hover:after {
+    transform: scale(1) translateZ(0);
+    transform-origin: left center;
+  }
+  .Button_main__NewW7:hover .Button_icon__OWfxs {
+    --tw-bg-opacity: 1;
+    background-color: rgb(var(--theme-primary) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(var(--theme-secondary) / var(--tw-text-opacity));
+    --tw-rotate: 45deg;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate))
+      skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
+      scaleY(var(--tw-scale-y));
+  }
+  .Button_filled__HP3yZ:hover {
+    --tw-text-opacity: 1;
+    color: rgb(var(--theme-secondary) / var(--tw-text-opacity));
+  }
+  .Button_filled__HP3yZ:hover .Button_icon__OWfxs {
+    --tw-bg-opacity: 1;
+    background-color: rgb(var(--theme-secondary) / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(var(--theme-primary) / var(--tw-text-opacity));
+  }
+}
+
+/* Keyboard parity for the pointer-only roll-over above. */
+.Button_main__NewW7:focus-visible {
+  --tw-text-opacity: 1;
+  color: rgb(var(--theme-primary) / var(--tw-text-opacity));
+}
+.Button_main__NewW7:focus-visible:after {
+  transform: scale(1) translateZ(0);
+  transform-origin: left center;
+}
+.Button_main__NewW7:focus-visible .Button_icon__OWfxs {
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--theme-primary) / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(var(--theme-secondary) / var(--tw-text-opacity));
+}
+
+/* --------------------------------------------------------------------------
+   Header  (evidence module 666: buttonContainer / button)
+   -------------------------------------------------------------------------- */
+.Header_buttonContainer__rN6i5 .Header_button__qn2Wj {
+  -webkit-backdrop-filter: blur(32px);
+  backdrop-filter: blur(32px);
+  color: rgb(var(--theme-header-button-text-default));
+  background-color: rgba(var(--theme-header-button-bg-default) / 0.2);
+}
+
+@media (min-width: 768px) {
+  .Header_buttonContainer__rN6i5 .Header_button__qn2Wj:hover,
+  .Header_buttonContainer__rN6i5 .Header_button__qn2Wj:focus-visible {
+    color: rgb(var(--theme-header-button-text-roll-over));
+  }
+}
+
+.Header_buttonContainer__rN6i5 .Header_button__qn2Wj:after {
+  background-color: rgba(var(--theme-header-button-bg-roll-over));
+}
+
+.Header_buttonContainer__rN6i5 .Header_button__qn2Wj:before {
+  border: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Menu  (evidence module 3613: main / item)
+   -------------------------------------------------------------------------- */
+.Menu_main__iLoQn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Menu_item__fjHgD {
+  position: relative;
+  display: inline-flex;
+  padding-top: clamp(0.25rem, 0.3vw + 0.2rem, 0.5rem);
+  padding-bottom: clamp(0.25rem, 0.3vw + 0.2rem, 0.5rem);
+  font-size: clamp(2.5rem, 4.3vw + 1.5rem, 6.125rem);
+  font-family: var(--font-stack-serif);
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.5s;
+}
+
+.Menu_item__fjHgD:before {
+  --tw-content: "";
+  content: var(--tw-content);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: currentColor;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.5s;
+  transform-origin: center;
+  --tw-scale-x: 0;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate))
+    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
+    scaleY(var(--tw-scale-y));
+}
+
+@media (hover: hover) {
+  .Menu_main__iLoQn:hover .Menu_item__fjHgD {
+    opacity: 0.5;
+  }
+  .Menu_main__iLoQn:hover .Menu_item__fjHgD:hover {
+    opacity: 1;
+  }
+  .Menu_item__fjHgD:hover:before {
+    --tw-scale-x: 1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate))
+      skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
+      scaleY(var(--tw-scale-y));
+  }
+}
+
+/* Keyboard parity for the sibling-dim / underline-roll behaviour above. */
+.Menu_main__iLoQn:focus-within .Menu_item__fjHgD {
+  opacity: 0.5;
+}
+.Menu_main__iLoQn .Menu_item__fjHgD:focus-visible {
+  opacity: 1;
+}
+.Menu_item__fjHgD:focus-visible:before {
+  --tw-scale-x: 1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate))
+    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
+    scaleY(var(--tw-scale-y));
+}
+
+/* --------------------------------------------------------------------------
+   MotionLink  (evidence module 1245: main / inner / selected)
+   Two stacked spans; the visible one slides out and its twin slides in.
+   -------------------------------------------------------------------------- */
+.MotionLink_main__kgq4W {
+  display: inline-flex;
+  text-align: left;
+}
+
+.MotionLink_inner__hsBoJ {
+  position: relative;
+  overflow: hidden;
+}
+
+.MotionLink_inner__hsBoJ span {
+  display: block;
+  white-space: nowrap;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.5s;
+}
+
+.MotionLink_inner__hsBoJ span:nth-child(odd) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  --tw-translate-y: 0;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate))
+    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
+    scaleY(var(--tw-scale-y));
+}
+
+.MotionLink_inner__hsBoJ span:nth-child(2n) {
+  position: relative;
+  left: 0;
+  top: 0;
+  --tw-translate-y: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate))
+    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
+    scaleY(var(--tw-scale-y));
+}
+
+.MotionLink_selected__vaZaj .MotionLink_inner__hsBoJ span:nth-child(odd) {
+  font-weight: 400;
+}
+
+@media (hover: hover) {
+  .MotionLink_main__kgq4W:not(.MotionLink_selected__vaZaj):hover
+    .MotionLink_inner__hsBoJ
+    span:nth-child(odd) {
+    --tw-translate-y: -100%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate))
+      skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
+      scaleY(var(--tw-scale-y));
+  }
+  .MotionLink_main__kgq4W:not(.MotionLink_selected__vaZaj):hover
+    .MotionLink_inner__hsBoJ
+    span:nth-child(2n) {
+    --tw-translate-y: 0;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate))
+      skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
+      scaleY(var(--tw-scale-y));
+  }
+}
+
+/* Keyboard parity. */
+.MotionLink_main__kgq4W:focus-visible .MotionLink_inner__hsBoJ span:nth-child(2n) {
+  --tw-translate-y: 0;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate))
+    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
+    scaleY(var(--tw-scale-y));
+}
+
+/* --------------------------------------------------------------------------
+   RandomFlower  (evidence module 5633: svg / rotate)
+   -------------------------------------------------------------------------- */
+.RandomFlower_svg__Fz3ul {
+  will-change: transform;
+  animation: RandomFlower_rotate__XOc7J 90s linear infinite;
+}
+
+/* --------------------------------------------------------------------------
+   Loader  (evidence module — EVIDENCE §2 Loader row)
+   -------------------------------------------------------------------------- */
+.Loader_loader__iUG7H {
+  mix-blend-mode: screen;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Loader_loader__iUG7H .Loader_spinnerWrapper__n5mpi {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.Loader_loader__iUG7H .Loader_spinner__lGyv4 {
+  position: absolute;
+  transform-origin: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  animation: Loader_rotate__X4lFd 10s linear infinite;
+}
+
+.Loader_loader__iUG7H .Loader_circleWrapper__Z4G9T {
+  position: absolute;
+  height: 25%;
+  width: 100%;
+  mix-blend-mode: difference;
+}
+
+.Loader_loader__iUG7H .Loader_circle__bdxRu {
+  position: absolute;
+  mix-blend-mode: difference;
+  height: 100%;
+  width: 25%;
+  border-radius: 100%;
+  animation: Loader_circle-animation__kG_YY 4s ease-in-out infinite;
+  background-color: #323232;
+}
+
+/* --------------------------------------------------------------------------
+   FlowerValleyText  (EVIDENCE §2 wordmark reveal)
+   -------------------------------------------------------------------------- */
+.FlowerValleyText_character__4j45e {
+  will-change: transform, opacity;
+}
+
+.FlowerValleyText_character__4j45e:not(.FlowerValleyText_isVisible__8vqou) {
+  opacity: 0;
+  transition: opacity 0s ease-out var(--duration, 0s) !important;
+  transform: none;
+  animation: FlowerValleyText_animate-out__JgJtR var(--duration, 0.1s) ease-out
+    var(--delay, 0s) 1;
+  animation-fill-mode: forwards;
+}
+
+.FlowerValleyText_character__4j45e.FlowerValleyText_isVisible__8vqou {
+  opacity: 1;
+  transform: translateY(130%);
+  animation: FlowerValleyText_animate-in__CIGec var(--duration, 0.1s) ease-out
+    var(--delay, 0s) 1;
+  animation-fill-mode: forwards;
+}
+
+.FlowerValleyText_cta__3mukC {
+  will-change: transform, opacity;
+}
+
+/* --------------------------------------------------------------------------
+   AudioControl  (EVIDENCE §11 — five <line> bars, scaleY 0.3 | 0.6 | 1)
+   -------------------------------------------------------------------------- */
+.AudioControl_audioButton__Gj5AZ {
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  background: hsla(0, 0%, 100%, 0.1);
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  z-index: 20;
+  transform: translateX(-50%);
+  pointer-events: all;
+}
+
+.AudioControl_audioButton__Gj5AZ:hover {
+  background: hsla(0, 0%, 100%, 0.2);
+  border-color: hsla(0, 0%, 100%, 0.4);
+  transform: translateX(-50%) scale(1.1);
+}
+
+.AudioControl_audioButton__Gj5AZ:active {
+  transform: translateX(-50%) scale(0.95);
+}
+
+@media (max-width: 768px) {
+  .AudioControl_audioButton__Gj5AZ {
+    bottom: 100px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   ContactSignUp — the footer newsletter form (evidence module 7096)
+   -------------------------------------------------------------------------- */
+.ContactSignUp_fieldErrorMessage__yt2wd {
+  font-size: clamp(0.5rem, 0.3vw + 0.4rem, 0.75rem);
+  font-family: var(--font-stack-sans);
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: clamp(0.25rem, 0.3vw + 0.2rem, 0.5rem);
+}
+
+.ContactSignUp_generalErrorMessage__jEBlq {
+  margin-top: clamp(0.25rem, 0.3vw + 0.2rem, 0.5rem);
+  font-family: var(--font-stack-sans);
+  font-size: clamp(1rem, 0.2vw + 0.9rem, 1.1875rem);
+  font-weight: 300;
+  line-height: 145%;
+  letter-spacing: -0.01em;
+}
+
+.ContactSignUp_form__wMRUI {
+  max-width: 32rem;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.5s;
+}
+
+.ContactSignUp_form__wMRUI.ContactSignUp_isSubmitting__WiNyE {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.ContactSignUp_fieldWrapper__9wUtO {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.ContactSignUp_input__Jz9AT {
+  font-family: var(--font-stack-sans);
+  letter-spacing: -0.01em;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.5s;
+  flex: 1;
+  color: #000;
+  leading-trim: both;
+  text-edge: cap;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%;
+  letter-spacing: -0.08px;
+  background: none;
+  height: 100%;
+  width: 100%;
+  padding: 1rem 2.7rem 1rem 0.8rem;
+  border-radius: 8px;
+  background: hsla(0, 0%, 100%, 0.3);
+}
+
+.ContactSignUp_input__Jz9AT::placeholder {
+  color: #000;
+}
+
+.ContactSignUp_icon__984rC {
+  position: absolute;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.ContactSignUp_icon__984rC svg {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.5s;
+}
+
+.ContactSignUp_input__Jz9AT:active,
+.ContactSignUp_input__Jz9AT:focus {
+  background: hsla(0, 0%, 100%, 0.6);
+}
+
+.ContactSignUp_icon__984rC:active svg,
+.ContactSignUp_icon__984rC:focus svg {
+  transform: translateX(50%);
+}
+
+@media (hover: hover) {
+  .ContactSignUp_fieldWrapper__9wUtO:hover .ContactSignUp_input__Jz9AT {
+    background: hsla(0, 0%, 100%, 0.6);
+  }
+  .ContactSignUp_icon__984rC:hover svg {
+    transform: translateX(40%);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   MenuOverlay enter / exit.
+   The original drives this with Framer Motion variants (module 5299):
+     backdrop  { closed|open|exit } scaleY 0<->1, duration .45, ease [0,.55,.45,1]
+     list      open  { staggerChildren .02475, delayChildren .2025 }
+               closed{ staggerChildren .02475, staggerDirection -1 }
+     item      open  { opacity 1, y 0,   .45,  ease [.165,.84,.44,1] }
+               closed{ opacity 0, y -50, .225, ease [.895,.03,.685,.22] }
+     meta      open  { opacity 1, y 0, delay .3375, .45, ease [.165,.84,.44,1] }
+               closed{ opacity 0, y -10, .1125, ease [.895,.03,.685,.22] }
+   Implemented as CSS transitions (interruptible + reversible mid-flight) with
+   `--menu-index` / `--menu-count` driving the stagger.
+   -------------------------------------------------------------------------- */
+.Menu_backdrop {
+  transform-origin: top center;
+  transform: scaleY(0);
+  transition-property: transform;
+  transition-duration: 0.45s;
+  transition-timing-function: cubic-bezier(0, 0.55, 0.45, 1);
+}
+
+[data-menu-open="true"] .Menu_backdrop {
+  transform: scaleY(1);
+}
+
+.Menu_staggerItem {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition-property: opacity, transform;
+  transition-duration: 0.225s;
+  transition-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transition-delay: calc((var(--menu-count, 1) - 1 - var(--menu-index, 0)) * 0.02475s);
+}
+
+[data-menu-open="true"] .Menu_staggerItem {
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: 0.45s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-delay: calc(0.2025s + var(--menu-index, 0) * 0.02475s);
+}
+
+.Menu_meta {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition-property: opacity, transform;
+  transition-duration: 0.1125s;
+  transition-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+[data-menu-open="true"] .Menu_meta {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.3375s;
+  transition-duration: 0.45s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .Menu_backdrop,
+  .Menu_staggerItem,
+  .Menu_meta {
+    transition-duration: 1ms !important;
+    transition-delay: 0s !important;
+    transform: none !important;
+  }
+
+  [data-menu-open="true"] .Menu_backdrop,
+  [data-menu-open="false"] .Menu_backdrop {
+    transform: none !important;
+    opacity: 1;
+  }
+
+  .Menu_staggerItem,
+  .Menu_meta {
+    opacity: 1 !important;
+  }
+
+  .Button_main__NewW7,
+  .Button_main__NewW7:after,
+  .Button_main__NewW7:before,
+  .Menu_item__fjHgD,
+  .Menu_item__fjHgD:before,
+  .MotionLink_inner__hsBoJ span {
+    transition-duration: 1ms !important;
+  }
+}

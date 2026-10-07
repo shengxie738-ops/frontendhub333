@@ -1,0 +1,42 @@
+// Extracted verbatim from evidence\source-assets\js\app\page-4c279de0997d388f.js module 526 (729 chars)
+// Evidence: CONFIRMED-BUNDLE (original site GLSL source, minified bundle string literal)
+precision highp float;
+
+varying vec2 vUv;
+varying vec3 vPosition;
+varying float vRotation;
+varying float vFogAmount;
+
+uniform sampler2D uTexture;
+uniform float uTime;
+
+mat2 rotate(float angle) {
+	return mat2(
+		cos(angle), -sin(angle),
+		sin(angle), cos(angle)
+	);
+}
+
+
+void main() {
+
+
+
+  vec2 uv = gl_PointCoord;
+    vec2 pivot = vec2(0.5, 0.5);
+    float rads = (cos(uTime * vRotation *0.10 ) * 6.28) *360.0 * (3.14 / 180.0);
+
+    uv = uv - pivot;
+    uv = rotate(rads) * uv;
+    uv = uv + pivot;
+
+    vec4 color =texture2D(uTexture, uv);
+
+    float alpha= (cos(uTime+vRotation))*1.1;
+
+    // color.a+=alpha;
+
+    gl_FragColor = vec4(color.r, color.g, color.b, color.a * (1. - vFogAmount));
+
+		#include <colorspace_fragment>;
+}

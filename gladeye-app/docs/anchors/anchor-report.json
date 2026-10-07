@@ -1,0 +1,128 @@
+{
+ "/work": {
+  "origDocH": 7625,
+  "mineDocH": 7721,
+  "anchors": [
+   {
+    "text": "Where Opportunity Takes RootWhere Opportunit",
+    "origTop": 635,
+    "mineTop": 635,
+    "delta": 0
+   },
+   {
+    "text": "National Geographic National Geographic",
+    "origTop": 635,
+    "mineTop": 635,
+    "delta": 0
+   },
+   {
+    "text": "The DJ and the War CrimesThe DJ and the War ",
+    "origTop": 1286,
+    "mineTop": 1310,
+    "delta": 24
+   },
+   {
+    "text": "HyperCinemaHyperCinema",
+    "origTop": 1286,
+    "mineTop": 1310,
+    "delta": 24
+   },
+   {
+    "text": "CyberBrokersCyberBrokers",
+    "origTop": 1937,
+    "mineTop": 1985,
+    "delta": 48
+   },
+   {
+    "text": "The ExaminationThe Examination",
+    "origTop": 1937,
+    "mineTop": 1985,
+    "delta": 48
+   }
+  ]
+ },
+ "/about": {
+  "origDocH": 8654,
+  "mineDocH": 8639,
+  "anchors": [
+   {
+    "text": "Design createsthe future.Let's make itbeauti",
+    "origTop": 0,
+    "mineTop": 0,
+    "delta": 0
+   },
+   {
+    "text": "Design creates the future. Let's make it bea",
+    "origTop": 626,
+    "mineTop": 626,
+    "delta": 0
+   },
+   {
+    "text": "Who we are",
+    "origTop": 1039,
+    "mineTop": 1039,
+    "delta": 0
+   },
+   {
+    "text": "Gladeye is a creative digital agency from Ao",
+    "origTop": 1039,
+    "mineTop": 1039,
+    "delta": 0
+   },
+   {
+    "text": "Our services",
+    "origTop": 2155,
+    "mineTop": 2155,
+    "delta": 0
+   },
+   {
+    "text": "Digital",
+    "origTop": 2155,
+    "mineTop": 2155,
+    "delta": 0
+   }
+  ]
+ },
+ "/careers": {
+  "origDocH": 3221,
+  "mineDocH": 3221,
+  "anchors": [
+   {
+    "text": "Playful work for serious business",
+    "origTop": 156,
+    "mineTop": 156,
+    "delta": 0
+   },
+   {
+    "text": "Request a proposal",
+    "origTop": 1460,
+    "mineTop": 742,
+    "delta": -718
+   },
+   {
+    "text": "Subscribe toour newsletter",
+    "origTop": 1487,
+    "mineTop": 742,
+    "delta": -745
+   },
+   {
+    "text": "Follow us",
+    "origTop": 1528,
+    "mineTop": 809,
+    "delta": -719
+   },
+   {
+    "text": "Join the team",
+    "origTop": 1596,
+    "mineTop": 877,
+    "delta": -719
+   },
+   {
+    "text": "Find us",
+    "origTop": 1664,
+    "mineTop": 945,
+    "delta": -719
+   }
+  ]
+ }
+}

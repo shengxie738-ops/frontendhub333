@@ -1,0 +1,912 @@
+{
+ "route": "/work/hypercinema",
+ "imgs": [
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/ad1199426a/tss_portrait_hero.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/ad1199426a/tss_portrait_hero.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/50f2580af0/tss_landscape_hero.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/50f2580af0/tss_landscape_hero.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/48d25484b8/hc-behindthescenes3.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/48d25484b8/hc-behindthescenes3.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/b48380362c/hc-behindthescenes2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/b48380362c/hc-behindthescenes2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/28ba6088c8/hc-behindthescenes1.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/28ba6088c8/hc-behindthescenes1.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/86cf92e86f/hc-behindthescenes4.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/86cf92e86f/hc-behindthescenes4.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/cfabeec0d5/hc-behindthescenes5.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/cfabeec0d5/hc-behindthescenes5.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/55ee1ee088/hc-behindthescenes6.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/55ee1ee088/hc-behindthescenes6.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/5e1ba58310/hc-welcome.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/5e1ba58310/hc-welcome.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/e632ba776b/hc-photoprocess.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/e632ba776b/hc-photoprocess.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3563x5345/57c3f9f48b/dsc04150.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3563x5345/57c3f9f48b/dsc04150.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/43daf4b680/hc-questionaire.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/43daf4b680/hc-questionaire.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/1ffeeb60f5/hc-actispace.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/1ffeeb60f5/hc-actispace.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3312x3312/b00547bb01/331413-2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3312x3312/b00547bb01/331413-2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3312x3312/7276584371/20230933.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3312x3312/7276584371/20230933.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3312x3312/19209e1c67/148854-2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3312x3312/19209e1c67/148854-2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3312x3312/8b53e4606a/animal4-portrait.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3312x3312/8b53e4606a/animal4-portrait.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3312x3312/93fe157fb9/20230929.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3312x3312/93fe157fb9/20230929.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3312x3312/383f9ccaf2/147094-2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3312x3312/383f9ccaf2/147094-2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/0ecca24812/hc-act1-portrait1.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/0ecca24812/hc-act1-portrait1.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/9adf51ac77/hc-act1-portrait2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/9adf51ac77/hc-act1-portrait2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/610da31c62/hc-act2content6.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/610da31c62/hc-act2content6.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/32abae1865/hc-act2content7.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/32abae1865/hc-act2content7.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/488833d4e8/hc-act2content8.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/488833d4e8/hc-act2content8.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/9b4658f585/hc-act2content9.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/9b4658f585/hc-act2content9.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/4f38df51ca/hc-act2content10.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/4f38df51ca/hc-act2content10.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/c1b0771bcc/hc-act2content1.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/c1b0771bcc/hc-act2content1.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/9e69d89418/hc-act2content2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/9e69d89418/hc-act2content2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/a4fb59103a/hc-act2content3.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/a4fb59103a/hc-act2content3.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/9f941ee46c/hc-act2content4.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/9f941ee46c/hc-act2content4.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/69b359cd12/hc-act2content5.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/69b359cd12/hc-act2content5.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/ee1ee339a5/hc-act2space.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/ee1ee339a5/hc-act2space.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  }
+ ],
+ "vids": [
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/876948841/rendition/720p/file.mp4?loc=external&amp;log_user=0&amp;signature=2882d3f94306284656c661d8c2765eed8979ca1c9bc66ee5fb626fd7a9c05130\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/870861885/rendition/720p/file.mp4?loc=external&amp;log_user=0&amp;signature=11e8fb67eb3297b9f1a98075cace211abf36645b9ead6ea741cb601c31917b4f\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/877004633/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=67ea209fa977d34dcef1e2567286076811f14c578f8ce4aacb2ba1a081e7e6bb\" muted=\"\" loop=\"\" playsInline=\"\" color=\"#8DF37D\" _uid=\"b14428c6-fda8-406c-83ec-7862f44586f4\" cms_label=\"\" component=\"work_bloks_video\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/877005088/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=5b7dd84b8ef62e34bf2ddf7222aaa369d978787dd60d40416ad0fab3cf09bd40\" muted=\"\" loop=\"\" playsInline=\"\" color=\"#8DF37D\" _uid=\"fdc59470-b011-4715-ac27-ab046f83c1ba\" cms_label=\"\" component=\"work_bloks_video\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/877034203/rendition/540p/file.mp4?loc=external&amp;log_user=0&amp;signature=668adacef0014fcf774c653cca500f0592c6a9a2284b77cb2768c8fa08937119\" muted=\"\" loop=\"\" playsInline=\"\" color=\"#8DF37D\" _uid=\"27f35473-22e5-4ab6-b003-e9179827e7f2\" cms_label=\"\" component=\"work_bloks_video\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/877034601/rendition/540p/file.mp4?loc=external&amp;log_user=0&amp;signature=d8fb5f6ade43daeef3d6e2fe6c74ba01d88777a16641950779be5698222caa7d\" muted=\"\" loop=\"\" playsInline=\"\" color=\"#8DF37D\" _uid=\"58260407-ab65-40d3-ac95-6b03f00ef558\" cms_label=\"\" component=\"work_bloks_video\"></video>"
+ ],
+ "headings": [
+  {
+   "level": 1,
+   "html": "HyperCinema",
+   "text": "HyperCinema"
+  },
+  {
+   "level": 2,
+   "html": "HyperCinema: The AI-Powered Storytelling Platform",
+   "text": "HyperCinema: The AI-Powered Storytelling Platform"
+  },
+  {
+   "level": 3,
+   "html": "Client",
+   "text": "Client"
+  },
+  {
+   "level": 4,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" href=\"/ventures\"><span class=\"relative\"><span>Gladeye Ventures</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.2",
+   "text": "Gladeye Ventures"
+  },
+  {
+   "level": 3,
+   "html": "Category",
+   "text": "Category"
+  },
+  {
+   "level": 4,
+   "html": "Experiential",
+   "text": "Experiential"
+  },
+  {
+   "level": 3,
+   "html": "Date",
+   "text": "Date"
+  },
+  {
+   "level": 4,
+   "html": "2023 - ∞",
+   "text": "2023 - ∞"
+  },
+  {
+   "level": 3,
+   "html": "The Origin Story",
+   "text": "The Origin Story"
+  },
+  {
+   "level": 3,
+   "html": "Entering the Multiverse",
+   "text": "Entering the Multiverse"
+  },
+  {
+   "level": 3,
+   "html": "HyperCinema Auckland Unleashed",
+   "text": "HyperCinema Auckland Unleashed"
+  },
+  {
+   "level": 3,
+   "html": "Through the Looking Glass",
+   "text": "Through the Looking Glass"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span>As a cyber enforcement officer and compassionate reformer who saw his axis tilt in 2040 with a ghostly encounter that permeated his ethos. Could Miles, a hero steeped in magic and technology, be the one to save the streets of The City?<span>”</span>",
+   "text": "“As a cyber enforcement officer and compassionate reformer who saw his axis tilt in 2040 with a ghostly encounter that permeated his ethos. Could Miles, a hero steeped in magic and technology, be the one to save the streets of The City?”"
+  },
+  {
+   "level": 4,
+   "html": "HyperCinema",
+   "text": "HyperCinema"
+  },
+  {
+   "level": 5,
+   "html": "Alternate Lifetime of Dr Miles Gregory",
+   "text": "Alternate Lifetime of Dr Miles Gregory"
+  },
+  {
+   "level": 3,
+   "html": "Embracing Hallucinations",
+   "text": "Embracing Hallucinations"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span>What we&#x27;ve tapped into here is the power of AI to creatively hallucinate to invent new stories.<span>”</span>",
+   "text": "“What we&#x27;ve tapped into here is the power of AI to creatively hallucinate to invent new stories.”"
+  },
+  {
+   "level": 4,
+   "html": "Dr Miles Gregory",
+   "text": "Dr Miles Gregory"
+  },
+  {
+   "level": 5,
+   "html": "Co-Founder, HyperCinema",
+   "text": "Co-Founder, HyperCinema"
+  },
+  {
+   "level": 3,
+   "html": "The Generative AI Revolution",
+   "text": "The Generative AI Revolution"
+  },
+  {
+   "level": 3,
+   "html": "HyperCinema is an AI-Powered Experience Engine",
+   "text": "HyperCinema is an AI-Powered Experience Engine"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span>HyperCinema is delivering a highly personalized experience through AI which nobody&#x27;s ever done before.<span>”</span>",
+   "text": "“HyperCinema is delivering a highly personalized experience through AI which nobody&#x27;s ever done before.”"
+  },
+  {
+   "level": 4,
+   "html": "Gareth Hordyk",
+   "text": "Gareth Hordyk"
+  },
+  {
+   "level": 5,
+   "html": "Technical and Product Lead, HyperCinema",
+   "text": "Technical and Product Lead, HyperCinema"
+  },
+  {
+   "level": 3,
+   "html": "Up Next",
+   "text": "Up Next"
+  },
+  {
+   "level": 3,
+   "html": "Latitude",
+   "text": "Latitude"
+  },
+  {
+   "level": 4,
+   "html": "LatitudePay",
+   "text": "LatitudePay"
+  },
+  {
+   "level": 4,
+   "html": "Bringing the joy of <i>possibility </i>to personal finance",
+   "text": "Bringing the joy of possibility to personal finance"
+  },
+  {
+   "level": 2,
+   "html": "<span>Subscribe to<br/>our newsletter</span>",
+   "text": "Subscribe toour newsletter"
+  },
+  {
+   "level": 3,
+   "html": "Request a proposal",
+   "text": "Request a proposal"
+  },
+  {
+   "level": 3,
+   "html": "Follow us",
+   "text": "Follow us"
+  },
+  {
+   "level": 3,
+   "html": "Join the team",
+   "text": "Join the team"
+  },
+  {
+   "level": 3,
+   "html": "Find us",
+   "text": "Find us"
+  }
+ ],
+ "paragraphs": [
+  {
+   "html": "</path></svg></a></div><div class=\"flex justify-center Header_buttonContainer__rN6i5\"><button class=\"pointer-events-auto Header_button__qn2Wj Button_main__NewW7 Button_default__CcbQU\"><span class=\"Button_inner__d7ZPg\">Menu</span></button></div><div class=\"hidden w-[130px] justify-end md:flex\"><a class=\"pointer-events-auto\" aria-label=\"About\" href=\"/about\"></a></div></div></div><main style=\"--theme-primary:16 16 16;--theme-secondary:255 255 255;--theme-tertiary:255 255 255\" class=\"bg-black\"><div style=\"opacity:1\"><div class=\"relative z-main bg-theme-primary transition-bg duration-theme\"><sectio",
+   "text": "MenuHyperCinemaHyperCinema: The AI-Powered Storytelling PlatformVisit SiteHyperCinema is a groundbreaking entertainment and brand activation venture from Gladeye. The HyperCinema Engine blends storytelling with cutting-edge generative AI to create highly-personalised immersive experiences which make the viewer the star of every show."
+  },
+  {
+   "html": "</path></svg></span></span></a></div></h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Category</h3><h4>Experiential</h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Date</h3><h4>2023 - ∞</h4></div></div></div></div></div></section><section data-theme=\"light\" class=\"text-theme-secondary transition-colors duration-theme\"><div class=\"WrokBloks_main__IqYqU\"><div class=\"ui-grid mx-auto my-xl-20 max-w-site gap-y-6 md:my-xl-40\"><div class=\"col-span-full lg:col-span-7 xl:col-span-12\"><h3 class=\"t-p-md font-medium\"",
+   "text": "CategoryExperientialDate2023 - ∞The Origin StoryIn late 2022, we were experimenting with generative AI platforms and realised the storytelling capabilities of LLMs. We&#x27;d given ChatGPT3 a few details about Tarver Graham (Gladeye&#x27;s Founder) and it spun an intricate narrative of him as a brave guerrilla jungle fighter."
+  },
+  {
+   "html": "It was emotive, engaging, and surprisingly convincing. We realised that being able to generate a hyper-personalised narrative, then have that narrative generate imagery and sound; creates a brand new art form.",
+   "text": "It was emotive, engaging, and surprisingly convincing. We realised that being able to generate a hyper-personalised narrative, then have that narrative generate imagery and sound; creates a brand new art form."
+  },
+  {
+   "html": "<span style=\"color:rgb(16, 16, 16)\">Imagine having the power to step inside your favourite show and interact with it. What if you could influence a movie&#x27;s plot or outcomes based on real-time decisions? HyperCinema is beginning to make that possible.</span>",
+   "text": "Imagine having the power to step inside your favourite show and interact with it. What if you could influence a movie&#x27;s plot or outcomes based on real-time decisions? HyperCinema is beginning to make that possible."
+  },
+  {
+   "html": "We saw the potential of HyperCinema to be more than a single experience. It&#x27;s a platform for telling an infinite number of stories in any creative world you can imagine. But the platform needed a proof-of-concept, a showcase to focus our build and test the market.",
+   "text": "We saw the potential of HyperCinema to be more than a single experience. It&#x27;s a platform for telling an infinite number of stories in any creative world you can imagine. But the platform needed a proof-of-concept, a showcase to focus our build and test the market."
+  },
+  {
+   "html": "<span>We conceived of &quot;Enter the Multiverse&quot;, the first HyperCinema show, staged in a pop-up format for a 6 week season in Auckland, New Zealand. Through a series of milestones, we built the creative experience and the deep technical architecture to power it.</span>",
+   "text": "We conceived of &quot;Enter the Multiverse&quot;, the first HyperCinema show, staged in a pop-up format for a 6 week season in Auckland, New Zealand. Through a series of milestones, we built the creative experience and the deep technical architecture to power it."
+  },
+  {
+   "html": "<span>Codenames &quot;Te Kuiti&quot;, &quot;Hamilton&quot;, and eventually &quot;West-End!&quot; saw half of Gladeye&#x27;s agency become product team; creating the brand, venue design, back-end platform and API, workers to control the various generators, Cubes and sockets, Game and Merch UI, and more. </span>",
+   "text": "Codenames &quot;Te Kuiti&quot;, &quot;Hamilton&quot;, and eventually &quot;West-End!&quot; saw half of Gladeye&#x27;s agency become product team; creating the brand, venue design, back-end platform and API, workers to control the various generators, Cubes and sockets, Game and Merch UI, and more."
+  },
+  {
+   "html": "<span style=\"color:rgb(55, 65, 81)\">Our creative and technical teams collaborated alongside Dr Miles Gregory, who co-created the enormously successful Pop-Up Globe in Australasia, a full-scale replica of Shakespeare&#x27;s theatre which sold over 750,000 tickets; plus Technical Lead Gareth Hordyk (ex. Henson Creature Shop) and our friends at </span><a href=\"https://www.p22.studio/\" target=\"_blank\"><span style=\"color:rgb(55, 65, 81)\">P22 Studio</span></a><span style=\"color:rgb(55, 65, 81)\">. </span>",
+   "text": "Our creative and technical teams collaborated alongside Dr Miles Gregory, who co-created the enormously successful Pop-Up Globe in Australasia, a full-scale replica of Shakespeare&#x27;s theatre which sold over 750,000 tickets; plus Technical Lead Gareth Hordyk (ex. Henson Creature Shop) and our friends at P22 Studio."
+  },
+  {
+   "html": "We leased a historic space in Auckland, and transformed it into a sleek HyperCinema lobby, &quot;Cube&quot; personality capture area, and three unique experience spaces - &quot;The Ethereal Chamber&quot;, &quot;The Gallery&quot;, and &quot;The Cinema&quot;.",
+   "text": "We leased a historic space in Auckland, and transformed it into a sleek HyperCinema lobby, &quot;Cube&quot; personality capture area, and three unique experience spaces - &quot;The Ethereal Chamber&quot;, &quot;The Gallery&quot;, and &quot;The Cinema&quot;."
+  },
+  {
+   "html": "Heroes (ticket-holders) were welcomed into the HyperCinema lobby… Golden-Age Cinema meets Apple Store. There they are given a Cube - an RFID-enabled resin cube which stores their personality throughout and then purges their data on exit.",
+   "text": "Heroes (ticket-holders) were welcomed into the HyperCinema lobby… Golden-Age Cinema meets Apple Store. There they are given a Cube - an RFID-enabled resin cube which stores their personality throughout and then purges their data on exit."
+  },
+  {
+   "html": "Entering a photo booth they are captured from several angles; using a proprietary process alongside <a href=\"https://www.photoroom.com/\" target=\"_blank\">PhotoRoom</a> to generate a massive array of simulated photos - a virtual photo album of them which trains a Stable Diffusion model.",
+   "text": "Entering a photo booth they are captured from several angles; using a proprietary process alongside PhotoRoom to generate a massive array of simulated photos - a virtual photo album of them which trains a Stable Diffusion model."
+  },
+  {
+   "html": "They then play &quot;The Game&quot; a series of fun touchscreen questions which tailors their experience - generating unique, often hilarious plotlines and narrations.",
+   "text": "They then play &quot;The Game&quot; a series of fun touchscreen questions which tailors their experience - generating unique, often hilarious plotlines and narrations."
+  },
+  {
+   "html": "Some powerful (and impressively fast) global compute later and their first HyperCinema journey is ready to go.",
+   "text": "Some powerful (and impressively fast) global compute later and their first HyperCinema journey is ready to go."
+  },
+  {
+   "html": "HyperCinema Auckland blended multiple AI, art, and filmmaking techniques to create a series narrative experiences for each Hero…",
+   "text": "HyperCinema Auckland blended multiple AI, art, and filmmaking techniques to create a series narrative experiences for each Hero…"
+  },
+  {
+   "html": "Inside the &quot;Ethereal Chamber&quot; were psychedelic projections of humanity&#x27;s alternate futures  - arid desert wastelands, pulsing cyberpunk cities or luminescent underwater kingdoms. Animated prompt travelling blends in fascinating ways between scenes.",
+   "text": "Inside the &quot;Ethereal Chamber&quot; were psychedelic projections of humanity&#x27;s alternate futures  - arid desert wastelands, pulsing cyberpunk cities or luminescent underwater kingdoms. Animated prompt travelling blends in fascinating ways between scenes."
+  },
+  {
+   "html": "Then onto the &quot;Gallery&quot;, an ultra-&#x27;grammable art space where the Heroes browsed hi-res stills of themselves in epic moments - WW1, Burning Man, The Old West, Pirate Shipwrecks and Boxing Rings. From illustrative styles to eerily accurate photography; and next to each image. digital wall labels with fascinatingly weird stories of these alternate lives.",
+   "text": "Then onto the &quot;Gallery&quot;, an ultra-&#x27;grammable art space where the Heroes browsed hi-res stills of themselves in epic moments - WW1, Burning Man, The Old West, Pirate Shipwrecks and Boxing Rings. From illustrative styles to eerily accurate photography; and next to each image. digital wall labels with fascinatingly weird stories of these alternate lives."
+  },
+  {
+   "html": "Finally in the &quot;Cinema&quot;, luxury mini-theatres showed a series of Documentaries telling Heroes&#x27; Multiverse stories… The movies they starred in, their personal scandals, family dramas, and incredible legacies - uniquely generated for that person and featuring them inside the videos, plus an interview with their future adult grandchild.",
+   "text": "Finally in the &quot;Cinema&quot;, luxury mini-theatres showed a series of Documentaries telling Heroes&#x27; Multiverse stories… The movies they starred in, their personal scandals, family dramas, and incredible legacies - uniquely generated for that person and featuring them inside the videos, plus an interview with their future adult grandchild."
+  },
+  {
+   "html": "The HyperCinema Engine has powerful controls that let us define what &quot;rails&quot; each experience goes on. We can choose how fixed or free the narrative is; from pre-generated video sequences where the viewers facial model is wrapped onto a character… to expansive AI-generated video, sound, and image sequences generated from scratch and which can be truly surprising. And it&#x27;s trained to avoid inappropriate content and ensure accuracy of skin-tone and identified gender and race.",
+   "text": "The HyperCinema Engine has powerful controls that let us define what &quot;rails&quot; each experience goes on. We can choose how fixed or free the narrative is; from pre-generated video sequences where the viewers facial model is wrapped onto a character… to expansive AI-generated video, sound, and image sequences generated from scratch and which can be truly surprising. And it&#x27;s trained to avoid inappropriate content and ensure accuracy of skin-tone and identified gender and race."
+  },
+  {
+   "html": "But for the &quot;Enter the Multiverse&quot; we wanted to <i>embrace</i> weirdness, to show people the unexpected and playful things created by generative AI&#x27;s &quot;hallucinations&quot;. Witness for instance, tiny cute animals growing from Heroes&#x27; arms, or giant giraffe legs on their 1950&#x27;s housewife doppelganger.",
+   "text": "But for the &quot;Enter the Multiverse&quot; we wanted to embrace weirdness, to show people the unexpected and playful things created by generative AI&#x27;s &quot;hallucinations&quot;. Witness for instance, tiny cute animals growing from Heroes&#x27; arms, or giant giraffe legs on their 1950&#x27;s housewife doppelganger."
+  },
+  {
+   "html": "The traditional cinematic experience is a passive one. Video gaming upended this and  dominated the entertainment industry with immersive worlds that users can customise and move in.",
+   "text": "The traditional cinematic experience is a passive one. Video gaming upended this and  dominated the entertainment industry with immersive worlds that users can customise and move in."
+  },
+  {
+   "html": "But with Generative AI, new worlds are created uniquely for visitors every  time.",
+   "text": "But with Generative AI, new worlds are created uniquely for visitors every  time."
+  },
+  {
+   "html": "It&#x27;s the start of a new kind of entertainment and brand experience that will eventually be created in real-time in direct response to our preferences and mood. In this new paradigm a creative IP or brand is the host<span style=\"color:rgb(32, 33, 36)\">—</span>they provide raw material and rules which generate unique worlds in which fans and customers immerse themselves.",
+   "text": "It&#x27;s the start of a new kind of entertainment and brand experience that will eventually be created in real-time in direct response to our preferences and mood. In this new paradigm a creative IP or brand is the host—they provide raw material and rules which generate unique worlds in which fans and customers immerse themselves."
+  },
+  {
+   "html": "Welcome to Chapter One.",
+   "text": "Welcome to Chapter One."
+  },
+  {
+   "html": "We are currently exploring partnerships with international brands and producers to create immersive experiences for audiences globally.",
+   "text": "We are currently exploring partnerships with international brands and producers to create immersive experiences for audiences globally."
+  },
+  {
+   "html": "HyperCinema will support:",
+   "text": "HyperCinema will support:"
+  },
+  {
+   "html": "In-person temporary brand activations - events such as the olympics, trade shows, product launches,",
+   "text": "In-person temporary brand activations - events such as the olympics, trade shows, product launches,"
+  },
+  {
+   "html": "Semi-permanent or permanent visitor experiences - tourism, heritage and culture sites,",
+   "text": "Semi-permanent or permanent visitor experiences - tourism, heritage and culture sites,"
+  },
+  {
+   "html": "Permanent HyperCinema experiences - theme parks, airports, cinemas.",
+   "text": "Permanent HyperCinema experiences - theme parks, airports, cinemas."
+  },
+  {
+   "html": "The platform is modular and highly-configurable, taking any kind of Input (a single photo, multiple images, sketches, video, voice); through a configured Engine (brand messages, story beats, artwork style, realism level), to generate any possible Output (short films, gifs, social posts, artworks, merchandise).",
+   "text": "The platform is modular and highly-configurable, taking any kind of Input (a single photo, multiple images, sketches, video, voice); through a configured Engine (brand messages, story beats, artwork style, realism level), to generate any possible Output (short films, gifs, social posts, artworks, merchandise)."
+  },
+  {
+   "html": "<span style=\"color:rgb(16, 16, 16)\">Over a six week season the showcase HyperCinema welcomed thousands of Heroes in sold out sessions that surprised and delighted New Zealand audiences. Now we open up HyperCinema to brands and creative teams around the world. </span>",
+   "text": "Over a six week season the showcase HyperCinema welcomed thousands of Heroes in sold out sessions that surprised and delighted New Zealand audiences. Now we open up HyperCinema to brands and creative teams around the world."
+  },
+  {
+   "html": "<span>Reach out to </span><a href=\"mailto:hello@hypercinema.ai\"><span>hello@hypercinema.ai</span></a><span> to arrange a video call.</span>",
+   "text": "Reach out to hello@hypercinema.ai to arrange a video call."
+  },
+  {
+   "html": "</path></svg></div></a></div></div></div></section></div><div class=\"z-Main min-h-[100vh] w-full desktop:h-auto desktop:aspect-[1728/600]\"></div><footer class=\"lg:fixed lg:flex lg:items-center inset-x-0 bottom-0 z-Footer bg-yellow lg:justify-center min-h-[100vh] w-full desktop:h-auto desktop:aspect-[1728/600]\" data-theme=\"yellow\" data-scroll-lock-fill-gap=\"true\"><div class=\"absolute inset-x-0 bottom-full h-[20vh]  bg-yellow\"></div><div style=\"transform:none\" class=\"ui-grid w-full max-w-site gap-y-12 pb-32 pt-32 lg:gap-y-0\"><div class=\"col-span-full lg:col-span-11 lg:col-start-3 xl:col-span-8 x",
+   "text": "Subscribe toour newsletterRequest a proposalhello@gladeye.comhello@gladeye.comFollow usInstagramInstagram|LinkedInLinkedIn|XXJoin the teamcareers@gladeye.comcareers@gladeye.comFind us29 Princes Street, Auckland 101029 Princes Street, Auckland 1010© Gladeye 2025"
+  }
+ ],
+ "links": [
+  {
+   "href": "/",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "/about",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "https://www.hypercinema.ai/",
+   "text": "Visit Site",
+   "cls": "Button_main__NewW7 Button_default__CcbQU"
+  },
+  {
+   "href": "/ventures",
+   "text": "Gladeye Ventures",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://www.p22.studio/",
+   "text": "P22 Studio"
+  },
+  {
+   "href": "https://www.photoroom.com/",
+   "text": "PhotoRoom"
+  },
+  {
+   "href": "mailto:hello@hypercinema.ai",
+   "text": "hello@hypercinema.ai"
+  },
+  {
+   "href": "/work/latitudepay",
+   "text": "Next Project",
+   "cls": "Button_main__NewW7 Button_default__CcbQU Button_ghost__gZqlA"
+  },
+  {
+   "href": "mailto:hello@gladeye.com",
+   "text": "hello@gladeye.comhello@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.instagram.com/gladeyedigital/",
+   "text": "InstagramInstagram",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://linkedin.com/company/gladeye",
+   "text": "LinkedInLinkedIn",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://twitter.com/gladeye",
+   "text": "XX",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "mailto:careers@gladeye.com",
+   "text": "careers@gladeye.comcareers@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.google.com/maps/place/Gladeye/@-36.8497288,174.7662306,17z/data=!3m1!4b1!4m6!3m5!1s0x6d0d480fd64adab1:0xfa505ffed6ead32a!8m2!3d-36.8497288!4d174.7688055!16s%2Fg%2F1q5gm4f92?entry=ttu",
+   "text": "29 Princes Street, Auckland 101029 Princes Street, Auckland 1010",
+   "cls": "MotionLink_main__kgq4W"
+  }
+ ],
+ "svgCount": 6,
+ "svgs": [
+  "<svg viewBox=\"0 0 2401 590\" class=\"h-auto w-full fill-current\"><path d=\"M577.79 473.96h-86.85V.2h86.85v473.76Zm315.55-34.35c-13.61 16.85-47.96 40.18-103.69 40.18-105.64 0-177.58-71.94-177.58-179.52S683.36 121.4 789.65 121.4c42.77 0 82.31 15.55 102.4 38.24v-32.4h82.31v346.72h-81.01v-34.35Zm-98.51-36.94c58.33 0 95.27-43.42 95.27-102.4s-39.53-101.75-95.27-101.75c-58.98 0-95.92 44.07-95.92 101.75s38.89 102.4 95.92 102.4Zm495.34 36.94c-20.74 22.04-58.33 40.18-102.4 40.18-107.58 0-178.87-73.88-178.87-178.23s71.29-180.17 175.63-180.17c44.07 0 78.42 14.26 99.81 33.7V.2h86.84v473.76h-81.01v-34.35Zm-98.51-37.59c58.33 0 95.27-44.07 95.27-101.75s-38.24-101.75-95.27-101.75-95.92 44.07-95.92 101.75 39.54 101.75 95.92 101.75Zm304.73-73.23c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm316.79 324.02 46.66-127.03-132.21-333.12h95.92l81.01 215.17 78.42-215.17h89.44l-174.99 460.15h-84.25Zm336.41-258.56c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm-1798.2-34.75H243.77v84.75H352.8v35.82l-10.84 10.07c-18.8 19.44-55.09 39.53-106.94 39.53-81.01 0-140.64-58.98-140.64-149.71s55.74-148.41 136.75-148.41c59.62 0 93.33 29.16 114.06 57.03l69.99-51.85c-31.11-47.96-89.44-88.79-184.06-88.79C92.44 17.05.41 121.39.41 249.07c0 139.34 93.97 232.67 230.72 232.67 24.9 0 46.59-3.69 64.99-9.65.05 0 .1-.02.15-.05 2.59-.85 5.16-1.72 7.63-2.67 15.15-5.71 27.79-12.99 37.91-20.89.23-.17 5.29-4.11 10.99-8.52v33.98h84.75V310.82c0-45.37-36.89-82.26-82.26-82.26v.02Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>"
+ ],
+ "themes": [
+  "--theme-primary:16 16 16",
+  "--theme-secondary:255 255 255",
+  "--theme-tertiary:255 255 255",
+  "--theme-header:255 255 255",
+  "--theme-header-secondary:125 125 125",
+  "--theme-header-button-text-default:255 255 255",
+  "--theme-header-button-text-roll-over:0 0 0",
+  "--theme-header-button-bg-default:125 125 125",
+  "--theme-header-button-bg-roll-over:255 255 255"
+ ],
+ "title": ""
+}

@@ -1,0 +1,542 @@
+{
+  "_uid": "c2bd4a31-8559-444d-8f08-f5bfb011c85b",
+  "route": "/contact",
+  "storyUuid": "7020739a-da20-40d1-b193-ec5e96bc6873",
+  "storyName": "Contact",
+  "publishedAt": "2023-09-25T00:07:19.827Z",
+  "firstPublishedAt": "2023-09-05T07:59:25.595Z",
+  "component": "contact",
+  "sourceHtml": "evidence/source-pages/_contact.html",
+  "cssModule": {
+    "name": "ContactGreeting",
+    "mainClass": "ContactGreeting_main__A_f__",
+    "sourceCss": "/_next/static/css/0b3a3a603128fa66.css"
+  },
+  "seo": {
+    "_uid": "605aba6e-41c0-4237-8c3c-301798cc9690",
+    "title": "Contact Gladeye",
+    "description": "For beautiful brand identities and mind-blowing digital experiences, Gladeye works from Auckland, New Zealand with clients around the world. Bring your brand to life in digital. Reach out and say hello@gladeye.com"
+  },
+  "theme": "yellow",
+  "greetings": {
+    "order": 0,
+    "sourceField": "greetings",
+    "raw": "Hi, Kia Ora, Hello, G'day, Howdy, Bula, Bonjour, Mālō, Talofa, Halo, Hai, Kamusta, Konnichiwa, Sawasdee, Xin chào, Chum reap suor, Ayubowan, Namaste, How are you?, Salam, Sälem, Kuzu zangpo, Barev, Gamarjoba, Yia sas, Shalom, Ciao, Bongu, Tungjatjeta, Zdravo, Bok, Živjo, Hallo, Moien, Cześć, Hi, Dia dhuit, Hola, Hej, Tere, Sveiki, Labas, Halló, Aluu, Oi, Dumela, Mhoro, Salama, Bonzour, Jambo, Sasa, Salaam, Gyezaho, Muraho, Amahoro, Shikamoo, Fofo, I ni sogoma, Bonswa, Kushe, Akwaaba, Alafia, Mbote, Yoooooooooooooooooo, 🤙☎️",
+    "list": [
+      "Hi",
+      "Kia Ora",
+      "Hello",
+      "G'day",
+      "Howdy",
+      "Bula",
+      "Bonjour",
+      "Mālō",
+      "Talofa",
+      "Halo",
+      "Hai",
+      "Kamusta",
+      "Konnichiwa",
+      "Sawasdee",
+      "Xin chào",
+      "Chum reap suor",
+      "Ayubowan",
+      "Namaste",
+      "How are you?",
+      "Salam",
+      "Sälem",
+      "Kuzu zangpo",
+      "Barev",
+      "Gamarjoba",
+      "Yia sas",
+      "Shalom",
+      "Ciao",
+      "Bongu",
+      "Tungjatjeta",
+      "Zdravo",
+      "Bok",
+      "Živjo",
+      "Hallo",
+      "Moien",
+      "Cześć",
+      "Hi",
+      "Dia dhuit",
+      "Hola",
+      "Hej",
+      "Tere",
+      "Sveiki",
+      "Labas",
+      "Halló",
+      "Aluu",
+      "Oi",
+      "Dumela",
+      "Mhoro",
+      "Salama",
+      "Bonzour",
+      "Jambo",
+      "Sasa",
+      "Salaam",
+      "Gyezaho",
+      "Muraho",
+      "Amahoro",
+      "Shikamoo",
+      "Fofo",
+      "I ni sogoma",
+      "Bonswa",
+      "Kushe",
+      "Akwaaba",
+      "Alafia",
+      "Mbote",
+      "Yoooooooooooooooooo",
+      "🤙☎️"
+    ],
+    "count": 65,
+    "domEvidence": {
+      "mainClass": "ContactGreeting_main__A_f__",
+      "wrapperClass": "w-full overflow-hidden",
+      "trackClass": "flex items-end",
+      "itemClass": "pr-xl-14 shrink-0",
+      "copiesInDom": 2,
+      "copyLengths": [
+        65,
+        65
+      ],
+      "idsOnFirstCopyOnly": [
+        true,
+        true
+      ],
+      "firstIds": [
+        "_0",
+        "_1",
+        "_2"
+      ],
+      "lastId": "_64",
+      "renderedWithTrailingComma": [
+        "Hi,",
+        "Kia Ora,",
+        "Hello,"
+      ],
+      "mainCssDeclaration": "pointer-events:none;position:relative;z-index:30;padding-bottom:clamp(.75rem,1.5vw + .4rem,2rem)",
+      "mainCssDeclarationSmall": "@media (min-width:640px){padding-top:clamp(.75rem,1.5vw + .4rem,2rem);padding-bottom:clamp(.75rem,1.5vw + .4rem,2rem)}",
+      "typographyCss": "font-size:clamp(6.25rem,11.1vw + 3.7rem,15.625rem);font-family:Epicene,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;font-weight:300;line-height:130%;letter-spacing:-.03em",
+      "cssKeyframesPresent": false
+    },
+    "items": [
+      {
+        "order": 0,
+        "id": "_0",
+        "rendered": "Hi,"
+      },
+      {
+        "order": 1,
+        "id": "_1",
+        "rendered": "Kia Ora,"
+      },
+      {
+        "order": 2,
+        "id": "_2",
+        "rendered": "Hello,"
+      },
+      {
+        "order": 3,
+        "id": "_3",
+        "rendered": "G'day,"
+      },
+      {
+        "order": 4,
+        "id": "_4",
+        "rendered": "Howdy,"
+      },
+      {
+        "order": 5,
+        "id": "_5",
+        "rendered": "Bula,"
+      },
+      {
+        "order": 6,
+        "id": "_6",
+        "rendered": "Bonjour,"
+      },
+      {
+        "order": 7,
+        "id": "_7",
+        "rendered": "Mālō,"
+      },
+      {
+        "order": 8,
+        "id": "_8",
+        "rendered": "Talofa,"
+      },
+      {
+        "order": 9,
+        "id": "_9",
+        "rendered": "Halo,"
+      },
+      {
+        "order": 10,
+        "id": "_10",
+        "rendered": "Hai,"
+      },
+      {
+        "order": 11,
+        "id": "_11",
+        "rendered": "Kamusta,"
+      },
+      {
+        "order": 12,
+        "id": "_12",
+        "rendered": "Konnichiwa,"
+      },
+      {
+        "order": 13,
+        "id": "_13",
+        "rendered": "Sawasdee,"
+      },
+      {
+        "order": 14,
+        "id": "_14",
+        "rendered": "Xin chào,"
+      },
+      {
+        "order": 15,
+        "id": "_15",
+        "rendered": "Chum reap suor,"
+      },
+      {
+        "order": 16,
+        "id": "_16",
+        "rendered": "Ayubowan,"
+      },
+      {
+        "order": 17,
+        "id": "_17",
+        "rendered": "Namaste,"
+      },
+      {
+        "order": 18,
+        "id": "_18",
+        "rendered": "How are you?,"
+      },
+      {
+        "order": 19,
+        "id": "_19",
+        "rendered": "Salam,"
+      },
+      {
+        "order": 20,
+        "id": "_20",
+        "rendered": "Sälem,"
+      },
+      {
+        "order": 21,
+        "id": "_21",
+        "rendered": "Kuzu zangpo,"
+      },
+      {
+        "order": 22,
+        "id": "_22",
+        "rendered": "Barev,"
+      },
+      {
+        "order": 23,
+        "id": "_23",
+        "rendered": "Gamarjoba,"
+      },
+      {
+        "order": 24,
+        "id": "_24",
+        "rendered": "Yia sas,"
+      },
+      {
+        "order": 25,
+        "id": "_25",
+        "rendered": "Shalom,"
+      },
+      {
+        "order": 26,
+        "id": "_26",
+        "rendered": "Ciao,"
+      },
+      {
+        "order": 27,
+        "id": "_27",
+        "rendered": "Bongu,"
+      },
+      {
+        "order": 28,
+        "id": "_28",
+        "rendered": "Tungjatjeta,"
+      },
+      {
+        "order": 29,
+        "id": "_29",
+        "rendered": "Zdravo,"
+      },
+      {
+        "order": 30,
+        "id": "_30",
+        "rendered": "Bok,"
+      },
+      {
+        "order": 31,
+        "id": "_31",
+        "rendered": "Živjo,"
+      },
+      {
+        "order": 32,
+        "id": "_32",
+        "rendered": "Hallo,"
+      },
+      {
+        "order": 33,
+        "id": "_33",
+        "rendered": "Moien,"
+      },
+      {
+        "order": 34,
+        "id": "_34",
+        "rendered": "Cześć,"
+      },
+      {
+        "order": 35,
+        "id": "_35",
+        "rendered": "Hi,"
+      },
+      {
+        "order": 36,
+        "id": "_36",
+        "rendered": "Dia dhuit,"
+      },
+      {
+        "order": 37,
+        "id": "_37",
+        "rendered": "Hola,"
+      },
+      {
+        "order": 38,
+        "id": "_38",
+        "rendered": "Hej,"
+      },
+      {
+        "order": 39,
+        "id": "_39",
+        "rendered": "Tere,"
+      },
+      {
+        "order": 40,
+        "id": "_40",
+        "rendered": "Sveiki,"
+      },
+      {
+        "order": 41,
+        "id": "_41",
+        "rendered": "Labas,"
+      },
+      {
+        "order": 42,
+        "id": "_42",
+        "rendered": "Halló,"
+      },
+      {
+        "order": 43,
+        "id": "_43",
+        "rendered": "Aluu,"
+      },
+      {
+        "order": 44,
+        "id": "_44",
+        "rendered": "Oi,"
+      },
+      {
+        "order": 45,
+        "id": "_45",
+        "rendered": "Dumela,"
+      },
+      {
+        "order": 46,
+        "id": "_46",
+        "rendered": "Mhoro,"
+      },
+      {
+        "order": 47,
+        "id": "_47",
+        "rendered": "Salama,"
+      },
+      {
+        "order": 48,
+        "id": "_48",
+        "rendered": "Bonzour,"
+      },
+      {
+        "order": 49,
+        "id": "_49",
+        "rendered": "Jambo,"
+      },
+      {
+        "order": 50,
+        "id": "_50",
+        "rendered": "Sasa,"
+      },
+      {
+        "order": 51,
+        "id": "_51",
+        "rendered": "Salaam,"
+      },
+      {
+        "order": 52,
+        "id": "_52",
+        "rendered": "Gyezaho,"
+      },
+      {
+        "order": 53,
+        "id": "_53",
+        "rendered": "Muraho,"
+      },
+      {
+        "order": 54,
+        "id": "_54",
+        "rendered": "Amahoro,"
+      },
+      {
+        "order": 55,
+        "id": "_55",
+        "rendered": "Shikamoo,"
+      },
+      {
+        "order": 56,
+        "id": "_56",
+        "rendered": "Fofo,"
+      },
+      {
+        "order": 57,
+        "id": "_57",
+        "rendered": "I ni sogoma,"
+      },
+      {
+        "order": 58,
+        "id": "_58",
+        "rendered": "Bonswa,"
+      },
+      {
+        "order": 59,
+        "id": "_59",
+        "rendered": "Kushe,"
+      },
+      {
+        "order": 60,
+        "id": "_60",
+        "rendered": "Akwaaba,"
+      },
+      {
+        "order": 61,
+        "id": "_61",
+        "rendered": "Alafia,"
+      },
+      {
+        "order": 62,
+        "id": "_62",
+        "rendered": "Mbote,"
+      },
+      {
+        "order": 63,
+        "id": "_63",
+        "rendered": "Yoooooooooooooooooo,"
+      },
+      {
+        "order": 64,
+        "id": "_64",
+        "rendered": "🤙☎️,"
+      }
+    ]
+  },
+  "intro": {
+    "order": 1,
+    "className": "t-p max-w-[600px] font-normal md:t-p-md md:font-normal",
+    "text": "We work with clients around the world to energise their brands, tell their stories and engage deeply with people."
+  },
+  "blocks": {
+    "order": 2,
+    "wrapperClass": "t-contact-meta space-y-6",
+    "groups": [
+      {
+        "heading": "Request a proposal",
+        "headingClass": "font-light",
+        "wrapperClass": "flex items-center gap-2 font-medium",
+        "linkClass": "MotionLink_main__kgq4W pointer-events-auto",
+        "innerClass": "MotionLink_inner__hsBoJ",
+        "items": [
+          {
+            "label": "hello@gladeye.com",
+            "href": "mailto:hello@gladeye.com",
+            "target": null,
+            "rel": null,
+            "separator": null,
+            "spans": 2
+          }
+        ]
+      },
+      {
+        "heading": "Follow us",
+        "headingClass": "font-light",
+        "wrapperClass": "flex items-center gap-2 font-medium",
+        "linkClass": "MotionLink_main__kgq4W pointer-events-auto",
+        "innerClass": "MotionLink_inner__hsBoJ",
+        "items": [
+          {
+            "label": "Instagram",
+            "href": "https://www.instagram.com/gladeyedigital/",
+            "target": "_blank",
+            "rel": "nofollow noopener",
+            "separator": "|",
+            "spans": 2
+          },
+          {
+            "label": "LinkedIn",
+            "href": "https://linkedin.com/company/gladeye",
+            "target": "_blank",
+            "rel": "nofollow noopener",
+            "separator": "|",
+            "spans": 2
+          },
+          {
+            "label": "X",
+            "href": "https://twitter.com/gladeye",
+            "target": "_blank",
+            "rel": "nofollow noopener",
+            "separator": null,
+            "spans": 2
+          }
+        ]
+      },
+      {
+        "heading": "Join the team",
+        "headingClass": "font-light",
+        "wrapperClass": "flex items-center gap-2 font-medium",
+        "linkClass": "MotionLink_main__kgq4W pointer-events-auto",
+        "innerClass": "MotionLink_inner__hsBoJ",
+        "items": [
+          {
+            "label": "careers@gladeye.com",
+            "href": "mailto:careers@gladeye.com",
+            "target": "_self",
+            "rel": null,
+            "separator": null,
+            "spans": 2
+          }
+        ]
+      }
+    ]
+  },
+  "copyrightInPage": {
+    "order": 3,
+    "text": "© Gladeye 2023"
+  },
+  "nonAsciiGreetings": [
+    "Mālō",
+    "Xin chào",
+    "Sälem",
+    "Živjo",
+    "Cześć",
+    "Halló",
+    "🤙☎️"
+  ]
+}

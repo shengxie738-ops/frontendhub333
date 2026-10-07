@@ -1,0 +1,11 @@
+asset={"generator":"Khronos glTF Blender I/O v3.2.43","version":"2.0"} scene=0
+node[0] Camera translation=undefined rotation=[0,-0.03702882304787636,0,0.9993141889572144] scale=undefined mesh=undefined children=undefined
+anim[0] Action.001 channels=3
+  ch target.node=0 path=translation sampler=0
+  ch target.node=0 path=rotation sampler=1
+  ch target.node=0 path=scale sampler=2
+  sampler[0] interpolation=LINEAR input(count=200 type=SCALAR min=[0] max=[8.291666666666666]) output(count=200 type=VEC3 min=undefined max=undefined)
+  sampler[1] interpolation=LINEAR input(count=200 type=SCALAR min=[0] max=[8.291666666666666]) output(count=200 type=VEC4 min=undefined max=undefined)
+  sampler[2] interpolation=LINEAR input(count=200 type=SCALAR min=[0] max=[8.291666666666666]) output(count=200 type=VEC3 min=undefined max=undefined)
+buffers=[{"byteLength":8800}] bufferViews=4 accessors=4
+cameras=[{"name":"Camera.001","perspective":{"aspectRatio":1.7777777777777777,"yfov":0.39959648408210363,"zfar":1000,"znear":0.10000000149011612},"type":"perspective"}] skins=undefined materials=[]

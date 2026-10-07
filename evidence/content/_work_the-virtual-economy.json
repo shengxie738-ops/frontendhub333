@@ -1,0 +1,729 @@
+{
+ "route": "/work/the-virtual-economy",
+ "imgs": [
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/da1af7df29/virtual-economy-cover-portrait.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/da1af7df29/virtual-economy-cover-portrait.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5120x2880/379a0252cc/virtual-cover.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5120x2880/379a0252cc/virtual-cover.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/8ed2fb87c1/virtual-1.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/8ed2fb87c1/virtual-1.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/99a590b35d/virtual-2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/99a590b35d/virtual-2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/d144ef8706/virtual-3.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/d144ef8706/virtual-3.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/aeb371741a/virtual-4.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/aeb371741a/virtual-4.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/cbe52d4615/virtual-5.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/cbe52d4615/virtual-5.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/06b52565e7/virtual-6.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/06b52565e7/virtual-6.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/07ec124e3d/virtual-7.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/07ec124e3d/virtual-7.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5120x2881/35592ceb3f/virtual-purps.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5120x2881/35592ceb3f/virtual-purps.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3072x2048/67b983ddbb/virtual-a.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3072x2048/67b983ddbb/virtual-a.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3072x2048/a7509c93b0/virtual-b.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3072x2048/a7509c93b0/virtual-b.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3072x2048/ea2926f522/virtual-e.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3072x2048/ea2926f522/virtual-e.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3072x2048/31fa734d47/virtual-g.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3072x2048/31fa734d47/virtual-g.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3072x2048/87a3880b3a/virtual-f.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3072x2048/87a3880b3a/virtual-f.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4436x2481/1690e02562/virtual-mob.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4436x2481/1690e02562/virtual-mob.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2800x2800/a3cd8128a1/virtualeconomy_square_1.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2800x2800/a3cd8128a1/virtualeconomy_square_1.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2800x2800/066b5c377a/virtualeconomy_square_3.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2800x2800/066b5c377a/virtualeconomy_square_3.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2800x2800/faefafbabf/virtualeconomy_square_2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2800x2800/faefafbabf/virtualeconomy_square_2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2800x2800/ab9d27429a/virtualeconomy_square_hero_4.jpeg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2800x2800/ab9d27429a/virtualeconomy_square_hero_4.jpeg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  }
+ ],
+ "vids": [
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/857417516/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=3bf2f9348042d4b0df76cf7d23b2fd3b4bd97444d3c6d6a5aa94d3a8eec438c5\" muted=\"\" loop=\"\" playsInline=\"\" color=\"#a243ff\" _uid=\"e497633c-387a-485a-9863-bea9db96ae31\" cms_label=\"\" component=\"work_bloks_video\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/857784989/rendition/720p/file.mp4?loc=external&amp;log_user=0&amp;signature=f875107fe91664fda1bb08273de42e8745a593e0ca7fb86b12d50d6314d9abab\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/857417281/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=49c1d9d315ba33e156b23b4855b2492f894504c0f72beaf040d745e419b755bf\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/857784858/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=2b5fe9eb2e15a2a498bf197120893c3e581eb867b6f299829ea9fbc25b176ff4\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/856092614/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=b6928945ea14f862b1e29c94c2f62220b842c6145417a85589c1f743fd359f2b\" muted=\"\" loop=\"\" playsInline=\"\" color=\"#a243ff\" _uid=\"dd4563f6-320b-4e97-bcf1-66e119ad933e\" cms_label=\"\" component=\"work_bloks_video\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/856094033/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=e1594ee26dc3864b21ab36ca01c0dd87714d4b5f23c6f9a27e1e664097009710\" muted=\"\" loop=\"\" playsInline=\"\" color=\"#a243ff\" _uid=\"abe70280-c7f9-4d64-a50d-8eddcc7e18c8\" cms_label=\"\" component=\"work_bloks_video\"></video>"
+ ],
+ "headings": [
+  {
+   "level": 1,
+   "html": "The Virtual Economy",
+   "text": "The Virtual Economy"
+  },
+  {
+   "level": 2,
+   "html": "Exploring <i>new economies </i>forming in our digital lives",
+   "text": "Exploring new economies forming in our digital lives"
+  },
+  {
+   "level": 3,
+   "html": "Client",
+   "text": "Client"
+  },
+  {
+   "level": 4,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://atelier.net/\"><span class=\"relative\"><span>L’Atelier BNP Paribas</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.0",
+   "text": "L’Atelier BNP Paribas"
+  },
+  {
+   "level": 3,
+   "html": "Category",
+   "text": "Category"
+  },
+  {
+   "level": 4,
+   "html": "Storytelling",
+   "text": "Storytelling"
+  },
+  {
+   "level": 3,
+   "html": "Date",
+   "text": "Date"
+  },
+  {
+   "level": 4,
+   "html": "2020",
+   "text": "2020"
+  },
+  {
+   "level": 3,
+   "html": "Digital landscapes",
+   "text": "Digital landscapes"
+  },
+  {
+   "level": 3,
+   "html": "Showing futures past",
+   "text": "Showing futures past"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span>We wanted to immerse readers into this virtual world, reinforcing the deep-dive approach of the article.<span>”</span>",
+   "text": "“We wanted to immerse readers into this virtual world, reinforcing the deep-dive approach of the article.”"
+  },
+  {
+   "level": 4,
+   "html": "Conrad Blight",
+   "text": "Conrad Blight"
+  },
+  {
+   "level": 5,
+   "html": "Engagement Director",
+   "text": "Engagement Director"
+  },
+  {
+   "level": 3,
+   "html": "WebGL camera moves",
+   "text": "WebGL camera moves"
+  },
+  {
+   "level": 3,
+   "html": "3D space cargo",
+   "text": "3D space cargo"
+  },
+  {
+   "level": 3,
+   "html": "Low poly, high value",
+   "text": "Low poly, high value"
+  },
+  {
+   "level": 3,
+   "html": "Digital paradise",
+   "text": "Digital paradise"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span>Gladeye&#x27;s work for our Virtual Economy project was more than design amplifying a narrative. It was a visual draft of the future. <span>”</span>",
+   "text": "“Gladeye&#x27;s work for our Virtual Economy project was more than design amplifying a narrative. It was a visual draft of the future. ”"
+  },
+  {
+   "level": 4,
+   "html": "Nadya Ivanova",
+   "text": "Nadya Ivanova"
+  },
+  {
+   "level": 5,
+   "html": "COO, L&#x27;Atelier BNP Paribas",
+   "text": "COO, L&#x27;Atelier BNP Paribas"
+  },
+  {
+   "level": 3,
+   "html": "Project Awards",
+   "text": "Project Awards"
+  },
+  {
+   "level": 4,
+   "html": "The Webby Awards",
+   "text": "The Webby Awards"
+  },
+  {
+   "level": 5,
+   "html": "Honoree - Best Individual Editorial Feature",
+   "text": "Honoree - Best Individual Editorial Feature"
+  },
+  {
+   "level": 4,
+   "html": "Best Design Awards",
+   "text": "Best Design Awards"
+  },
+  {
+   "level": 5,
+   "html": "Purple Pin - Large Scale Websites",
+   "text": "Purple Pin - Large Scale Websites"
+  },
+  {
+   "level": 4,
+   "html": "Best Design Awards",
+   "text": "Best Design Awards"
+  },
+  {
+   "level": 5,
+   "html": "Gold Pin - Large Scale Websites",
+   "text": "Gold Pin - Large Scale Websites"
+  },
+  {
+   "level": 4,
+   "html": "Awwwards",
+   "text": "Awwwards"
+  },
+  {
+   "level": 5,
+   "html": "Site of the Day plus Mobile Excellence &amp; Dev Award",
+   "text": "Site of the Day plus Mobile Excellence &amp; Dev Award"
+  },
+  {
+   "level": 4,
+   "html": "The FWA",
+   "text": "The FWA"
+  },
+  {
+   "level": 5,
+   "html": "Site of the Day",
+   "text": "Site of the Day"
+  },
+  {
+   "level": 4,
+   "html": "CSS Design Awards",
+   "text": "CSS Design Awards"
+  },
+  {
+   "level": 5,
+   "html": "Site of the Day, Innovation, UI Design and UX Design",
+   "text": "Site of the Day, Innovation, UI Design and UX Design"
+  },
+  {
+   "level": 4,
+   "html": "Mindsparkle Mag",
+   "text": "Mindsparkle Mag"
+  },
+  {
+   "level": 5,
+   "html": "Site of the Day",
+   "text": "Site of the Day"
+  },
+  {
+   "level": 3,
+   "html": "Up Next",
+   "text": "Up Next"
+  },
+  {
+   "level": 3,
+   "html": "Long Lead",
+   "text": "Long Lead"
+  },
+  {
+   "level": 4,
+   "html": "Virginia Kraft",
+   "text": "Virginia Kraft"
+  },
+  {
+   "level": 4,
+   "html": "A digital<i> deep dive</i> reviving the remarkable, overlooked legacy of trailblazing journalist Virginia Kraft.",
+   "text": "A digital deep dive reviving the remarkable, overlooked legacy of trailblazing journalist Virginia Kraft."
+  },
+  {
+   "level": 2,
+   "html": "<span>Subscribe to<br/>our newsletter</span>",
+   "text": "Subscribe toour newsletter"
+  },
+  {
+   "level": 3,
+   "html": "Request a proposal",
+   "text": "Request a proposal"
+  },
+  {
+   "level": 3,
+   "html": "Follow us",
+   "text": "Follow us"
+  },
+  {
+   "level": 3,
+   "html": "Join the team",
+   "text": "Join the team"
+  },
+  {
+   "level": 3,
+   "html": "Find us",
+   "text": "Find us"
+  }
+ ],
+ "paragraphs": [
+  {
+   "html": "</path></svg></a></div><div class=\"flex justify-center Header_buttonContainer__rN6i5\"><button class=\"pointer-events-auto Header_button__qn2Wj Button_main__NewW7 Button_default__CcbQU\"><span class=\"Button_inner__d7ZPg\">Menu</span></button></div><div class=\"hidden w-[130px] justify-end md:flex\"><a class=\"pointer-events-auto\" aria-label=\"About\" href=\"/about\"></a></div></div></div><main style=\"--theme-primary:16 16 16;--theme-secondary:255 255 255;--theme-tertiary:255 255 255\" class=\"bg-black\"><div style=\"opacity:1\"><div class=\"relative z-main bg-theme-primary transition-bg duration-theme\"><sectio",
+   "text": "MenuThe Virtual EconomyExploring new economies forming in our digital lives Visit SiteIn this epic research article L&#x27;Atelier shine a light on the emergent economies arising in massive multiplayer games, in online real estate and blockchain-based virtual goods."
+  },
+  {
+   "html": "But how do you bring to life economies that exist solely in digital?",
+   "text": "But how do you bring to life economies that exist solely in digital?"
+  },
+  {
+   "html": "</path></svg></span></span></a></div></h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Category</h3><h4>Storytelling</h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Date</h3><h4>2020</h4></div></div></div></div></div></section><section data-theme=\"light\" class=\"text-theme-secondary transition-colors duration-theme\"><div class=\"WrokBloks_main__IqYqU\"><div class=\"ui-grid mx-auto my-xl-20 max-w-site gap-y-6 md:my-xl-40\"><div class=\"col-span-full lg:col-span-7 xl:col-span-12\"><h3 class=\"t-p-md font-medium\">Dig",
+   "text": "CategoryStorytellingDate2020Digital landscapesOur opening sequence is a flat plane to infinity; we created an undulating mountain range by randomly throwing up vertices within a U-shaped range."
+  },
+  {
+   "html": "As the reader begins to scroll, we rapidly move the elements away from our WebGL camera; creating a heroic virtual &quot;dolly move&quot;.",
+   "text": "As the reader begins to scroll, we rapidly move the elements away from our WebGL camera; creating a heroic virtual &quot;dolly move&quot;."
+  },
+  {
+   "html": "To find the art direction of this piece we tapped into future visions of our childhoods - cyberpunk and pixel art - breathing life into them with WebGL.",
+   "text": "To find the art direction of this piece we tapped into future visions of our childhoods - cyberpunk and pixel art - breathing life into them with WebGL."
+  },
+  {
+   "html": "In a Tron-like landscape we suspended raw materials, virtual goods, and rewards - floating in a vast universe symbolising the limitless potential of synthetic economies.",
+   "text": "In a Tron-like landscape we suspended raw materials, virtual goods, and rewards - floating in a vast universe symbolising the limitless potential of synthetic economies."
+  },
+  {
+   "html": "The article is a series of interlinked WebGL scenes, through which we pass our virtual camera based on scroll position.",
+   "text": "The article is a series of interlinked WebGL scenes, through which we pass our virtual camera based on scroll position."
+  },
+  {
+   "html": "It&#x27;s akin to directing a one-take movie like 1917 where transitions are hidden within camera movements.",
+   "text": "It&#x27;s akin to directing a one-take movie like 1917 where transitions are hidden within camera movements."
+  },
+  {
+   "html": "We sketched storyboards alongside the article’s content skeleton and defined camera movements between key moments. We then refined motion and timing in browser to support the storytelling most strongly.",
+   "text": "We sketched storyboards alongside the article’s content skeleton and defined camera movements between key moments. We then refined motion and timing in browser to support the storytelling most strongly."
+  },
+  {
+   "html": "Each of the 3D scenes transitions seamlessly to the next – as one switches off the next one switches on. We show and hide elements like the 3D Chapter titles, but maintain coordinates for consistent elements like stars.",
+   "text": "Each of the 3D scenes transitions seamlessly to the next – as one switches off the next one switches on. We show and hide elements like the 3D Chapter titles, but maintain coordinates for consistent elements like stars."
+  },
+  {
+   "html": "Stars and crates floating in 3D space are randomly generated every time the site loads. The crates represent the digital assets being mined by entrepreneurs through “proof of work” or “dungeon crawling&quot;.",
+   "text": "Stars and crates floating in 3D space are randomly generated every time the site loads. The crates represent the digital assets being mined by entrepreneurs through “proof of work” or “dungeon crawling&quot;."
+  },
+  {
+   "html": "We used texture, colour and movement to show low and high value objects in this virtual world. Dull crates float in the distance, while an excited swarm of gold fragments swirls into the Marketplaces sequence.",
+   "text": "We used texture, colour and movement to show low and high value objects in this virtual world. Dull crates float in the distance, while an excited swarm of gold fragments swirls into the Marketplaces sequence."
+  },
+  {
+   "html": "The low-poly aesthetic supports our creative concept but is also a valuable strategy for browser performance, allowing us to render many objects on screen without lag.",
+   "text": "The low-poly aesthetic supports our creative concept but is also a valuable strategy for browser performance, allowing us to render many objects on screen without lag."
+  },
+  {
+   "html": "As the article reaches Shangri-La we see a virtual sun floating above a golden 3D world, with dolphin-shaped rockets swimming in volumetric god rays.",
+   "text": "As the article reaches Shangri-La we see a virtual sun floating above a golden 3D world, with dolphin-shaped rockets swimming in volumetric god rays."
+  },
+  {
+   "html": "The reader has reached the promised land, the perfect Virtual Economy.",
+   "text": "The reader has reached the promised land, the perfect Virtual Economy."
+  },
+  {
+   "html": "</path></svg></div></div></a><a class=\"Awards_item__YgOl7\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://bestawards.co.nz/digital/large-scale-websites/gladeye/the-virtual-economy/\"><div class=\"flex items-center justify-start gap-x-2 py-3 sm:gap-x-4 sm:py-4\"><h4 class=\"t-work-award flex-shrink-0 font-medium\">Best Design Awards</h4><h5 class=\"t-work-award-alt truncate\">Gold Pin - Large Scale Websites</h5><div class=\"h-3 w-3 flex-shrink-0 sm:h-lg-4 sm:w-lg-4\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C",
+   "text": "Best Design AwardsGold Pin - Large Scale WebsitesAwwwardsSite of the Day plus Mobile Excellence &amp; Dev AwardThe FWASite of the DayCSS Design AwardsSite of the Day, Innovation, UI Design and UX DesignMindsparkle MagSite of the DayUp NextLong LeadVirginia KraftA digital deep dive reviving the remarkable, overlooked legacy of trailblazing journalist Virginia Kraft.Next ProjectSubscribe toour newsletterRequest a proposalhello@gladeye.comhello@gladeye.comFollow usInstagramInstagram|LinkedInLinkedI"
+  }
+ ],
+ "links": [
+  {
+   "href": "/",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "/about",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "https://atelier.net/virtual-economy/",
+   "text": "Visit Site",
+   "cls": "Button_main__NewW7 Button_default__CcbQU"
+  },
+  {
+   "href": "https://atelier.net/",
+   "text": "L’Atelier BNP Paribas",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://bestawards.co.nz/digital/large-scale-websites/gladeye/the-virtual-economy/",
+   "text": "Best Design AwardsPurple Pin - Large Scale Websites",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "https://bestawards.co.nz/digital/large-scale-websites/gladeye/the-virtual-economy/",
+   "text": "Best Design AwardsGold Pin - Large Scale Websites",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "https://www.awwwards.com/sites/the-virtual-economy",
+   "text": "AwwwardsSite of the Day plus Mobile Excellence &amp; Dev Award",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "https://thefwa.com/cases/the-virtual-economy",
+   "text": "The FWASite of the Day",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "https://www.cssdesignawards.com/sites/the-virtual-economy/37142/",
+   "text": "CSS Design AwardsSite of the Day, Innovation, UI Design and UX Design",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "/work/long-lead",
+   "text": "Next Project",
+   "cls": "Button_main__NewW7 Button_default__CcbQU Button_ghost__gZqlA"
+  },
+  {
+   "href": "mailto:hello@gladeye.com",
+   "text": "hello@gladeye.comhello@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.instagram.com/gladeyedigital/",
+   "text": "InstagramInstagram",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://linkedin.com/company/gladeye",
+   "text": "LinkedInLinkedIn",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://twitter.com/gladeye",
+   "text": "XX",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "mailto:careers@gladeye.com",
+   "text": "careers@gladeye.comcareers@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.google.com/maps/place/Gladeye/@-36.8497288,174.7662306,17z/data=!3m1!4b1!4m6!3m5!1s0x6d0d480fd64adab1:0xfa505ffed6ead32a!8m2!3d-36.8497288!4d174.7688055!16s%2Fg%2F1q5gm4f92?entry=ttu",
+   "text": "29 Princes Street, Auckland 101029 Princes Street, Auckland 1010",
+   "cls": "MotionLink_main__kgq4W"
+  }
+ ],
+ "svgCount": 11,
+ "svgs": [
+  "<svg viewBox=\"0 0 2401 590\" class=\"h-auto w-full fill-current\"><path d=\"M577.79 473.96h-86.85V.2h86.85v473.76Zm315.55-34.35c-13.61 16.85-47.96 40.18-103.69 40.18-105.64 0-177.58-71.94-177.58-179.52S683.36 121.4 789.65 121.4c42.77 0 82.31 15.55 102.4 38.24v-32.4h82.31v346.72h-81.01v-34.35Zm-98.51-36.94c58.33 0 95.27-43.42 95.27-102.4s-39.53-101.75-95.27-101.75c-58.98 0-95.92 44.07-95.92 101.75s38.89 102.4 95.92 102.4Zm495.34 36.94c-20.74 22.04-58.33 40.18-102.4 40.18-107.58 0-178.87-73.88-178.87-178.23s71.29-180.17 175.63-180.17c44.07 0 78.42 14.26 99.81 33.7V.2h86.84v473.76h-81.01v-34.35Zm-98.51-37.59c58.33 0 95.27-44.07 95.27-101.75s-38.24-101.75-95.27-101.75-95.92 44.07-95.92 101.75 39.54 101.75 95.92 101.75Zm304.73-73.23c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm316.79 324.02 46.66-127.03-132.21-333.12h95.92l81.01 215.17 78.42-215.17h89.44l-174.99 460.15h-84.25Zm336.41-258.56c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm-1798.2-34.75H243.77v84.75H352.8v35.82l-10.84 10.07c-18.8 19.44-55.09 39.53-106.94 39.53-81.01 0-140.64-58.98-140.64-149.71s55.74-148.41 136.75-148.41c59.62 0 93.33 29.16 114.06 57.03l69.99-51.85c-31.11-47.96-89.44-88.79-184.06-88.79C92.44 17.05.41 121.39.41 249.07c0 139.34 93.97 232.67 230.72 232.67 24.9 0 46.59-3.69 64.99-9.65.05 0 .1-.02.15-.05 2.59-.85 5.16-1.72 7.63-2.67 15.15-5.71 27.79-12.99 37.91-20.89.23-.17 5.29-4.11 10.99-8.52v33.98h84.75V310.82c0-45.37-36.89-82.26-82.26-82.26v.02Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>"
+ ],
+ "themes": [
+  "--theme-primary:16 16 16",
+  "--theme-secondary:255 255 255",
+  "--theme-tertiary:255 255 255",
+  "--theme-header:255 255 255",
+  "--theme-header-secondary:125 125 125",
+  "--theme-header-button-text-default:255 255 255",
+  "--theme-header-button-text-roll-over:0 0 0",
+  "--theme-header-button-bg-default:125 125 125",
+  "--theme-header-button-bg-roll-over:255 255 255"
+ ],
+ "title": ""
+}

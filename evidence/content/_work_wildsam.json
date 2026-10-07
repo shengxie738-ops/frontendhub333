@@ -1,0 +1,503 @@
+{
+ "route": "/work/wildsam",
+ "imgs": [
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/393x624/24d55a79d5/wildsam-portrait-image.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/393x624/24d55a79d5/wildsam-portrait-image.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2476x1755/dd74171dfd/wildsam_01.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2476x1755/dd74171dfd/wildsam_01.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1268x1268/8bd420e86d/02a_wildsam_square.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1268x1268/8bd420e86d/02a_wildsam_square.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1268x1268/d544b21d54/02b_wildsam_square.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1268x1268/d544b21d54/02b_wildsam_square.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/a41de57043/wildsam_feature_04.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/a41de57043/wildsam_feature_04.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/f35485a05a/wildsam_feature_01.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/f35485a05a/wildsam_feature_01.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/b9aae436e0/wildsam_feature_02.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/b9aae436e0/wildsam_feature_02.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/debfba87fd/wildsam_feature_03.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/debfba87fd/wildsam_feature_03.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1748x1093/70fc475044/a-portrait-of-manhattan-lower-east-side-wildsam-story.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1748x1093/70fc475044/a-portrait-of-manhattan-lower-east-side-wildsam-story.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1748x1093/b70729b006/the-story-behind-tabsco-sauce-wildsam-story.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1748x1093/b70729b006/the-story-behind-tabsco-sauce-wildsam-story.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1748x1093/522cd1bb28/jane-austen-life-in-hudson-valley-wildsam-story.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1748x1093/522cd1bb28/jane-austen-life-in-hudson-valley-wildsam-story.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1748x1093/37dfac546f/airstream-iconic-trailer-wildsam-story.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1748x1093/37dfac546f/airstream-iconic-trailer-wildsam-story.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2476x1755/b9c5b29537/wildsam_11.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2476x1755/b9c5b29537/wildsam_11.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/b486ddf70c/wildsam_guides_01.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/b486ddf70c/wildsam_guides_01.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2476x1755/4b26ec429f/wildsam_10.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2476x1755/4b26ec429f/wildsam_10.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4952x3510/9e2320e605/wildsam_03-1.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4952x3510/9e2320e605/wildsam_03-1.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  }
+ ],
+ "vids": [],
+ "headings": [
+  {
+   "level": 1,
+   "html": "Wildsam",
+   "text": "Wildsam"
+  },
+  {
+   "level": 2,
+   "html": "<span style=\"color:#000000\">Where </span><i><span style=\"color:#000000\">Digital Wanderlust</span></i><span style=\"color:#000000\"> Meets Intentional Exploration</span>",
+   "text": "Where Digital Wanderlust Meets Intentional Exploration"
+  },
+  {
+   "level": 3,
+   "html": "Client",
+   "text": "Client"
+  },
+  {
+   "level": 4,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.wildsam.com/\"><span class=\"relative\"><span>Wildsam</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.",
+   "text": "Wildsam"
+  },
+  {
+   "level": 3,
+   "html": "Category",
+   "text": "Category"
+  },
+  {
+   "level": 4,
+   "html": "Website",
+   "text": "Website"
+  },
+  {
+   "level": 3,
+   "html": "Date",
+   "text": "Date"
+  },
+  {
+   "level": 4,
+   "html": "2024",
+   "text": "2024"
+  },
+  {
+   "level": 3,
+   "html": "Crafting a Digital Haven",
+   "text": "Crafting a Digital Haven"
+  },
+  {
+   "level": 3,
+   "html": "An Experience to Remember",
+   "text": "An Experience to Remember"
+  },
+  {
+   "level": 3,
+   "html": "Uniqueness &amp; Cohesiveness",
+   "text": "Uniqueness &amp; Cohesiveness"
+  },
+  {
+   "level": 3,
+   "html": "Bringing the magazine to life",
+   "text": "Bringing the magazine to life"
+  },
+  {
+   "level": 3,
+   "html": "An Open Road for the Curious Travel",
+   "text": "An Open Road for the Curious Travel"
+  },
+  {
+   "level": 3,
+   "html": "Project Awards",
+   "text": "Project Awards"
+  },
+  {
+   "level": 4,
+   "html": "Best Design Awards",
+   "text": "Best Design Awards"
+  },
+  {
+   "level": 5,
+   "html": "Silver - Large Scale Webiste",
+   "text": "Silver - Large Scale Webiste"
+  },
+  {
+   "level": 3,
+   "html": "Up Next",
+   "text": "Up Next"
+  },
+  {
+   "level": 3,
+   "html": "Thinkful",
+   "text": "Thinkful"
+  },
+  {
+   "level": 4,
+   "html": "WTF is Data Science",
+   "text": "WTF is Data Science"
+  },
+  {
+   "level": 4,
+   "html": "A journey into the history<i> </i>and <i>future of data </i>",
+   "text": "A journey into the history and future of data"
+  },
+  {
+   "level": 2,
+   "html": "<span>Subscribe to<br/>our newsletter</span>",
+   "text": "Subscribe toour newsletter"
+  },
+  {
+   "level": 3,
+   "html": "Request a proposal",
+   "text": "Request a proposal"
+  },
+  {
+   "level": 3,
+   "html": "Follow us",
+   "text": "Follow us"
+  },
+  {
+   "level": 3,
+   "html": "Join the team",
+   "text": "Join the team"
+  },
+  {
+   "level": 3,
+   "html": "Find us",
+   "text": "Find us"
+  }
+ ],
+ "paragraphs": [
+  {
+   "html": "</path></svg></a></div><div class=\"flex justify-center Header_buttonContainer__rN6i5\"><button class=\"pointer-events-auto Header_button__qn2Wj Button_main__NewW7 Button_default__CcbQU\"><span class=\"Button_inner__d7ZPg\">Menu</span></button></div><div class=\"hidden w-[130px] justify-end md:flex\"><a class=\"pointer-events-auto\" aria-label=\"About\" href=\"/about\"></a></div></div></div><main style=\"--theme-primary:16 16 16;--theme-secondary:255 255 255;--theme-tertiary:255 255 255\" class=\"bg-black\"><div style=\"opacity:1\"><div class=\"relative z-main bg-theme-primary transition-bg duration-theme\"><sectio",
+   "text": "MenuWildsamWhere Digital Wanderlust Meets Intentional ExplorationVisit SiteFor over a decade, Wildsam has redefined the travel guide, publishing beautifully written companions that go beyond the tourist trail. When they partnered with Gladeye, the brief was clear: build a digital home that reflects their editorial spirit, stirs curiosity, and makes travel planning feel as inspiring as the journey itself. Their mission: to help people “Travel Different” — with more meaning, intention, and a genui"
+  },
+  {
+   "html": "</path></svg></span></span></a></div></h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Category</h3><h4>Website</h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Date</h3><h4>2024</h4></div></div></div></div></div></section><section data-theme=\"light\" class=\"text-theme-secondary transition-colors duration-theme\"><div class=\"WrokBloks_main__IqYqU\"><div class=\"mx-auto my-sgs max-w-site px-sms\"><div style=\"background:#F9F6E5;--outerAspect:15/9\" class=\"FramedVideo_outer__zdvd0 ui-grid items-center bg-theme-secon",
+   "text": "CategoryWebsiteDate2024Crafting a Digital HavenThe challenge was multifaceted: amplify Wildsam&#x27;s editorial voice, create a platform for diverse storytelling, build out the Wildsam universe and community, and craft a space for timely, relevant content. All while showcasing their field guides, trips, and various other content formats.The site targets curious, smart individuals who appreciate intricacy and depth of place. These were primarily mobile-first users who value great creative brands,"
+  },
+  {
+   "html": "<span>We envisioned a digital experience that feels like a trip itself - planned and structured, but with moments of serendipity and discovery. Drawing inspiration from sites like WePresent, we set out to create something uniquely Wildsam.</span><span><br/></span><span><br/></span><span>Our concept centred on building a main multimedia content hub with intuitive tagging and navigation. We aimed to accommodate different story formats - interviews, lists, photo essays, maps - through modular design. The goal was a flexible design system allowing Wildsam&#x27;s editorial team to create diverse, v",
+   "text": "We envisioned a digital experience that feels like a trip itself - planned and structured, but with moments of serendipity and discovery. Drawing inspiration from sites like WePresent, we set out to create something uniquely Wildsam.Our concept centred on building a main multimedia content hub with intuitive tagging and navigation. We aimed to accommodate different story formats - interviews, lists, photo essays, maps - through modular design. The goal was a flexible design system allowing Wilds"
+  },
+  {
+   "html": "<span>We crafted a captivating digital experience that seamlessly blends Wildsam&#x27;s unique outlook on travel with intuitive navigation. The striking homepage hero pulls you in, setting the tone for the journey ahead. Featuring a mix of media types and easy content filtering, the design showcases large, impactful photography. Interactive moments like parallax scrolling and floating photo hovers add depth and engagement.</span><span><br/></span><span><br/></span><span>Each piece of content retains a distinct feel within the cohesive Wildsam brand. Our modular design integrates rich media—ima",
+   "text": "We crafted a captivating digital experience that seamlessly blends Wildsam&#x27;s unique outlook on travel with intuitive navigation. The striking homepage hero pulls you in, setting the tone for the journey ahead. Featuring a mix of media types and easy content filtering, the design showcases large, impactful photography. Interactive moments like parallax scrolling and floating photo hovers add depth and engagement.Each piece of content retains a distinct feel within the cohesive Wildsam brand."
+  },
+  {
+   "html": "We wanted to capture the essence of their print magazine and guides—the keylines, the typography, the colour palette—and bring it to life on screen. For headlines, we used PDU, reminiscent of old American road signage, followed by a mix of Aeonik and Span to create a distinct editorial voice. Utilising their rich brand colours and pulling hues from their stunning photography, we created a unique atmosphere for each article page. This dynamic use of colour washes through the content, enhancing the storytelling and visual appeal.<br/><br/>Digital, print guides and trips are elegantly showcased a",
+   "text": "We wanted to capture the essence of their print magazine and guides—the keylines, the typography, the colour palette—and bring it to life on screen. For headlines, we used PDU, reminiscent of old American road signage, followed by a mix of Aeonik and Span to create a distinct editorial voice. Utilising their rich brand colours and pulling hues from their stunning photography, we created a unique atmosphere for each article page. This dynamic use of colour washes through the content, enhancing th"
+  },
+  {
+   "html": "<span>This digital platform is more than a website - it&#x27;s an open road for the curious traveler. It&#x27;s a source of inspiration that simplifies travel research without overwhelming, a flexible platform that can grow with Wildsam, easily integrating new features and building anticipation for upcoming releases.</span><span><br/></span><span><br/></span><span>We&#x27;ve created a space where readers can dive deep into a place&#x27;s culture and history, save stories, create travel playlists, and become part of the Wildsam community. It positions Wildsam as an innovative creative company t",
+   "text": "This digital platform is more than a website - it&#x27;s an open road for the curious traveler. It&#x27;s a source of inspiration that simplifies travel research without overwhelming, a flexible platform that can grow with Wildsam, easily integrating new features and building anticipation for upcoming releases.We&#x27;ve created a space where readers can dive deep into a place&#x27;s culture and history, save stories, create travel playlists, and become part of the Wildsam community. It position"
+  },
+  {
+   "html": "</path></svg></div></div></a></div></div></div></div><div style=\"--theme-primary:16 16 16;--theme-secondary:255 255 255;--theme-tertiary:255 255 255\" class=\"bg-theme-primary py-10 text-theme-secondary\"><div class=\"ui-grid mx-auto h-[320px] max-w-site grid-rows-[auto,_1fr] items-end gap-y-4 sm:h-[420px]\"><div class=\"col-span-full\"><h3 class=\"t-p-md font-medium\">Up Next</h3></div><div class=\"col-span-full space-y-4 lg:col-span-15\"><h3 class=\"t-meta\">Thinkful</h3><h4 class=\"t-h2\">WTF is Data Science</h4></div><div class=\"col-span-full space-y-8 pb-2 lg:col-span-9 lg:space-y-6\"><h4 class=\"t-p-md\">",
+   "text": "Up NextThinkfulWTF is Data ScienceA journey into the history and future of data Next ProjectSubscribe toour newsletterRequest a proposalhello@gladeye.comhello@gladeye.comFollow usInstagramInstagram|LinkedInLinkedIn|XXJoin the teamcareers@gladeye.comcareers@gladeye.comFind us29 Princes Street, Auckland 101029 Princes Street, Auckland 1010© Gladeye 2025"
+  }
+ ],
+ "links": [
+  {
+   "href": "/",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "/about",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "https://www.wildsam.com/",
+   "text": "Visit Site",
+   "cls": "Button_main__NewW7 Button_default__CcbQU"
+  },
+  {
+   "href": "https://www.wildsam.com/",
+   "text": "Wildsam",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://bestawards.co.nz/digital/large-scale-websites/gladeye/wildsam/",
+   "text": "Best Design AwardsSilver - Large Scale Webiste",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "/work/wtf-is-data-science",
+   "text": "Next Project",
+   "cls": "Button_main__NewW7 Button_default__CcbQU Button_ghost__gZqlA"
+  },
+  {
+   "href": "mailto:hello@gladeye.com",
+   "text": "hello@gladeye.comhello@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.instagram.com/gladeyedigital/",
+   "text": "InstagramInstagram",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://linkedin.com/company/gladeye",
+   "text": "LinkedInLinkedIn",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://twitter.com/gladeye",
+   "text": "XX",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "mailto:careers@gladeye.com",
+   "text": "careers@gladeye.comcareers@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.google.com/maps/place/Gladeye/@-36.8497288,174.7662306,17z/data=!3m1!4b1!4m6!3m5!1s0x6d0d480fd64adab1:0xfa505ffed6ead32a!8m2!3d-36.8497288!4d174.7688055!16s%2Fg%2F1q5gm4f92?entry=ttu",
+   "text": "29 Princes Street, Auckland 101029 Princes Street, Auckland 1010",
+   "cls": "MotionLink_main__kgq4W"
+  }
+ ],
+ "svgCount": 7,
+ "svgs": [
+  "<svg viewBox=\"0 0 2401 590\" class=\"h-auto w-full fill-current\"><path d=\"M577.79 473.96h-86.85V.2h86.85v473.76Zm315.55-34.35c-13.61 16.85-47.96 40.18-103.69 40.18-105.64 0-177.58-71.94-177.58-179.52S683.36 121.4 789.65 121.4c42.77 0 82.31 15.55 102.4 38.24v-32.4h82.31v346.72h-81.01v-34.35Zm-98.51-36.94c58.33 0 95.27-43.42 95.27-102.4s-39.53-101.75-95.27-101.75c-58.98 0-95.92 44.07-95.92 101.75s38.89 102.4 95.92 102.4Zm495.34 36.94c-20.74 22.04-58.33 40.18-102.4 40.18-107.58 0-178.87-73.88-178.87-178.23s71.29-180.17 175.63-180.17c44.07 0 78.42 14.26 99.81 33.7V.2h86.84v473.76h-81.01v-34.35Zm-98.51-37.59c58.33 0 95.27-44.07 95.27-101.75s-38.24-101.75-95.27-101.75-95.92 44.07-95.92 101.75 39.54 101.75 95.92 101.75Zm304.73-73.23c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm316.79 324.02 46.66-127.03-132.21-333.12h95.92l81.01 215.17 78.42-215.17h89.44l-174.99 460.15h-84.25Zm336.41-258.56c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm-1798.2-34.75H243.77v84.75H352.8v35.82l-10.84 10.07c-18.8 19.44-55.09 39.53-106.94 39.53-81.01 0-140.64-58.98-140.64-149.71s55.74-148.41 136.75-148.41c59.62 0 93.33 29.16 114.06 57.03l69.99-51.85c-31.11-47.96-89.44-88.79-184.06-88.79C92.44 17.05.41 121.39.41 249.07c0 139.34 93.97 232.67 230.72 232.67 24.9 0 46.59-3.69 64.99-9.65.05 0 .1-.02.15-.05 2.59-.85 5.16-1.72 7.63-2.67 15.15-5.71 27.79-12.99 37.91-20.89.23-.17 5.29-4.11 10.99-8.52v33.98h84.75V310.82c0-45.37-36.89-82.26-82.26-82.26v.02Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>"
+ ],
+ "themes": [
+  "--theme-primary:16 16 16",
+  "--theme-secondary:255 255 255",
+  "--theme-tertiary:255 255 255",
+  "--theme-header:255 255 255",
+  "--theme-header-secondary:125 125 125",
+  "--theme-header-button-text-default:255 255 255",
+  "--theme-header-button-text-roll-over:0 0 0",
+  "--theme-header-button-bg-default:125 125 125",
+  "--theme-header-button-bg-roll-over:255 255 255"
+ ],
+ "title": ""
+}

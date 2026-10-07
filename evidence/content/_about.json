@@ -1,0 +1,1174 @@
+{
+ "route": "/about",
+ "imgs": [
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4032x3024/5077b19f33/img_0720.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4032x3024/5077b19f33/img_0720.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4032x3024/5077b19f33/img_0720.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4032x3024/5077b19f33/img_0720.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3693x2769/6803ca3ce1/hamurana-pohutakawa-warm.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3693x2769/6803ca3ce1/hamurana-pohutakawa-warm.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3654x2740/3c019933a8/hamurana-side-warm.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3654x2740/3c019933a8/hamurana-side-warm.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  }
+ ],
+ "vids": [],
+ "headings": [
+  {
+   "level": 1,
+   "html": "Design creates the future. <br/>Let&#x27;s make it <i>beautiful</i>.",
+   "text": "Design creates the future. Let&#x27;s make it beautiful."
+  },
+  {
+   "level": 1,
+   "html": "Design <i>creates</i><br/>the future<i>.</i><br/>Let&#x27;s make it<br/><i>beautiful.</i>",
+   "text": "Design createsthe future.Let&#x27;s make itbeautiful."
+  },
+  {
+   "level": 2,
+   "html": "Who we are",
+   "text": "Who we are"
+  },
+  {
+   "level": 3,
+   "html": "Gladeye is a creative digital agency from Aotearoa, New Zealand<span style=\"color:rgb(77, 81, 86)\">—</span>blending storytelling and technology.",
+   "text": "Gladeye is a creative digital agency from Aotearoa, New Zealand—blending storytelling and technology."
+  },
+  {
+   "level": 2,
+   "html": "Our services",
+   "text": "Our services"
+  },
+  {
+   "level": 3,
+   "html": "<span class=\"t-p font-medium text-theme-tertiary\">Digital </span>",
+   "text": "Digital"
+  },
+  {
+   "level": 3,
+   "html": "<span class=\"t-p font-medium text-theme-tertiary\">Brand</span>",
+   "text": "Brand"
+  },
+  {
+   "level": 3,
+   "html": "<span class=\"t-p font-medium text-theme-tertiary\">AI</span>",
+   "text": "AI"
+  },
+  {
+   "level": 3,
+   "html": "<span class=\"t-p font-medium text-theme-tertiary\">Content</span>",
+   "text": "Content"
+  },
+  {
+   "level": 2,
+   "html": "Our process",
+   "text": "Our process"
+  },
+  {
+   "level": 3,
+   "html": "People talk about Gladeye Magic.",
+   "text": "People talk about Gladeye Magic."
+  },
+  {
+   "level": 2,
+   "html": "Awards",
+   "text": "Awards"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.asme.media/\"><span class=\"relative\"><span>American Society of Magazine Editors</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.4",
+   "text": "American Society of Magazine Editors"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Punch Sulzberger Award",
+   "text": "Punch Sulzberger Award"
+  },
+  {
+   "level": 4,
+   "html": "3",
+   "text": "3"
+  },
+  {
+   "level": 5,
+   "html": "Winners",
+   "text": "Winners"
+  },
+  {
+   "level": 4,
+   "html": "2",
+   "text": "2"
+  },
+  {
+   "level": 5,
+   "html": "Finalists",
+   "text": "Finalists"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.awwwards.com/\"><span class=\"relative\"><span>Awwwards</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 ",
+   "text": "Awwwards"
+  },
+  {
+   "level": 4,
+   "html": "13",
+   "text": "13"
+  },
+  {
+   "level": 5,
+   "html": "Sites of the day",
+   "text": "Sites of the day"
+  },
+  {
+   "level": 4,
+   "html": "23",
+   "text": "23"
+  },
+  {
+   "level": 5,
+   "html": "Honorees",
+   "text": "Honorees"
+  },
+  {
+   "level": 4,
+   "html": "3",
+   "text": "3"
+  },
+  {
+   "level": 5,
+   "html": "Dev Awards",
+   "text": "Dev Awards"
+  },
+  {
+   "level": 4,
+   "html": "3",
+   "text": "3"
+  },
+  {
+   "level": 5,
+   "html": "Mobile Excellence",
+   "text": "Mobile Excellence"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://bestawards.co.nz/\"><span class=\"relative\"><span>Best Design Awards</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1",
+   "text": "Best Design Awards"
+  },
+  {
+   "level": 4,
+   "html": "3",
+   "text": "3"
+  },
+  {
+   "level": 5,
+   "html": "Purple Pins",
+   "text": "Purple Pins"
+  },
+  {
+   "level": 4,
+   "html": "6",
+   "text": "6"
+  },
+  {
+   "level": 5,
+   "html": "Gold Pins",
+   "text": "Gold Pins"
+  },
+  {
+   "level": 4,
+   "html": "10",
+   "text": "10"
+  },
+  {
+   "level": 5,
+   "html": "Silver Pins",
+   "text": "Silver Pins"
+  },
+  {
+   "level": 4,
+   "html": "13",
+   "text": "13"
+  },
+  {
+   "level": 5,
+   "html": "Bronze Pins",
+   "text": "Bronze Pins"
+  },
+  {
+   "level": 4,
+   "html": "11",
+   "text": "11"
+  },
+  {
+   "level": 5,
+   "html": "Finalists",
+   "text": "Finalists"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.communicatorawards.com/\"><span class=\"relative\"><span>Communicator Awards</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.0",
+   "text": "Communicator Awards"
+  },
+  {
+   "level": 4,
+   "html": "6",
+   "text": "6"
+  },
+  {
+   "level": 5,
+   "html": "Excellence",
+   "text": "Excellence"
+  },
+  {
+   "level": 4,
+   "html": "5",
+   "text": "5"
+  },
+  {
+   "level": 5,
+   "html": "Distinction",
+   "text": "Distinction"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.cssdesignawards.com/\"><span class=\"relative\"><span>CSS Design Awards</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1",
+   "text": "CSS Design Awards"
+  },
+  {
+   "level": 4,
+   "html": "11",
+   "text": "11"
+  },
+  {
+   "level": 5,
+   "html": "Sites of the day",
+   "text": "Sites of the day"
+  },
+  {
+   "level": 4,
+   "html": "5",
+   "text": "5"
+  },
+  {
+   "level": 5,
+   "html": "Special Kudos",
+   "text": "Special Kudos"
+  },
+  {
+   "level": 4,
+   "html": "7",
+   "text": "7"
+  },
+  {
+   "level": 5,
+   "html": "Innnovation",
+   "text": "Innnovation"
+  },
+  {
+   "level": 4,
+   "html": "14",
+   "text": "14"
+  },
+  {
+   "level": 5,
+   "html": "UX/UI Design",
+   "text": "UX/UI Design"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://commscouncil.nz/effie\"><span class=\"relative\"><span>Effie Awards</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.0",
+   "text": "Effie Awards"
+  },
+  {
+   "level": 4,
+   "html": "2",
+   "text": "2"
+  },
+  {
+   "level": 5,
+   "html": "Bronzes",
+   "text": "Bronzes"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.eppyawards.com/\"><span class=\"relative\"><span>EPPY Awards</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.",
+   "text": "EPPY Awards"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Winner",
+   "text": "Winner"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.newswomensclubnewyork.com/fps-index\"><span class=\"relative\"><span>Front Page Award</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.0",
+   "text": "Front Page Award"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Winner",
+   "text": "Winner"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://good-design.org/\"><span class=\"relative\"><span>Good Design Awards</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.",
+   "text": "Good Design Awards"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Best in Class",
+   "text": "Best in Class"
+  },
+  {
+   "level": 4,
+   "html": "3",
+   "text": "3"
+  },
+  {
+   "level": 5,
+   "html": "Golds",
+   "text": "Golds"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Winner",
+   "text": "Winner"
+  },
+  {
+   "level": 3,
+   "html": "Interactive Media Awards",
+   "text": "Interactive Media Awards"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Best in Class",
+   "text": "Best in Class"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Outstanding",
+   "text": "Outstanding"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.nzte.govt.nz/page/new-zealand-international-business-awards\"><span class=\"relative\"><span>International Business Awards </span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-",
+   "text": "International Business Awards"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Winner",
+   "text": "Winner"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://mindsparklemag.com/\"><span class=\"relative\"><span>Mindsparkle Mag</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.",
+   "text": "Mindsparkle Mag"
+  },
+  {
+   "level": 4,
+   "html": "2",
+   "text": "2"
+  },
+  {
+   "level": 5,
+   "html": "Sites of the Day",
+   "text": "Sites of the Day"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.rtdna.org/edward-r-murrow-awards\"><span class=\"relative\"><span>National Edward R. Murrow Award</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14",
+   "text": "National Edward R. Murrow Award"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Winner",
+   "text": "Winner"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.asme.media/asme-awards\"><span class=\"relative\"><span>National Magazine Award</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 ",
+   "text": "National Magazine Award"
+  },
+  {
+   "level": 4,
+   "html": "2",
+   "text": "2"
+  },
+  {
+   "level": 5,
+   "html": "Winners",
+   "text": "Winners"
+  },
+  {
+   "level": 3,
+   "html": "National Press Club",
+   "text": "National Press Club"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Runner-up",
+   "text": "Runner-up"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://nppa.org/awards/awards\"><span class=\"relative\"><span>National Press Photographers Association</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2",
+   "text": "National Press Photographers Association"
+  },
+  {
+   "level": 4,
+   "html": "5",
+   "text": "5"
+  },
+  {
+   "level": 5,
+   "html": "Winners",
+   "text": "Winners"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Honoree",
+   "text": "Honoree"
+  },
+  {
+   "level": 3,
+   "html": "Nexus Awards",
+   "text": "Nexus Awards"
+  },
+  {
+   "level": 4,
+   "html": "2",
+   "text": "2"
+  },
+  {
+   "level": 5,
+   "html": "Silver",
+   "text": "Silver"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://orpetron.com/\"><span class=\"relative\"><span>Orpetron</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03",
+   "text": "Orpetron"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Site of the Month",
+   "text": "Site of the Month"
+  },
+  {
+   "level": 4,
+   "html": "3",
+   "text": "3"
+  },
+  {
+   "level": 5,
+   "html": "Site of the Day",
+   "text": "Site of the Day"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://opcofamerica.org/\"><span class=\"relative\"><span>Overseas Press Club Award</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 ",
+   "text": "Overseas Press Club Award"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Winner",
+   "text": "Winner"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Excellence",
+   "text": "Excellence"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://peabodyawards.com/\"><span class=\"relative\"><span>Peabody Award</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S",
+   "text": "Peabody Award"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Nominee",
+   "text": "Nominee"
+  },
+  {
+   "level": 3,
+   "html": "Pixel Awards",
+   "text": "Pixel Awards"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Winner",
+   "text": "Winner"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://thephotosociety.org/pdn-storytellers/\"><span class=\"relative\"><span>PDN Storytellers</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C",
+   "text": "PDN Storytellers"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Winner",
+   "text": "Winner"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.spd.org/\"><span class=\"relative\"><span>Society of Publication Designers</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 ",
+   "text": "Society of Publication Designers"
+  },
+  {
+   "level": 4,
+   "html": "5",
+   "text": "5"
+  },
+  {
+   "level": 5,
+   "html": "Gold Medals",
+   "text": "Gold Medals"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://theemmys.tv/news/\"><span class=\"relative\"><span>The Emmy Awards</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03",
+   "text": "The Emmy Awards"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Nominee",
+   "text": "Nominee"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://thefwa.com/\"><span class=\"relative\"><span>The FWA</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h",
+   "text": "The FWA"
+  },
+  {
+   "level": 4,
+   "html": "8",
+   "text": "8"
+  },
+  {
+   "level": 5,
+   "html": "Sites of the Day",
+   "text": "Sites of the Day"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://oneshow.org/\"><span class=\"relative\"><span>The One Show</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1",
+   "text": "The One Show"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Merit",
+   "text": "Merit"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.webbyawards.com/\"><span class=\"relative\"><span>The Webby Awards</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 ",
+   "text": "The Webby Awards"
+  },
+  {
+   "level": 4,
+   "html": "1",
+   "text": "1"
+  },
+  {
+   "level": 5,
+   "html": "Winner",
+   "text": "Winner"
+  },
+  {
+   "level": 4,
+   "html": "2",
+   "text": "2"
+  },
+  {
+   "level": 5,
+   "html": "Nominees",
+   "text": "Nominees"
+  },
+  {
+   "level": 4,
+   "html": "5",
+   "text": "5"
+  },
+  {
+   "level": 5,
+   "html": "Honorees",
+   "text": "Honorees"
+  },
+  {
+   "level": 3,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.w3award.com/\"><span class=\"relative\"><span>w3 Awards</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 ",
+   "text": "w3 Awards"
+  },
+  {
+   "level": 4,
+   "html": "2",
+   "text": "2"
+  },
+  {
+   "level": 5,
+   "html": "Best in Shows",
+   "text": "Best in Shows"
+  },
+  {
+   "level": 4,
+   "html": "5",
+   "text": "5"
+  },
+  {
+   "level": 5,
+   "html": "Golds",
+   "text": "Golds"
+  },
+  {
+   "level": 4,
+   "html": "12",
+   "text": "12"
+  },
+  {
+   "level": 5,
+   "html": "Silvers",
+   "text": "Silvers"
+  },
+  {
+   "level": 2,
+   "html": "<span>Subscribe to<br/>our newsletter</span>",
+   "text": "Subscribe toour newsletter"
+  },
+  {
+   "level": 3,
+   "html": "Request a proposal",
+   "text": "Request a proposal"
+  },
+  {
+   "level": 3,
+   "html": "Follow us",
+   "text": "Follow us"
+  },
+  {
+   "level": 3,
+   "html": "Join the team",
+   "text": "Join the team"
+  },
+  {
+   "level": 3,
+   "html": "Find us",
+   "text": "Find us"
+  }
+ ],
+ "paragraphs": [
+  {
+   "html": "</path></svg></a></div><div class=\"flex justify-center Header_buttonContainer__rN6i5\"><button class=\"pointer-events-auto Header_button__qn2Wj Button_main__NewW7 Button_default__CcbQU\"><span class=\"Button_inner__d7ZPg\">Menu</span></button></div><div class=\"hidden w-[130px] justify-end md:flex\"><a class=\"pointer-events-auto\" aria-label=\"About\" href=\"/about\"></a></div></div></div><main style=\"--theme-primary:16 16 16;--theme-secondary:255 255 255;--theme-tertiary:255 255 255\" class=\"bg-black\"><div style=\"opacity:1\"><div class=\"relative z-main bg-theme-primary transition-bg duration-theme\"><sectio",
+   "text": "MenuDesign creates the future. Let&#x27;s make it beautiful.Design createsthe future.Let&#x27;s make itbeautiful.Who we areGladeye is a creative digital agency from Aotearoa, New Zealand—blending storytelling and technology.We partner with clients from New Zealand to New York to launch strikingly beautiful brand identities, storytelling experiences, campaigns, websites, ecommerce, and product designs."
+  },
+  {
+   "html": "We avoid work which accelerates wasteful consumerism; we love working with brands that promote sustainability and protect biodiversity.",
+   "text": "We avoid work which accelerates wasteful consumerism; we love working with brands that promote sustainability and protect biodiversity."
+  },
+  {
+   "html": "Our team design brand identities that will distil your essence, craft campaigns to deeply engage your users, and build websites which bring joy and utility to peoples&#x27; lives.",
+   "text": "Our team design brand identities that will distil your essence, craft campaigns to deeply engage your users, and build websites which bring joy and utility to peoples&#x27; lives."
+  },
+  {
+   "html": "Since our highly awarded long-form work with HuffPost Highline we&#x27;ve continued to push the boundaries of what&#x27;s possible in browsers.",
+   "text": "Since our highly awarded long-form work with HuffPost Highline we&#x27;ve continued to push the boundaries of what&#x27;s possible in browsers."
+  },
+  {
+   "html": "Our backgrounds in film, theatre, robotics, advertising and behavioural psychology let us bring worlds together to create storytelling experiences across multiple new media.",
+   "text": "Our backgrounds in film, theatre, robotics, advertising and behavioural psychology let us bring worlds together to create storytelling experiences across multiple new media."
+  },
+  {
+   "html": "There is an incredible confluence of technologies happening in the digital&lt;&gt;human space. Interfaces are evolving and immersion is deepening at an order of magnitude.",
+   "text": "There is an incredible confluence of technologies happening in the digital&lt;&gt;human space. Interfaces are evolving and immersion is deepening at an order of magnitude."
+  },
+  {
+   "html": "We believe that by keeping the twin concerns of people and planet at the <i>heart</i> of digital experiences - we can achieve a true net positive.",
+   "text": "We believe that by keeping the twin concerns of people and planet at the heart of digital experiences - we can achieve a true net positive."
+  },
+  {
+   "html": "Let’s make a more beautiful future together.",
+   "text": "Let’s make a more beautiful future together."
+  },
+  {
+   "html": "Product Innovation",
+   "text": "Product Innovation"
+  },
+  {
+   "html": "Digital Storytelling",
+   "text": "Digital Storytelling"
+  },
+  {
+   "html": "Websites",
+   "text": "Websites"
+  },
+  {
+   "html": "Mobile App Design",
+   "text": "Mobile App Design"
+  },
+  {
+   "html": "Digital Campaigns",
+   "text": "Digital Campaigns"
+  },
+  {
+   "html": "Headless CMS",
+   "text": "Headless CMS"
+  },
+  {
+   "html": "E-Commerce",
+   "text": "E-Commerce"
+  },
+  {
+   "html": "Creative Technology",
+   "text": "Creative Technology"
+  },
+  {
+   "html": "SEO + Analytics",
+   "text": "SEO + Analytics"
+  },
+  {
+   "html": "Strategy",
+   "text": "Strategy"
+  },
+  {
+   "html": "Naming",
+   "text": "Naming"
+  },
+  {
+   "html": "Identity",
+   "text": "Identity"
+  },
+  {
+   "html": "Logos + Icons",
+   "text": "Logos + Icons"
+  },
+  {
+   "html": "Design Systems",
+   "text": "Design Systems"
+  },
+  {
+   "html": "Kinetic",
+   "text": "Kinetic"
+  },
+  {
+   "html": "Training",
+   "text": "Training"
+  },
+  {
+   "html": "Workshops",
+   "text": "Workshops"
+  },
+  {
+   "html": "Content Creation",
+   "text": "Content Creation"
+  },
+  {
+   "html": "Image + Voice Models",
+   "text": "Image + Voice Models"
+  },
+  {
+   "html": "Art Direction",
+   "text": "Art Direction"
+  },
+  {
+   "html": "3D Scenes + Assets",
+   "text": "3D Scenes + Assets"
+  },
+  {
+   "html": "Photography",
+   "text": "Photography"
+  },
+  {
+   "html": "Copywriting",
+   "text": "Copywriting"
+  },
+  {
+   "html": "Illustration",
+   "text": "Illustration"
+  },
+  {
+   "html": "Animation",
+   "text": "Animation"
+  },
+  {
+   "html": "Data Viz",
+   "text": "Data Viz"
+  },
+  {
+   "html": "For us that means making digital experiences which create <i>emotional</i> connections between brands and people.",
+   "text": "For us that means making digital experiences which create emotional connections between brands and people."
+  },
+  {
+   "html": "Movement, surprise, wonder.",
+   "text": "Movement, surprise, wonder."
+  },
+  {
+   "html": "We bring brands to life through striking creativity and craft, taking people out of their everyday and into something more special.",
+   "text": "We bring brands to life through striking creativity and craft, taking people out of their everyday and into something more special."
+  },
+  {
+   "html": "For creative digital to be truly effective we must understand <i>who</i> your brand is. And who your audience are, what they want, and what you want them to know, feel and do.",
+   "text": "For creative digital to be truly effective we must understand who your brand is. And who your audience are, what they want, and what you want them to know, feel and do."
+  },
+  {
+   "html": "So our projects always begin with discovery and strategy, we call it our Think phase.",
+   "text": "So our projects always begin with discovery and strategy, we call it our Think phase."
+  },
+  {
+   "html": "We immerse ourselves in your world, understanding your most valuable and exciting points of difference<span style=\"color:rgb(32, 33, 36)\">—</span>then we amplify them in <a href=\"/work/\" target=\"_self\">incredible ways</a>.",
+   "text": "We immerse ourselves in your world, understanding your most valuable and exciting points of difference—then we amplify them in incredible ways."
+  },
+  {
+   "html": "Tell us what you want your brand to achieve in the world, say <a href=\"mailto:hello@gladeye.com\">hello@gladeye.com</a>.",
+   "text": "Tell us what you want your brand to achieve in the world, say hello@gladeye.com."
+  },
+  {
+   "html": "</path></svg></span></span></a></div></h3></div><div class=\"col-span-6 space-y-4 font-normal lg:col-span-12\"><div class=\"grid grid-cols-6 gap-sgs lg:grid-cols-12\"><h4 class=\"t-list col-span-1 lg:col-span-4\">1</h4><h5 class=\"t-list col-span-5 lg:col-span-8\">Punch Sulzberger Award</h5></div><div class=\"grid grid-cols-6 gap-sgs lg:grid-cols-12\"><h4 class=\"t-list col-span-1 lg:col-span-4\">3</h4><h5 class=\"t-list col-span-5 lg:col-span-8\">Winners</h5></div><div class=\"grid grid-cols-6 gap-sgs lg:grid-cols-12\"><h4 class=\"t-list col-span-1 lg:col-span-4\">2</h4><h5 class=\"t-list col-span-5 lg:col-span",
+   "text": "1Punch Sulzberger Award3Winners2FinalistsAwwwards13Sites of the day23Honorees3Dev Awards3Mobile ExcellenceBest Design Awards3Purple Pins6Gold Pins10Silver Pins13Bronze Pins11FinalistsCommunicator Awards6Excellence 5DistinctionCSS Design Awards11Sites of the day5Special Kudos7Innnovation14UX/UI DesignEffie Awards2BronzesEPPY Awards1Winner Front Page Award1WinnerGood Design Awards1Best in Class3Golds1WinnerInteractive Media Awards1Best in Class1Outstanding International Business Awards 1WinnerMind"
+  }
+ ],
+ "links": [
+  {
+   "href": "/",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "/about",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "/work/",
+   "text": "incredible ways"
+  },
+  {
+   "href": "mailto:hello@gladeye.com",
+   "text": "hello@gladeye.com"
+  },
+  {
+   "href": "https://www.asme.media/",
+   "text": "American Society of Magazine Editors",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://www.awwwards.com/",
+   "text": "Awwwards",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://bestawards.co.nz/",
+   "text": "Best Design Awards",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://www.communicatorawards.com/",
+   "text": "Communicator Awards",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://www.cssdesignawards.com/",
+   "text": "CSS Design Awards",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://commscouncil.nz/effie",
+   "text": "Effie Awards",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://www.eppyawards.com/",
+   "text": "EPPY Awards",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://www.newswomensclubnewyork.com/fps-index",
+   "text": "Front Page Award",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://good-design.org/",
+   "text": "Good Design Awards",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://www.nzte.govt.nz/page/new-zealand-international-business-awards",
+   "text": "International Business Awards",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://mindsparklemag.com/",
+   "text": "Mindsparkle Mag",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://www.rtdna.org/edward-r-murrow-awards",
+   "text": "National Edward R. Murrow Award",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://www.asme.media/asme-awards",
+   "text": "National Magazine Award",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://nppa.org/awards/awards",
+   "text": "National Press Photographers Association",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://orpetron.com/",
+   "text": "Orpetron",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://opcofamerica.org/",
+   "text": "Overseas Press Club Award",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://peabodyawards.com/",
+   "text": "Peabody Award",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://thephotosociety.org/pdn-storytellers/",
+   "text": "PDN Storytellers",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://www.spd.org/",
+   "text": "Society of Publication Designers",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://theemmys.tv/news/",
+   "text": "The Emmy Awards",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://thefwa.com/",
+   "text": "The FWA",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://oneshow.org/",
+   "text": "The One Show",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://www.webbyawards.com/",
+   "text": "The Webby Awards",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://www.w3award.com/",
+   "text": "w3 Awards",
+   "cls": "ui-link"
+  },
+  {
+   "href": "mailto:hello@gladeye.com",
+   "text": "hello@gladeye.comhello@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.instagram.com/gladeyedigital/",
+   "text": "InstagramInstagram",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://linkedin.com/company/gladeye",
+   "text": "LinkedInLinkedIn",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://twitter.com/gladeye",
+   "text": "XX",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "mailto:careers@gladeye.com",
+   "text": "careers@gladeye.comcareers@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.google.com/maps/place/Gladeye/@-36.8497288,174.7662306,17z/data=!3m1!4b1!4m6!3m5!1s0x6d0d480fd64adab1:0xfa505ffed6ead32a!8m2!3d-36.8497288!4d174.7688055!16s%2Fg%2F1q5gm4f92?entry=ttu",
+   "text": "29 Princes Street, Auckland 101029 Princes Street, Auckland 1010",
+   "cls": "MotionLink_main__kgq4W"
+  }
+ ],
+ "svgCount": 27,
+ "svgs": [
+  "<svg viewBox=\"0 0 2401 590\" class=\"h-auto w-full fill-current\"><path d=\"M577.79 473.96h-86.85V.2h86.85v473.76Zm315.55-34.35c-13.61 16.85-47.96 40.18-103.69 40.18-105.64 0-177.58-71.94-177.58-179.52S683.36 121.4 789.65 121.4c42.77 0 82.31 15.55 102.4 38.24v-32.4h82.31v346.72h-81.01v-34.35Zm-98.51-36.94c58.33 0 95.27-43.42 95.27-102.4s-39.53-101.75-95.27-101.75c-58.98 0-95.92 44.07-95.92 101.75s38.89 102.4 95.92 102.4Zm495.34 36.94c-20.74 22.04-58.33 40.18-102.4 40.18-107.58 0-178.87-73.88-178.87-178.23s71.29-180.17 175.63-180.17c44.07 0 78.42 14.26 99.81 33.7V.2h86.84v473.76h-81.01v-34.35Zm-98.51-37.59c58.33 0 95.27-44.07 95.27-101.75s-38.24-101.75-95.27-101.75-95.92 44.07-95.92 101.75 39.54 101.75 95.92 101.75Zm304.73-73.23c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm316.79 324.02 46.66-127.03-132.21-333.12h95.92l81.01 215.17 78.42-215.17h89.44l-174.99 460.15h-84.25Zm336.41-258.56c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm-1798.2-34.75H243.77v84.75H352.8v35.82l-10.84 10.07c-18.8 19.44-55.09 39.53-106.94 39.53-81.01 0-140.64-58.98-140.64-149.71s55.74-148.41 136.75-148.41c59.62 0 93.33 29.16 114.06 57.03l69.99-51.85c-31.11-47.96-89.44-88.79-184.06-88.79C92.44 17.05.41 121.39.41 249.07c0 139.34 93.97 232.67 230.72 232.67 24.9 0 46.59-3.69 64.99-9.65.05 0 .1-.02.15-.05 2.59-.85 5.16-1.72 7.63-2.67 15.15-5.71 27.79-12.99 37.91-20.89.23-.17 5.29-4.11 10.99-8.52v33.98h84.75V310.82c0-45.37-36.89-82.26-82.26-82.26v.02Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>"
+ ],
+ "themes": [
+  "--theme-primary:16 16 16",
+  "--theme-secondary:255 255 255",
+  "--theme-tertiary:255 255 255",
+  "--theme-header:255 255 255",
+  "--theme-header-secondary:125 125 125",
+  "--theme-header-button-text-default:255 255 255",
+  "--theme-header-button-text-roll-over:0 0 0",
+  "--theme-header-button-bg-default:125 125 125",
+  "--theme-header-button-bg-roll-over:255 255 255"
+ ],
+ "title": ""
+}

@@ -1,0 +1,373 @@
+{
+ "base": "http://127.0.0.1:3005",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "label": "r06",
+ "startedAt": "2026-10-06T19:59:45.703Z",
+ "shots": [
+  "home__00_intro",
+  "home__01_stable",
+  "home__pointer-0.5-0.5",
+  "home__pointer-0.12-0.2",
+  "home__pointer-0.88-0.2",
+  "home__pointer-0.88-0.85",
+  "home__pointer-0.12-0.85",
+  "home__scroll-x1",
+  "home__scroll-x2",
+  "home__scroll-x3",
+  "home__scroll-x4",
+  "home__scroll-x5",
+  "home__scroll-x6",
+  "home__scroll-x8",
+  "home__scroll-x10",
+  "home__full",
+  "menu__open",
+  "menu__hover-item",
+  "menu__closing-mid",
+  "work__0_top",
+  "work__25pct",
+  "work__50pct",
+  "work__75pct",
+  "work__100pct",
+  "work__full",
+  "about__0_top",
+  "about__25pct",
+  "about__50pct",
+  "about__75pct",
+  "about__100pct",
+  "about__full",
+  "contact__0_top",
+  "contact__25pct",
+  "contact__50pct",
+  "contact__75pct",
+  "contact__100pct",
+  "contact__full",
+  "careers__0_top",
+  "careers__25pct",
+  "careers__50pct",
+  "careers__75pct",
+  "careers__100pct",
+  "careers__full",
+  "case-into-the-amazon__hero",
+  "case-into-the-amazon__25pct",
+  "case-into-the-amazon__50pct",
+  "case-into-the-amazon__75pct",
+  "case-into-the-amazon__bottom",
+  "case-into-the-amazon__full"
+ ],
+ "diagnostics": {},
+ "homeDiag": {
+  "hasQaBridge": false,
+  "diagnostics": null,
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "horizontalOverflow": false,
+  "consoleErrors": []
+ },
+ "scrollDiag_x1": {
+  "hasQaBridge": false,
+  "diagnostics": null,
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "horizontalOverflow": false,
+  "consoleErrors": []
+ },
+ "scrollDiag_x2": {
+  "hasQaBridge": false,
+  "diagnostics": null,
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "horizontalOverflow": false,
+  "consoleErrors": []
+ },
+ "scrollDiag_x3": {
+  "hasQaBridge": false,
+  "diagnostics": null,
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "horizontalOverflow": false,
+  "consoleErrors": []
+ },
+ "scrollDiag_x4": {
+  "hasQaBridge": false,
+  "diagnostics": null,
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "horizontalOverflow": false,
+  "consoleErrors": []
+ },
+ "scrollDiag_x5": {
+  "hasQaBridge": false,
+  "diagnostics": null,
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "horizontalOverflow": false,
+  "consoleErrors": []
+ },
+ "scrollDiag_x6": {
+  "hasQaBridge": false,
+  "diagnostics": null,
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "horizontalOverflow": false,
+  "consoleErrors": []
+ },
+ "scrollDiag_x8": {
+  "hasQaBridge": false,
+  "diagnostics": null,
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "horizontalOverflow": false,
+  "consoleErrors": []
+ },
+ "scrollDiag_x10": {
+  "hasQaBridge": false,
+  "diagnostics": null,
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "horizontalOverflow": false,
+  "consoleErrors": []
+ },
+ "menuItems": [
+  "Home",
+  "Work",
+  "About",
+  "Ventures",
+  "Careers",
+  "Contact",
+  "hello@gladeye.comhello@gladeye.com",
+  "InstagramInstagram",
+  "LinkedInLinkedIn",
+  "XX",
+  "careers@gladeye.comcareers@gladeye.com",
+  "29 Princes Street, Auckland 101029 Princes Street, Auckland 1010"
+ ],
+ "menuAfterEsc": {
+  "hasQaBridge": false,
+  "diagnostics": null,
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "horizontalOverflow": false,
+  "consoleErrors": [
+   "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ]
+ },
+ "status/work": 200,
+ "diag/work": {
+  "hasQaBridge": false,
+  "diagnostics": null,
+  "canvasPresent": false,
+  "canvasRect": null,
+  "engine": null,
+  "scrollHeight": 7721,
+  "innerH": 900,
+  "horizontalOverflow": false,
+  "consoleErrors": [
+   "Failed to load resource: the server responded with a status of 403 ()",
+   "Failed to load resource: the server responded with a status of 403 ()",
+   "Failed to load resource: the server responded with a status of 403 ()"
+  ]
+ },
+ "status/about": 200,
+ "diag/about": {
+  "hasQaBridge": false,
+  "diagnostics": null,
+  "canvasPresent": false,
+  "canvasRect": null,
+  "engine": null,
+  "scrollHeight": 8639,
+  "innerH": 900,
+  "horizontalOverflow": false,
+  "consoleErrors": []
+ },
+ "status/contact": 200,
+ "diag/contact": {
+  "hasQaBridge": false,
+  "diagnostics": null,
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": null,
+  "scrollHeight": 1800,
+  "innerH": 900,
+  "horizontalOverflow": false,
+  "consoleErrors": []
+ },
+ "status/careers": 200,
+ "diag/careers": {
+  "hasQaBridge": false,
+  "diagnostics": null,
+  "canvasPresent": false,
+  "canvasRect": null,
+  "engine": null,
+  "scrollHeight": 3221,
+  "innerH": 900,
+  "horizontalOverflow": false,
+  "consoleErrors": []
+ },
+ "status_case_into-the-amazon": 200,
+ "routeAudit": [
+  {
+   "slug": "into-the-amazon",
+   "status": 200,
+   "title": "National Geographic - Gladeye",
+   "h1": "National Geographic",
+   "blocks": 26
+  },
+  {
+   "slug": "cyberbrokers",
+   "status": 200,
+   "title": "CyberBrokers - Gladeye",
+   "h1": "CyberBrokers",
+   "blocks": 82
+  },
+  {
+   "slug": "ekos-genesis",
+   "status": 200,
+   "title": "Ekos Genesis - Gladeye",
+   "h1": "Ekos Genesis",
+   "blocks": 47
+  },
+  {
+   "slug": "the-virtual-economy",
+   "status": 200,
+   "title": "The Virtual Economy - Gladeye",
+   "h1": "The Virtual Economy",
+   "blocks": 46
+  },
+  {
+   "slug": "hypercinema",
+   "status": 200,
+   "title": "HyperCinema - Gladeye",
+   "h1": "HyperCinema",
+   "blocks": 70
+  },
+  {
+   "slug": "the-examination",
+   "status": 200,
+   "title": "The Examination - Gladeye",
+   "h1": "The Examination",
+   "blocks": 70
+  },
+  {
+   "slug": "the-sweetshop",
+   "status": 200,
+   "title": "The Sweetshop - Gladeye",
+   "h1": "The Sweetshop",
+   "blocks": 33
+  },
+  {
+   "slug": "wildsam",
+   "status": 200,
+   "title": "Wildsam - Gladeye",
+   "h1": "Wildsam",
+   "blocks": 32
+  },
+  {
+   "slug": "openavn",
+   "status": 200,
+   "title": "OpenAVN - Gladeye",
+   "h1": "OpenAVN",
+   "blocks": 27
+  },
+  {
+   "slug": "where-opportunity-takes-root",
+   "status": 200,
+   "title": "Where Opportunity Takes Root - Gladeye",
+   "h1": "Where Opportunity Takes Root",
+   "blocks": 14
+  },
+  {
+   "slug": "social-mobility-in-the-digital-age",
+   "status": 200,
+   "title": "Social Mobility in the Digital Age - Gladeye",
+   "h1": "Social Mobility in the Digital Age",
+   "blocks": 32
+  },
+  {
+   "slug": "the-dj-and-the-war-crimes",
+   "status": 200,
+   "title": "The DJ and the War Crimes - Gladeye",
+   "h1": "The DJ and the War Crimes",
+   "blocks": 45
+  },
+  {
+   "slug": "eqty-lab-website",
+   "status": 200,
+   "title": "EQTY Lab Website - Gladeye",
+   "h1": "EQTY Lab Website",
+   "blocks": 40
+  },
+  {
+   "slug": "templar",
+   "status": 200,
+   "title": "Templar - Gladeye",
+   "h1": "Templar",
+   "blocks": 12
+  }
+ ]
+}

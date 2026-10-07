@@ -1,0 +1,586 @@
+{
+ "route": "/work/eqty-lab-website",
+ "imgs": [
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1940x3360/76ed264230/eqty-hero-portrait.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1940x3360/76ed264230/eqty-hero-portrait.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/46b5bfa0b4/eqty-hero-landscape.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/46b5bfa0b4/eqty-hero-landscape.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/e2502134e4/eqty-2.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/e2502134e4/eqty-2.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/ba8036c75a/eqty-3.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/ba8036c75a/eqty-3.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/24cd0fa6e1/eqty-5.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/24cd0fa6e1/eqty-5.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/10ba9fc47e/eqty-1.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/10ba9fc47e/eqty-1.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/c529980db2/eqty-4.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/c529980db2/eqty-4.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/6a9b4d8e27/eqty-icons-1.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/6a9b4d8e27/eqty-icons-1.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/60d2c50af2/eqty-icons-2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/60d2c50af2/eqty-icons-2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/858830ede1/eqty-icons-3.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/858830ede1/eqty-icons-3.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/7f5a8ab0b6/eqty-icons-6.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/7f5a8ab0b6/eqty-icons-6.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/881dfcbb5e/eqty-icons-4.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/881dfcbb5e/eqty-icons-4.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/7e7839d75c/eqty-icons-7.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/7e7839d75c/eqty-icons-7.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/28b7237433/eqty-icons-5.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/28b7237433/eqty-icons-5.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1676x964/3ba9ed3ece/eqty-mobile.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1676x964/3ba9ed3ece/eqty-mobile.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1676x965/137aea035e/eqty-intel.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1676x965/137aea035e/eqty-intel.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/53672d0703/eqty-tools01.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/53672d0703/eqty-tools01.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/7cebbbcfbc/eqty-tools02.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/7cebbbcfbc/eqty-tools02.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/f6cdc082d9/eqty-tools03.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/f6cdc082d9/eqty-tools03.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/78f9a46d2d/eqty-tools04.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3352x1928/78f9a46d2d/eqty-tools04.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  }
+ ],
+ "vids": [],
+ "headings": [
+  {
+   "level": 1,
+   "html": "EQTY Lab Website",
+   "text": "EQTY Lab Website"
+  },
+  {
+   "level": 2,
+   "html": "<span>Trust in Machines: How EQTY Lab Brings </span><i><span>Integrity</span></i><span> to AI</span>",
+   "text": "Trust in Machines: How EQTY Lab Brings Integrity to AI"
+  },
+  {
+   "level": 3,
+   "html": "Client",
+   "text": "Client"
+  },
+  {
+   "level": 4,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.eqtylab.io/\"><span class=\"relative\"><span>EQTY Lab</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.",
+   "text": "EQTY Lab"
+  },
+  {
+   "level": 3,
+   "html": "Category",
+   "text": "Category"
+  },
+  {
+   "level": 4,
+   "html": "Brand + Website",
+   "text": "Brand + Website"
+  },
+  {
+   "level": 3,
+   "html": "Date",
+   "text": "Date"
+  },
+  {
+   "level": 4,
+   "html": "2024",
+   "text": "2024"
+  },
+  {
+   "level": 3,
+   "html": "Keeping AI Honest",
+   "text": "Keeping AI Honest"
+  },
+  {
+   "level": 3,
+   "html": "Creating a Shared Visual Language",
+   "text": "Creating a Shared Visual Language"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span><span>It was a challenge to find a cohesive visual language that can speak to quite complex processes and products. Using lilac as the overarching brand color allowed us to use stronger accent colors to create differentiation whilst keeping things cohesive.</span><span>”</span>",
+   "text": "“It was a challenge to find a cohesive visual language that can speak to quite complex processes and products. Using lilac as the overarching brand color allowed us to use stronger accent colors to create differentiation whilst keeping things cohesive.”"
+  },
+  {
+   "level": 4,
+   "html": "Michael Cannon",
+   "text": "Michael Cannon"
+  },
+  {
+   "level": 5,
+   "html": "Art Director",
+   "text": "Art Director"
+  },
+  {
+   "level": 3,
+   "html": "Powering Understanding Through Animations",
+   "text": "Powering Understanding Through Animations"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span><span>The timing of the animations and text coming in gives the site a sense of dynamism without taking away from the content.</span><span>”</span>",
+   "text": "“The timing of the animations and text coming in gives the site a sense of dynamism without taking away from the content.”"
+  },
+  {
+   "level": 4,
+   "html": "Joris Rotteveel",
+   "text": "Joris Rotteveel"
+  },
+  {
+   "level": 5,
+   "html": "Senior Developer",
+   "text": "Senior Developer"
+  },
+  {
+   "level": 3,
+   "html": "Tools for the Future",
+   "text": "Tools for the Future"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span><span style=\"color:#1D1C1D\">Gladeye joined us at each step of a two-year journey to shape our product and positioning. They were steadfast and enthusiastic as our technology became significantly more advanced —and complex. Their impact was undeniable and indispensable.</span><span>”</span>",
+   "text": "“Gladeye joined us at each step of a two-year journey to shape our product and positioning. They were steadfast and enthusiastic as our technology became significantly more advanced —and complex. Their impact was undeniable and indispensable.”"
+  },
+  {
+   "level": 4,
+   "html": "Jonathan Dotan",
+   "text": "Jonathan Dotan"
+  },
+  {
+   "level": 5,
+   "html": "EQTY Lab Founder",
+   "text": "EQTY Lab Founder"
+  },
+  {
+   "level": 3,
+   "html": "Up Next",
+   "text": "Up Next"
+  },
+  {
+   "level": 3,
+   "html": "Exit Films",
+   "text": "Exit Films"
+  },
+  {
+   "level": 4,
+   "html": "Exit Films",
+   "text": "Exit Films"
+  },
+  {
+   "level": 4,
+   "html": "<i>Moving pictures</i> from Australasia&#x27;s best directors",
+   "text": "Moving pictures from Australasia&#x27;s best directors"
+  },
+  {
+   "level": 2,
+   "html": "<span>Subscribe to<br/>our newsletter</span>",
+   "text": "Subscribe toour newsletter"
+  },
+  {
+   "level": 3,
+   "html": "Request a proposal",
+   "text": "Request a proposal"
+  },
+  {
+   "level": 3,
+   "html": "Follow us",
+   "text": "Follow us"
+  },
+  {
+   "level": 3,
+   "html": "Join the team",
+   "text": "Join the team"
+  },
+  {
+   "level": 3,
+   "html": "Find us",
+   "text": "Find us"
+  }
+ ],
+ "paragraphs": [
+  {
+   "html": "</path></svg></a></div><div class=\"flex justify-center Header_buttonContainer__rN6i5\"><button class=\"pointer-events-auto Header_button__qn2Wj Button_main__NewW7 Button_default__CcbQU\"><span class=\"Button_inner__d7ZPg\">Menu</span></button></div><div class=\"hidden w-[130px] justify-end md:flex\"><a class=\"pointer-events-auto\" aria-label=\"About\" href=\"/about\"></a></div></div></div><main style=\"--theme-primary:16 16 16;--theme-secondary:255 255 255;--theme-tertiary:255 255 255\" class=\"bg-black\"><div style=\"opacity:1\"><div class=\"relative z-main bg-theme-primary transition-bg duration-theme\"><sectio",
+   "text": "MenuEQTY Lab WebsiteTrust in Machines: How EQTY Lab Brings Integrity to AIVisit SiteBuilding trust in AI by turning complexity into clarity"
+  },
+  {
+   "html": "</path></svg></span></span></a></div></h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Category</h3><h4>Brand + Website</h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Date</h3><h4>2024</h4></div></div></div></div></div></section><section data-theme=\"light\" class=\"text-theme-secondary transition-colors duration-theme\"><div class=\"WrokBloks_main__IqYqU\"><div class=\"ui-grid mx-auto my-xl-20 max-w-site gap-y-6 md:my-xl-40\"><div class=\"col-span-full lg:col-span-7 xl:col-span-12\"><h3 class=\"t-p-md font-medium\">",
+   "text": "CategoryBrand + WebsiteDate2024Keeping AI HonestAI is shaping the future. But without proper guidance, it can go off track — causing more harm than good. That’s why EQTY Lab is committed to ensuring AI systems are transparent, secure, and trustworthy. Their mission? To build a future where AI operates with integrity and is used for the greater good. To achieve this, EQTY Lab is creating a powerful suite of AI governance tools and products."
+  },
+  {
+   "html": "<span>EQTY Lab needed a brand and website that could simplify their complex ideas and offerings — one that would connect with anyone, not just tech experts. The challenge was heightened by the need to represent multiple product offerings within the same digital experience.</span>",
+   "text": "EQTY Lab needed a brand and website that could simplify their complex ideas and offerings — one that would connect with anyone, not just tech experts. The challenge was heightened by the need to represent multiple product offerings within the same digital experience."
+  },
+  {
+   "html": "<br/><span>Our designers developed a color, stylistic, and iconographic system that represents the different tools under the EQTY Lab umbrella while maintaining visual cohesion. This ensured that when users switch between products, the visual language feels consistent and clear. The signature lilac color sets the tone, with bold accent colors defining each product area. Custom icons simplify complex ideas, turning abstract concepts into easy-to-understand visuals.</span>",
+   "text": "Our designers developed a color, stylistic, and iconographic system that represents the different tools under the EQTY Lab umbrella while maintaining visual cohesion. This ensured that when users switch between products, the visual language feels consistent and clear. The signature lilac color sets the tone, with bold accent colors defining each product area. Custom icons simplify complex ideas, turning abstract concepts into easy-to-understand visuals."
+  },
+  {
+   "html": "<span>Animations on the site are where the magic happens! We developed a custom-built animation system that triggers animations at precise moments as users scroll. This precision creates the feeling that users are interacting with the systems driving the website in real time.</span><span><br/></span><span><br/></span><span>But the animations are more than just eye candy. They guide visitors through EQTY Lab’s story, simplifying complex product flows and making the site feel cohesive and connected. Our custom-built animation system ensures content appears with perfect timing, creating a smooth ",
+   "text": "Animations on the site are where the magic happens! We developed a custom-built animation system that triggers animations at precise moments as users scroll. This precision creates the feeling that users are interacting with the systems driving the website in real time.But the animations are more than just eye candy. They guide visitors through EQTY Lab’s story, simplifying complex product flows and making the site feel cohesive and connected. Our custom-built animation system ensures content ap"
+  },
+  {
+   "html": "<span>The website’s technical foundation ensures it’s as functional as it is beautiful. We used Next.js to keep the site fast and responsive. Storyblok powers the content management system, giving EQTY Lab’s team full control to manage and expand content as their products evolve.</span><span><br/></span><span><br/></span><span>Storyblok’s flexible component system allows each element to have multiple options and variants, enabling the EQTY Lab team to tailor content with precision and flexibility.</span><span><br/></span><span><br/></span><span>We used Framer Motion to bring animations to life",
+   "text": "The website’s technical foundation ensures it’s as functional as it is beautiful. We used Next.js to keep the site fast and responsive. Storyblok powers the content management system, giving EQTY Lab’s team full control to manage and expand content as their products evolve.Storyblok’s flexible component system allows each element to have multiple options and variants, enabling the EQTY Lab team to tailor content with precision and flexibility.We used Framer Motion to bring animations to life — a"
+  },
+  {
+   "html": "</path></svg></div></a></div></div></div></section></div><div class=\"z-Main min-h-[100vh] w-full desktop:h-auto desktop:aspect-[1728/600]\"></div><footer class=\"lg:fixed lg:flex lg:items-center inset-x-0 bottom-0 z-Footer bg-yellow lg:justify-center min-h-[100vh] w-full desktop:h-auto desktop:aspect-[1728/600]\" data-theme=\"yellow\" data-scroll-lock-fill-gap=\"true\"><div class=\"absolute inset-x-0 bottom-full h-[20vh]  bg-yellow\"></div><div style=\"transform:none\" class=\"ui-grid w-full max-w-site gap-y-12 pb-32 pt-32 lg:gap-y-0\"><div class=\"col-span-full lg:col-span-11 lg:col-start-3 xl:col-span-8 x",
+   "text": "Subscribe toour newsletterRequest a proposalhello@gladeye.comhello@gladeye.comFollow usInstagramInstagram|LinkedInLinkedIn|XXJoin the teamcareers@gladeye.comcareers@gladeye.comFind us29 Princes Street, Auckland 101029 Princes Street, Auckland 1010© Gladeye 2025"
+  }
+ ],
+ "links": [
+  {
+   "href": "/",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "/about",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "https://www.eqtylab.io/",
+   "text": "Visit Site",
+   "cls": "Button_main__NewW7 Button_default__CcbQU"
+  },
+  {
+   "href": "https://www.eqtylab.io/",
+   "text": "EQTY Lab",
+   "cls": "ui-link"
+  },
+  {
+   "href": "/work/exit-films",
+   "text": "Next Project",
+   "cls": "Button_main__NewW7 Button_default__CcbQU Button_ghost__gZqlA"
+  },
+  {
+   "href": "mailto:hello@gladeye.com",
+   "text": "hello@gladeye.comhello@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.instagram.com/gladeyedigital/",
+   "text": "InstagramInstagram",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://linkedin.com/company/gladeye",
+   "text": "LinkedInLinkedIn",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://twitter.com/gladeye",
+   "text": "XX",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "mailto:careers@gladeye.com",
+   "text": "careers@gladeye.comcareers@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.google.com/maps/place/Gladeye/@-36.8497288,174.7662306,17z/data=!3m1!4b1!4m6!3m5!1s0x6d0d480fd64adab1:0xfa505ffed6ead32a!8m2!3d-36.8497288!4d174.7688055!16s%2Fg%2F1q5gm4f92?entry=ttu",
+   "text": "29 Princes Street, Auckland 101029 Princes Street, Auckland 1010",
+   "cls": "MotionLink_main__kgq4W"
+  }
+ ],
+ "svgCount": 6,
+ "svgs": [
+  "<svg viewBox=\"0 0 2401 590\" class=\"h-auto w-full fill-current\"><path d=\"M577.79 473.96h-86.85V.2h86.85v473.76Zm315.55-34.35c-13.61 16.85-47.96 40.18-103.69 40.18-105.64 0-177.58-71.94-177.58-179.52S683.36 121.4 789.65 121.4c42.77 0 82.31 15.55 102.4 38.24v-32.4h82.31v346.72h-81.01v-34.35Zm-98.51-36.94c58.33 0 95.27-43.42 95.27-102.4s-39.53-101.75-95.27-101.75c-58.98 0-95.92 44.07-95.92 101.75s38.89 102.4 95.92 102.4Zm495.34 36.94c-20.74 22.04-58.33 40.18-102.4 40.18-107.58 0-178.87-73.88-178.87-178.23s71.29-180.17 175.63-180.17c44.07 0 78.42 14.26 99.81 33.7V.2h86.84v473.76h-81.01v-34.35Zm-98.51-37.59c58.33 0 95.27-44.07 95.27-101.75s-38.24-101.75-95.27-101.75-95.92 44.07-95.92 101.75 39.54 101.75 95.92 101.75Zm304.73-73.23c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm316.79 324.02 46.66-127.03-132.21-333.12h95.92l81.01 215.17 78.42-215.17h89.44l-174.99 460.15h-84.25Zm336.41-258.56c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm-1798.2-34.75H243.77v84.75H352.8v35.82l-10.84 10.07c-18.8 19.44-55.09 39.53-106.94 39.53-81.01 0-140.64-58.98-140.64-149.71s55.74-148.41 136.75-148.41c59.62 0 93.33 29.16 114.06 57.03l69.99-51.85c-31.11-47.96-89.44-88.79-184.06-88.79C92.44 17.05.41 121.39.41 249.07c0 139.34 93.97 232.67 230.72 232.67 24.9 0 46.59-3.69 64.99-9.65.05 0 .1-.02.15-.05 2.59-.85 5.16-1.72 7.63-2.67 15.15-5.71 27.79-12.99 37.91-20.89.23-.17 5.29-4.11 10.99-8.52v33.98h84.75V310.82c0-45.37-36.89-82.26-82.26-82.26v.02Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>"
+ ],
+ "themes": [
+  "--theme-primary:16 16 16",
+  "--theme-secondary:255 255 255",
+  "--theme-tertiary:255 255 255",
+  "--theme-header:255 255 255",
+  "--theme-header-secondary:125 125 125",
+  "--theme-header-button-text-default:255 255 255",
+  "--theme-header-button-text-roll-over:0 0 0",
+  "--theme-header-button-bg-default:125 125 125",
+  "--theme-header-button-bg-roll-over:255 255 255"
+ ],
+ "title": ""
+}

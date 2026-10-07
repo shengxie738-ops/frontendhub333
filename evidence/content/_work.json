@@ -1,0 +1,1574 @@
+{
+ "route": "/work",
+ "imgs": [
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2476x1886/b64705241d/walton-thumbnail.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2476x1886/b64705241d/walton-thumbnail.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2476x1755/0a6a3e5858/gladeye-into-the-amazon-national-geographic-1.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2476x1755/0a6a3e5858/gladeye-into-the-amazon-national-geographic-1.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/b960f86fb1/rs-1.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/b960f86fb1/rs-1.jpg",
+   "alt": "Screenshot of The DJ and the War Crimes website on ipad",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/b48380362c/hc-behindthescenes2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/b48380362c/hc-behindthescenes2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5068x3380/0397cf2507/cyberbrokers-art2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5068x3380/0397cf2507/cyberbrokers-art2.jpg",
+   "alt": "Screenshot of Cyber Brokers website",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1760/16c6850e86/gladeye-the-examination-default.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1760/16c6850e86/gladeye-the-examination-default.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5118x2880/ea8c048fe9/cover-falling.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5118x2880/ea8c048fe9/cover-falling.jpg",
+   "alt": "Person falling in mid air to the ground with a ladder falling above them",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5614x3743/c0c68bef31/smugglers2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5614x3743/c0c68bef31/smugglers2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1280x1280/0faec493dd/adobestock_233213881.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1280x1280/0faec493dd/adobestock_233213881.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5120x2880/6dda78110b/allpress-cult-barista.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5120x2880/6dda78110b/allpress-cult-barista.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1720x1145/b57fbf4c3c/coffee-taster-using-the-tasting-notes-feature.jpeg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1720x1145/b57fbf4c3c/coffee-taster-using-the-tasting-notes-feature.jpeg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1440/fdf227bae4/hero-amal.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1440/fdf227bae4/hero-amal.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5760x2880/f88360140f/cover.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5760x2880/f88360140f/cover.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x1199/5f9b55ac3e/99e8e3501962a3cd4ab5274a0ce8fe99af544a34.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x1199/5f9b55ac3e/99e8e3501962a3cd4ab5274a0ce8fe99af544a34.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/9e3e359926/dd-cover-portrait.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/9e3e359926/dd-cover-portrait.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5118x2880/12dea88dae/detained-cover.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5118x2880/12dea88dae/detained-cover.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/cc05d8056c/ekos-cover.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/cc05d8056c/ekos-cover.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/f7ebdf7599/cohortx-cover-portrait.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/f7ebdf7599/cohortx-cover-portrait.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2048x2048/c9209bfaed/hover.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2048x2048/c9209bfaed/hover.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/06ae91cd62/exitfilms-cover-portrait.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/06ae91cd62/exitfilms-cover-portrait.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/f3525de41d/fml-square-title.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/f3525de41d/fml-square-title.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/3f5a63337b/fmd-blockbuster.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/3f5a63337b/fmd-blockbuster.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1024x1024/bb168cf863/fall-omfg-mk4.gif/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1024x1024/bb168cf863/fall-omfg-mk4.gif",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5120x2880/b993c3a556/lpay-cover.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5120x2880/b993c3a556/lpay-cover.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2496x1640/b7e8a28e86/l2a-hero.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2496x1640/b7e8a28e86/l2a-hero.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/5d8db5186a/mitoq-woman-in-water.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/5d8db5186a/mitoq-woman-in-water.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/1f4449aeb7/openavn-cover.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/1f4449aeb7/openavn-cover.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/66a6254bbf/orconapp-cover-portrait.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/66a6254bbf/orconapp-cover-portrait.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/80daaf4b46/orcon-website-headphone-girl.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/80daaf4b46/orcon-website-headphone-girl.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/6400x3384/dee66dddfa/beta-_8.jpeg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/6400x3384/dee66dddfa/beta-_8.jpeg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/887328cabe/saga-brand-purple.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/887328cabe/saga-brand-purple.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2500x1649/79c65cc9b2/hero-1.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2500x1649/79c65cc9b2/hero-1.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/f4bf9a51e7/win-cover-portrait.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/f4bf9a51e7/win-cover-portrait.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3894x2846/d7c06437e5/rad-tech-radar.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3894x2846/d7c06437e5/rad-tech-radar.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1728x1054/1ad8cb6279/case-study-asset-header.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1728x1054/1ad8cb6279/case-study-asset-header.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2496x1640/434dfd3373/goodk-hero.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2496x1640/434dfd3373/goodk-hero.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1200x1200/bef4f2da33/tss-0-workpagehero.gif/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1200x1200/bef4f2da33/tss-0-workpagehero.gif",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/da1af7df29/virtual-economy-cover-portrait.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/da1af7df29/virtual-economy-cover-portrait.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/8deb5c6f43/gladeye_ll-thecatch_1.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/8deb5c6f43/gladeye_ll-thecatch_1.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/62319f3c41/gladeye-wildsam-hero.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/62319f3c41/gladeye-wildsam-hero.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/718x1548/3304b31ee8/wtf-mobilehero.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/718x1548/3304b31ee8/wtf-mobilehero.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  }
+ ],
+ "vids": [
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/855535768/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=fbe11a2f64b45e10be5778d7717b3e199ec5ce9c684b6a160a366b1df83f2d4f\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/882705368/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=c805700d8a19c2d212be49abb83b99a9042da95b876e61866d9f59f3723fd854\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/894381115/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=3eaf58db393fabb57b65b804af6224a706407952d843f8d562edf624307bb2b7\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/865174986/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=8ee70d473585adc474895cdcd348a9aa508f83d16bbeb193cd0748505b0ed2d5\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/894383301/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=6cd3dacae9455668367946fcf76c71228aec2f5af873831f0494797fcdbafcf3\" muted=\"\" loop=\"\" playsInline=\"\"></video>"
+ ],
+ "headings": [
+  {
+   "level": 4,
+   "html": "Walton Family Foundation",
+   "text": "Walton Family Foundation"
+  },
+  {
+   "level": 3,
+   "html": "<span class=\"MotionLink_main__kgq4W FeaturedWorkGrid_item-content-h3-inner__lgneM\"><div class=\"MotionLink_inner__hsBoJ\"><span>Where Opportunity Takes Root</span><span>Where Opportunity Takes Root</span></div></span>",
+   "text": "Where Opportunity Takes RootWhere Opportunity Takes Root"
+  },
+  {
+   "level": 4,
+   "html": "National Geographic",
+   "text": "National Geographic"
+  },
+  {
+   "level": 3,
+   "html": "<span class=\"MotionLink_main__kgq4W FeaturedWorkGrid_item-content-h3-inner__lgneM\"><div class=\"MotionLink_inner__hsBoJ\"><span>National Geographic </span><span>National Geographic </span></div></span>",
+   "text": "National Geographic National Geographic"
+  },
+  {
+   "level": 4,
+   "html": "Rolling Stone",
+   "text": "Rolling Stone"
+  },
+  {
+   "level": 3,
+   "html": "<span class=\"MotionLink_main__kgq4W FeaturedWorkGrid_item-content-h3-inner__lgneM\"><div class=\"MotionLink_inner__hsBoJ\"><span>The DJ and the War Crimes</span><span>The DJ and the War Crimes</span></div></span>",
+   "text": "The DJ and the War CrimesThe DJ and the War Crimes"
+  },
+  {
+   "level": 4,
+   "html": "Gladeye Ventures",
+   "text": "Gladeye Ventures"
+  },
+  {
+   "level": 3,
+   "html": "<span class=\"MotionLink_main__kgq4W FeaturedWorkGrid_item-content-h3-inner__lgneM\"><div class=\"MotionLink_inner__hsBoJ\"><span>HyperCinema</span><span>HyperCinema</span></div></span>",
+   "text": "HyperCinemaHyperCinema"
+  },
+  {
+   "level": 4,
+   "html": "CyberBrokers",
+   "text": "CyberBrokers"
+  },
+  {
+   "level": 3,
+   "html": "<span class=\"MotionLink_main__kgq4W FeaturedWorkGrid_item-content-h3-inner__lgneM\"><div class=\"MotionLink_inner__hsBoJ\"><span>CyberBrokers</span><span>CyberBrokers</span></div></span>",
+   "text": "CyberBrokersCyberBrokers"
+  },
+  {
+   "level": 4,
+   "html": "The Examination",
+   "text": "The Examination"
+  },
+  {
+   "level": 3,
+   "html": "<span class=\"MotionLink_main__kgq4W FeaturedWorkGrid_item-content-h3-inner__lgneM\"><div class=\"MotionLink_inner__hsBoJ\"><span>The Examination</span><span>The Examination</span></div></span>",
+   "text": "The ExaminationThe Examination"
+  },
+  {
+   "level": 4,
+   "html": "L’Atelier BNP Paribas",
+   "text": "L’Atelier BNP Paribas"
+  },
+  {
+   "level": 3,
+   "html": "<span class=\"MotionLink_main__kgq4W FeaturedWorkGrid_item-content-h3-inner__lgneM\"><div class=\"MotionLink_inner__hsBoJ\"><span>Social Mobility in the Digital Age</span><span>Social Mobility in the Digital Age</span></div></span>",
+   "text": "Social Mobility in the Digital AgeSocial Mobility in the Digital Age"
+  },
+  {
+   "level": 4,
+   "html": "EQTY Lab",
+   "text": "EQTY Lab"
+  },
+  {
+   "level": 3,
+   "html": "<span class=\"MotionLink_main__kgq4W FeaturedWorkGrid_item-content-h3-inner__lgneM\"><div class=\"MotionLink_inner__hsBoJ\"><span>EQTY Lab Website</span><span>EQTY Lab Website</span></div></span>",
+   "text": "EQTY Lab WebsiteEQTY Lab Website"
+  },
+  {
+   "level": 3,
+   "html": "2016",
+   "text": "2016"
+  },
+  {
+   "level": 4,
+   "html": "21st Century Gold Rush",
+   "text": "21st Century Gold Rush"
+  },
+  {
+   "level": 5,
+   "html": "HuffPost",
+   "text": "HuffPost"
+  },
+  {
+   "level": 3,
+   "html": "2021 - ∞",
+   "text": "2021 - ∞"
+  },
+  {
+   "level": 4,
+   "html": "Aeroqual",
+   "text": "Aeroqual"
+  },
+  {
+   "level": 5,
+   "html": "Aeroqual",
+   "text": "Aeroqual"
+  },
+  {
+   "level": 3,
+   "html": "2019",
+   "text": "2019"
+  },
+  {
+   "level": 4,
+   "html": "Allpress Culture Manual",
+   "text": "Allpress Culture Manual"
+  },
+  {
+   "level": 5,
+   "html": "Allpress Espresso",
+   "text": "Allpress Espresso"
+  },
+  {
+   "level": 3,
+   "html": "2018",
+   "text": "2018"
+  },
+  {
+   "level": 4,
+   "html": "Allpress Flavour Finder",
+   "text": "Allpress Flavour Finder"
+  },
+  {
+   "level": 5,
+   "html": "Allpress Espresso",
+   "text": "Allpress Espresso"
+  },
+  {
+   "level": 3,
+   "html": "2016",
+   "text": "2016"
+  },
+  {
+   "level": 4,
+   "html": "America&#x27;s Most Admired Lawbreaker",
+   "text": "America&#x27;s Most Admired Lawbreaker"
+  },
+  {
+   "level": 5,
+   "html": "HuffPost",
+   "text": "HuffPost"
+  },
+  {
+   "level": 3,
+   "html": "2022 - 2024",
+   "text": "2022 - 2024"
+  },
+  {
+   "level": 4,
+   "html": "Bombas Impact Report",
+   "text": "Bombas Impact Report"
+  },
+  {
+   "level": 5,
+   "html": "Bombas",
+   "text": "Bombas"
+  },
+  {
+   "level": 3,
+   "html": "2020 - ∞",
+   "text": "2020 - ∞"
+  },
+  {
+   "level": 4,
+   "html": "Chartwell",
+   "text": "Chartwell"
+  },
+  {
+   "level": 5,
+   "html": "Chartwell",
+   "text": "Chartwell"
+  },
+  {
+   "level": 3,
+   "html": "2020",
+   "text": "2020"
+  },
+  {
+   "level": 4,
+   "html": "Data Disappeared",
+   "text": "Data Disappeared"
+  },
+  {
+   "level": 5,
+   "html": "HuffPost",
+   "text": "HuffPost"
+  },
+  {
+   "level": 3,
+   "html": "2019",
+   "text": "2019"
+  },
+  {
+   "level": 4,
+   "html": "Detained",
+   "text": "Detained"
+  },
+  {
+   "level": 5,
+   "html": "The Marshall Project",
+   "text": "The Marshall Project"
+  },
+  {
+   "level": 3,
+   "html": "2023 - ∞",
+   "text": "2023 - ∞"
+  },
+  {
+   "level": 4,
+   "html": "Ekos Genesis",
+   "text": "Ekos Genesis"
+  },
+  {
+   "level": 5,
+   "html": "Mythos Studios",
+   "text": "Mythos Studios"
+  },
+  {
+   "level": 3,
+   "html": "2021",
+   "text": "2021"
+  },
+  {
+   "level": 4,
+   "html": "Elemental Excelerator Cohort X",
+   "text": "Elemental Excelerator Cohort X"
+  },
+  {
+   "level": 5,
+   "html": "Elemental Excelerator",
+   "text": "Elemental Excelerator"
+  },
+  {
+   "level": 3,
+   "html": "2023 - ∞",
+   "text": "2023 - ∞"
+  },
+  {
+   "level": 4,
+   "html": "Endowment for Climate Intelligence",
+   "text": "Endowment for Climate Intelligence"
+  },
+  {
+   "level": 5,
+   "html": "EQTY Lab",
+   "text": "EQTY Lab"
+  },
+  {
+   "level": 3,
+   "html": "2019",
+   "text": "2019"
+  },
+  {
+   "level": 4,
+   "html": "Exit Films",
+   "text": "Exit Films"
+  },
+  {
+   "level": 5,
+   "html": "Exit Films",
+   "text": "Exit Films"
+  },
+  {
+   "level": 3,
+   "html": "2017",
+   "text": "2017"
+  },
+  {
+   "level": 4,
+   "html": "FML Millennials are Screwed",
+   "text": "FML Millennials are Screwed"
+  },
+  {
+   "level": 5,
+   "html": "HuffPost",
+   "text": "HuffPost"
+  },
+  {
+   "level": 3,
+   "html": "2020",
+   "text": "2020"
+  },
+  {
+   "level": 4,
+   "html": "Free Markets Destroy",
+   "text": "Free Markets Destroy"
+  },
+  {
+   "level": 5,
+   "html": "Washington Policy Center",
+   "text": "Washington Policy Center"
+  },
+  {
+   "level": 3,
+   "html": "2015 - 2020",
+   "text": "2015 - 2020"
+  },
+  {
+   "level": 4,
+   "html": "HuffPost Highline",
+   "text": "HuffPost Highline"
+  },
+  {
+   "level": 5,
+   "html": "HuffPost",
+   "text": "HuffPost"
+  },
+  {
+   "level": 3,
+   "html": "2019",
+   "text": "2019"
+  },
+  {
+   "level": 4,
+   "html": "LatitudePay",
+   "text": "LatitudePay"
+  },
+  {
+   "level": 5,
+   "html": "Latitude",
+   "text": "Latitude"
+  },
+  {
+   "level": 3,
+   "html": "2018",
+   "text": "2018"
+  },
+  {
+   "level": 4,
+   "html": "Listen to America",
+   "text": "Listen to America"
+  },
+  {
+   "level": 5,
+   "html": "HuffPost",
+   "text": "HuffPost"
+  },
+  {
+   "level": 3,
+   "html": "2022 - ∞",
+   "text": "2022 - ∞"
+  },
+  {
+   "level": 4,
+   "html": "MitoQ",
+   "text": "MitoQ"
+  },
+  {
+   "level": 5,
+   "html": "MitoQ",
+   "text": "MitoQ"
+  },
+  {
+   "level": 3,
+   "html": "2020",
+   "text": "2020"
+  },
+  {
+   "level": 4,
+   "html": "OpenAVN",
+   "text": "OpenAVN"
+  },
+  {
+   "level": 5,
+   "html": "OpenAVN",
+   "text": "OpenAVN"
+  },
+  {
+   "level": 3,
+   "html": "2021 - ∞",
+   "text": "2021 - ∞"
+  },
+  {
+   "level": 4,
+   "html": "Orcon - App",
+   "text": "Orcon - App"
+  },
+  {
+   "level": 5,
+   "html": "2degrees",
+   "text": "2degrees"
+  },
+  {
+   "level": 3,
+   "html": "2021 - ∞",
+   "text": "2021 - ∞"
+  },
+  {
+   "level": 4,
+   "html": "Orcon - Website",
+   "text": "Orcon - Website"
+  },
+  {
+   "level": 5,
+   "html": "2degrees",
+   "text": "2degrees"
+  },
+  {
+   "level": 3,
+   "html": "2022 - ∞",
+   "text": "2022 - ∞"
+  },
+  {
+   "level": 4,
+   "html": "Saga - Brand",
+   "text": "Saga - Brand"
+  },
+  {
+   "level": 5,
+   "html": "Saga",
+   "text": "Saga"
+  },
+  {
+   "level": 3,
+   "html": "2022 - ∞",
+   "text": "2022 - ∞"
+  },
+  {
+   "level": 4,
+   "html": "Saga - Website",
+   "text": "Saga - Website"
+  },
+  {
+   "level": 5,
+   "html": "Saga",
+   "text": "Saga"
+  },
+  {
+   "level": 3,
+   "html": "2016",
+   "text": "2016"
+  },
+  {
+   "level": 4,
+   "html": "Serato DJ-808",
+   "text": "Serato DJ-808"
+  },
+  {
+   "level": 5,
+   "html": "Serato",
+   "text": "Serato"
+  },
+  {
+   "level": 3,
+   "html": "2019",
+   "text": "2019"
+  },
+  {
+   "level": 4,
+   "html": "Shadows in the Dark",
+   "text": "Shadows in the Dark"
+  },
+  {
+   "level": 5,
+   "html": "World Identity Network",
+   "text": "World Identity Network"
+  },
+  {
+   "level": 3,
+   "html": "2021",
+   "text": "2021"
+  },
+  {
+   "level": 4,
+   "html": "Tech Radar",
+   "text": "Tech Radar"
+  },
+  {
+   "level": 5,
+   "html": "L’Atelier BNP Paribas",
+   "text": "L’Atelier BNP Paribas"
+  },
+  {
+   "level": 3,
+   "html": "2025 - ∞",
+   "text": "2025 - ∞"
+  },
+  {
+   "level": 4,
+   "html": "Templar",
+   "text": "Templar"
+  },
+  {
+   "level": 5,
+   "html": "Templar",
+   "text": "Templar"
+  },
+  {
+   "level": 3,
+   "html": "2018",
+   "text": "2018"
+  },
+  {
+   "level": 4,
+   "html": "The Good Kind",
+   "text": "The Good Kind"
+  },
+  {
+   "level": 5,
+   "html": "HuffPost",
+   "text": "HuffPost"
+  },
+  {
+   "level": 3,
+   "html": "2023 - ∞",
+   "text": "2023 - ∞"
+  },
+  {
+   "level": 4,
+   "html": "The Sweetshop",
+   "text": "The Sweetshop"
+  },
+  {
+   "level": 5,
+   "html": "The Sweetshop",
+   "text": "The Sweetshop"
+  },
+  {
+   "level": 3,
+   "html": "2020",
+   "text": "2020"
+  },
+  {
+   "level": 4,
+   "html": "The Virtual Economy",
+   "text": "The Virtual Economy"
+  },
+  {
+   "level": 5,
+   "html": "L’Atelier BNP Paribas",
+   "text": "L’Atelier BNP Paribas"
+  },
+  {
+   "level": 3,
+   "html": "2024",
+   "text": "2024"
+  },
+  {
+   "level": 4,
+   "html": "Virginia Kraft",
+   "text": "Virginia Kraft"
+  },
+  {
+   "level": 5,
+   "html": "Long Lead",
+   "text": "Long Lead"
+  },
+  {
+   "level": 3,
+   "html": "2024",
+   "text": "2024"
+  },
+  {
+   "level": 4,
+   "html": "Wildsam",
+   "text": "Wildsam"
+  },
+  {
+   "level": 5,
+   "html": "Wildsam",
+   "text": "Wildsam"
+  },
+  {
+   "level": 3,
+   "html": "2018",
+   "text": "2018"
+  },
+  {
+   "level": 4,
+   "html": "WTF is Data Science",
+   "text": "WTF is Data Science"
+  },
+  {
+   "level": 5,
+   "html": "Thinkful",
+   "text": "Thinkful"
+  },
+  {
+   "level": 2,
+   "html": "<span>Subscribe to<br/>our newsletter</span>",
+   "text": "Subscribe toour newsletter"
+  },
+  {
+   "level": 3,
+   "html": "Request a proposal",
+   "text": "Request a proposal"
+  },
+  {
+   "level": 3,
+   "html": "Follow us",
+   "text": "Follow us"
+  },
+  {
+   "level": 3,
+   "html": "Join the team",
+   "text": "Join the team"
+  },
+  {
+   "level": 3,
+   "html": "Find us",
+   "text": "Find us"
+  }
+ ],
+ "paragraphs": [
+  {
+   "html": "</path></svg></a></div><div class=\"flex justify-center Header_buttonContainer__rN6i5\"><button class=\"pointer-events-auto Header_button__qn2Wj Button_main__NewW7 Button_default__CcbQU\"><span class=\"Button_inner__d7ZPg\">Menu</span></button></div><div class=\"hidden w-[130px] justify-end md:flex\"><a class=\"pointer-events-auto\" aria-label=\"About\" href=\"/about\"></a></div></div></div><main style=\"--theme-primary:16 16 16;--theme-secondary:255 255 255;--theme-tertiary:255 255 255\" class=\"bg-black\"><div style=\"opacity:1\"><div class=\"relative z-main bg-theme-primary transition-bg duration-theme\"><sectio",
+   "text": "MenuWalton Family FoundationWhere Opportunity Takes RootWhere Opportunity Takes RootNational Geographic National Geographic National Geographic Rolling Stone The DJ and the War CrimesThe DJ and the War CrimesGladeye VenturesHyperCinemaHyperCinemaCyberBrokersCyberBrokersCyberBrokersThe ExaminationThe ExaminationThe ExaminationL’Atelier BNP ParibasSocial Mobility in the Digital AgeSocial Mobility in the Digital AgeEQTY LabEQTY Lab WebsiteEQTY Lab WebsitePlayshowreel"
+  },
+  {
+   "html": "</path></svg></div></div><div class=\"FeatureList_item-border-bottom__Ar4na\"></div><div style=\"background:#ffc926;--transform-origin:bottom;transform:scaleY(0) translateZ(0)\" class=\"FeatureList_item-background__nqt3P\"></div></div></a><a class=\"FeatureList_item__3Uvy5 FeatureList_interactive__vocFb\" href=\"/work/aeroqual\"><div class=\"FeatureList_item-inner__rl_Xr\"><div class=\"FeatureList_item-border-top__VoQoY\"></div><div class=\"col-span-3 hidden sm:block lg:col-span-4\"><h3 class=\"t-list-sm\">2021 - ∞</h3></div><div class=\"col-span-10 sm:col-span-5 lg:col-span-12\"><h4 class=\"t-h5\">Aeroqual</h4></d",
+   "text": "2021 - ∞AeroqualAeroqualView project2019Allpress Culture ManualAllpress EspressoView project2018Allpress Flavour FinderAllpress EspressoView project2016America&#x27;s Most Admired LawbreakerHuffPostView project2022 - 2024Bombas Impact ReportBombasView project2020 - ∞ChartwellChartwellView project2020Data DisappearedHuffPostView project2019DetainedThe Marshall ProjectView project2023 - ∞Ekos GenesisMythos StudiosView project2021Elemental Excelerator Cohort XElemental ExceleratorView project 2023 "
+  }
+ ],
+ "links": [
+  {
+   "href": "/",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "/about",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "/work/where-opportunity-takes-root",
+   "text": "Walton Family FoundationWhere Opportunity Takes RootWhere Opportunity Takes Root",
+   "cls": " FeaturedWorkGrid_item__hQBLy"
+  },
+  {
+   "href": "/work/into-the-amazon",
+   "text": "National Geographic National Geographic National Geographic",
+   "cls": " FeaturedWorkGrid_item__hQBLy"
+  },
+  {
+   "href": "/work/the-dj-and-the-war-crimes",
+   "text": "Rolling Stone The DJ and the War CrimesThe DJ and the War Crimes",
+   "cls": " FeaturedWorkGrid_item__hQBLy"
+  },
+  {
+   "href": "/work/hypercinema",
+   "text": "Gladeye VenturesHyperCinemaHyperCinema",
+   "cls": " FeaturedWorkGrid_item__hQBLy"
+  },
+  {
+   "href": "/work/cyberbrokers",
+   "text": "CyberBrokersCyberBrokersCyberBrokers",
+   "cls": " FeaturedWorkGrid_item__hQBLy"
+  },
+  {
+   "href": "/work/the-examination",
+   "text": "The ExaminationThe ExaminationThe Examination",
+   "cls": " FeaturedWorkGrid_item__hQBLy"
+  },
+  {
+   "href": "/work/social-mobility-in-the-digital-age",
+   "text": "L’Atelier BNP ParibasSocial Mobility in the Digital AgeSocial Mobility in the Digital Age",
+   "cls": " FeaturedWorkGrid_item__hQBLy"
+  },
+  {
+   "href": "/work/eqty-lab-website",
+   "text": "EQTY LabEQTY Lab WebsiteEQTY Lab Website",
+   "cls": " FeaturedWorkGrid_item__hQBLy"
+  },
+  {
+   "href": "/work/21st-century-gold-rush",
+   "text": "201621st Century Gold RushHuffPostView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/aeroqual",
+   "text": "2021 - ∞AeroqualAeroqualView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/allpress-culture-manual",
+   "text": "2019Allpress Culture ManualAllpress EspressoView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/allpress-flavour-finder",
+   "text": "2018Allpress Flavour FinderAllpress EspressoView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/america-s-most-admired-lawbreaker",
+   "text": "2016America&#x27;s Most Admired LawbreakerHuffPostView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/bombas-impact-report",
+   "text": "2022 - 2024Bombas Impact ReportBombasView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/chartwell",
+   "text": "2020 - ∞ChartwellChartwellView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/data-disappeared",
+   "text": "2020Data DisappearedHuffPostView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/detained",
+   "text": "2019DetainedThe Marshall ProjectView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/ekos-genesis",
+   "text": "2023 - ∞Ekos GenesisMythos StudiosView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/elemental-excelerator-cohort-x",
+   "text": "2021Elemental Excelerator Cohort XElemental ExceleratorView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/endowment-for-climate-intelligence",
+   "text": "2023 - ∞Endowment for Climate IntelligenceEQTY LabView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/exit-films",
+   "text": "2019Exit FilmsExit FilmsView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/fml-millennials-are-screwed",
+   "text": "2017FML Millennials are ScrewedHuffPostView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/free-markets-destroy",
+   "text": "2020Free Markets DestroyWashington Policy CenterView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/huffpost-highline",
+   "text": "2015 - 2020HuffPost HighlineHuffPostView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/latitudepay",
+   "text": "2019LatitudePayLatitudeView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/listen-to-america",
+   "text": "2018Listen to AmericaHuffPostView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/mitoq",
+   "text": "2022 - ∞MitoQMitoQView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/openavn",
+   "text": "2020OpenAVNOpenAVNView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/orcon-app",
+   "text": "2021 - ∞Orcon - App2degreesView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/orcon-website",
+   "text": "2021 - ∞Orcon - Website2degreesView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/saga-branding",
+   "text": "2022 - ∞Saga - BrandSagaView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/saga-website",
+   "text": "2022 - ∞Saga - WebsiteSagaView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/serato-dj-808",
+   "text": "2016Serato DJ-808SeratoView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/shadows-in-the-dark",
+   "text": "2019Shadows in the DarkWorld Identity NetworkView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/tech-radar",
+   "text": "2021Tech RadarL’Atelier BNP ParibasView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/templar",
+   "text": "2025 - ∞TemplarTemplarView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/the-good-kind",
+   "text": "2018The Good KindHuffPostView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/the-sweetshop",
+   "text": "2023 - ∞The SweetshopThe SweetshopView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/the-virtual-economy",
+   "text": "2020The Virtual EconomyL’Atelier BNP ParibasView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/long-lead",
+   "text": "2024Virginia KraftLong LeadView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/wildsam",
+   "text": "2024WildsamWildsamView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "/work/wtf-is-data-science",
+   "text": "2018WTF is Data ScienceThinkfulView project",
+   "cls": "FeatureList_item__3Uvy5 FeatureList_interactive__vocFb"
+  },
+  {
+   "href": "mailto:hello@gladeye.com",
+   "text": "hello@gladeye.comhello@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.instagram.com/gladeyedigital/",
+   "text": "InstagramInstagram",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://linkedin.com/company/gladeye",
+   "text": "LinkedInLinkedIn",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://twitter.com/gladeye",
+   "text": "XX",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "mailto:careers@gladeye.com",
+   "text": "careers@gladeye.comcareers@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.google.com/maps/place/Gladeye/@-36.8497288,174.7662306,17z/data=!3m1!4b1!4m6!3m5!1s0x6d0d480fd64adab1:0xfa505ffed6ead32a!8m2!3d-36.8497288!4d174.7688055!16s%2Fg%2F1q5gm4f92?entry=ttu",
+   "text": "29 Princes Street, Auckland 101029 Princes Street, Auckland 1010",
+   "cls": "MotionLink_main__kgq4W"
+  }
+ ],
+ "svgCount": 39,
+ "svgs": [
+  "<svg viewBox=\"0 0 2401 590\" class=\"h-auto w-full fill-current\"><path d=\"M577.79 473.96h-86.85V.2h86.85v473.76Zm315.55-34.35c-13.61 16.85-47.96 40.18-103.69 40.18-105.64 0-177.58-71.94-177.58-179.52S683.36 121.4 789.65 121.4c42.77 0 82.31 15.55 102.4 38.24v-32.4h82.31v346.72h-81.01v-34.35Zm-98.51-36.94c58.33 0 95.27-43.42 95.27-102.4s-39.53-101.75-95.27-101.75c-58.98 0-95.92 44.07-95.92 101.75s38.89 102.4 95.92 102.4Zm495.34 36.94c-20.74 22.04-58.33 40.18-102.4 40.18-107.58 0-178.87-73.88-178.87-178.23s71.29-180.17 175.63-180.17c44.07 0 78.42 14.26 99.81 33.7V.2h86.84v473.76h-81.01v-34.35Zm-98.51-37.59c58.33 0 95.27-44.07 95.27-101.75s-38.24-101.75-95.27-101.75-95.92 44.07-95.92 101.75 39.54 101.75 95.92 101.75Zm304.73-73.23c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm316.79 324.02 46.66-127.03-132.21-333.12h95.92l81.01 215.17 78.42-215.17h89.44l-174.99 460.15h-84.25Zm336.41-258.56c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm-1798.2-34.75H243.77v84.75H352.8v35.82l-10.84 10.07c-18.8 19.44-55.09 39.53-106.94 39.53-81.01 0-140.64-58.98-140.64-149.71s55.74-148.41 136.75-148.41c59.62 0 93.33 29.16 114.06 57.03l69.99-51.85c-31.11-47.96-89.44-88.79-184.06-88.79C92.44 17.05.41 121.39.41 249.07c0 139.34 93.97 232.67 230.72 232.67 24.9 0 46.59-3.69 64.99-9.65.05 0 .1-.02.15-.05 2.59-.85 5.16-1.72 7.63-2.67 15.15-5.71 27.79-12.99 37.91-20.89.23-.17 5.29-4.11 10.99-8.52v33.98h84.75V310.82c0-45.37-36.89-82.26-82.26-82.26v.02Z\"></path></svg>",
+  "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"17\" fill=\"none\"><path stroke=\"#FCF9F9\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M1 16V1l12.5 7.5L1 16Z\"></path></svg>",
+  "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"17\" fill=\"none\"><path stroke=\"#FCF9F9\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M1 16V1l12.5 7.5L1 16Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>"
+ ],
+ "themes": [
+  "--theme-primary:16 16 16",
+  "--theme-secondary:255 255 255",
+  "--theme-tertiary:255 255 255",
+  "--theme-header:255 255 255",
+  "--theme-header-secondary:125 125 125",
+  "--theme-header-button-text-default:255 255 255",
+  "--theme-header-button-text-roll-over:0 0 0",
+  "--theme-header-button-bg-default:125 125 125",
+  "--theme-header-button-bg-roll-over:255 255 255"
+ ],
+ "title": ""
+}

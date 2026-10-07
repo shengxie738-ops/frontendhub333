@@ -1,0 +1,88 @@
+[
+ {
+  "key": "work__25pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 144.92,
+   "stdev": 110.42,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 410
+  },
+  "candidate": {
+   "meanLuma": 253.57,
+   "stdev": 16.82,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 59
+  },
+  "meanAbsDiff": 114.91,
+  "pctPixelsOver12": 52.16,
+  "pctPixelsOver60": 50.91,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "work__50pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 165.39,
+   "stdev": 120.49,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 32
+  },
+  "candidate": {
+   "meanLuma": 250.46,
+   "stdev": 29.29,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 30
+  },
+  "meanAbsDiff": 92.63,
+  "pctPixelsOver12": 38.32,
+  "pctPixelsOver60": 37.49,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "work__0_top",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 178.31,
+   "stdev": 88.74,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1265
+  },
+  "candidate": {
+   "meanLuma": 159.97,
+   "stdev": 110.18,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 661
+  },
+  "meanAbsDiff": 30.72,
+  "pctPixelsOver12": 33.08,
+  "pctPixelsOver60": 25.33,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "work__0pct",
+  "status": "no-reference"
+ }
+]

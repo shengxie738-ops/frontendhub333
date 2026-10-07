@@ -1,0 +1,366 @@
+[
+ {
+  "key": "home__scroll-x6",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 44.88,
+   "stdev": 47.17,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1916
+  },
+  "candidate": {
+   "meanLuma": 44.67,
+   "stdev": 55.24,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1711
+  },
+  "meanAbsDiff": 40.41,
+  "pctPixelsOver12": 71.09,
+  "pctPixelsOver60": 20.81,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x1",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 41.55,
+   "stdev": 43.59,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1704
+  },
+  "candidate": {
+   "meanLuma": 56.55,
+   "stdev": 58.97,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 2103
+  },
+  "meanAbsDiff": 40.24,
+  "pctPixelsOver12": 68.9,
+  "pctPixelsOver60": 20.33,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__pointer-0.12-0.85",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 41.36,
+   "stdev": 43.56,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1686
+  },
+  "candidate": {
+   "meanLuma": 55.43,
+   "stdev": 58.41,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 2053
+  },
+  "meanAbsDiff": 39.75,
+  "pctPixelsOver12": 68.26,
+  "pctPixelsOver60": 19.89,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x3",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 42.77,
+   "stdev": 45.09,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1797
+  },
+  "candidate": {
+   "meanLuma": 51.36,
+   "stdev": 55.04,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1815
+  },
+  "meanAbsDiff": 38.21,
+  "pctPixelsOver12": 70.11,
+  "pctPixelsOver60": 19.27,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x5",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 47.55,
+   "stdev": 50.12,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1820
+  },
+  "candidate": {
+   "meanLuma": 42.58,
+   "stdev": 45.71,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1774
+  },
+  "meanAbsDiff": 37.88,
+  "pctPixelsOver12": 69.88,
+  "pctPixelsOver60": 18.93,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x2",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 40.97,
+   "stdev": 43.81,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1731
+  },
+  "candidate": {
+   "meanLuma": 52.31,
+   "stdev": 53.31,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1998
+  },
+  "meanAbsDiff": 37.67,
+  "pctPixelsOver12": 69.07,
+  "pctPixelsOver60": 18.65,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x4",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 42.32,
+   "stdev": 45.6,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1766
+  },
+  "candidate": {
+   "meanLuma": 48.52,
+   "stdev": 51.51,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1785
+  },
+  "meanAbsDiff": 36.62,
+  "pctPixelsOver12": 68.59,
+  "pctPixelsOver60": 17.66,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__pointer-0.88-0.85",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 46.05,
+   "stdev": 46.63,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1830
+  },
+  "candidate": {
+   "meanLuma": 44.61,
+   "stdev": 44.18,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1634
+  },
+  "meanAbsDiff": 34.17,
+  "pctPixelsOver12": 67.94,
+  "pctPixelsOver60": 15.69,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x8",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 42.81,
+   "stdev": 47.95,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1794
+  },
+  "candidate": {
+   "meanLuma": 41.04,
+   "stdev": 44.99,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1419
+  },
+  "meanAbsDiff": 34.07,
+  "pctPixelsOver12": 67.08,
+  "pctPixelsOver60": 15.03,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__pointer-0.88-0.2",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 40.39,
+   "stdev": 43.18,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1616
+  },
+  "candidate": {
+   "meanLuma": 48.69,
+   "stdev": 50.94,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1704
+  },
+  "meanAbsDiff": 33.7,
+  "pctPixelsOver12": 68.06,
+  "pctPixelsOver60": 14.54,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__pointer-0.5-0.5",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 40.83,
+   "stdev": 42.69,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1673
+  },
+  "candidate": {
+   "meanLuma": 46.26,
+   "stdev": 44.8,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1812
+  },
+  "meanAbsDiff": 32.69,
+  "pctPixelsOver12": 67.32,
+  "pctPixelsOver60": 14.63,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__00_intro",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 41,
+   "stdev": 42.89,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1687
+  },
+  "candidate": {
+   "meanLuma": 45.27,
+   "stdev": 44.61,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1710
+  },
+  "meanAbsDiff": 32.66,
+  "pctPixelsOver12": 67.27,
+  "pctPixelsOver60": 14.85,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__01_stable",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 41.37,
+   "stdev": 42.83,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1680
+  },
+  "candidate": {
+   "meanLuma": 45.13,
+   "stdev": 44.31,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1735
+  },
+  "meanAbsDiff": 32.32,
+  "pctPixelsOver12": 67.1,
+  "pctPixelsOver60": 14.43,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__pointer-0.12-0.2",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 37.77,
+   "stdev": 41.97,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1523
+  },
+  "candidate": {
+   "meanLuma": 43.48,
+   "stdev": 43.38,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1710
+  },
+  "meanAbsDiff": 32.05,
+  "pctPixelsOver12": 65.98,
+  "pctPixelsOver60": 14.28,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ }
+]

@@ -1,0 +1,771 @@
+{
+ "route": "/work/the-dj-and-the-war-crimes",
+ "imgs": [
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/303e006206/hero-lightbox.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/303e006206/hero-lightbox.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/303e006206/hero-lightbox.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/303e006206/hero-lightbox.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/e8b8709cef/rs-2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/e8b8709cef/rs-2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/2a9f26ce9f/rs-8.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/2a9f26ce9f/rs-8.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/48f9e20e67/rs-5.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/48f9e20e67/rs-5.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/569ef0d183/rolling-stone-4.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/569ef0d183/rolling-stone-4.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/66a3d6e261/rs-6.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/66a3d6e261/rs-6.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/e3eead29b7/rs-7.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/e3eead29b7/rs-7.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/e19fc190ff/rs-3.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/e19fc190ff/rs-3.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/bdc379aadd/last-framed-1.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/bdc379aadd/last-framed-1.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/ea0021e780/last-framed-2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/ea0021e780/last-framed-2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/3d4683838f/last-framed-3.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/3d4683838f/last-framed-3.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/aabad7cee4/last-framed-4.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/aabad7cee4/last-framed-4.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/0981812ce5/rs-11.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/0981812ce5/rs-11.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1941/912cdfd358/rolling-stone-mobile.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1941/912cdfd358/rolling-stone-mobile.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2500x1758/89dd4cfdf2/war-poster-inspiration.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2500x1758/89dd4cfdf2/war-poster-inspiration.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1772x1736/0576998bf1/img_8923.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1772x1736/0576998bf1/img_8923.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2708x3612/e327ece54c/img_8883.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2708x3612/e327ece54c/img_8883.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/2b718116c6/monospace-font-reference.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2560x1600/2b718116c6/monospace-font-reference.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/bdd54d6f2a/rs-10.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3508x2480/bdd54d6f2a/rs-10.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  }
+ ],
+ "vids": [
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/855535768/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=fbe11a2f64b45e10be5778d7717b3e199ec5ce9c684b6a160a366b1df83f2d4f\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/857392861/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=4cfaf0d83bd03b3fbd79191498172b18e5a85eac6001601a79aeafc93c202b46\" muted=\"\" loop=\"\" playsInline=\"\" color=\"#d10d00\" _uid=\"f6ac0a0e-dfaf-41c2-b511-efb8c26f10b8\" cms_label=\"\" component=\"work_bloks_video\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/855535554/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=b91d8dd00cad3c68cfedfc7101cb7b083ef11dd9614904ad014a769831e20a46\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/855535890/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=e84a629d20c1cf41ae394d0dd495709faf45644a24ee4249c0babe20c2f83705\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/858483918/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=9858c3e7952edfb2b31a91da32f9d96fdfe54b3b3ebf2066bddfca67fbae22ba\" muted=\"\" loop=\"\" playsInline=\"\"></video>"
+ ],
+ "headings": [
+  {
+   "level": 1,
+   "html": "The DJ and the War Crimes",
+   "text": "The DJ and the War Crimes"
+  },
+  {
+   "level": 2,
+   "html": "Investigative journalism meets blockchain media tech in<i> search</i> <i>of justice</i>",
+   "text": "Investigative journalism meets blockchain media tech in search of justice"
+  },
+  {
+   "level": 3,
+   "html": "Client",
+   "text": "Client"
+  },
+  {
+   "level": 4,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.rollingstone.com/\"><span class=\"relative\"><span>Rolling Stone </span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1",
+   "text": "Rolling Stone"
+  },
+  {
+   "level": 3,
+   "html": "Category",
+   "text": "Category"
+  },
+  {
+   "level": 4,
+   "html": "Storytelling",
+   "text": "Storytelling"
+  },
+  {
+   "level": 3,
+   "html": "Date",
+   "text": "Date"
+  },
+  {
+   "level": 4,
+   "html": "2023",
+   "text": "2023"
+  },
+  {
+   "level": 3,
+   "html": "Investigating a war crime, 30 years on",
+   "text": "Investigating a war crime, 30 years on"
+  },
+  {
+   "level": 3,
+   "html": "Building up layers",
+   "text": "Building up layers"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span><span style=\"color:rgb(0, 0, 0)\">There are several parallel stories in this piece and the challenge was to tell them all at once.</span><span>”</span>",
+   "text": "“There are several parallel stories in this piece and the challenge was to tell them all at once.”"
+  },
+  {
+   "level": 4,
+   "html": "Nathan Walker",
+   "text": "Nathan Walker"
+  },
+  {
+   "level": 5,
+   "html": "Designer/Developer",
+   "text": "Designer/Developer"
+  },
+  {
+   "level": 3,
+   "html": "Visual investigations",
+   "text": "Visual investigations"
+  },
+  {
+   "level": 3,
+   "html": "Deep-dive archives",
+   "text": "Deep-dive archives"
+  },
+  {
+   "level": 3,
+   "html": "Web3 interfaces",
+   "text": "Web3 interfaces"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span><span style=\"color:rgb(15, 20, 25)\">An astonishing investigative article</span><span>”</span>",
+   "text": "“An astonishing investigative article”"
+  },
+  {
+   "level": 4,
+   "html": "Peter Maass",
+   "text": "Peter Maass"
+  },
+  {
+   "level": 5,
+   "html": "American journalist and author",
+   "text": "American journalist and author"
+  },
+  {
+   "level": 3,
+   "html": "Finding the look",
+   "text": "Finding the look"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span>A perfect marriage of technology and storytelling<span>”</span>",
+   "text": "“A perfect marriage of technology and storytelling”"
+  },
+  {
+   "level": 4,
+   "html": "Judges Comments",
+   "text": "Judges Comments"
+  },
+  {
+   "level": 5,
+   "html": "2023 Best Awards, Purple and Gold Pins",
+   "text": "2023 Best Awards, Purple and Gold Pins"
+  },
+  {
+   "level": 3,
+   "html": "Project Awards",
+   "text": "Project Awards"
+  },
+  {
+   "level": 4,
+   "html": "Best Design Awards",
+   "text": "Best Design Awards"
+  },
+  {
+   "level": 5,
+   "html": "Purple Pin",
+   "text": "Purple Pin"
+  },
+  {
+   "level": 4,
+   "html": "Best Design Awards",
+   "text": "Best Design Awards"
+  },
+  {
+   "level": 5,
+   "html": "Gold Pin",
+   "text": "Gold Pin"
+  },
+  {
+   "level": 4,
+   "html": "American Society of Magazine Editors (ASME)",
+   "text": "American Society of Magazine Editors (ASME)"
+  },
+  {
+   "level": 5,
+   "html": "Best Digital Design",
+   "text": "Best Digital Design"
+  },
+  {
+   "level": 4,
+   "html": "Society of Publication Designers (SPD)",
+   "text": "Society of Publication Designers (SPD)"
+  },
+  {
+   "level": 5,
+   "html": "Finalist - Custom Feature Design",
+   "text": "Finalist - Custom Feature Design"
+  },
+  {
+   "level": 4,
+   "html": "National Press Photographers Association",
+   "text": "National Press Photographers Association"
+  },
+  {
+   "level": 5,
+   "html": "First - Innovation",
+   "text": "First - Innovation"
+  },
+  {
+   "level": 4,
+   "html": "National Press Club",
+   "text": "National Press Club"
+  },
+  {
+   "level": 5,
+   "html": "Runner-up - Joan M. Friedenberg Online Journalism Award",
+   "text": "Runner-up - Joan M. Friedenberg Online Journalism Award"
+  },
+  {
+   "level": 4,
+   "html": "National Press Photographers Association",
+   "text": "National Press Photographers Association"
+  },
+  {
+   "level": 5,
+   "html": "Honorable Mention - Online Visual Presentation",
+   "text": "Honorable Mention - Online Visual Presentation"
+  },
+  {
+   "level": 4,
+   "html": "Overseas Press Club Award",
+   "text": "Overseas Press Club Award"
+  },
+  {
+   "level": 5,
+   "html": "Citation for Excellence - Kim Wall Award",
+   "text": "Citation for Excellence - Kim Wall Award"
+  },
+  {
+   "level": 4,
+   "html": "Good Design Awards",
+   "text": "Good Design Awards"
+  },
+  {
+   "level": 5,
+   "html": "Gold",
+   "text": "Gold"
+  },
+  {
+   "level": 4,
+   "html": "Awwwards",
+   "text": "Awwwards"
+  },
+  {
+   "level": 5,
+   "html": "Site of the Day",
+   "text": "Site of the Day"
+  },
+  {
+   "level": 4,
+   "html": "The FWA",
+   "text": "The FWA"
+  },
+  {
+   "level": 5,
+   "html": "Site of the Day",
+   "text": "Site of the Day"
+  },
+  {
+   "level": 3,
+   "html": "Up Next",
+   "text": "Up Next"
+  },
+  {
+   "level": 3,
+   "html": "The Examination",
+   "text": "The Examination"
+  },
+  {
+   "level": 4,
+   "html": "The Examination",
+   "text": "The Examination"
+  },
+  {
+   "level": 4,
+   "html": "A bold newsroom tackling corporations vs <i>human health</i>",
+   "text": "A bold newsroom tackling corporations vs human health"
+  },
+  {
+   "level": 2,
+   "html": "<span>Subscribe to<br/>our newsletter</span>",
+   "text": "Subscribe toour newsletter"
+  },
+  {
+   "level": 3,
+   "html": "Request a proposal",
+   "text": "Request a proposal"
+  },
+  {
+   "level": 3,
+   "html": "Follow us",
+   "text": "Follow us"
+  },
+  {
+   "level": 3,
+   "html": "Join the team",
+   "text": "Join the team"
+  },
+  {
+   "level": 3,
+   "html": "Find us",
+   "text": "Find us"
+  }
+ ],
+ "paragraphs": [
+  {
+   "html": "</path></svg></a></div><div class=\"flex justify-center Header_buttonContainer__rN6i5\"><button class=\"pointer-events-auto Header_button__qn2Wj Button_main__NewW7 Button_default__CcbQU\"><span class=\"Button_inner__d7ZPg\">Menu</span></button></div><div class=\"hidden w-[130px] justify-end md:flex\"><a class=\"pointer-events-auto\" aria-label=\"About\" href=\"/about\"></a></div></div></div><main style=\"--theme-primary:16 16 16;--theme-secondary:255 255 255;--theme-tertiary:255 255 255\" class=\"bg-black\"><div style=\"opacity:1\"><div class=\"relative z-main bg-theme-primary transition-bg duration-theme\"><sectio",
+   "text": "MenuThe DJ and the War CrimesInvestigative journalism meets blockchain media tech in search of justiceVisit SiteThe DJ and the War Crimes is an immersive storytelling experience for Rolling Stone which forensically retraces an infamous Bosnian war crime committed by a Serbian Paramilitary Unit in the 1990s."
+  },
+  {
+   "html": "</path></svg></span></span></a></div></h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Category</h3><h4>Storytelling</h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Date</h3><h4>2023</h4></div></div></div></div></div></section><section data-theme=\"light\" class=\"text-theme-secondary transition-colors duration-theme\"><div class=\"WrokBloks_main__IqYqU\"><div class=\"ui-grid mx-auto my-xl-20 max-w-site gap-y-6 md:my-xl-40\"><div class=\"col-span-full lg:col-span-7 xl:col-span-12\"><h3 class=\"t-p-md font-medium\">Inv",
+   "text": "CategoryStorytellingDate2023Investigating a war crime, 30 years onOn April 2, 1992, in the Bosnian town of Bijeljina, US photographer Ron Haviv took a now-famous photograph of a member of the infamous Serbian paramilitary unit Arkan’s Tigers swinging his boot at the body of a civilian lying on the pavement. She’d been shot dead only moments earlier."
+  },
+  {
+   "html": "<span style=\"color:rgb(0, 0, 0)\">Thirty years on, </span><i>Rolling Stone</i><span style=\"color:rgb(0, 0, 0)\"> combined traditional investigative journalism with blockchain forensics to identify the soldier and push for accountability and justice. Working closely with the </span><a href=\"https://www.starlinglab.org/\" target=\"_blank\"><i><span>Starling Lab for Data Integrity</span></i></a><span> at Stanford and USC, we built a site to tell the story of that day in 1992, the investigation into those involved, and the nascent cryptographic technology that we hope can help prevent similar massacres",
+   "text": "Thirty years on, Rolling Stone combined traditional investigative journalism with blockchain forensics to identify the soldier and push for accountability and justice. Working closely with the Starling Lab for Data Integrity at Stanford and USC, we built a site to tell the story of that day in 1992, the investigation into those involved, and the nascent cryptographic technology that we hope can help prevent similar massacres in the future, in Ukraine and beyond."
+  },
+  {
+   "html": "The investigation, led by Sophia Jones, uncovered troves of imagery from <a href=\"https://www.ronhaviv.com/\" target=\"_blank\">Ron Haviv</a>, the photojournalist who witnessed the atrocity. They also combed Serbian payroll documents and social media pages connected to “Arkan’s Tigers” to track the participants since the conflict, including a well-known trance DJ in Europe.",
+   "text": "The investigation, led by Sophia Jones, uncovered troves of imagery from Ron Haviv, the photojournalist who witnessed the atrocity. They also combed Serbian payroll documents and social media pages connected to “Arkan’s Tigers” to track the participants since the conflict, including a well-known trance DJ in Europe."
+  },
+  {
+   "html": "We used layering effects and animations throughout the site, to mirror the process of the investigation and give the feeling of an evidence board, mapping connections between disconnected moments to locate the truth.",
+   "text": "We used layering effects and animations throughout the site, to mirror the process of the investigation and give the feeling of an evidence board, mapping connections between disconnected moments to locate the truth."
+  },
+  {
+   "html": "<span style=\"color:rgb(0, 0, 0)\">We created a sequence of newly-published images which show the eponymous DJ from multiple angles, which we used to walk readers through a visual comparison of pieces of his equipment, uniform and distinctive white sunglasses. Trawling through Bosnian websites and library archives we also managed to match architectural features of buildings in the background of the images and geolocate the general vicinity of the killers’ movements that day.</span>",
+   "text": "We created a sequence of newly-published images which show the eponymous DJ from multiple angles, which we used to walk readers through a visual comparison of pieces of his equipment, uniform and distinctive white sunglasses. Trawling through Bosnian websites and library archives we also managed to match architectural features of buildings in the background of the images and geolocate the general vicinity of the killers’ movements that day."
+  },
+  {
+   "html": "We created a fully interactive evidence library where users can pan around to explore that primary content directly. And we separated critical evidence - The Photograph, Document and Network, into secondary pages, then offered them contextually during the main piece. Users can navigate a huge amount of content without feeling overwhelmed and it rewards subsequent viewings.",
+   "text": "We created a fully interactive evidence library where users can pan around to explore that primary content directly. And we separated critical evidence - The Photograph, Document and Network, into secondary pages, then offered them contextually during the main piece. Users can navigate a huge amount of content without feeling overwhelmed and it rewards subsequent viewings."
+  },
+  {
+   "html": "We designed a unique “Authentication Certificate” view to show Starling Lab’s chain of custody tech which imprints every moment - from the click of the shutter, to an update in Photoshop - onto an immutable blockchain. We wanted the reader to assume the role of detective, moving back through time into the raw archival footage and going deeper into the research behind the story.",
+   "text": "We designed a unique “Authentication Certificate” view to show Starling Lab’s chain of custody tech which imprints every moment - from the click of the shutter, to an update in Photoshop - onto an immutable blockchain. We wanted the reader to assume the role of detective, moving back through time into the raw archival footage and going deeper into the research behind the story."
+  },
+  {
+   "html": "The art direction draws from references such as Daoud Sarhandi’s book <a href=\"https://www.youtube.com/watch?v=IyoFpbzxegA\" target=\"_blank\"><i>Bosnian War Posters</i></a> to give a nod to the strikingly raw aesthetic that grew out of wartime conditions, most evident in the postcards designed at the time by Trio Sarajevo.",
+   "text": "The art direction draws from references such as Daoud Sarhandi’s book Bosnian War Posters to give a nod to the strikingly raw aesthetic that grew out of wartime conditions, most evident in the postcards designed at the time by Trio Sarajevo."
+  },
+  {
+   "html": "Drawing on the aesthetic of film photographers’ contact sheets, our art direction used pencilled annotations to point out important details. They act as the hand of the investigator, providing a visual thread that runs throughout the piece.",
+   "text": "Drawing on the aesthetic of film photographers’ contact sheets, our art direction used pencilled annotations to point out important details. They act as the hand of the investigator, providing a visual thread that runs throughout the piece."
+  },
+  {
+   "html": "We laid the hand-drawn groundwork for the final grease pencil textures by Vince Warne.",
+   "text": "We laid the hand-drawn groundwork for the final grease pencil textures by Vince Warne."
+  },
+  {
+   "html": "<span style=\"color:rgb(0, 0, 0)\">To bridge the gap between the analog world of film photography and the modern-day blockchain technology underlying the investigation, </span>we chose a dot-matrix monospace typeface that closely mirrors the one on photographer Ron Haviv’s film slides.",
+   "text": "To bridge the gap between the analog world of film photography and the modern-day blockchain technology underlying the investigation, we chose a dot-matrix monospace typeface that closely mirrors the one on photographer Ron Haviv’s film slides."
+  },
+  {
+   "html": "</path></svg></div></div></a><a class=\"Awards_item__YgOl7\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://bestawards.co.nz/digital/large-scale-websites/gladeye/the-dj-and-the-war-crimes/\"><div class=\"flex items-center justify-start gap-x-2 py-3 sm:gap-x-4 sm:py-4\"><h4 class=\"t-work-award flex-shrink-0 font-medium\">Best Design Awards</h4><h5 class=\"t-work-award-alt truncate\">Gold Pin</h5><div class=\"h-3 w-3 flex-shrink-0 sm:h-lg-4 sm:w-lg-4\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 ",
+   "text": "Best Design AwardsGold PinAmerican Society of Magazine Editors (ASME)Best Digital DesignSociety of Publication Designers (SPD)Finalist - Custom Feature DesignNational Press Photographers AssociationFirst - InnovationNational Press ClubRunner-up - Joan M. Friedenberg Online Journalism AwardNational Press Photographers AssociationHonorable Mention - Online Visual PresentationOverseas Press Club AwardCitation for Excellence - Kim Wall AwardGood Design AwardsGoldAwwwardsSite of the DayThe FWASite of"
+  }
+ ],
+ "links": [
+  {
+   "href": "/",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "/about",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "https://investigation.rollingstone.com/dj-photo-war-crimes-bosnia/",
+   "text": "Visit Site",
+   "cls": "Button_main__NewW7 Button_default__CcbQU"
+  },
+  {
+   "href": "https://www.rollingstone.com/",
+   "text": "Rolling Stone",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://www.starlinglab.org/",
+   "text": "Starling Lab for Data Integrity"
+  },
+  {
+   "href": "https://www.ronhaviv.com/",
+   "text": "Ron Haviv"
+  },
+  {
+   "href": "https://www.youtube.com/watch?v=IyoFpbzxegA",
+   "text": "Bosnian War Posters"
+  },
+  {
+   "href": "https://bestawards.co.nz/digital/large-scale-websites/gladeye/the-dj-and-the-war-crimes/",
+   "text": "Best Design AwardsPurple Pin",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "https://bestawards.co.nz/digital/large-scale-websites/gladeye/the-dj-and-the-war-crimes/",
+   "text": "Best Design AwardsGold Pin",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "https://www.awwwards.com/sites/the-dj-the-war-crimes",
+   "text": "AwwwardsSite of the Day",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "/work/the-examination",
+   "text": "Next Project",
+   "cls": "Button_main__NewW7 Button_default__CcbQU Button_ghost__gZqlA"
+  },
+  {
+   "href": "mailto:hello@gladeye.com",
+   "text": "hello@gladeye.comhello@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.instagram.com/gladeyedigital/",
+   "text": "InstagramInstagram",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://linkedin.com/company/gladeye",
+   "text": "LinkedInLinkedIn",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://twitter.com/gladeye",
+   "text": "XX",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "mailto:careers@gladeye.com",
+   "text": "careers@gladeye.comcareers@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.google.com/maps/place/Gladeye/@-36.8497288,174.7662306,17z/data=!3m1!4b1!4m6!3m5!1s0x6d0d480fd64adab1:0xfa505ffed6ead32a!8m2!3d-36.8497288!4d174.7688055!16s%2Fg%2F1q5gm4f92?entry=ttu",
+   "text": "29 Princes Street, Auckland 101029 Princes Street, Auckland 1010",
+   "cls": "MotionLink_main__kgq4W"
+  }
+ ],
+ "svgCount": 9,
+ "svgs": [
+  "<svg viewBox=\"0 0 2401 590\" class=\"h-auto w-full fill-current\"><path d=\"M577.79 473.96h-86.85V.2h86.85v473.76Zm315.55-34.35c-13.61 16.85-47.96 40.18-103.69 40.18-105.64 0-177.58-71.94-177.58-179.52S683.36 121.4 789.65 121.4c42.77 0 82.31 15.55 102.4 38.24v-32.4h82.31v346.72h-81.01v-34.35Zm-98.51-36.94c58.33 0 95.27-43.42 95.27-102.4s-39.53-101.75-95.27-101.75c-58.98 0-95.92 44.07-95.92 101.75s38.89 102.4 95.92 102.4Zm495.34 36.94c-20.74 22.04-58.33 40.18-102.4 40.18-107.58 0-178.87-73.88-178.87-178.23s71.29-180.17 175.63-180.17c44.07 0 78.42 14.26 99.81 33.7V.2h86.84v473.76h-81.01v-34.35Zm-98.51-37.59c58.33 0 95.27-44.07 95.27-101.75s-38.24-101.75-95.27-101.75-95.92 44.07-95.92 101.75 39.54 101.75 95.92 101.75Zm304.73-73.23c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm316.79 324.02 46.66-127.03-132.21-333.12h95.92l81.01 215.17 78.42-215.17h89.44l-174.99 460.15h-84.25Zm336.41-258.56c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm-1798.2-34.75H243.77v84.75H352.8v35.82l-10.84 10.07c-18.8 19.44-55.09 39.53-106.94 39.53-81.01 0-140.64-58.98-140.64-149.71s55.74-148.41 136.75-148.41c59.62 0 93.33 29.16 114.06 57.03l69.99-51.85c-31.11-47.96-89.44-88.79-184.06-88.79C92.44 17.05.41 121.39.41 249.07c0 139.34 93.97 232.67 230.72 232.67 24.9 0 46.59-3.69 64.99-9.65.05 0 .1-.02.15-.05 2.59-.85 5.16-1.72 7.63-2.67 15.15-5.71 27.79-12.99 37.91-20.89.23-.17 5.29-4.11 10.99-8.52v33.98h84.75V310.82c0-45.37-36.89-82.26-82.26-82.26v.02Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>"
+ ],
+ "themes": [
+  "--theme-primary:16 16 16",
+  "--theme-secondary:255 255 255",
+  "--theme-tertiary:255 255 255",
+  "--theme-header:255 255 255",
+  "--theme-header-secondary:125 125 125",
+  "--theme-header-button-text-default:255 255 255",
+  "--theme-header-button-text-roll-over:0 0 0",
+  "--theme-header-button-bg-default:125 125 125",
+  "--theme-header-button-bg-roll-over:255 255 255"
+ ],
+ "title": ""
+}

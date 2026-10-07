@@ -1,0 +1,620 @@
+{
+ "route": "/work/into-the-amazon",
+ "imgs": [
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/1ea6245eef/mobile_portrait_hero.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/1ea6245eef/mobile_portrait_hero.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1728x1080/2fd5c4c43a/thumbnail_hero.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1728x1080/2fd5c4c43a/thumbnail_hero.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/50a176299f/weather-station-desktop.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/50a176299f/weather-station-desktop.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1360x1446/324f0fcda7/into-the-amazon-casestudy-feedback.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1360x1446/324f0fcda7/into-the-amazon-casestudy-feedback.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2254x1502/e847a6f801/mountain-image-2.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2254x1502/e847a6f801/mountain-image-2.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/d752609afc/monster-fish-desktop.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/d752609afc/monster-fish-desktop.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/40bf4a5427/loop-mobile-overview.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/40bf4a5427/loop-mobile-overview.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1680x970/872519a6f7/image-carousel00007.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1680x970/872519a6f7/image-carousel00007.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1680x970/4916943a2c/image-carousel00004.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1680x970/4916943a2c/image-carousel00004.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1680x970/ab60312187/image-carousel00001.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1680x970/ab60312187/image-carousel00001.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/828x828/d6bbb4af86/nat-geo-imagery-07.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/828x828/d6bbb4af86/nat-geo-imagery-07.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/829x828/6134b0f1ef/national-geographic-type-13.png/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/829x828/6134b0f1ef/national-geographic-type-13.png",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3100x1918/87ebde805c/working.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3100x1918/87ebde805c/working.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  }
+ ],
+ "vids": [],
+ "headings": [
+  {
+   "level": 1,
+   "html": "National Geographic",
+   "text": "National Geographic"
+  },
+  {
+   "level": 2,
+   "html": "<b><span style=\"color:#36393C\">A </span></b><b><i><span style=\"color:#36393C\">Digital Expedition</span></i></b><b><span style=\"color:#36393C\"> into the depths of the </span></b><b><i><span style=\"color:#36393C\">Amazon</span></i></b><b><span style=\"color:#36393C\">.</span></b>",
+   "text": "A Digital Expedition into the depths of the Amazon."
+  },
+  {
+   "level": 3,
+   "html": "Client",
+   "text": "Client"
+  },
+  {
+   "level": 4,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://www.nationalgeographic.com/into-the-amazon/\"><span class=\"relative\"><span>National Geographic </span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 ",
+   "text": "National Geographic"
+  },
+  {
+   "level": 3,
+   "html": "Category",
+   "text": "Category"
+  },
+  {
+   "level": 4,
+   "html": "Storytelling",
+   "text": "Storytelling"
+  },
+  {
+   "level": 3,
+   "html": "Date",
+   "text": "Date"
+  },
+  {
+   "level": 4,
+   "html": "2024",
+   "text": "2024"
+  },
+  {
+   "level": 3,
+   "html": "A Story for Our Times",
+   "text": "A Story for Our Times"
+  },
+  {
+   "level": 3,
+   "html": "Research at the Intersection of Science and Storytelling",
+   "text": "Research at the Intersection of Science and Storytelling"
+  },
+  {
+   "level": 3,
+   "html": "Crafting a Layered Visual Journey",
+   "text": "Crafting a Layered Visual Journey"
+  },
+  {
+   "level": 3,
+   "html": "Pushing the Boundaries of Interactive Web Technology",
+   "text": "Pushing the Boundaries of Interactive Web Technology"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span><span style=\"color:#1D1C1D\">National Geographic has raised the bar even higher, blending cutting-edge technology with unparalleled storytelling to offer audiences a front-row seat to one of the planet’s most vital ecosystems: the Amazon rainforest.</span><span>”</span>",
+   "text": "“National Geographic has raised the bar even higher, blending cutting-edge technology with unparalleled storytelling to offer audiences a front-row seat to one of the planet’s most vital ecosystems: the Amazon rainforest.”"
+  },
+  {
+   "level": 4,
+   "html": "Tony Bradley",
+   "text": "Tony Bradley"
+  },
+  {
+   "level": 5,
+   "html": "Senior Contributor, Forbes Magazine",
+   "text": "Senior Contributor, Forbes Magazine"
+  },
+  {
+   "level": 3,
+   "html": "A New Era for Digital Storytelling",
+   "text": "A New Era for Digital Storytelling"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span><span style=\"color:#1D1C1D\">Thanks for being truly the best partners we could have asked for.</span><span>”</span>",
+   "text": "“Thanks for being truly the best partners we could have asked for.”"
+  },
+  {
+   "level": 4,
+   "html": "Claire Manibog",
+   "text": "Claire Manibog"
+  },
+  {
+   "level": 5,
+   "html": "Director of Interactive Storytelling, National Geographic Media",
+   "text": "Director of Interactive Storytelling, National Geographic Media"
+  },
+  {
+   "level": 3,
+   "html": "Credits",
+   "text": "Credits"
+  },
+  {
+   "level": 3,
+   "html": "Project Awards",
+   "text": "Project Awards"
+  },
+  {
+   "level": 4,
+   "html": "The Webby Awards",
+   "text": "The Webby Awards"
+  },
+  {
+   "level": 5,
+   "html": "Winner - AI, Immersive &amp; Games Science &amp; Education 2025",
+   "text": "Winner - AI, Immersive &amp; Games Science &amp; Education 2025"
+  },
+  {
+   "level": 4,
+   "html": "The Webby Awards",
+   "text": "The Webby Awards"
+  },
+  {
+   "level": 5,
+   "html": "Winner - Websites and Mobile Sites Best Use of Video or Moving Image 2025",
+   "text": "Winner - Websites and Mobile Sites Best Use of Video or Moving Image 2025"
+  },
+  {
+   "level": 4,
+   "html": "The Webby Awards",
+   "text": "The Webby Awards"
+  },
+  {
+   "level": 5,
+   "html": "People&#x27;s Voice Winner - AI, Immersive &amp; Games Science &amp; Education 2025",
+   "text": "People&#x27;s Voice Winner - AI, Immersive &amp; Games Science &amp; Education 2025"
+  },
+  {
+   "level": 4,
+   "html": "The Webby Awards",
+   "text": "The Webby Awards"
+  },
+  {
+   "level": 5,
+   "html": "People&#x27;s Voice Winner - Websites and Mobile Sites Best Use of Video or Moving Image",
+   "text": "People&#x27;s Voice Winner - Websites and Mobile Sites Best Use of Video or Moving Image"
+  },
+  {
+   "level": 4,
+   "html": "CSS Design Awards",
+   "text": "CSS Design Awards"
+  },
+  {
+   "level": 5,
+   "html": "Public Vote for Best UI, Best UX and Best Innovation",
+   "text": "Public Vote for Best UI, Best UX and Best Innovation"
+  },
+  {
+   "level": 4,
+   "html": "CSS Design Awards",
+   "text": "CSS Design Awards"
+  },
+  {
+   "level": 5,
+   "html": "Site of the Day",
+   "text": "Site of the Day"
+  },
+  {
+   "level": 4,
+   "html": "The FWA",
+   "text": "The FWA"
+  },
+  {
+   "level": 5,
+   "html": "Site of the Day",
+   "text": "Site of the Day"
+  },
+  {
+   "level": 4,
+   "html": "Awwwards",
+   "text": "Awwwards"
+  },
+  {
+   "level": 5,
+   "html": "Site of the Day",
+   "text": "Site of the Day"
+  },
+  {
+   "level": 3,
+   "html": "Up Next",
+   "text": "Up Next"
+  },
+  {
+   "level": 3,
+   "html": "OpenAVN",
+   "text": "OpenAVN"
+  },
+  {
+   "level": 4,
+   "html": "OpenAVN",
+   "text": "OpenAVN"
+  },
+  {
+   "level": 4,
+   "html": "AI antivirus platform that <i>evolves </i>to combat malware",
+   "text": "AI antivirus platform that evolves to combat malware"
+  },
+  {
+   "level": 2,
+   "html": "<span>Subscribe to<br/>our newsletter</span>",
+   "text": "Subscribe toour newsletter"
+  },
+  {
+   "level": 3,
+   "html": "Request a proposal",
+   "text": "Request a proposal"
+  },
+  {
+   "level": 3,
+   "html": "Follow us",
+   "text": "Follow us"
+  },
+  {
+   "level": 3,
+   "html": "Join the team",
+   "text": "Join the team"
+  },
+  {
+   "level": 3,
+   "html": "Find us",
+   "text": "Find us"
+  }
+ ],
+ "paragraphs": [
+  {
+   "html": "</path></svg></a></div><div class=\"flex justify-center Header_buttonContainer__rN6i5\"><button class=\"pointer-events-auto Header_button__qn2Wj Button_main__NewW7 Button_default__CcbQU\"><span class=\"Button_inner__d7ZPg\">Menu</span></button></div><div class=\"hidden w-[130px] justify-end md:flex\"><a class=\"pointer-events-auto\" aria-label=\"About\" href=\"/about\"></a></div></div></div><main style=\"--theme-primary:16 16 16;--theme-secondary:255 255 255;--theme-tertiary:255 255 255\" class=\"bg-black\"><div style=\"opacity:1\"><div class=\"relative z-main bg-theme-primary transition-bg duration-theme\"><sectio",
+   "text": "MenuNational Geographic A Digital Expedition into the depths of the Amazon.Visit SiteNational Geographic’s Into the Amazon digital project invited users on an entirely new kind of expedition, blending its print heritage with immersive, interactive storytelling. This experience went beyond traditional media to bring readers into the heart of the Amazon’s ecosystems, from Andean peaks to underwater forests, allowing them to explore the science and cultural heritage of this critical region."
+  },
+  {
+   "html": "</path></svg></span></span></a></div></h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Category</h3><h4>Storytelling</h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Date</h3><h4>2024</h4></div></div></div></div></div></section><section data-theme=\"light\" class=\"text-theme-secondary transition-colors duration-theme\"><div class=\"WrokBloks_main__IqYqU\"><div class=\"ui-grid mx-auto my-sgs max-w-site gap-y-sgs\"><div class=\"relative col-span-full aspect-[1680/970]\"><div class=\"pointer-events-none relative h-full ",
+   "text": "CategoryStorytellingDate2024A Story for Our TimesThe Amazon, often seen solely as an exotic wilderness, is intricately tied to climate change, biodiversity, and the cultural history of indigenous communities. Into the Amazon was a two-year expedition undertaken by 17 National Geographic explorers. They  traveled 4,000 miles across the extensive Amazon region, collecting crucial information about its forest, mountains, river and inhabitants. This research was then distilled and shared via an inte"
+  },
+  {
+   "html": "<span style=\"color:#36393C\">Gladeye’s creative team engaged in research, and interviews with National Geographic’s scientists and explorers, to gather a range of insights into the Amazon’s ecosystems and history. This included understanding complex scientific concepts, such as the Amazon’s water cycles and biodiversity, and translating these into accessible digital content.</span>",
+   "text": "Gladeye’s creative team engaged in research, and interviews with National Geographic’s scientists and explorers, to gather a range of insights into the Amazon’s ecosystems and history. This included understanding complex scientific concepts, such as the Amazon’s water cycles and biodiversity, and translating these into accessible digital content."
+  },
+  {
+   "html": "<span style=\"color:#36393C\">Gladeye’s design for </span><i><span style=\"color:#36393C\">Into the Amazon </span></i><span style=\"color:#36393C\">leveraged National Geographic’s vast catalogue of photography, illustrations, and footage, immersing users in the Amazon’s complex ecosystems. This unparalleled access allowed us to present the Amazon’s story with stunning visuals, guiding users through each layer of the rainforest. Through interactive elements, we reimagined traditional media to create a digital journey where science and exploration come to life in visually captivating ways.</span>",
+   "text": "Gladeye’s design for Into the Amazon leveraged National Geographic’s vast catalogue of photography, illustrations, and footage, immersing users in the Amazon’s complex ecosystems. This unparalleled access allowed us to present the Amazon’s story with stunning visuals, guiding users through each layer of the rainforest. Through interactive elements, we reimagined traditional media to create a digital journey where science and exploration come to life in visually captivating ways."
+  },
+  {
+   "html": "<span style=\"color:#1D1C1D\">We used terrain elevation data from NASA’s Shuttle Radar Topography Mission and satellite imagery from the European Space Agencies Copernicus Sentinel-2 mission to display the journey of one of the two Andean bears being tracked via GPS Collars. The elevation data was converted into a 3D model of the terrain and optimised so that the level of detail was concentrated along the bear&#x27;s path. The satellite imagery was then transformed, upscaled and simplified.</span>",
+   "text": "We used terrain elevation data from NASA’s Shuttle Radar Topography Mission and satellite imagery from the European Space Agencies Copernicus Sentinel-2 mission to display the journey of one of the two Andean bears being tracked via GPS Collars. The elevation data was converted into a 3D model of the terrain and optimised so that the level of detail was concentrated along the bear&#x27;s path. The satellite imagery was then transformed, upscaled and simplified."
+  },
+  {
+   "html": "<span style=\"color:#1D1C1D\">We used WebGL extensively across the entire site to seamlessly mix 2D and 3D elements in one interactive experience. To do this, we developed our own animation orchestration framework that allowed us to animate WebGL and HTML/React elements alongside each other.</span>",
+   "text": "We used WebGL extensively across the entire site to seamlessly mix 2D and 3D elements in one interactive experience. To do this, we developed our own animation orchestration framework that allowed us to animate WebGL and HTML/React elements alongside each other."
+  },
+  {
+   "html": "<i>Into the Amazon</i> immersive and interactive interface transforms viewers into participants. You are taken on a journey like no other with sideways movements, scrolls through 3D-like and lidar scenes and moments of discovery and delight. This multimedia, multisensory, experiences aims to make accessible the important work done by the scientist in the Amazon and highlight why it is more important than ever to protect our environment and its many incredible ecosystems.",
+   "text": "Into the Amazon immersive and interactive interface transforms viewers into participants. You are taken on a journey like no other with sideways movements, scrolls through 3D-like and lidar scenes and moments of discovery and delight. This multimedia, multisensory, experiences aims to make accessible the important work done by the scientist in the Amazon and highlight why it is more important than ever to protect our environment and its many incredible ecosystems."
+  },
+  {
+   "html": "Illustrations by <i>Fernando G. Baptista, Matt Twombly, Liz Sisk</i> and <i>Monica Serrano</i>",
+   "text": "Illustrations by Fernando G. Baptista, Matt Twombly, Liz Sisk and Monica Serrano"
+  },
+  {
+   "html": "Maps by <i>Matthew W. Chwastyk</i>",
+   "text": "Maps by Matthew W. Chwastyk"
+  },
+  {
+   "html": "Photography by <i>Thomas Peschak</i> and <i>André Dib</i>",
+   "text": "Photography by Thomas Peschak and André Dib"
+  },
+  {
+   "html": "Videos by <i>Otto Whitehead</i>",
+   "text": "Videos by Otto Whitehead"
+  },
+  {
+   "html": "</path></svg></div></div></a><a class=\"Awards_item__YgOl7\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://winners.webbyawards.com/2025/websites-and-mobile-sites/features-design/best-use-of-video-or-moving-image/324928/into-the-amazon\"><div class=\"flex items-center justify-start gap-x-2 py-3 sm:gap-x-4 sm:py-4\"><h4 class=\"t-work-award flex-shrink-0 font-medium\">The Webby Awards</h4><h5 class=\"t-work-award-alt truncate\">Winner - Websites and Mobile Sites Best Use of Video or Moving Image 2025</h5><div class=\"h-3 w-3 flex-shrink-0 sm:h-lg-4 sm:w-lg-4\"><svg viewBox=\"0 0 17.57 17.57\" class=\"",
+   "text": "The Webby AwardsWinner - Websites and Mobile Sites Best Use of Video or Moving Image 2025The Webby AwardsPeople&#x27;s Voice Winner - AI, Immersive &amp; Games Science &amp; Education 2025The Webby AwardsPeople&#x27;s Voice Winner - Websites and Mobile Sites Best Use of Video or Moving ImageCSS Design AwardsPublic Vote for Best UI, Best UX and Best InnovationCSS Design AwardsSite of the DayThe FWASite of the DayAwwwardsSite of the DayUp NextOpenAVNOpenAVNAI antivirus platform that evolves to com"
+  }
+ ],
+ "links": [
+  {
+   "href": "/",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "/about",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "https://www.nationalgeographic.com/into-the-amazon/",
+   "text": "Visit Site",
+   "cls": "Button_main__NewW7 Button_default__CcbQU"
+  },
+  {
+   "href": "https://www.nationalgeographic.com/into-the-amazon/",
+   "text": "National Geographic",
+   "cls": "ui-link"
+  },
+  {
+   "href": "https://winners.webbyawards.com/2025/ai-immersive-games/immersive-general/science-education/324935/into-the-amazon",
+   "text": "The Webby AwardsWinner - AI, Immersive &amp; Games Science &amp; Education 2025",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "https://winners.webbyawards.com/2025/websites-and-mobile-sites/features-design/best-use-of-video-or-moving-image/324928/into-the-amazon",
+   "text": "The Webby AwardsWinner - Websites and Mobile Sites Best Use of Video or Moving Image 2025",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "https://winners.webbyawards.com/2025/ai-immersive-games/immersive-general/science-education/324935/into-the-amazon",
+   "text": "The Webby AwardsPeople&#x27;s Voice Winner - AI, Immersive &amp; Games Science &amp; Education 2025",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "https://winners.webbyawards.com/2025/websites-and-mobile-sites/features-design/best-use-of-video-or-moving-image/324928/into-the-amazon",
+   "text": "The Webby AwardsPeople&#x27;s Voice Winner - Websites and Mobile Sites Best Use of Video or Moving Image",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "https://www.cssdesignawards.com/sites/into-the-amazon/47248/",
+   "text": "CSS Design AwardsPublic Vote for Best UI, Best UX and Best Innovation",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "https://www.cssdesignawards.com/sites/into-the-amazon/47248/",
+   "text": "CSS Design AwardsSite of the Day",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "https://thefwa.com/cases/national-geographic-into-the-amazon",
+   "text": "The FWASite of the Day",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "http://www.awwwards.com:8080/sites/into-the-amazon",
+   "text": "AwwwardsSite of the Day",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "/work/openavn",
+   "text": "Next Project",
+   "cls": "Button_main__NewW7 Button_default__CcbQU Button_ghost__gZqlA"
+  },
+  {
+   "href": "mailto:hello@gladeye.com",
+   "text": "hello@gladeye.comhello@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.instagram.com/gladeyedigital/",
+   "text": "InstagramInstagram",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://linkedin.com/company/gladeye",
+   "text": "LinkedInLinkedIn",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://twitter.com/gladeye",
+   "text": "XX",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "mailto:careers@gladeye.com",
+   "text": "careers@gladeye.comcareers@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.google.com/maps/place/Gladeye/@-36.8497288,174.7662306,17z/data=!3m1!4b1!4m6!3m5!1s0x6d0d480fd64adab1:0xfa505ffed6ead32a!8m2!3d-36.8497288!4d174.7688055!16s%2Fg%2F1q5gm4f92?entry=ttu",
+   "text": "29 Princes Street, Auckland 101029 Princes Street, Auckland 1010",
+   "cls": "MotionLink_main__kgq4W"
+  }
+ ],
+ "svgCount": 14,
+ "svgs": [
+  "<svg viewBox=\"0 0 2401 590\" class=\"h-auto w-full fill-current\"><path d=\"M577.79 473.96h-86.85V.2h86.85v473.76Zm315.55-34.35c-13.61 16.85-47.96 40.18-103.69 40.18-105.64 0-177.58-71.94-177.58-179.52S683.36 121.4 789.65 121.4c42.77 0 82.31 15.55 102.4 38.24v-32.4h82.31v346.72h-81.01v-34.35Zm-98.51-36.94c58.33 0 95.27-43.42 95.27-102.4s-39.53-101.75-95.27-101.75c-58.98 0-95.92 44.07-95.92 101.75s38.89 102.4 95.92 102.4Zm495.34 36.94c-20.74 22.04-58.33 40.18-102.4 40.18-107.58 0-178.87-73.88-178.87-178.23s71.29-180.17 175.63-180.17c44.07 0 78.42 14.26 99.81 33.7V.2h86.84v473.76h-81.01v-34.35Zm-98.51-37.59c58.33 0 95.27-44.07 95.27-101.75s-38.24-101.75-95.27-101.75-95.92 44.07-95.92 101.75 39.54 101.75 95.92 101.75Zm304.73-73.23c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm316.79 324.02 46.66-127.03-132.21-333.12h95.92l81.01 215.17 78.42-215.17h89.44l-174.99 460.15h-84.25Zm336.41-258.56c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm-1798.2-34.75H243.77v84.75H352.8v35.82l-10.84 10.07c-18.8 19.44-55.09 39.53-106.94 39.53-81.01 0-140.64-58.98-140.64-149.71s55.74-148.41 136.75-148.41c59.62 0 93.33 29.16 114.06 57.03l69.99-51.85c-31.11-47.96-89.44-88.79-184.06-88.79C92.44 17.05.41 121.39.41 249.07c0 139.34 93.97 232.67 230.72 232.67 24.9 0 46.59-3.69 64.99-9.65.05 0 .1-.02.15-.05 2.59-.85 5.16-1.72 7.63-2.67 15.15-5.71 27.79-12.99 37.91-20.89.23-.17 5.29-4.11 10.99-8.52v33.98h84.75V310.82c0-45.37-36.89-82.26-82.26-82.26v.02Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>"
+ ],
+ "themes": [
+  "--theme-primary:16 16 16",
+  "--theme-secondary:255 255 255",
+  "--theme-tertiary:255 255 255",
+  "--theme-header:255 255 255",
+  "--theme-header-secondary:125 125 125",
+  "--theme-header-button-text-default:255 255 255",
+  "--theme-header-button-text-roll-over:0 0 0",
+  "--theme-header-button-bg-default:125 125 125",
+  "--theme-header-button-bg-roll-over:255 255 255"
+ ],
+ "title": ""
+}

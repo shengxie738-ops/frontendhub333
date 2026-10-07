@@ -1,0 +1,373 @@
+{
+  "_uid": "4fbfb563-3ebe-4e08-a795-c1616affb4a0",
+  "route": "/careers",
+  "storyUuid": "dae0991f-b65f-4a90-89d1-0ce5aa81e5af",
+  "storyName": "Careers",
+  "component": "career_index",
+  "sourceHtml": "evidence/source-pages/_careers.html",
+  "seo": {
+    "_uid": "d5128636-9f42-4e76-967a-6ba6801588f5",
+    "title": "Job Opportunities at Gladeye",
+    "description": "Innovation, work-life balance, and professional growth. Be part of Australasia’s top digital creative team. From our historic Auckland studio to remote roles, we’re seeking talented thinkers and makers. Explore current openings at Gladeye now."
+  },
+  "theme": "dark",
+  "heading": [
+    {
+      "t": "i",
+      "v": "Playful"
+    },
+    {
+      "t": "text",
+      "v": " work "
+    },
+    {
+      "t": "br"
+    },
+    {
+      "t": "text",
+      "v": "for serious business"
+    }
+  ],
+  "body": [
+    [
+      {
+        "t": "text",
+        "v": "At Gladeye we work on innovative digital projects for ethical clients, in a team of designers and technologists who care about each other and "
+      },
+      {
+        "t": "a",
+        "v": "the world",
+        "href": "/about",
+        "target": "_self",
+        "linktype": "story"
+      },
+      {
+        "t": "text",
+        "v": "."
+      }
+    ],
+    [
+      {
+        "t": "text",
+        "v": "We offer a 36-hour working week as our standard and provide an array of ongoing professional growth opportunities."
+      }
+    ],
+    [
+      {
+        "t": "text",
+        "v": "Gladeye is one of Australasia’s most awarded digital studios, including "
+      },
+      {
+        "t": "a",
+        "v": "Webbys",
+        "href": "https://winners.webbyawards.com/search?sort=0&searchTerm=gladeye",
+        "target": "_self",
+        "linktype": "url"
+      },
+      {
+        "t": "text",
+        "v": ", "
+      },
+      {
+        "t": "a",
+        "v": "Awwwards",
+        "href": "https://www.awwwards.com/gladeye/",
+        "target": "_self",
+        "linktype": "url"
+      },
+      {
+        "t": "text",
+        "v": ", "
+      },
+      {
+        "t": "a",
+        "v": "FWA",
+        "href": "https://thefwa.com/profiles/gladeye",
+        "target": "_self",
+        "linktype": "url"
+      },
+      {
+        "t": "text",
+        "v": ", "
+      },
+      {
+        "t": "a",
+        "v": "Best Design",
+        "href": "https://bestawards.co.nz/studios/gladeye/",
+        "target": "_self",
+        "linktype": "url"
+      },
+      {
+        "t": "text",
+        "v": " and the "
+      },
+      {
+        "t": "a",
+        "v": "Good Design Awards",
+        "href": "https://good-design.org/",
+        "target": "_blank",
+        "linktype": "url"
+      },
+      {
+        "t": "text",
+        "v": ". "
+      }
+    ],
+    [
+      {
+        "t": "text",
+        "v": "We love seeing our people grow, and encourage everyone to do their best work together. "
+      }
+    ],
+    [
+      {
+        "t": "text",
+        "v": "Our team is largely based in NZ, but we do welcome remote designers, developers, creatives, strategists and producers who can work in (or near to) "
+      },
+      {
+        "t": "a",
+        "v": "our time zone",
+        "href": "https://time.is/NZST",
+        "target": "_blank",
+        "linktype": "url"
+      },
+      {
+        "t": "text",
+        "v": ". "
+      }
+    ],
+    [
+      {
+        "t": "text",
+        "v": "For those working IRL we offer an amazing home base… "
+      },
+      {
+        "t": "a",
+        "v": "Hamurana",
+        "href": "https://www.heritage.org.nz/list-details/7733/Hamurana",
+        "target": "_self",
+        "linktype": "url"
+      },
+      {
+        "t": "text",
+        "v": " is one of New Zealand's finest extant homes of the 19th century, on the edge of Auckland's beautiful Albert Park -  now reborn as a state-of-the-art digital production studio."
+      }
+    ],
+    [
+      {
+        "t": "text",
+        "v": "If you don’t see your perfect role right now,  reach out, we enjoy connecting with talented digital thinkers and makers."
+      }
+    ],
+    [
+      {
+        "t": "text",
+        "v": "Email "
+      },
+      {
+        "t": "a",
+        "v": "careers@gladeye.com",
+        "href": "mailto:careers@gladeye.com",
+        "target": null,
+        "linktype": "url"
+      },
+      {
+        "t": "text",
+        "v": ", follow our "
+      },
+      {
+        "t": "a",
+        "v": "Instagram",
+        "href": "https://www.instagram.com/gladeyedigital/",
+        "target": "_blank",
+        "linktype": "url"
+      },
+      {
+        "t": "text",
+        "v": " + "
+      },
+      {
+        "t": "a",
+        "v": "LinkedIn",
+        "href": "https://www.linkedin.com/company/gladeye/",
+        "target": "_blank",
+        "linktype": "url"
+      },
+      {
+        "t": "text",
+        "v": ", or say hi to us at the next design or tech event "
+      },
+      {
+        "t": "emoji",
+        "v": "👋",
+        "name": "wave"
+      },
+      {
+        "t": "text",
+        "v": " ."
+      }
+    ]
+  ],
+  "images": [
+    {
+      "order": 0,
+      "filename": "https://a-us.storyblok.com/f/1014779/4032x2268/f88333b2e8/img_6934.jpg",
+      "alt": "Gladeye",
+      "id": 202407,
+      "dims": "f88333b2e8"
+    },
+    {
+      "order": 1,
+      "filename": "https://a-us.storyblok.com/f/1014779/3024x4032/ad3eb0637d/img_7287.jpg",
+      "alt": "Gladeye",
+      "id": 202404,
+      "dims": "ad3eb0637d"
+    },
+    {
+      "order": 2,
+      "filename": "https://a-us.storyblok.com/f/1014779/3024x4032/b3653b8322/img_8672.jpg",
+      "alt": "Gladeye",
+      "id": 202400,
+      "dims": "b3653b8322"
+    },
+    {
+      "order": 3,
+      "filename": "https://a-us.storyblok.com/f/1014779/2736x3648/41b2b346b8/20230708_113911.jpg",
+      "alt": "Gladeye",
+      "id": 202365,
+      "dims": "41b2b346b8"
+    },
+    {
+      "order": 4,
+      "filename": "https://a-us.storyblok.com/f/1014779/4032x3024/aa2c217781/img_0998.jpg",
+      "alt": "Gladeye",
+      "id": 202395,
+      "dims": "aa2c217781"
+    },
+    {
+      "order": 5,
+      "filename": "https://a-us.storyblok.com/f/1014779/3648x2736/0f0fa6c812/img_20230617_090535_1.jpg",
+      "alt": "Gladeye",
+      "id": 202402,
+      "dims": "0f0fa6c812"
+    },
+    {
+      "order": 6,
+      "filename": "https://a-us.storyblok.com/f/1014779/4032x3024/10b026a1cd/img_0406.jpg",
+      "alt": "Gladeye",
+      "id": 202399,
+      "dims": "10b026a1cd"
+    },
+    {
+      "order": 7,
+      "filename": "https://a-us.storyblok.com/f/1014779/3024x4032/057b576016/img_0798.jpg",
+      "alt": "Gladeye",
+      "id": 202387,
+      "dims": "057b576016"
+    },
+    {
+      "order": 8,
+      "filename": "https://a-us.storyblok.com/f/1014779/3651x2738/efda3d3a7b/img_0909.jpg",
+      "alt": "Gladeye",
+      "id": 202390,
+      "dims": "efda3d3a7b"
+    },
+    {
+      "order": 9,
+      "filename": "https://a-us.storyblok.com/f/1014779/4032x3024/b78238a721/img_7589.jpg",
+      "alt": "Gladeye",
+      "id": 202389,
+      "dims": "b78238a721"
+    },
+    {
+      "order": 10,
+      "filename": "https://a-us.storyblok.com/f/1014779/3024x4032/a8369f947c/img_1487.jpg",
+      "alt": "Gladeye",
+      "id": 202385,
+      "dims": "a8369f947c"
+    },
+    {
+      "order": 11,
+      "filename": "https://a-us.storyblok.com/f/1014779/2000x2667/5a75229fdf/img_1857.jpg",
+      "alt": "Gladeye",
+      "id": 294134,
+      "dims": "5a75229fdf"
+    },
+    {
+      "order": 12,
+      "filename": "https://a-us.storyblok.com/f/1014779/1584x2112/a70d8cbcaa/img_0723.jpg",
+      "alt": "Gladeye",
+      "id": 202376,
+      "dims": "a70d8cbcaa"
+    },
+    {
+      "order": 13,
+      "filename": "https://a-us.storyblok.com/f/1014779/4032x3024/35dc0990e9/img_1218.jpg",
+      "alt": "Gladeye",
+      "id": 202380,
+      "dims": "35dc0990e9"
+    },
+    {
+      "order": 14,
+      "filename": "https://a-us.storyblok.com/f/1014779/3024x4032/96c602878b/img_3718.JPG",
+      "alt": "Gladeye",
+      "id": 202401,
+      "dims": "96c602878b"
+    },
+    {
+      "order": 15,
+      "filename": "https://a-us.storyblok.com/f/1014779/4032x3024/a2f2c288de/pxl_20230728_224640597.jpg",
+      "alt": "Gladeye",
+      "id": 202382,
+      "dims": "a2f2c288de"
+    },
+    {
+      "order": 16,
+      "filename": "https://a-us.storyblok.com/f/1014779/3024x4032/8664df9277/img_1319.jpg",
+      "alt": "Gladeye",
+      "id": 202364,
+      "dims": "8664df9277"
+    },
+    {
+      "order": 17,
+      "filename": "https://a-us.storyblok.com/f/1014779/2762x3683/3046f93755/img_2832.jpg",
+      "alt": "Gladeye",
+      "id": 202371,
+      "dims": "3046f93755"
+    },
+    {
+      "order": 18,
+      "filename": "https://a-us.storyblok.com/f/1014779/2226x2968/d7d696c35e/img_6356.jpg",
+      "alt": "Gladeye",
+      "id": 202368,
+      "dims": "d7d696c35e"
+    },
+    {
+      "order": 19,
+      "filename": "https://a-us.storyblok.com/f/1014779/3456x4608/662b4e58a1/img20230627213746.jpg",
+      "alt": "Gladeye",
+      "id": 202394,
+      "dims": "662b4e58a1"
+    },
+    {
+      "order": 20,
+      "filename": "https://a-us.storyblok.com/f/1014779/3024x4032/793ea90d75/img_9917.jpg",
+      "alt": "Gladeye",
+      "id": 202366,
+      "dims": "793ea90d75"
+    }
+  ],
+  "roles": {
+    "heading": "Current roles",
+    "countLabel": "1",
+    "items": [
+      {
+        "href": "/careers/digital-designer",
+        "location": "Auckland",
+        "title": "Digital Designer",
+        "category": "Careers",
+        "cta": "Find out more"
+      }
+    ]
+  }
+}

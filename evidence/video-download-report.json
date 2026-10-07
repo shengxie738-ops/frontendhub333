@@ -1,0 +1,70 @@
+{
+ "kinds": [
+  "featured"
+ ],
+ "requested": 8,
+ "ok": 5,
+ "failed": 3,
+ "bytes": 47524210,
+ "results": [
+  {
+   "slug": "where-opportunity-takes-root",
+   "kind": "featured",
+   "out": "sites/gladeye/work/where-opportunity-takes-root/video/featured-1221018160.mp4",
+   "status": "bad-magic",
+   "bytes": 7588,
+   "contentType": "text/html;charset=UTF-8"
+  },
+  {
+   "slug": "into-the-amazon",
+   "kind": "featured",
+   "out": "sites/gladeye/work/into-the-amazon/video/featured-1096787331.mp4",
+   "status": "bad-magic",
+   "bytes": 11010,
+   "contentType": "text/html;charset=UTF-8"
+  },
+  {
+   "slug": "the-dj-and-the-war-crimes",
+   "kind": "featured",
+   "out": "sites/gladeye/work/the-dj-and-the-war-crimes/video/featured-855535768.mp4",
+   "status": "cached",
+   "bytes": 13845870
+  },
+  {
+   "slug": "hypercinema",
+   "kind": "featured",
+   "out": "sites/gladeye/work/hypercinema/video/featured-882705368.mp4",
+   "status": "cached",
+   "bytes": 6199402
+  },
+  {
+   "slug": "cyberbrokers",
+   "kind": "featured",
+   "out": "sites/gladeye/work/cyberbrokers/video/featured-894381115.mp4",
+   "status": "cached",
+   "bytes": 8978384
+  },
+  {
+   "slug": "the-examination",
+   "kind": "featured",
+   "out": "sites/gladeye/work/the-examination/video/featured-865174986.mp4",
+   "status": "cached",
+   "bytes": 6857660
+  },
+  {
+   "slug": "social-mobility-in-the-digital-age",
+   "kind": "featured",
+   "out": "sites/gladeye/work/social-mobility-in-the-digital-age/video/featured-894383301.mp4",
+   "status": "cached",
+   "bytes": 11613241
+  },
+  {
+   "slug": "eqty-lab-website",
+   "kind": "featured",
+   "out": "sites/gladeye/work/eqty-lab-website/video/featured-1068684498.mp4",
+   "status": "bad-magic",
+   "bytes": 11055,
+   "contentType": "text/html;charset=UTF-8"
+  }
+ ]
+}

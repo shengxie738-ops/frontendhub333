@@ -1,0 +1,448 @@
+/**
+ * FlowerValley styles — every rule below is copied verbatim from
+ * `evidence/source-assets/_next/static/css/2347d98ee8e65578.css`
+ * (the `.FlowerValley_*`, `.AudioControl_*` and `.Loader_*` blocks quoted in
+ * `docs/research/gladeye/EVIDENCE.md` §2).
+ *
+ * The live site ships them as hashed CSS-module names
+ * (`FlowerValley_wrapper__2YGx1`, …). Next.js re-hashes any CSS-module class
+ * locally, so the hashed originals are additionally rendered as *inert* second
+ * class names by the components (see `DOM_CLASS_NAMES` in
+ * `src/experience/data/scene-settings.ts`) — the DOM then still matches the
+ * captured evidence while the styling comes from the module.
+ */
+
+/* ------------------------------ FlowerValley ------------------------------ */
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.canvas,
+.textContainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+.textContainer {
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+.showreelUI {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.showreelBackButton {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+
+.showreelPlayButton {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+
+.showreelPauseButton {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+}
+
+.showreelMuteButton {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+
+/* --------------------------- FlowerValleyText ----------------------------- */
+
+/* `.t-hero` is a global token (EVIDENCE.md §9); mirrored here so the hero is
+   correct even before the shared stylesheet lands. */
+.hero {
+  font-size: max(4.5vw, 2rem);
+  font-family: Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: 0;
+}
+
+.messageWrapper {
+  text-align: center;
+}
+
+.messagePositioner {
+  position: absolute;
+  left: 50%;
+  width: 90%;
+  transform: translateX(-50%) translateY(-60%);
+}
+
+.word {
+  display: inline-block;
+  height: 1.3em;
+  overflow: hidden;
+  margin-block: -0.4em;
+  padding-inline: 0.15em;
+}
+
+.characterBox {
+  display: inline-block;
+  margin-inline: -0.15em;
+  padding-inline: 0.15em;
+}
+
+.character {
+  will-change: transform, opacity;
+}
+
+.character:not(.isVisible) {
+  opacity: 0;
+  transition: opacity 0s ease-out var(--duration, 0s) !important;
+  transform: none;
+  animation: animateOut var(--duration, 0.1s) ease-out var(--delay, 0s) 1;
+  animation-fill-mode: forwards;
+}
+
+.character.isVisible {
+  opacity: 1;
+  transform: translateY(130%);
+  animation: animateIn var(--duration, 0.1s) ease-out var(--delay, 0s) 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animateIn {
+  0% {
+    transform: translateY(130%);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes animateOut {
+  to {
+    transform: translateY(-130%);
+  }
+}
+
+.cta {
+  will-change: transform, opacity;
+}
+
+.ctaPositioner {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+/* filled pill, mirroring `.Button_filled__HP3yZ` + `.Button_main__NewW7`
+   (EVIDENCE.md §9/§10: theme-primary 16 16 16 on theme-secondary 255 255 255) */
+.ctaLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 1.5rem;
+  border-radius: 9999px;
+  background: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  color: rgb(16 16 16 / var(--tw-text-opacity, 1));
+  font-family: Soehne, ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(0.875rem, 0.1vw + 0.8rem, 1rem);
+  line-height: 140%;
+  letter-spacing: -0.004em;
+  text-decoration: none;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.ctaLink:hover {
+  background: rgb(16 16 16);
+  color: rgb(255 255 255);
+}
+
+.ctaEnter {
+  animation: ctaIn 0.25s ease-out 0.25s 1 both;
+}
+
+@keyframes ctaIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ------------------------------ AudioControl ------------------------------ */
+
+.audioButton {
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  background: hsla(0, 0%, 100%, 0.1);
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  z-index: 20;
+  transform: translateX(-50%);
+  pointer-events: all;
+}
+
+.audioButton:hover {
+  background: hsla(0, 0%, 100%, 0.2);
+  border-color: hsla(0, 0%, 100%, 0.4);
+  transform: translateX(-50%) scale(1.1);
+}
+
+.audioButton:active {
+  transform: translateX(-50%) scale(0.95);
+}
+
+@media (max-width: 768px) {
+  .audioButton {
+    bottom: 100px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* `eg = [.3, .6, .3, 1, .3]` peaks, `scaleY:[peak, .3, peak]`,
+   `duration .5 + .3*rand`, `delay .2*rand` — the framer-motion variants of the
+   original, expressed as keyframes. */
+.audioBar {
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: scaleY(var(--peak, 0.3));
+}
+
+.audioBarAnimated {
+  animation: barBounce var(--bar-duration, 0.5s) linear var(--bar-delay, 0s) infinite;
+}
+
+@keyframes barBounce {
+  0% {
+    transform: scaleY(var(--peak, 0.3));
+  }
+  50% {
+    transform: scaleY(0.3);
+  }
+  100% {
+    transform: scaleY(var(--peak, 0.3));
+  }
+}
+
+/* --------------------------------- Loader -------------------------------- */
+
+.loader {
+  mix-blend-mode: screen;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader .spinnerWrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.loader .spinner {
+  position: absolute;
+  transform-origin: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  animation: rotate 10s linear infinite;
+}
+
+.loader .circleWrapper {
+  position: absolute;
+  height: 25%;
+  width: 100%;
+  mix-blend-mode: difference;
+}
+
+.loader .circle {
+  position: absolute;
+  mix-blend-mode: difference;
+  height: 100%;
+  width: 25%;
+  border-radius: 100%;
+  animation: circleAnimation 4s ease-in-out infinite;
+  background-color: #323232;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes circleAnimation {
+  0% {
+    transform: translateX(80%) rotate(0deg);
+    border-radius: 50%;
+  }
+  25% {
+    transform: translateX(120%) rotate(90deg);
+    border-radius: 30%;
+  }
+  50% {
+    transform: translateX(80%) rotate(180deg);
+    border-radius: 50%;
+  }
+  75% {
+    transform: translateX(120%) rotate(270deg);
+    border-radius: 50%;
+  }
+  to {
+    transform: translateX(80%) rotate(1turn);
+    border-radius: 50%;
+  }
+}
+
+.loaderFade {
+  animation: loaderOut 0.3s ease-in-out 1 both;
+}
+
+@keyframes loaderOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.loaderOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progressLabel {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgb(var(--theme-header, 255 255 255));
+  opacity: 0.6;
+}
+
+/* ------------------------- degraded / poster path ------------------------- */
+
+.poster {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  pointer-events: none;
+}
+
+.posterInner {
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.posterCopy {
+  font-size: max(4.5vw, 2rem);
+  font-family: Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 110%;
+  font-style: normal;
+}
+
+.posterItalic {
+  font-style: italic;
+}
+
+.posterCta {
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-size: 0.875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.posterNote {
+  font-size: 0.75rem;
+  opacity: 0.55;
+  letter-spacing: 0.04em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .character,
+  .character.isVisible,
+  .character:not(.isVisible) {
+    animation: none !important;
+    opacity: 1;
+    transform: none;
+  }
+  .audioBarAnimated,
+  .loader .spinner,
+  .loader .circle,
+  .ctaEnter {
+    animation: none !important;
+  }
+}

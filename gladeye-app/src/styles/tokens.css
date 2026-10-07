@@ -1,0 +1,336 @@
+/* ==========================================================================
+   GLADEYE — design tokens
+   Every value below is a verbatim extraction. Provenance is annotated per rule.
+   Sources: docs/research/gladeye/EVIDENCE.md §9/§10 and
+   evidence/source-assets/_next/static/css/70ccb8e7fa150b80.css
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Layout token — EVIDENCE §9: `.h-Header-height{height:var(--site-header-height)}`
+      and the `:root` block of 70ccb8e7fa150b80.css:
+        :root{--site-header-height:64px}
+        @media (min-width:640px){:root{--site-header-height:80px}}
+   -------------------------------------------------------------------------- */
+:root {
+  --site-header-height: 64px;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --site-header-height: 80px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   2. Font stacks — EVIDENCE §9 verbatim family lists.
+      `--font-epicene` / `--font-soehne` are injected by `next/font/local`
+      (see src/lib/theme/fonts.ts). The literal `Epicene` / `Soehne` entries
+      keep the stack valid if the variable has not been applied to <html>.
+   -------------------------------------------------------------------------- */
+:root {
+  --font-stack-serif: var(--font-epicene, Epicene), Epicene, ui-serif, Georgia, Cambria,
+    "Times New Roman", Times, serif;
+  --font-stack-sans: var(--font-soehne, Soehne), Soehne, ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  --font-stack-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+/* --------------------------------------------------------------------------
+   3. Theme variables.
+      The original sets these as *inline styles* from the theme hook
+      (module 4021 `g()` in 131-8efcfd03f067c029.js); the defaults below are
+      the `dark` theme so any element outside a themed shell still resolves.
+      Values are RGB triplets, space separated, consumed as
+      `rgb(var(--x) / <alpha>)`. Note the original's `roll-over` spelling.
+   -------------------------------------------------------------------------- */
+:root {
+  --theme-primary: 16 16 16; /*   #101010 */
+  --theme-secondary: 255 255 255; /* #FFFFFF */
+  --theme-tertiary: 255 255 255; /*  #FFFFFF */
+  --theme-header: 255 255 255; /*   #FFFFFF */
+  --theme-header-secondary: 125 125 125; /* #7D7D7D */
+  --theme-header-button-text-default: 255 255 255;
+  --theme-header-button-text-roll-over: 0 0 0;
+  --theme-header-button-bg-default: 125 125 125;
+  --theme-header-button-bg-roll-over: 255 255 255;
+}
+
+/* Named theme blocks — mirror module 5829 `theme.colors.theme` so a
+   `data-theme="…"` element resolves its own tokens (the original relies on the
+   `<main>`/header inline styles; `data-theme` additionally drives ::selection). */
+[data-theme="dark"] {
+  --theme-primary: 16 16 16;
+  --theme-secondary: 255 255 255;
+  --theme-tertiary: 255 255 255;
+  --theme-header: 255 255 255;
+  --theme-header-secondary: 125 125 125;
+  --theme-header-button-text-default: 255 255 255;
+  --theme-header-button-text-roll-over: 0 0 0;
+  --theme-header-button-bg-default: 125 125 125;
+  --theme-header-button-bg-roll-over: 255 255 255;
+}
+
+[data-theme="light"] {
+  --theme-primary: 255 255 255;
+  --theme-secondary: 16 16 16;
+  --theme-tertiary: 16 16 16;
+  --theme-header: 16 16 16;
+  --theme-header-secondary: 125 125 125;
+  --theme-header-button-text-default: 16 16 16;
+  --theme-header-button-text-roll-over: 255 255 255;
+  --theme-header-button-bg-default: 125 125 125;
+  --theme-header-button-bg-roll-over: 16 16 16;
+}
+
+[data-theme="green"] {
+  --theme-primary: 1 48 5; /*   #013005 */
+  --theme-secondary: 255 255 255;
+  --theme-tertiary: 184 227 188; /* #B8E3BC */
+  --theme-header: 255 255 255;
+  --theme-header-secondary: 255 255 255;
+  --theme-header-button-text-default: 255 255 255;
+  --theme-header-button-text-roll-over: 0 0 0;
+  --theme-header-button-bg-default: 125 125 125;
+  --theme-header-button-bg-roll-over: 255 255 255;
+}
+
+[data-theme="yellow"] {
+  --theme-primary: 251 197 0; /* #FBC500 */
+  --theme-secondary: 0 0 0;
+  --theme-tertiary: 0 0 0;
+  --theme-header: 0 0 0;
+  --theme-header-secondary: 125 125 125;
+  --theme-header-button-text-default: 255 255 255;
+  --theme-header-button-text-roll-over: 0 0 0;
+  --theme-header-button-bg-default: 125 125 125;
+  --theme-header-button-bg-roll-over: 255 255 255;
+}
+
+[data-theme="mint"] {
+  --theme-primary: 184 227 188;
+  --theme-secondary: 255 255 255;
+  --theme-tertiary: 255 255 255;
+  --theme-header: 0 0 0;
+  --theme-header-secondary: 125 125 125;
+  --theme-header-button-text-default: 255 255 255;
+  --theme-header-button-text-roll-over: 0 0 0;
+  --theme-header-button-bg-default: 125 125 125;
+  --theme-header-button-bg-roll-over: 255 255 255;
+}
+
+[data-theme="orange"] {
+  --theme-primary: 255 116 63; /* #FF743F */
+  --theme-secondary: 255 255 255;
+  --theme-tertiary: 255 255 255;
+  --theme-header: 255 255 255;
+  --theme-header-secondary: 125 125 125;
+  --theme-header-button-text-default: 255 255 255;
+  --theme-header-button-text-roll-over: 0 0 0;
+  --theme-header-button-bg-default: 125 125 125;
+  --theme-header-button-bg-roll-over: 255 255 255;
+}
+
+[data-theme="purple"] {
+  --theme-primary: 209 160 244; /* #D1A0F4 */
+  --theme-secondary: 16 16 16;
+  --theme-tertiary: 16 16 16;
+  --theme-header: 16 16 16;
+  --theme-header-secondary: 125 125 125;
+  --theme-header-button-text-default: 255 255 255;
+  --theme-header-button-text-roll-over: 0 0 0;
+  --theme-header-button-bg-default: 125 125 125;
+  --theme-header-button-bg-roll-over: 255 255 255;
+}
+
+[data-theme="blue"] {
+  --theme-primary: 91 138 250; /* #5B8AFA */
+  --theme-secondary: 255 255 255;
+  --theme-tertiary: 255 255 255;
+  --theme-header: 255 255 255;
+  --theme-header-secondary: 125 125 125;
+  --theme-header-button-text-default: 255 255 255;
+  --theme-header-button-text-roll-over: 0 0 0;
+  --theme-header-button-bg-default: 125 125 125;
+  --theme-header-button-bg-roll-over: 255 255 255;
+}
+
+[data-theme="black"] {
+  --theme-primary: 16 16 16;
+  --theme-secondary: 255 255 255;
+  --theme-tertiary: 255 255 255;
+  --theme-header: 255 255 255;
+  --theme-header-secondary: 125 125 125;
+  --theme-header-button-text-default: 255 255 255;
+  --theme-header-button-text-roll-over: 0 0 0;
+  --theme-header-button-bg-default: 125 125 125;
+  --theme-header-button-bg-roll-over: 255 255 255;
+}
+
+[data-theme="white"] {
+  --theme-primary: 255 255 255;
+  --theme-secondary: 255 0 0;
+  --theme-tertiary: 255 0 0;
+  --theme-header: 0 0 0;
+  --theme-header-secondary: 125 125 125;
+  --theme-header-button-text-default: 255 255 255;
+  --theme-header-button-text-roll-over: 0 0 0;
+  --theme-header-button-bg-default: 125 125 125;
+  --theme-header-button-bg-roll-over: 255 255 255;
+}
+
+[data-theme="error"] {
+  --theme-primary: 16 16 16;
+  --theme-secondary: 0 255 0;
+  --theme-tertiary: 0 255 0;
+  --theme-header: 0 255 0;
+  --theme-header-secondary: 125 125 125;
+  --theme-header-button-text-default: 255 255 255;
+  /* the original config misspells this key, so `0 0 0` is the real fallback */
+  --theme-header-button-text-roll-over: 0 0 0;
+  --theme-header-button-bg-default: 125 125 125;
+  --theme-header-button-bg-roll-over: 255 255 255;
+}
+
+/* --------------------------------------------------------------------------
+   4. Base layer — 70ccb8e7fa150b80.css, rules for `body,html`, `html`, `body`.
+   -------------------------------------------------------------------------- */
+body,
+html {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 16 16 / var(--tw-bg-opacity));
+}
+
+html {
+  font-family: var(--font-stack-sans);
+}
+
+body {
+  font-size: clamp(1rem, 0.2vw + 0.9rem, 1.1875rem); /* == .t-p */
+  font-family: var(--font-stack-sans);
+  font-weight: 300;
+  line-height: 145%;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Home page runs a WebGL canvas with no native document scroll
+   (EVIDENCE §2: html{overflow:hidden}, body{position:fixed;height:100vh}). */
+html.homepage {
+  overflow: hidden;
+}
+
+.homepage body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* --------------------------------------------------------------------------
+   5. Text selection — 70ccb8e7fa150b80.css (brand yellow #FBC500).
+   -------------------------------------------------------------------------- */
+::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 197 0 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(16 16 16 / var(--tw-text-opacity));
+}
+
+[data-theme="yellow"] ::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 16 16 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(251 197 0 / var(--tw-text-opacity));
+}
+
+[data-theme="error"] ::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--theme-secondary) / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(var(--theme-primary) / var(--tw-text-opacity));
+}
+
+/* --------------------------------------------------------------------------
+   6. Focus visibility.
+      The original ships no author `:focus-visible` rules and relies on the UA
+      outline (preflight only carries `:-moz-focusring{outline:auto}`). The
+      outline below reproduces that UA behaviour deterministically and in the
+      brand colour so keyboard focus is always visible on every theme.
+   -------------------------------------------------------------------------- */
+:focus-visible {
+  outline: 2px solid rgb(var(--theme-secondary) / 1);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+[data-theme="yellow"] :focus-visible,
+[data-theme="mint"] :focus-visible,
+[data-theme="light"] :focus-visible,
+[data-theme="purple"] :focus-visible,
+.theme-on-light :focus-visible {
+  outline-color: rgb(var(--theme-secondary) / 1);
+}
+
+/* Storyblok rich text — `.rich-text` block of 70ccb8e7fa150b80.css. */
+.rich-text a {
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: rgb(var(--theme-secondary) / 0.25);
+  text-decoration-thickness: 2px;
+  transition-property: color, background-color, border-color, text-decoration-color, fill,
+    stroke;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.15s;
+}
+
+.rich-text a:hover {
+  text-decoration-color: rgb(var(--theme-secondary) / 1);
+}
+
+.rich-text b {
+  font-weight: 500;
+}
+
+.rich-text i {
+  font-family: var(--font-stack-serif);
+}
+
+.rich-text ol,
+.rich-text ul {
+  list-style-position: outside;
+  padding-left: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+  line-height: 1.25;
+}
+
+.rich-text ol > :not([hidden]) ~ :not([hidden]),
+.rich-text ul > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
+.rich-text ol p,
+.rich-text ul p {
+  display: inline;
+}
+
+.rich-text ul {
+  list-style-type: disc;
+}
+
+.rich-text ol {
+  list-style-type: decimal;
+}
+
+/* Verbatim from 70ccb8e7fa150b80.css — Storyblok inline spans inherit the theme. */
+span[style] {
+  color: rgb(var(--theme-secondary) / 1) !important;
+  transition-property: color, background-color, border-color, text-decoration-color, fill,
+    stroke;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.5s;
+}

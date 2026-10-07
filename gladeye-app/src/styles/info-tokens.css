@@ -1,0 +1,841 @@
+/**
+ * gladeye-info-tokens.module.css
+ *
+ * Design tokens for the /about, /contact and /careers routes.
+ *
+ * Every declaration below is a verbatim port of a rule that ships on the
+ * original site. Sources:
+ *   evidence/source-assets/_next/static/css/70ccb8e7fa150b80.css   (global + t-*)
+ *   evidence/source-assets/_next/static/css/0b3a3a603128fa66.css   (ContactGreeting, MotionLink)
+ *   evidence/source-assets/_next/static/css/9a7eb02b3db9aeb7.css   (FeatureList, Button)
+ *   evidence/source-assets/_next/static/css/9085b6f617458941.css   (CareersImages)
+ *
+ * The last three files were NOT part of the captured evidence bundle; they were
+ * re-fetched from the frozen CDN URLs referenced by the three pages' own HTML
+ * (see the builder report, "gaps"). They are declared here with `
+
+   (promoted from a CSS-Module :global block — this file declares
+    global theme variables, .t-* type tokens, .ui-* and .mq* helpers,
+    so it must not be scoped as a module.)
+ * ================================================================== */
+[data-theme='green'] {
+  --theme-primary: 1 48 5;
+  --theme-secondary: 255 255 255;
+  --theme-tertiary: 184 227 188;
+  --theme-header: 255 255 255;
+  --theme-header-secondary: 255 255 255;
+  --theme-header-button-text-default: 255 255 255;
+  --theme-header-button-text-roll-over: 0 0 0;
+  --theme-header-button-bg-default: 125 125 125;
+  --theme-header-button-bg-roll-over: 255 255 255;
+}
+
+/* `black` and `dark` are byte-identical in the source palette. */
+[data-theme='black'],
+[data-theme='dark'] {
+  --theme-primary: 16 16 16;
+  --theme-secondary: 255 255 255;
+  --theme-tertiary: 255 255 255;
+  --theme-header: 255 255 255;
+  --theme-header-secondary: 125 125 125;
+  --theme-header-button-text-default: 255 255 255;
+  --theme-header-button-text-roll-over: 0 0 0;
+  --theme-header-button-bg-default: 125 125 125;
+  --theme-header-button-bg-roll-over: 255 255 255;
+}
+
+[data-theme='yellow'] {
+  --theme-primary: 251 197 0;
+  --theme-secondary: 0 0 0;
+  --theme-tertiary: 0 0 0;
+  --theme-header: 0 0 0;
+  --theme-header-secondary: 125 125 125;
+  --theme-header-button-text-default: 255 255 255;
+  --theme-header-button-text-roll-over: 0 0 0;
+  --theme-header-button-bg-default: 125 125 125;
+  --theme-header-button-bg-roll-over: 255 255 255;
+}
+
+/* --site-header-height: 64px, 80px from 640px up. Verbatim. */
+:root {
+  --site-header-height: 64px;
+}
+@media (min-width: 640px) {
+  :root {
+    --site-header-height: 80px;
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ * 1b. Font-stack repair (measured, not assumed).
+ *
+ * `src/styles/tokens.css` declares `--font-stack-serif` / `--font-stack-sans`
+ * on `:root` as `var(--font-epicene, Epicene), Epicene, …`. Custom-property
+ * substitution happens where the property is DECLARED, and `next/font/local`
+ * puts `--font-epicene` / `--font-soehne` on `<body>`
+ * (`layout.tsx`: `<body className={fontVariables}>`), not on `:root`. So the
+ * two stacks resolve at `:root` to their literal fallback and every rule that
+ * consumes them — `.t-h1…`, `.rich-text i`, `.Button_main__NewW7`, body copy —
+ * paints Georgia / Arial instead of the self-hosted Epicene and Soehne.
+ * (`CSS.getPlatformFontsForNode` on `/about .t-d2` returns Georgia.)
+ *
+ * Re-declared on `body`, where the injected variables actually exist, so the
+ * real faces win; the fallback list is unchanged, so nothing degrades if the
+ * variables go away. The durable home for this is `tokens.css` (move the two
+ * declarations off `:root`) — that file is owned by the shell builder, so the
+ * repair is made here and flagged in the report.
+ * ------------------------------------------------------------------ */
+body {
+  --font-stack-serif: var(--font-epicene, Epicene), Epicene, ui-serif, Georgia, Cambria,
+    'Times New Roman', Times, serif;
+  --font-stack-sans: var(--font-soehne, Soehne), Soehne, ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* ================================================================== *
+ * 2. Typography tokens — §9 of EVIDENCE.md, verbatim clamp() values.
+ *    Two rules per token because the shipped CSS splits them the same way.
+ * ================================================================== */
+
+.t-h1 {
+  font-size: clamp(2.5rem, 6.5vw + 1rem, 8rem);
+  font-family: var(--font-epicene, Epicene), Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+}
+
+.t-h2 {
+  font-size: clamp(2rem, 3.5vw + 1.2rem, 5rem);
+  font-family: var(--font-epicene, Epicene), Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+}
+
+.t-h3 {
+  font-size: clamp(1.5rem, 2.4vw + 0.9rem, 3.5rem);
+  font-family: var(--font-epicene, Epicene), Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+}
+
+.t-h5 {
+  font-size: clamp(1rem, 1.2vw + 0.7rem, 2rem);
+  font-family: var(--font-epicene, Epicene), Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+}
+
+/* Display type — the oversized headings (about hero, careers hero). */
+.t-d2 {
+  font-size: clamp(2.625rem, 4.6vw + 1.6rem, 6.5rem);
+  font-family: var(--font-epicene, Epicene), Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+}
+.t-d3 {
+  font-size: clamp(1.6875rem, 5.7vw + 0.4rem, 6.5rem);
+  font-family: var(--font-epicene, Epicene), Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+}
+
+.t-p {
+  font-size: clamp(1rem, 0.2vw + 0.9rem, 1.1875rem);
+  font-family: var(--font-soehne, Soehne), Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+  font-weight: 300;
+  line-height: 145%;
+  letter-spacing: -0.01em;
+}
+.t-p-md {
+  font-size: clamp(1.1875rem, 0.4vw + 1.1rem, 1.5rem);
+  font-family: var(--font-soehne, Soehne), Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+  font-weight: 300;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+}
+.t-p-lg {
+  font-size: clamp(1.25rem, 0.6vw + 1.1rem, 1.75rem);
+  font-family: var(--font-soehne, Soehne), Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+  font-weight: 300;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+}
+
+.t-meta {
+  font-size: clamp(0.5rem, 0.3vw + 0.4rem, 0.75rem);
+  font-family: var(--font-soehne, Soehne), Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.t-list {
+  font-size: clamp(0.75rem, 0.9vw + 0.5rem, 1.5rem);
+  font-family: var(--font-soehne, Soehne), Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+}
+
+.t-team-meta {
+  font-size: clamp(0.5rem, 0.8vw + 0.3rem, 1.1875rem);
+  font-family: var(--font-soehne, Soehne), Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+  font-weight: 300;
+  line-height: 145%;
+  letter-spacing: -0.01em;
+}
+
+.t-work-stat {
+  font-size: clamp(0.75rem, 0.5vw + 0.6rem, 1.1875rem);
+  font-family: var(--font-soehne, Soehne), Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+  font-weight: 300;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+}
+
+.t-contact-meta {
+  font-size: clamp(0.75rem, 0.3vw + 0.7rem, 1rem);
+  font-family: var(--font-soehne, Soehne), Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+  line-height: 140%;
+  letter-spacing: -0.004em;
+}
+
+.t-footer-meta {
+  font-size: 16px;
+  font-family: var(--font-soehne, Soehne), Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+  line-height: 140%;
+  letter-spacing: -0.004em;
+}
+
+/* md: t-p-md — used by the /contact intro paragraph. */
+@media (min-width: 768px) {
+  .md\:t-p-md {
+    font-size: clamp(1.1875rem, 0.4vw + 1.1rem, 1.5rem);
+    font-family: var(--font-soehne, Soehne), Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+      Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+    font-weight: 300;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+  }
+  .md\:font-normal {
+    font-weight: 400;
+  }
+}
+
+/* ================================================================== *
+ * 3. Layout tokens.
+ *    The site's spacing scale is custom-generated (clamp between the value
+ *    two steps below on the scale and the value itself), NOT Tailwind's
+ *    static 0.25rem ruler. Names that would collide with Tailwind's own
+ *    utilities are deliberately not declared here — see the `sp*` helpers
+ *    in each page's own CSS module.
+ * ================================================================== */
+
+.ui-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  -moz-column-gap: clamp(0.625rem, 1vw + 0.4rem, 1.5rem);
+  column-gap: clamp(0.625rem, 1vw + 0.4rem, 1.5rem);
+  padding-left: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+  padding-right: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+}
+@media (min-width: 1024px) {
+  .ui-grid {
+    grid-template-columns: repeat(24, minmax(0, 1fr));
+  }
+}
+
+.max-w-site {
+  max-width: 1828px;
+}
+.px-sms {
+  padding-left: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+  padding-right: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+}
+.px-s-1\.5 {
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+}
+.indent-20 {
+  text-indent: clamp(3.5rem, 1.8vw + 3.1rem, 5rem);
+}
+
+/* `sgs` = the grid gutter; `sms` = the page gutter. */
+.gap-sgs {
+  gap: clamp(0.625rem, 1vw + 0.4rem, 1.5rem);
+}
+.gap-x-sgs {
+  -moz-column-gap: clamp(0.625rem, 1vw + 0.4rem, 1.5rem);
+  column-gap: clamp(0.625rem, 1vw + 0.4rem, 1.5rem);
+}
+.gap-y-s-8 {
+  row-gap: 2rem;
+}
+.gap-y-s-6 {
+  row-gap: 1.5rem;
+}
+.gap-y-s-4 {
+  row-gap: 1rem;
+}
+/* `gap-y-xl-20` is not a stock Tailwind key, so the original name is safe. */
+@media (min-width: 640px) {
+  .sm\:gap-y-xl-20 {
+    row-gap: clamp(2.25rem, 3.3vw + 1.5rem, 5rem);
+  }
+}
+/* `gap-y-8`, `gap-y-10` and the plain numeric spacing utilities DO shadow
+   Tailwind defaults on the original site (its scale is clamp-generated).
+   Those ports live under the `info-` prefix below so this sheet cannot move
+   another builder's layout. */
+
+.py-xl-40 {
+  padding-top: clamp(4rem, 7.1vw + 2.3rem, 10rem);
+  padding-bottom: clamp(4rem, 7.1vw + 2.3rem, 10rem);
+}
+.pb-xl-20 {
+  padding-bottom: clamp(2.25rem, 3.3vw + 1.5rem, 5rem);
+}
+.pb-xl-40 {
+  padding-bottom: clamp(4rem, 7.1vw + 2.3rem, 10rem);
+}
+.mb-xl-16 {
+  margin-bottom: clamp(2rem, 2.4vw + 1.4rem, 4rem);
+}
+
+/* space-y-* with the site's own clamp ruler (verbatim emitted CSS).
+   Only names that Tailwind does NOT define are used verbatim here
+   (`space-y-xl-40`, `space-y-lg-20`, `space-y-s-1`). The plain numeric ones
+   collide with Tailwind's static ruler, so they live under an `info-` prefix
+   so this file cannot change another builder's layout. */
+.space-y-xl-40 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(clamp(4rem, 7.1vw + 2.3rem, 10rem) * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(clamp(4rem, 7.1vw + 2.3rem, 10rem) * var(--tw-space-y-reverse));
+}
+.space-y-lg-20 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(clamp(2.75rem, 2.7vw + 2.1rem, 5rem) * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(clamp(2.75rem, 2.7vw + 2.1rem, 5rem) * var(--tw-space-y-reverse));
+}
+.space-y-s-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
+/* ---- prefixed ports of Tailwind-colliding custom-spacing rules ---- */
+.info-space-y-20 > :not([hidden]) ~ :not([hidden]) {
+  margin-top: clamp(3.5rem, 1.8vw + 3.1rem, 5rem);
+}
+.info-space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  margin-top: clamp(1.5rem, 0.6vw + 1.4rem, 2rem);
+}
+.info-space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  margin-top: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+}
+.info-space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  margin-top: clamp(0.75rem, 0.3vw + 0.7rem, 1rem);
+}
+.info-gap-y-8 {
+  row-gap: clamp(1.5rem, 0.6vw + 1.4rem, 2rem);
+}
+.info-gap-2 {
+  gap: clamp(0.25rem, 0.3vw + 0.2rem, 0.5rem);
+}
+.info-py-6 {
+  padding-top: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+  padding-bottom: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+}
+.info-mb-6 {
+  margin-bottom: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+}
+.info-mb-8 {
+  margin-bottom: clamp(1.5rem, 0.6vw + 1.4rem, 2rem);
+}
+.info-mb-40 {
+  margin-bottom: clamp(8rem, 2.4vw + 7.4rem, 10rem);
+}
+.info-pt-20 {
+  padding-top: clamp(3.5rem, 1.8vw + 3.1rem, 5rem);
+}
+.info-pb-8 {
+  padding-bottom: clamp(1.5rem, 0.6vw + 1.4rem, 2rem);
+}
+.info-pb-40 {
+  padding-bottom: clamp(8rem, 2.4vw + 7.4rem, 10rem);
+}
+@media (min-width: 640px) {
+  .info-sm-gap-y-xl-20 {
+    row-gap: clamp(2.25rem, 3.3vw + 1.5rem, 5rem);
+  }
+}
+@media (min-width: 768px) {
+  .info-md-gap-y-10 {
+    row-gap: clamp(2rem, 0.6vw + 1.9rem, 2.5rem);
+  }
+}
+/* site: .min-h-screen{min-height:100vh} then {min-height:100svh} */
+.info-min-h-screen {
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+/* ================================================================== *
+ * 4. Theme-bound colour / transition utilities.
+ * ================================================================== */
+
+.bg-theme-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--theme-primary) / var(--tw-bg-opacity));
+}
+.bg-theme-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--theme-secondary) / var(--tw-bg-opacity));
+}
+.bg-theme-secondary\/20 {
+  background-color: rgb(var(--theme-secondary) / 0.2);
+}
+.text-theme-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(var(--theme-secondary) / var(--tw-text-opacity));
+}
+.text-theme-tertiary {
+  --tw-text-opacity: 1;
+  color: rgb(var(--theme-tertiary) / var(--tw-text-opacity));
+}
+.border-theme-secondary\/40 {
+  border-color: rgb(var(--theme-secondary) / 0.4);
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 16 16 / var(--tw-bg-opacity));
+}
+.bg-yellow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 197 0 / var(--tw-bg-opacity));
+}
+
+.z-main {
+  z-index: 100;
+}
+.z-Header {
+  z-index: 200;
+}
+.z-Footer {
+  z-index: 50;
+}
+.h-Header-height {
+  height: var(--site-header-height);
+}
+.pt-Header-height {
+  padding-top: var(--site-header-height);
+}
+
+.duration-theme {
+  transition-duration: 0.5s;
+}
+.transition-bg {
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.15s;
+}
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.15s;
+}
+.ui-link {
+  opacity: 1;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+@media (hover: hover) {
+  .ui-link:hover {
+    opacity: 0.5;
+  }
+}
+
+.h-s-4 {
+  height: 1rem;
+}
+.w-s-4 {
+  width: 1rem;
+}
+.fill-current {
+  fill: currentColor;
+}
+
+/* ================================================================== *
+ * 5. `.rich-text` — verbatim from 70ccb8e7fa150b80.css.
+ * ================================================================== */
+
+.rich-text a {
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: rgb(var(--theme-secondary) / 0.25);
+  text-decoration-thickness: 2px;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.15s;
+}
+.rich-text a:hover {
+  text-decoration-color: rgb(var(--theme-secondary) / 1);
+}
+.rich-text b {
+  font-weight: 500;
+}
+.rich-text i {
+  font-family: var(--font-epicene, Epicene), Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+.rich-text ol,
+.rich-text ul {
+  list-style-position: outside;
+  padding-left: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+  line-height: 1.25;
+}
+.rich-text ol > :not([hidden]) ~ :not([hidden]),
+.rich-text ul > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+.rich-text ol p,
+.rich-text ul p {
+  display: inline;
+}
+.rich-text ul {
+  list-style-type: disc;
+}
+.rich-text ol {
+  list-style-type: decimal;
+}
+
+/* ================================================================== *
+ * 6. ContactGreeting + MotionLink — verbatim from 0b3a3a603128fa66.css.
+ *    There is NO @keyframes / animation for this component anywhere in the
+ *    shipped CSS; the motion is JS-driven. See GreetingMarquee.tsx.
+ * ================================================================== */
+
+.ContactGreeting_main__A_f__ {
+  pointer-events: none;
+  position: relative;
+  z-index: 30;
+  padding-bottom: clamp(0.75rem, 1.5vw + 0.4rem, 2rem);
+}
+@media (min-width: 640px) {
+  .ContactGreeting_main__A_f__ {
+    padding-top: clamp(0.75rem, 1.5vw + 0.4rem, 2rem);
+    padding-bottom: clamp(0.75rem, 1.5vw + 0.4rem, 2rem);
+  }
+}
+.ContactGreeting_main__A_f__ {
+  font-size: clamp(6.25rem, 11.1vw + 3.7rem, 15.625rem);
+  font-family: var(--font-epicene, Epicene), Epicene, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 130%;
+  letter-spacing: -0.03em;
+}
+
+/* The item gutter the greeting track uses. Verbatim. */
+.pr-xl-14 {
+  padding-right: clamp(1.75rem, 2.1vw + 1.3rem, 3.5rem);
+}
+
+.MotionLink_main__kgq4W {
+  display: inline-flex;
+  text-align: left;
+}
+.MotionLink_inner__hsBoJ {
+  position: relative;
+  overflow: hidden;
+}
+.MotionLink_inner__hsBoJ span {
+  display: block;
+  white-space: nowrap;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.5s;
+}
+.MotionLink_inner__hsBoJ span:nth-child(odd) {
+  position: absolute;
+  --tw-translate-y: 0;
+}
+.MotionLink_inner__hsBoJ span:nth-child(2n),
+.MotionLink_inner__hsBoJ span:nth-child(odd) {
+  left: 0;
+  top: 0;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate))
+    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.MotionLink_inner__hsBoJ span:nth-child(2n) {
+  position: relative;
+  --tw-translate-y: 100%;
+}
+@media (hover: hover) {
+  .MotionLink_main__kgq4W:hover .MotionLink_inner__hsBoJ span:nth-child(odd) {
+    --tw-translate-y: -100%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate))
+      skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+  .MotionLink_main__kgq4W:hover .MotionLink_inner__hsBoJ span:nth-child(2n) {
+    --tw-translate-y: 0;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate))
+      skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+}
+
+/* ================================================================== *
+ * 7. CareersImages band + FeatureList row — verbatim from
+ *    9085b6f617458941.css / 9a7eb02b3db9aeb7.css.
+ * ================================================================== */
+
+.CareersImages_main__ENT6z {
+  pointer-events: none;
+  position: relative;
+  z-index: 30;
+  margin-bottom: clamp(8rem, 2.4vw + 7.4rem, 10rem);
+  overflow: hidden;
+}
+.CareersImages_item__uJrZv {
+  padding-right: clamp(0.625rem, 1vw + 0.4rem, 1.5rem);
+}
+.CareersImages_item__uJrZv .CareersImages_item-inner__9PDfK {
+  position: relative;
+  overflow: hidden;
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 197 0 / var(--tw-bg-opacity));
+}
+.CareersImages_item__uJrZv:nth-child(3n + 1) .CareersImages_item-inner__9PDfK {
+  width: clamp(13.75rem, 18.2vw + 9.5rem, 38.625rem);
+  aspect-ratio: 412 / 412;
+}
+.CareersImages_item__uJrZv:nth-child(3n + 2) .CareersImages_item-inner__9PDfK {
+  width: clamp(13.75rem, 18.2vw + 9.5rem, 38.625rem);
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  aspect-ratio: 412 / 555;
+}
+.CareersImages_item__uJrZv:nth-child(3n + 3) .CareersImages_item-inner__9PDfK {
+  width: clamp(19.375rem, 25.2vw + 13.5rem, 53.8125rem);
+  aspect-ratio: 574 / 412;
+}
+
+.FeatureList_main__OqQMF {
+  --z-main: 10;
+  --z-item: 20;
+  --z-item-active: 30;
+  --z-box: 40;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1828px;
+  z-index: var(--z-main);
+}
+@media (min-width: 768px) {
+  .FeatureList_main__OqQMF {
+    max-width: none;
+  }
+}
+.FeatureList_inner__UOo8l {
+  --tw-text-opacity: 1;
+  color: rgb(var(--theme-secondary) / var(--tw-text-opacity));
+}
+.FeatureList_item__3Uvy5 {
+  position: relative;
+  display: block;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.2s;
+  z-index: var(--z-item);
+}
+.FeatureList_item-inner__rl_Xr {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  -moz-column-gap: clamp(0.625rem, 1vw + 0.4rem, 1.5rem);
+  column-gap: clamp(0.625rem, 1vw + 0.4rem, 1.5rem);
+  padding-left: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+  padding-right: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+  position: relative;
+  align-items: center;
+  padding-top: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+  padding-bottom: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+  z-index: var(--z-inner, 10);
+}
+@media (min-width: 1024px) {
+  .FeatureList_item-inner__rl_Xr {
+    grid-template-columns: repeat(24, minmax(0, 1fr));
+  }
+}
+.FeatureList_item-border-top__VoQoY,
+.FeatureList_item-border-bottom__Ar4na {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding-left: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+  padding-right: clamp(1rem, 0.6vw + 0.9rem, 1.5rem);
+  z-index: -20;
+}
+.FeatureList_item-border-top__VoQoY:after,
+.FeatureList_item-border-bottom__Ar4na:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--theme-tertiary) / var(--tw-bg-opacity));
+}
+.FeatureList_item-border-top__VoQoY {
+  top: 0;
+}
+.FeatureList_item-border-bottom__Ar4na {
+  bottom: -1px;
+}
+
+/* Button (careers "Find out more" pill) — verbatim from 9a7eb02b3db9aeb7.css. */
+.Button_main__NewW7 {
+  --size: 40px;
+  --padding: 4px;
+  height: var(--size);
+  padding: var(--padding);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-soehne, Soehne), Soehne, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+  font-weight: 500;
+  line-height: 1;
+  border-radius: 9999px;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--theme-primary) / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(var(--theme-secondary) / var(--tw-text-opacity));
+  overflow: hidden;
+}
+.Button_main__NewW7.Button_small__pgXYR {
+  --size: 32px;
+  --padding: 2px;
+  font-size: 16px;
+}
+@media (min-width: 1024px) {
+  .Button_main__NewW7.Button_small__pgXYR {
+    --size: 36px;
+    --padding: 4px;
+    font-size: 19px;
+  }
+}
+.Button_main__NewW7.Button_small__pgXYR .Button_inner__d7ZPg {
+  padding-left: clamp(0.75rem, 0.3vw + 0.7rem, 1rem);
+  padding-right: clamp(0.75rem, 0.3vw + 0.7rem, 1rem);
+}
+.Button_main__NewW7.Button_ghost__gZqlA {
+  background-color: transparent;
+}
+.Button_inner__d7ZPg {
+  position: relative;
+  z-index: 30;
+  transform: translateY(-0.05em);
+}
+
+/* ================================================================== *
+ * 8. Marquee engine (ours — the site's is inside a page chunk that was
+ *    never captured, so only the STRUCTURE is reproduced from evidence).
+ *
+ *    The track is translated by exactly one copy-width (`--mq-dist`), so the
+ *    two identical copies loop seamlessly. The phase starts at 0 on every
+ *    mount, so screenshots are reproducible.
+ *    Rate is UNVERIFIED: `--mq-dur` is derived from --mq-dist / speed.
+ *
+ *    TWO selectors, deliberately. `.mqTrack` is the helper name; `[data-marquee]`
+ *    is what the two bands actually carry, because their DOM class lists are the
+ *    shipped ones (`w-full overflow-hidden` / `flex items-end`) and must not be
+ *    edited to add a class the original never had. `useSeamlessMarquee` writes
+ *    `--mq-dist`, `--mq-dur` and `data-running` inline on that same element, so
+ *    keying the animation off the attribute wires the motion without touching
+ *    the markup.
+ * ================================================================== */
+
+.mqViewport {
+  width: 100%;
+  overflow: hidden;
+}
+.mqTrack,
+[data-marquee] {
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+  --mq-dist: 0px;
+  --mq-dur: 40s;
+}
+.mqTrack[data-running='true'],
+[data-marquee][data-running='true'] {
+  animation: mqScroll var(--mq-dur) linear infinite both;
+  will-change: transform;
+}
+@keyframes mqScroll {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(calc(-1 * var(--mq-dist)), 0, 0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mqTrack,
+  .mqTrack[data-running='true'],
+  [data-marquee],
+  [data-marquee][data-running='true'] {
+    animation: none;
+    transform: none;
+  }
+}
+
+/* ================================================================== *
+ * 9. Utilities the frozen class lists reference but Tailwind does not
+ *    emit for them. `ContactPage` applies `contact.json → intro.className`
+ *    verbatim (`t-p max-w-[600px] font-normal md:t-p-md md:font-normal`);
+ *    three of those five names only ever appear inside a JSON file, which is
+ *    outside the Tailwind `content` glob, so no utility gets generated and the
+ *    intro line ran full-bleed instead of the shipped 600px measure.
+ *    Values below are copied verbatim from
+ *    `evidence/source-assets/_next/static/css/70ccb8e7fa150b80.css`.
+ * ================================================================== */
+
+.max-w-\[600px\] {
+  max-width: 600px;
+}
+
+@media (min-width: 768px) {
+  .md\:font-normal {
+    font-weight: 400;
+  }
+  .md\:t-p-md {
+    font-size: clamp(1.1875rem, 0.4vw + 1.1rem, 1.5rem);
+    font-family: var(--font-soehne, Soehne), Soehne, ui-sans-serif, system-ui, -apple-system,
+      BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+    font-weight: 300;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+  }
+}
+
+

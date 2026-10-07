@@ -1,0 +1,28 @@
+[
+ {
+  "key": "case-into-the-amazon__hero",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 73.27,
+   "stdev": 44.51,
+   "min": 9.5,
+   "max": 255,
+   "uniqueColors": 660
+  },
+  "candidate": {
+   "meanLuma": 72.04,
+   "stdev": 45.09,
+   "min": 11,
+   "max": 255,
+   "uniqueColors": 655
+  },
+  "meanAbsDiff": 14.15,
+  "pctPixelsOver12": 21.34,
+  "pctPixelsOver60": 6.58,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ }
+]

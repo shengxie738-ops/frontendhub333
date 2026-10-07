@@ -1,0 +1,2084 @@
+{
+ "base": "http://127.0.0.1:3005",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "label": "r14",
+ "startedAt": "2026-10-06T20:49:54.422Z",
+ "shots": [
+  "home__00_intro",
+  "home__01_stable",
+  "home__pointer-0.5-0.5",
+  "home__pointer-0.12-0.2",
+  "home__pointer-0.88-0.2",
+  "home__pointer-0.88-0.85",
+  "home__pointer-0.12-0.85",
+  "home__scroll-x1",
+  "home__scroll-x2",
+  "home__scroll-x3",
+  "home__scroll-x4",
+  "home__scroll-x5",
+  "home__scroll-x6",
+  "home__scroll-x8",
+  "home__scroll-x10"
+ ],
+ "probes": {
+  "home__00_intro": {
+   "diagnostics": {
+    "mode": "live",
+    "degraded": false,
+    "degradeReasons": [],
+    "quality": "high",
+    "dpr": 1,
+    "composerPixelRatio": 1,
+    "maxPixelRatio": 1,
+    "pointCount": 960000,
+    "drawCount": 960000,
+    "runtimes": 1,
+    "shaderIssues": [],
+    "assetFailures": [],
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "cameraAnimProgress": 0.038300000173148115,
+    "dispersalProgress": 0,
+    "fps": 2,
+    "placementMs": 697.9000000022352,
+    "bootMs": 159.79999999701977,
+    "introDone": true
+   },
+   "probe": {
+    "field": {
+     "bounds": {
+      "minX": -33.87338638305664,
+      "maxX": 27.77096176147461,
+      "minY": -2,
+      "maxY": 6.937196731567383,
+      "minZ": -599.8414916992188,
+      "maxZ": -0.12640543282032013
+     },
+     "containerZ": -19.271953997940756,
+     "containerX": 1.7972834824030086,
+     "containerY": 0,
+     "cameraWorldZ": -18.351310213092685,
+     "cameraWorldX": 1.5861249011906418,
+     "cameraWorldY": -0.012756017139528814,
+     "total": 960000,
+     "sampled": 87273,
+     "discarded": 44743,
+     "onScreen": 40076,
+     "onScreenGrown": 2789,
+     "spriteArea": 462257.04903573723,
+     "maxPointSize": 105.51906022616033,
+     "bigPoints": 16,
+     "hugePoints": 0,
+     "dzHistogram": {
+      "lt1": 0,
+      "1to2": 0,
+      "2to5": 5,
+      "5to10": 66,
+      "10to20": 351,
+      "20to40": 881,
+      "40to80": 1486,
+      "gt80": 0
+     },
+     "sizeHistogram": {
+      "lt4": 773,
+      "4to12": 1434,
+      "12to30": 490,
+      "30to80": 88,
+      "80to200": 4,
+      "gt200": 0
+     },
+     "meanNearGrowth": 0.9629499586761892,
+     "nearSampleCount": 422,
+     "overdraw": {
+      "allGrown": 5098,
+      "allGrownArea": 4305224541.176792,
+      "giant500": 86,
+      "giant2000": 21,
+      "maxPointSize": 24750.218187772814,
+      "minAbsDz": 0.02507632765266976
+     },
+     "projection": {
+      "near": 1,
+      "far": 77,
+      "clipZAt10": 8.237,
+      "clipZAt24": 22.605,
+      "clipZAt55": 54.421
+     }
+    },
+    "container": {
+     "x": 1.6582400229320222,
+     "y": 0,
+     "z": -19.271953997940756
+    },
+    "progress": 0.038300000173148115,
+    "scroller": {
+     "accumulator": -4075,
+     "extent": 20000,
+     "vsEventCount": 0,
+     "vsDeltaSum": 0,
+     "driftSum": -4075,
+     "smoothedPct": 0.038300000173148115,
+     "lastFrameMs": 482,
+     "stepsRun": 815,
+     "stepDebtMs": 5.566666665175774,
+     "stepHz": 59.99999999999999
+    },
+    "uniforms": {
+     "uContainerPos": [
+      1.7972834824030086,
+      0,
+      -19.271953997940756
+     ],
+     "uTotalZ": 0,
+     "uCamNear": 10,
+     "uCamFar": 77,
+     "uCamFov": 27,
+     "res": [
+      1440,
+      900
+     ]
+    }
+   }
+  },
+  "home__01_stable": {
+   "diagnostics": {
+    "mode": "live",
+    "degraded": false,
+    "degradeReasons": [],
+    "quality": "high",
+    "dpr": 1,
+    "composerPixelRatio": 1,
+    "maxPixelRatio": 1,
+    "pointCount": 960000,
+    "drawCount": 960000,
+    "runtimes": 1,
+    "shaderIssues": [],
+    "assetFailures": [],
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "cameraAnimProgress": 0.06565000000000275,
+    "dispersalProgress": 0,
+    "fps": 2,
+    "placementMs": 697.9000000022352,
+    "bootMs": 159.79999999701977,
+    "introDone": true
+   },
+   "probe": {
+    "field": {
+     "bounds": {
+      "minX": -33.87338638305664,
+      "maxX": 27.77096176147461,
+      "minY": -2,
+      "maxY": 6.937196731567383,
+      "minZ": -599.8414916992188,
+      "maxZ": -0.12640543282032013
+     },
+     "containerZ": -33.05075418776716,
+     "containerX": 2.7674195088400233,
+     "containerY": 0,
+     "cameraWorldZ": -32.04941341595091,
+     "cameraWorldX": 2.914022048981654,
+     "cameraWorldY": 0.001876984818406187,
+     "total": 960000,
+     "sampled": 87273,
+     "discarded": 44743,
+     "onScreen": 39151,
+     "onScreenGrown": 2914,
+     "spriteArea": 636211.5448119981,
+     "maxPointSize": 152.66600435607447,
+     "bigPoints": 26,
+     "hugePoints": 1,
+     "dzHistogram": {
+      "lt1": 0,
+      "1to2": 0,
+      "2to5": 3,
+      "5to10": 94,
+      "10to20": 385,
+      "20to40": 901,
+      "40to80": 1512,
+      "gt80": 19
+     },
+     "sizeHistogram": {
+      "lt4": 784,
+      "4to12": 1449,
+      "12to30": 542,
+      "30to80": 129,
+      "80to200": 10,
+      "gt200": 0
+     },
+     "meanNearGrowth": 0.9814702467208943,
+     "nearSampleCount": 482,
+     "overdraw": {
+      "allGrown": 6154,
+      "allGrownArea": 999718759.8018824,
+      "giant500": 77,
+      "giant2000": 21,
+      "maxPointSize": 12169.010473119868,
+      "minAbsDz": 0.05047261887346366
+     },
+     "projection": {
+      "near": 1,
+      "far": 77,
+      "clipZAt10": 8.237,
+      "clipZAt24": 22.605,
+      "clipZAt55": 54.421
+     }
+    },
+    "container": {
+     "x": 2.772716326834196,
+     "y": 0,
+     "z": -33.05075418776716
+    },
+    "progress": 0.06565000000000275,
+    "scroller": {
+     "accumulator": -6810,
+     "extent": 20000,
+     "vsEventCount": 0,
+     "vsDeltaSum": 0,
+     "driftSum": -6810,
+     "smoothedPct": 0.06565000000000275,
+     "lastFrameMs": 217.70000000298023,
+     "stepsRun": 1362,
+     "stepDebtMs": 0.20000000297844167,
+     "stepHz": 59.99999999999999
+    },
+    "uniforms": {
+     "uContainerPos": [
+      2.7674195088400233,
+      0,
+      -33.05075418776716
+     ],
+     "uTotalZ": 0,
+     "uCamNear": 10,
+     "uCamFar": 77,
+     "uCamFov": 27,
+     "res": [
+      1440,
+      900
+     ]
+    }
+   }
+  },
+  "home__pointer-0.5-0.5": {
+   "diagnostics": {
+    "mode": "live",
+    "degraded": false,
+    "degradeReasons": [],
+    "quality": "high",
+    "dpr": 1,
+    "composerPixelRatio": 1,
+    "maxPixelRatio": 1,
+    "pointCount": 960000,
+    "drawCount": 960000,
+    "runtimes": 1,
+    "shaderIssues": [],
+    "assetFailures": [],
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "cameraAnimProgress": 0.07894999999999994,
+    "dispersalProgress": 0,
+    "fps": 2,
+    "placementMs": 697.9000000022352,
+    "bootMs": 159.79999999701977,
+    "introDone": true
+   },
+   "probe": {
+    "field": {
+     "bounds": {
+      "minX": -33.87338638305664,
+      "maxX": 27.77096176147461,
+      "minY": -2,
+      "maxY": 6.937196731567383,
+      "minZ": -599.8414916992188,
+      "maxZ": -0.12640543282032013
+     },
+     "containerZ": -39.73717933652009,
+     "containerX": 2.075333279699592,
+     "containerY": 0,
+     "cameraWorldZ": -38.63872504389654,
+     "cameraWorldX": 2.4358913793305876,
+     "cameraWorldY": 0.01994576147345358,
+     "total": 960000,
+     "sampled": 87273,
+     "discarded": 44743,
+     "onScreen": 38091,
+     "onScreenGrown": 2646,
+     "spriteArea": 532127.0960396011,
+     "maxPointSize": 154.93411295496938,
+     "bigPoints": 13,
+     "hugePoints": 1,
+     "dzHistogram": {
+      "lt1": 0,
+      "1to2": 0,
+      "2to5": 6,
+      "5to10": 65,
+      "10to20": 340,
+      "20to40": 838,
+      "40to80": 1356,
+      "gt80": 41
+     },
+     "sizeHistogram": {
+      "lt4": 732,
+      "4to12": 1308,
+      "12to30": 505,
+      "30to80": 93,
+      "80to200": 8,
+      "gt200": 0
+     },
+     "meanNearGrowth": 0.985446251496775,
+     "nearSampleCount": 411,
+     "overdraw": {
+      "allGrown": 6695,
+      "allGrownArea": 471218847.0168953,
+      "giant500": 120,
+      "giant2000": 28,
+      "maxPointSize": 5435.7770241995495,
+      "minAbsDz": 0.10004859921540543
+     },
+     "projection": {
+      "near": 1,
+      "far": 77,
+      "clipZAt10": 8.237,
+      "clipZAt24": 22.605,
+      "clipZAt55": 54.421
+     }
+    },
+    "container": {
+     "x": 2.218936759362385,
+     "y": 0,
+     "z": -39.73717933652009
+    },
+    "progress": 0.07894999999999994,
+    "scroller": {
+     "accumulator": -8140,
+     "extent": 20000,
+     "vsEventCount": 0,
+     "vsDeltaSum": 0,
+     "driftSum": -8140,
+     "smoothedPct": 0.07894999999999994,
+     "lastFrameMs": 456.5,
+     "stepsRun": 1628,
+     "stepDebtMs": 3.166666666664412,
+     "stepHz": 59.99999999999999
+    },
+    "uniforms": {
+     "uContainerPos": [
+      2.075333279699592,
+      0,
+      -39.73717933652009
+     ],
+     "uTotalZ": 0,
+     "uCamNear": 10,
+     "uCamFar": 77,
+     "uCamFov": 27,
+     "res": [
+      1440,
+      900
+     ]
+    }
+   }
+  },
+  "home__pointer-0.12-0.2": {
+   "diagnostics": {
+    "mode": "live",
+    "degraded": false,
+    "degradeReasons": [],
+    "quality": "high",
+    "dpr": 1,
+    "composerPixelRatio": 1,
+    "maxPixelRatio": 1,
+    "pointCount": 960000,
+    "drawCount": 960000,
+    "runtimes": 1,
+    "shaderIssues": [],
+    "assetFailures": [],
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "cameraAnimProgress": 0.09404999999999993,
+    "dispersalProgress": 0,
+    "fps": 2,
+    "placementMs": 697.9000000022352,
+    "bootMs": 159.79999999701977,
+    "introDone": true
+   },
+   "probe": {
+    "field": {
+     "bounds": {
+      "minX": -33.87338638305664,
+      "maxX": 27.77096176147461,
+      "minY": -2,
+      "maxY": 6.937196731567383,
+      "minZ": -599.8414916992188,
+      "maxZ": -0.12640543282032013
+     },
+     "containerZ": -47.23927390083376,
+     "containerX": 0.654219135248052,
+     "containerY": 0,
+     "cameraWorldZ": -46.16393286535115,
+     "cameraWorldX": 1.067490055052637,
+     "cameraWorldY": 0.01562947668218468,
+     "total": 960000,
+     "sampled": 87273,
+     "discarded": 44743,
+     "onScreen": 37202,
+     "onScreenGrown": 2390,
+     "spriteArea": 486098.48422841786,
+     "maxPointSize": 105.15041948467672,
+     "bigPoints": 17,
+     "hugePoints": 0,
+     "dzHistogram": {
+      "lt1": 0,
+      "1to2": 0,
+      "2to5": 4,
+      "5to10": 63,
+      "10to20": 368,
+      "20to40": 690,
+      "40to80": 1225,
+      "gt80": 40
+     },
+     "sizeHistogram": {
+      "lt4": 683,
+      "4to12": 1151,
+      "12to30": 443,
+      "30to80": 107,
+      "80to200": 6,
+      "gt200": 0
+     },
+     "meanNearGrowth": 0.9776112120795262,
+     "nearSampleCount": 435,
+     "overdraw": {
+      "allGrown": 7234,
+      "allGrownArea": 385165455.952347,
+      "giant500": 98,
+      "giant2000": 22,
+      "maxPointSize": 6505.782839969706,
+      "minAbsDz": 0.09899437919553833
+     },
+     "projection": {
+      "near": 1,
+      "far": 77,
+      "clipZAt10": 8.237,
+      "clipZAt24": 22.605,
+      "clipZAt55": 54.421
+     }
+    },
+    "container": {
+     "x": 0.8675163640772174,
+     "y": 0,
+     "z": -47.23927390083376
+    },
+    "progress": 0.09404999999999993,
+    "scroller": {
+     "accumulator": -9650,
+     "extent": 20000,
+     "vsEventCount": 0,
+     "vsDeltaSum": 0,
+     "driftSum": -9650,
+     "smoothedPct": 0.09404999999999993,
+     "lastFrameMs": 480,
+     "stepsRun": 1930,
+     "stepDebtMs": 2.4333333348208726,
+     "stepHz": 59.99999999999999
+    },
+    "uniforms": {
+     "uContainerPos": [
+      0.654219135248052,
+      0,
+      -47.23927390083376
+     ],
+     "uTotalZ": 0,
+     "uCamNear": 10,
+     "uCamFar": 77,
+     "uCamFov": 27,
+     "res": [
+      1440,
+      900
+     ]
+    }
+   }
+  },
+  "home__pointer-0.88-0.2": {
+   "diagnostics": {
+    "mode": "live",
+    "degraded": false,
+    "degradeReasons": [],
+    "quality": "high",
+    "dpr": 1,
+    "composerPixelRatio": 1,
+    "maxPixelRatio": 1,
+    "pointCount": 960000,
+    "drawCount": 960000,
+    "runtimes": 1,
+    "shaderIssues": [],
+    "assetFailures": [],
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "cameraAnimProgress": 0.10789999999999993,
+    "dispersalProgress": 0,
+    "fps": 2,
+    "placementMs": 697.9000000022352,
+    "bootMs": 159.79999999701977,
+    "introDone": true
+   },
+   "probe": {
+    "field": {
+     "bounds": {
+      "minX": -33.87338638305664,
+      "maxX": 27.77096176147461,
+      "minY": -2,
+      "maxY": 6.937196731567383,
+      "minZ": -599.8414916992188,
+      "maxZ": -0.12640543282032013
+     },
+     "containerZ": -54.09952891767333,
+     "containerX": -0.7594677185159577,
+     "containerY": 0,
+     "cameraWorldZ": -53.14092380428376,
+     "cameraWorldX": -0.44729898555990255,
+     "cameraWorldY": -0.0060255252661737336,
+     "total": 960000,
+     "sampled": 87273,
+     "discarded": 44743,
+     "onScreen": 36972,
+     "onScreenGrown": 2433,
+     "spriteArea": 469103.9150685,
+     "maxPointSize": 130.4907875141934,
+     "bigPoints": 12,
+     "hugePoints": 0,
+     "dzHistogram": {
+      "lt1": 0,
+      "1to2": 0,
+      "2to5": 4,
+      "5to10": 91,
+      "10to20": 252,
+      "20to40": 653,
+      "40to80": 1429,
+      "gt80": 4
+     },
+     "sizeHistogram": {
+      "lt4": 748,
+      "4to12": 1183,
+      "12to30": 386,
+      "30to80": 110,
+      "80to200": 6,
+      "gt200": 0
+     },
+     "meanNearGrowth": 0.9678966813056586,
+     "nearSampleCount": 347,
+     "overdraw": {
+      "allGrown": 7645,
+      "allGrownArea": 891233198.5437706,
+      "giant500": 123,
+      "giant2000": 33,
+      "maxPointSize": 8616.456078517127,
+      "minAbsDz": 0.07451594770262915
+     },
+     "projection": {
+      "near": 1,
+      "far": 77,
+      "clipZAt10": 8.237,
+      "clipZAt24": 22.605,
+      "clipZAt55": 54.421
+     }
+    },
+    "container": {
+     "x": -0.5476831663837287,
+     "y": 0,
+     "z": -54.09952891767333
+    },
+    "progress": 0.10789999999999993,
+    "scroller": {
+     "accumulator": -11035,
+     "extent": 20000,
+     "vsEventCount": 0,
+     "vsDeltaSum": 0,
+     "driftSum": -11035,
+     "smoothedPct": 0.10789999999999993,
+     "lastFrameMs": 520,
+     "stepsRun": 2207,
+     "stepDebtMs": 4.066666665173557,
+     "stepHz": 59.99999999999999
+    },
+    "uniforms": {
+     "uContainerPos": [
+      -0.7594677185159577,
+      0,
+      -54.09952891767333
+     ],
+     "uTotalZ": 0,
+     "uCamNear": 10,
+     "uCamFar": 77,
+     "uCamFov": 27,
+     "res": [
+      1440,
+      900
+     ]
+    }
+   }
+  },
+  "home__pointer-0.88-0.85": {
+   "diagnostics": {
+    "mode": "live",
+    "degraded": false,
+    "degradeReasons": [],
+    "quality": "high",
+    "dpr": 1,
+    "composerPixelRatio": 1,
+    "maxPixelRatio": 1,
+    "pointCount": 960000,
+    "drawCount": 960000,
+    "runtimes": 1,
+    "shaderIssues": [],
+    "assetFailures": [],
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "cameraAnimProgress": 0.12189999999999993,
+    "dispersalProgress": 0,
+    "fps": 2,
+    "placementMs": 697.9000000022352,
+    "bootMs": 159.79999999701977,
+    "introDone": true
+   },
+   "probe": {
+    "field": {
+     "bounds": {
+      "minX": -33.87338638305664,
+      "maxX": 27.77096176147461,
+      "minY": -2,
+      "maxY": 6.937196731567383,
+      "minZ": -599.8414916992188,
+      "maxZ": -0.12640543282032013
+     },
+     "containerZ": -61.096450786187404,
+     "containerX": -1.823372881109013,
+     "containerY": 0,
+     "cameraWorldZ": -60.215702729014176,
+     "cameraWorldX": -1.7194826196543527,
+     "cameraWorldY": -0.019842953868559676,
+     "total": 960000,
+     "sampled": 87273,
+     "discarded": 44743,
+     "onScreen": 36716,
+     "onScreenGrown": 2518,
+     "spriteArea": 453761.3660593136,
+     "maxPointSize": 176.60465134634606,
+     "bigPoints": 13,
+     "hugePoints": 2,
+     "dzHistogram": {
+      "lt1": 0,
+      "1to2": 0,
+      "2to5": 9,
+      "5to10": 40,
+      "10to20": 261,
+      "20to40": 649,
+      "40to80": 1559,
+      "gt80": 0
+     },
+     "sizeHistogram": {
+      "lt4": 798,
+      "4to12": 1270,
+      "12to30": 368,
+      "30to80": 76,
+      "80to200": 6,
+      "gt200": 0
+     },
+     "meanNearGrowth": 0.9813501917148734,
+     "nearSampleCount": 310,
+     "overdraw": {
+      "allGrown": 8132,
+      "allGrownArea": 638038221.1226366,
+      "giant500": 102,
+      "giant2000": 23,
+      "maxPointSize": 8453.34295385154,
+      "minAbsDz": 0.07554243047451337
+     },
+     "projection": {
+      "near": 1,
+      "far": 77,
+      "clipZAt10": 8.237,
+      "clipZAt24": 22.605,
+      "clipZAt55": 54.421
+     }
+    },
+    "container": {
+     "x": -1.700985192288799,
+     "y": 0,
+     "z": -61.096450786187404
+    },
+    "progress": 0.12189999999999993,
+    "scroller": {
+     "accumulator": -12435,
+     "extent": 20000,
+     "vsEventCount": 0,
+     "vsDeltaSum": 0,
+     "driftSum": -12435,
+     "smoothedPct": 0.12189999999999993,
+     "lastFrameMs": 448.6000000014901,
+     "stepsRun": 2487,
+     "stepDebtMs": 13.600000001486762,
+     "stepHz": 59.99999999999999
+    },
+    "uniforms": {
+     "uContainerPos": [
+      -1.823372881109013,
+      0,
+      -61.096450786187404
+     ],
+     "uTotalZ": 0,
+     "uCamNear": 10,
+     "uCamFar": 77,
+     "uCamFov": 27,
+     "res": [
+      1440,
+      900
+     ]
+    }
+   }
+  },
+  "home__pointer-0.12-0.85": {
+   "diagnostics": {
+    "mode": "live",
+    "degraded": false,
+    "degradeReasons": [],
+    "quality": "high",
+    "dpr": 1,
+    "composerPixelRatio": 1,
+    "maxPixelRatio": 1,
+    "pointCount": 960000,
+    "drawCount": 960000,
+    "runtimes": 1,
+    "shaderIssues": [],
+    "assetFailures": [],
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "cameraAnimProgress": 0.1357499999999996,
+    "dispersalProgress": 0,
+    "fps": 2,
+    "placementMs": 697.9000000022352,
+    "bootMs": 159.79999999701977,
+    "introDone": true
+   },
+   "probe": {
+    "field": {
+     "bounds": {
+      "minX": -33.87338638305664,
+      "maxX": 27.77096176147461,
+      "minY": -2,
+      "maxY": 6.937196731567383,
+      "minZ": -599.8414916992188,
+      "maxZ": -0.12640543282032013
+     },
+     "containerZ": -68.09017880422265,
+     "containerX": -2.0614211208880713,
+     "containerY": 0,
+     "cameraWorldZ": -67.15438656490606,
+     "cameraWorldX": -2.189287924092501,
+     "cameraWorldY": -0.009330027043235524,
+     "total": 960000,
+     "sampled": 87273,
+     "discarded": 44743,
+     "onScreen": 36343,
+     "onScreenGrown": 2623,
+     "spriteArea": 472319.6829510978,
+     "maxPointSize": 109.22468094857567,
+     "bigPoints": 20,
+     "hugePoints": 0,
+     "dzHistogram": {
+      "lt1": 0,
+      "1to2": 0,
+      "2to5": 7,
+      "5to10": 79,
+      "10to20": 211,
+      "20to40": 687,
+      "40to80": 1632,
+      "gt80": 7
+     },
+     "sizeHistogram": {
+      "lt4": 876,
+      "4to12": 1328,
+      "12to30": 308,
+      "30to80": 103,
+      "80to200": 8,
+      "gt200": 0
+     },
+     "meanNearGrowth": 0.9886564286777332,
+     "nearSampleCount": 297,
+     "overdraw": {
+      "allGrown": 8632,
+      "allGrownArea": 89578222388878.42,
+      "giant500": 65,
+      "giant2000": 10,
+      "maxPointSize": 5873960.684258491,
+      "minAbsDz": 6.391367293190342e-7
+     },
+     "projection": {
+      "near": 1,
+      "far": 77,
+      "clipZAt10": 8.237,
+      "clipZAt24": 22.605,
+      "clipZAt55": 54.421
+     }
+    },
+    "container": {
+     "x": -2.0649241878884945,
+     "y": 0,
+     "z": -68.09017880422265
+    },
+    "progress": 0.1357499999999996,
+    "scroller": {
+     "accumulator": -13820,
+     "extent": 20000,
+     "vsEventCount": 0,
+     "vsDeltaSum": 0,
+     "driftSum": -13820,
+     "smoothedPct": 0.1357499999999996,
+     "lastFrameMs": 171.69999999552965,
+     "stepsRun": 2764,
+     "stepDebtMs": 8.13333333034933,
+     "stepHz": 59.99999999999999
+    },
+    "uniforms": {
+     "uContainerPos": [
+      -2.0614211208880713,
+      0,
+      -68.09017880422265
+     ],
+     "uTotalZ": 0,
+     "uCamNear": 10,
+     "uCamFar": 77,
+     "uCamFov": 27,
+     "res": [
+      1440,
+      900
+     ]
+    }
+   }
+  },
+  "home__scroll-x1": {
+   "diagnostics": {
+    "mode": "live",
+    "degraded": false,
+    "degradeReasons": [],
+    "quality": "high",
+    "dpr": 1,
+    "composerPixelRatio": 1,
+    "maxPixelRatio": 1,
+    "pointCount": 960000,
+    "drawCount": 960000,
+    "runtimes": 1,
+    "shaderIssues": [],
+    "assetFailures": [],
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "cameraAnimProgress": 0.15470072723303666,
+    "dispersalProgress": 0,
+    "fps": 2,
+    "placementMs": 697.9000000022352,
+    "bootMs": 159.79999999701977,
+    "introDone": true
+   },
+   "probe": {
+    "field": {
+     "bounds": {
+      "minX": -33.87338638305664,
+      "maxX": 27.77096176147461,
+      "minY": -2,
+      "maxY": 6.937196731567383,
+      "minZ": -599.8414916992188,
+      "maxZ": -0.12640543282032013
+     },
+     "containerZ": -77.60410566071604,
+     "containerX": -0.9675332932178327,
+     "containerY": 0,
+     "cameraWorldZ": -76.59443567648069,
+     "cameraWorldX": -1.3506850336041456,
+     "cameraWorldY": 0.0053998117323185634,
+     "total": 960000,
+     "sampled": 87273,
+     "discarded": 44743,
+     "onScreen": 35660,
+     "onScreenGrown": 2667,
+     "spriteArea": 449090.46282148105,
+     "maxPointSize": 116.74749436959786,
+     "bigPoints": 18,
+     "hugePoints": 0,
+     "dzHistogram": {
+      "lt1": 0,
+      "1to2": 0,
+      "2to5": 6,
+      "5to10": 53,
+      "10to20": 225,
+      "20to40": 734,
+      "40to80": 1608,
+      "gt80": 41
+     },
+     "sizeHistogram": {
+      "lt4": 885,
+      "4to12": 1356,
+      "12to30": 340,
+      "30to80": 76,
+      "80to200": 10,
+      "gt200": 0
+     },
+     "meanNearGrowth": 0.9782469990197633,
+     "nearSampleCount": 284,
+     "overdraw": {
+      "allGrown": 9347,
+      "allGrownArea": 3792444483.548882,
+      "giant500": 97,
+      "giant2000": 24,
+      "maxPointSize": 22115.643787780602,
+      "minAbsDz": 0.024571707448018287
+     },
+     "projection": {
+      "near": 1,
+      "far": 77,
+      "clipZAt10": 8.237,
+      "clipZAt24": 22.605,
+      "clipZAt55": 54.421
+     }
+    },
+    "container": {
+     "x": -1.1352460619096172,
+     "y": 0,
+     "z": -77.60410566071604
+    },
+    "progress": 0.15470072723303666,
+    "scroller": {
+     "accumulator": -15715,
+     "extent": 20000,
+     "vsEventCount": 1,
+     "vsDeltaSum": 620,
+     "driftSum": -16335,
+     "smoothedPct": 0.15470072723303666,
+     "lastFrameMs": 475.70000000298023,
+     "stepsRun": 3267,
+     "stepDebtMs": 0.10000000148562549,
+     "stepHz": 59.99999999999999
+    },
+    "uniforms": {
+     "uContainerPos": [
+      -0.9675332932178327,
+      0,
+      -77.60410566071604
+     ],
+     "uTotalZ": 0,
+     "uCamNear": 10,
+     "uCamFar": 77,
+     "uCamFov": 27,
+     "res": [
+      1440,
+      900
+     ]
+    }
+   }
+  },
+  "home__scroll-x2": {
+   "diagnostics": {
+    "mode": "live",
+    "degraded": false,
+    "degradeReasons": [],
+    "quality": "high",
+    "dpr": 1,
+    "composerPixelRatio": 1,
+    "maxPixelRatio": 1,
+    "pointCount": 960000,
+    "drawCount": 960000,
+    "runtimes": 1,
+    "shaderIssues": [],
+    "assetFailures": [],
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "cameraAnimProgress": 0.17005167084718817,
+    "dispersalProgress": 0,
+    "fps": 2,
+    "placementMs": 697.9000000022352,
+    "bootMs": 159.79999999701977,
+    "introDone": true
+   },
+   "probe": {
+    "field": {
+     "bounds": {
+      "minX": -33.87338638305664,
+      "maxX": 27.77096176147461,
+      "minY": -2,
+      "maxY": 6.937196731567383,
+      "minZ": -599.8414916992188,
+      "maxZ": -0.12640543282032013
+     },
+     "containerZ": -85.20958493738411,
+     "containerX": 0.5872595986277946,
+     "containerY": 0,
+     "cameraWorldZ": -84.33264662082753,
+     "cameraWorldX": 0.17653474558257481,
+     "cameraWorldY": -0.017088937861534828,
+     "total": 960000,
+     "sampled": 87273,
+     "discarded": 44743,
+     "onScreen": 34971,
+     "onScreenGrown": 2622,
+     "spriteArea": 371750.73462602217,
+     "maxPointSize": 174.60059903888447,
+     "bigPoints": 10,
+     "hugePoints": 1,
+     "dzHistogram": {
+      "lt1": 0,
+      "1to2": 0,
+      "2to5": 4,
+      "5to10": 41,
+      "10to20": 220,
+      "20to40": 740,
+      "40to80": 1557,
+      "gt80": 60
+     },
+     "sizeHistogram": {
+      "lt4": 868,
+      "4to12": 1331,
+      "12to30": 357,
+      "30to80": 61,
+      "80to200": 5,
+      "gt200": 0
+     },
+     "meanNearGrowth": 0.9873295723737013,
+     "nearSampleCount": 265,
+     "overdraw": {
+      "allGrown": 9910,
+      "allGrownArea": 506280269.6689902,
+      "giant500": 96,
+      "giant2000": 30,
+      "maxPointSize": 6619.20760941586,
+      "minAbsDz": 0.09792543859245484
+     },
+     "projection": {
+      "near": 1,
+      "far": 77,
+      "clipZAt10": 8.237,
+      "clipZAt24": 22.605,
+      "clipZAt55": 54.421
+     }
+    },
+    "container": {
+     "x": 0.3673883002180104,
+     "y": 0,
+     "z": -85.20958493738411
+    },
+    "progress": 0.17005167084718817,
+    "scroller": {
+     "accumulator": -17250,
+     "extent": 20000,
+     "vsEventCount": 3,
+     "vsDeltaSum": 1860,
+     "driftSum": -19110,
+     "smoothedPct": 0.17005167084718817,
+     "lastFrameMs": 413.1000000014901,
+     "stepsRun": 3822,
+     "stepDebtMs": 0.8999999985045974,
+     "stepHz": 59.99999999999999
+    },
+    "uniforms": {
+     "uContainerPos": [
+      0.5872595986277946,
+      0,
+      -85.20958493738411
+     ],
+     "uTotalZ": 0,
+     "uCamNear": 10,
+     "uCamFar": 77,
+     "uCamFov": 27,
+     "res": [
+      1440,
+      900
+     ]
+    }
+   }
+  },
+  "home__scroll-x3": {
+   "diagnostics": {
+    "mode": "live",
+    "degraded": false,
+    "degradeReasons": [],
+    "quality": "high",
+    "dpr": 1,
+    "composerPixelRatio": 1,
+    "maxPixelRatio": 1,
+    "pointCount": 960000,
+    "drawCount": 960000,
+    "runtimes": 1,
+    "shaderIssues": [],
+    "assetFailures": [],
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "cameraAnimProgress": 0.18235228799120964,
+    "dispersalProgress": 0,
+    "fps": 2,
+    "placementMs": 697.9000000022352,
+    "bootMs": 159.79999999701977,
+    "introDone": true
+   },
+   "probe": {
+    "field": {
+     "bounds": {
+      "minX": -33.87338638305664,
+      "maxX": 27.77096176147461,
+      "minY": -2,
+      "maxY": 6.937196731567383,
+      "minZ": -599.8414916992188,
+      "maxZ": -0.12640543282032013
+     },
+     "containerZ": -91.27632381134858,
+     "containerX": 1.9640821829255275,
+     "containerY": 0,
+     "cameraWorldZ": -90.27020507929794,
+     "cameraWorldX": 1.5616373604461742,
+     "cameraWorldY": 0.003917414975372785,
+     "total": 960000,
+     "sampled": 87273,
+     "discarded": 44743,
+     "onScreen": 34548,
+     "onScreenGrown": 2610,
+     "spriteArea": 383180.0482678329,
+     "maxPointSize": 114.51281545224812,
+     "bigPoints": 10,
+     "hugePoints": 0,
+     "dzHistogram": {
+      "lt1": 0,
+      "1to2": 0,
+      "2to5": 3,
+      "5to10": 58,
+      "10to20": 230,
+      "20to40": 745,
+      "40to80": 1524,
+      "gt80": 50
+     },
+     "sizeHistogram": {
+      "lt4": 837,
+      "4to12": 1325,
+      "12to30": 366,
+      "30to80": 79,
+      "80to200": 3,
+      "gt200": 0
+     },
+     "meanNearGrowth": 0.9833123046257142,
+     "nearSampleCount": 291,
+     "overdraw": {
+      "allGrown": 10312,
+      "allGrownArea": 929224048.2129225,
+      "giant500": 87,
+      "giant2000": 23,
+      "maxPointSize": 12510.420505914566,
+      "minAbsDz": 0.05049373322357553
+     },
+     "projection": {
+      "near": 1,
+      "far": 77,
+      "clipZAt10": 8.237,
+      "clipZAt24": 22.605,
+      "clipZAt55": 54.421
+     }
+    },
+    "container": {
+     "x": 1.7494844731855117,
+     "y": 0,
+     "z": -91.27632381134858
+    },
+    "progress": 0.18235228799120964,
+    "scroller": {
+     "accumulator": -18480,
+     "extent": 20000,
+     "vsEventCount": 6,
+     "vsDeltaSum": 3720,
+     "driftSum": -22200,
+     "smoothedPct": 0.18235228799120964,
+     "lastFrameMs": 423.70000000298023,
+     "stepsRun": 4440,
+     "stepDebtMs": 14.200000002974036,
+     "stepHz": 59.99999999999999
+    },
+    "uniforms": {
+     "uContainerPos": [
+      1.9640821829255275,
+      0,
+      -91.27632381134858
+     ],
+     "uTotalZ": 0,
+     "uCamNear": 10,
+     "uCamFar": 77,
+     "uCamFov": 27,
+     "res": [
+      1440,
+      900
+     ]
+    }
+   }
+  },
+  "home__scroll-x4": {
+   "diagnostics": {
+    "mode": "live",
+    "degraded": false,
+    "degradeReasons": [],
+    "quality": "high",
+    "dpr": 1,
+    "composerPixelRatio": 1,
+    "maxPixelRatio": 1,
+    "pointCount": 960000,
+    "drawCount": 960000,
+    "runtimes": 1,
+    "shaderIssues": [],
+    "assetFailures": [],
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "cameraAnimProgress": 0.19350138072826895,
+    "dispersalProgress": 0,
+    "fps": 2,
+    "placementMs": 697.9000000022352,
+    "bootMs": 159.79999999701977,
+    "introDone": true
+   },
+   "probe": {
+    "field": {
+     "bounds": {
+      "minX": -33.87338638305664,
+      "maxX": 27.77096176147461,
+      "minY": -2,
+      "maxY": 6.937196731567383,
+      "minZ": -599.8414916992188,
+      "maxZ": -0.12640543282032013
+     },
+     "containerZ": -96.79317607245801,
+     "containerX": 3.128135791248171,
+     "containerY": 0,
+     "cameraWorldZ": -95.85216283939408,
+     "cameraWorldX": 2.785433278979218,
+     "cameraWorldY": -0.007983815249969583,
+     "total": 960000,
+     "sampled": 87273,
+     "discarded": 44743,
+     "onScreen": 34158,
+     "onScreenGrown": 2589,
+     "spriteArea": 387630.90988792886,
+     "maxPointSize": 107.56826896878721,
+     "bigPoints": 8,
+     "hugePoints": 0,
+     "dzHistogram": {
+      "lt1": 0,
+      "1to2": 0,
+      "2to5": 4,
+      "5to10": 58,
+      "10to20": 248,
+      "20to40": 688,
+      "40to80": 1552,
+      "gt80": 39
+     },
+     "sizeHistogram": {
+      "lt4": 803,
+      "4to12": 1335,
+      "12to30": 365,
+      "30to80": 82,
+      "80to200": 4,
+      "gt200": 0
+     },
+     "meanNearGrowth": 0.9745220064423513,
+     "nearSampleCount": 310,
+     "overdraw": {
+      "allGrown": 10694,
+      "allGrownArea": 423192280.6730561,
+      "giant500": 114,
+      "giant2000": 28,
+      "maxPointSize": 4944.221121512313,
+      "minAbsDz": 0.12343464531542736
+     },
+     "projection": {
+      "near": 1,
+      "far": 77,
+      "clipZAt10": 8.237,
+      "clipZAt24": 22.605,
+      "clipZAt55": 54.421
+     }
+    },
+    "container": {
+     "x": 2.9302883762764154,
+     "y": 0,
+     "z": -96.79317607245801
+    },
+    "progress": 0.19350138072826895,
+    "scroller": {
+     "accumulator": -19595,
+     "extent": 20000,
+     "vsEventCount": 10,
+     "vsDeltaSum": 6200,
+     "driftSum": -25795,
+     "smoothedPct": 0.19350138072826895,
+     "lastFrameMs": 447.19999999552965,
+     "stepsRun": 5159,
+     "stepDebtMs": 7.466666663679121,
+     "stepHz": 59.99999999999999
+    },
+    "uniforms": {
+     "uContainerPos": [
+      3.128135791248171,
+      0,
+      -96.79317607245801
+     ],
+     "uTotalZ": 0,
+     "uCamNear": 10,
+     "uCamFar": 77,
+     "uCamFov": 27,
+     "res": [
+      1440,
+      900
+     ]
+    }
+   }
+  },
+  "home__scroll-x5": {
+   "diagnostics": {
+    "mode": "live",
+    "degraded": false,
+    "degradeReasons": [],
+    "quality": "high",
+    "dpr": 1,
+    "composerPixelRatio": 1,
+    "maxPixelRatio": 1,
+    "pointCount": 960000,
+    "drawCount": 960000,
+    "runtimes": 1,
+    "shaderIssues": [],
+    "assetFailures": [],
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "cameraAnimProgress": 0.20325145565130803,
+    "dispersalProgress": 0,
+    "fps": 2,
+    "placementMs": 697.9000000022352,
+    "bootMs": 159.79999999701977,
+    "introDone": true
+   },
+   "probe": {
+    "field": {
+     "bounds": {
+      "minX": -33.87338638305664,
+      "maxX": 27.77096176147461,
+      "minY": -2,
+      "maxY": 6.937196731567383,
+      "minZ": -599.8414916992188,
+      "maxZ": -0.12640543282032013
+     },
+     "containerZ": -101.65095516538389,
+     "containerX": 3.9723912595552924,
+     "containerY": 0,
+     "cameraWorldZ": -100.7000999802063,
+     "cameraWorldX": 3.6739975256178767,
+     "cameraWorldY": -0.006905076036475884,
+     "total": 960000,
+     "sampled": 87273,
+     "discarded": 44743,
+     "onScreen": 33775,
+     "onScreenGrown": 2585,
+     "spriteArea": 427177.13096622383,
+     "maxPointSize": 136.44419873885107,
+     "bigPoints": 15,
+     "hugePoints": 0,
+     "dzHistogram": {
+      "lt1": 0,
+      "1to2": 0,
+      "2to5": 7,
+      "5to10": 69,
+      "10to20": 248,
+      "20to40": 690,
+      "40to80": 1562,
+      "gt80": 9
+     },
+     "sizeHistogram": {
+      "lt4": 836,
+      "4to12": 1311,
+      "12to30": 343,
+      "30to80": 90,
+      "80to200": 5,
+      "gt200": 0
+     },
+     "meanNearGrowth": 0.979364645728804,
+     "nearSampleCount": 324,
+     "overdraw": {
+      "allGrown": 11058,
+      "allGrownArea": 4918880475144.294,
+      "giant500": 103,
+      "giant2000": 24,
+      "maxPointSize": 884757.9040896659,
+      "minAbsDz": 0.0007247576690474489
+     },
+     "projection": {
+      "near": 1,
+      "far": 77,
+      "clipZAt10": 8.237,
+      "clipZAt24": 22.605,
+      "clipZAt55": 54.421
+     }
+    },
+    "container": {
+     "x": 3.7953646838020374,
+     "y": 0,
+     "z": -101.65095516538389
+    },
+    "progress": 0.20325145565130803,
+    "scroller": {
+     "accumulator": -20570,
+     "extent": 20000,
+     "vsEventCount": 15,
+     "vsDeltaSum": 9300,
+     "driftSum": -29870,
+     "smoothedPct": 0.20325145565130803,
+     "lastFrameMs": 521.7999999970198,
+     "stepsRun": 5974,
+     "stepDebtMs": 10.333333333324845,
+     "stepHz": 59.99999999999999
+    },
+    "uniforms": {
+     "uContainerPos": [
+      3.9723912595552924,
+      0,
+      -101.65095516538389
+     ],
+     "uTotalZ": 0,
+     "uCamNear": 10,
+     "uCamFar": 77,
+     "uCamFov": 27,
+     "res": [
+      1440,
+      900
+     ]
+    }
+   }
+  },
+  "home__scroll-x6": {
+   "diagnostics": {
+    "mode": "live",
+    "degraded": false,
+    "degradeReasons": [],
+    "quality": "high",
+    "dpr": 1,
+    "composerPixelRatio": 1,
+    "maxPixelRatio": 1,
+    "pointCount": 960000,
+    "drawCount": 960000,
+    "runtimes": 1,
+    "shaderIssues": [],
+    "assetFailures": [],
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "cameraAnimProgress": 0.21095138220950183,
+    "dispersalProgress": 0,
+    "fps": 2,
+    "placementMs": 697.9000000022352,
+    "bootMs": 159.79999999701977,
+    "introDone": true
+   },
+   "probe": {
+    "field": {
+     "bounds": {
+      "minX": -33.87338638305664,
+      "maxX": 27.77096176147461,
+      "minY": -2,
+      "maxY": 6.937196731567383,
+      "minZ": -599.8414916992188,
+      "maxZ": -0.12640543282032013
+     },
+     "containerZ": -105.50168876522287,
+     "containerX": 4.552588832201154,
+     "containerY": 0,
+     "cameraWorldZ": -104.55321869820463,
+     "cameraWorldX": 4.305208041712924,
+     "cameraWorldY": -0.007740399846428744,
+     "total": 960000,
+     "sampled": 87273,
+     "discarded": 44743,
+     "onScreen": 33495,
+     "onScreenGrown": 2547,
+     "spriteArea": 478903.2619187306,
+     "maxPointSize": 133.7119894495845,
+     "bigPoints": 23,
+     "hugePoints": 0,
+     "dzHistogram": {
+      "lt1": 0,
+      "1to2": 0,
+      "2to5": 6,
+      "5to10": 77,
+      "10to20": 230,
+      "20to40": 717,
+      "40to80": 1515,
+      "gt80": 2
+     },
+     "sizeHistogram": {
+      "lt4": 817,
+      "4to12": 1301,
+      "12to30": 321,
+      "30to80": 101,
+      "80to200": 7,
+      "gt200": 0
+     },
+     "meanNearGrowth": 0.9908385135665642,
+     "nearSampleCount": 313,
+     "overdraw": {
+      "allGrown": 11295,
+      "allGrownArea": 499656370.7075734,
+      "giant500": 94,
+      "giant2000": 29,
+      "maxPointSize": 6264.265945113412,
+      "minAbsDz": 0.10075645321114735
+     },
+     "projection": {
+      "near": 1,
+      "far": 77,
+      "clipZAt10": 8.237,
+      "clipZAt24": 22.605,
+      "clipZAt55": 54.421
+     }
+    },
+    "container": {
+     "x": 4.403577906231719,
+     "y": 0,
+     "z": -105.50168876522287
+    },
+    "progress": 0.21095138220950183,
+    "scroller": {
+     "accumulator": -21340,
+     "extent": 20000,
+     "vsEventCount": 21,
+     "vsDeltaSum": 13020,
+     "driftSum": -34360,
+     "smoothedPct": 0.21095138220950183,
+     "lastFrameMs": 440.30000000447035,
+     "stepsRun": 6872,
+     "stepDebtMs": 5.366666669637198,
+     "stepHz": 59.99999999999999
+    },
+    "uniforms": {
+     "uContainerPos": [
+      4.552588832201154,
+      0,
+      -105.50168876522287
+     ],
+     "uTotalZ": 0,
+     "uCamNear": 10,
+     "uCamFar": 77,
+     "uCamFov": 27,
+     "res": [
+      1440,
+      900
+     ]
+    }
+   }
+  },
+  "home__scroll-x8": {
+   "diagnostics": {
+    "mode": "live",
+    "degraded": false,
+    "degradeReasons": [],
+    "quality": "high",
+    "dpr": 1,
+    "composerPixelRatio": 1,
+    "maxPixelRatio": 1,
+    "pointCount": 960000,
+    "drawCount": 960000,
+    "runtimes": 1,
+    "shaderIssues": [],
+    "assetFailures": [],
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "cameraAnimProgress": 0.21625110123878477,
+    "dispersalProgress": 0,
+    "fps": 2,
+    "placementMs": 697.9000000022352,
+    "bootMs": 159.79999999701977,
+    "introDone": true
+   },
+   "probe": {
+    "field": {
+     "bounds": {
+      "minX": -33.87338638305664,
+      "maxX": 27.77096176147461,
+      "minY": -2,
+      "maxY": 6.937196731567383,
+      "minZ": -599.8414916992188,
+      "maxZ": -0.12640543282032013
+     },
+     "containerZ": -108.15735634936355,
+     "containerX": 4.914917373413746,
+     "containerY": 0,
+     "cameraWorldZ": -107.27966179829056,
+     "cameraWorldX": 4.702397675482746,
+     "cameraWorldY": -0.019879088405756182,
+     "total": 960000,
+     "sampled": 87273,
+     "discarded": 44743,
+     "onScreen": 33300,
+     "onScreenGrown": 2563,
+     "spriteArea": 420895.36686017155,
+     "maxPointSize": 120.44826091322402,
+     "bigPoints": 14,
+     "hugePoints": 0,
+     "dzHistogram": {
+      "lt1": 0,
+      "1to2": 0,
+      "2to5": 4,
+      "5to10": 67,
+      "10to20": 237,
+      "20to40": 707,
+      "40to80": 1548,
+      "gt80": 0
+     },
+     "sizeHistogram": {
+      "lt4": 832,
+      "4to12": 1316,
+      "12to30": 317,
+      "30to80": 92,
+      "80to200": 6,
+      "gt200": 0
+     },
+     "meanNearGrowth": 0.9739340313830848,
+     "nearSampleCount": 308,
+     "overdraw": {
+      "allGrown": 11517,
+      "allGrownArea": 6593089462146.438,
+      "giant500": 85,
+      "giant2000": 20,
+      "maxPointSize": 1149080.2882463217,
+      "minAbsDz": 0.0005494035627719995
+     },
+     "projection": {
+      "near": 1,
+      "far": 77,
+      "clipZAt10": 8.237,
+      "clipZAt24": 22.605,
+      "clipZAt55": 54.421
+     }
+    },
+    "container": {
+     "x": 4.775401975069014,
+     "y": 0,
+     "z": -108.15735634936355
+    },
+    "progress": 0.21625110123878477,
+    "scroller": {
+     "accumulator": -21870,
+     "extent": 20000,
+     "vsEventCount": 29,
+     "vsDeltaSum": 17980,
+     "driftSum": -39850,
+     "smoothedPct": 0.21625110123878477,
+     "lastFrameMs": 442.29999999701977,
+     "stepsRun": 7970,
+     "stepDebtMs": 8.066666665165258,
+     "stepHz": 59.99999999999999
+    },
+    "uniforms": {
+     "uContainerPos": [
+      4.914917373413746,
+      0,
+      -108.15735634936355
+     ],
+     "uTotalZ": 0,
+     "uCamNear": 10,
+     "uCamFar": 77,
+     "uCamFov": 27,
+     "res": [
+      1440,
+      900
+     ]
+    }
+   }
+  },
+  "home__scroll-x10": {
+   "diagnostics": {
+    "mode": "live",
+    "degraded": false,
+    "degradeReasons": [],
+    "quality": "high",
+    "dpr": 1,
+    "composerPixelRatio": 1,
+    "maxPixelRatio": 1,
+    "pointCount": 960000,
+    "drawCount": 960000,
+    "runtimes": 1,
+    "shaderIssues": [],
+    "assetFailures": [],
+    "webgl2": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "cameraAnimProgress": 0.22180014109298898,
+    "dispersalProgress": 0,
+    "fps": 2,
+    "placementMs": 697.9000000022352,
+    "bootMs": 159.79999999701977,
+    "introDone": true
+   },
+   "probe": {
+    "field": {
+     "bounds": {
+      "minX": -33.87338638305664,
+      "maxX": 27.77096176147461,
+      "minY": -2,
+      "maxY": 6.937196731567383,
+      "minZ": -599.8414916992188,
+      "maxZ": -0.12640543282032013
+     },
+     "containerZ": -110.94346251328835,
+     "containerX": 5.251554457784129,
+     "containerY": 0,
+     "cameraWorldZ": -110.06128331049248,
+     "cameraWorldX": 5.038404577336544,
+     "cameraWorldY": -0.019387683815018934,
+     "total": 960000,
+     "sampled": 87273,
+     "discarded": 44743,
+     "onScreen": 33155,
+     "onScreenGrown": 2607,
+     "spriteArea": 501073.27274734323,
+     "maxPointSize": 133.53909476255853,
+     "bigPoints": 26,
+     "hugePoints": 0,
+     "dzHistogram": {
+      "lt1": 0,
+      "1to2": 0,
+      "2to5": 2,
+      "5to10": 72,
+      "10to20": 239,
+      "20to40": 694,
+      "40to80": 1600,
+      "gt80": 0
+     },
+     "sizeHistogram": {
+      "lt4": 833,
+      "4to12": 1327,
+      "12to30": 340,
+      "30to80": 99,
+      "80to200": 8,
+      "gt200": 0
+     },
+     "meanNearGrowth": 0.9804062097002062,
+     "nearSampleCount": 313,
+     "overdraw": {
+      "allGrown": 11711,
+      "allGrownArea": 5199206186.800874,
+      "giant500": 118,
+      "giant2000": 27,
+      "maxPointSize": 25486.007315133233,
+      "minAbsDz": 0.02521910508522751
+     },
+     "projection": {
+      "near": 1,
+      "far": 77,
+      "clipZAt10": 8.237,
+      "clipZAt24": 22.605,
+      "clipZAt55": 54.421
+     }
+    },
+    "container": {
+     "x": 5.089779771621468,
+     "y": 0,
+     "z": -110.94346251328835
+    },
+    "progress": 0.22180014109298898,
+    "scroller": {
+     "accumulator": -22425,
+     "extent": 20000,
+     "vsEventCount": 39,
+     "vsDeltaSum": 24180,
+     "driftSum": -46605,
+     "smoothedPct": 0.22180014109298898,
+     "lastFrameMs": 609.4000000059605,
+     "stepsRun": 9321,
+     "stepDebtMs": 13.700000002967045,
+     "stepHz": 59.99999999999999
+    },
+    "uniforms": {
+     "uContainerPos": [
+      5.251554457784129,
+      0,
+      -110.94346251328835
+     ],
+     "uTotalZ": 0,
+     "uCamNear": 10,
+     "uCamFar": 77,
+     "uCamFov": 27,
+     "res": [
+      1440,
+      900
+     ]
+    }
+   }
+  }
+ },
+ "homeDiag": {
+  "hasQaBridge": true,
+  "diagnostics": {
+   "mode": "live",
+   "degraded": false,
+   "degradeReasons": [],
+   "quality": "high",
+   "dpr": 1,
+   "composerPixelRatio": 1,
+   "maxPixelRatio": 1,
+   "pointCount": 960000,
+   "drawCount": 960000,
+   "runtimes": 1,
+   "shaderIssues": [],
+   "assetFailures": [],
+   "webgl2": true,
+   "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+   "cameraAnimProgress": 0.029900005157474114,
+   "dispersalProgress": 0,
+   "fps": 2,
+   "placementMs": 697.9000000022352,
+   "bootMs": 159.79999999701977,
+   "introDone": true
+  },
+  "canvasPresent": true,
+  "consoleErrors": []
+ },
+ "scrollDiag_x1": {
+  "hasQaBridge": true,
+  "diagnostics": {
+   "mode": "live",
+   "degraded": false,
+   "degradeReasons": [],
+   "quality": "high",
+   "dpr": 1,
+   "composerPixelRatio": 1,
+   "maxPixelRatio": 1,
+   "pointCount": 960000,
+   "drawCount": 960000,
+   "runtimes": 1,
+   "shaderIssues": [],
+   "assetFailures": [],
+   "webgl2": true,
+   "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+   "cameraAnimProgress": 0.15470072723303666,
+   "dispersalProgress": 0,
+   "fps": 2,
+   "placementMs": 697.9000000022352,
+   "bootMs": 159.79999999701977,
+   "introDone": true
+  },
+  "canvasPresent": true,
+  "consoleErrors": []
+ },
+ "scrollDiag_x2": {
+  "hasQaBridge": true,
+  "diagnostics": {
+   "mode": "live",
+   "degraded": false,
+   "degradeReasons": [],
+   "quality": "high",
+   "dpr": 1,
+   "composerPixelRatio": 1,
+   "maxPixelRatio": 1,
+   "pointCount": 960000,
+   "drawCount": 960000,
+   "runtimes": 1,
+   "shaderIssues": [],
+   "assetFailures": [],
+   "webgl2": true,
+   "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+   "cameraAnimProgress": 0.17005167084718817,
+   "dispersalProgress": 0,
+   "fps": 2,
+   "placementMs": 697.9000000022352,
+   "bootMs": 159.79999999701977,
+   "introDone": true
+  },
+  "canvasPresent": true,
+  "consoleErrors": []
+ },
+ "scrollDiag_x3": {
+  "hasQaBridge": true,
+  "diagnostics": {
+   "mode": "live",
+   "degraded": false,
+   "degradeReasons": [],
+   "quality": "high",
+   "dpr": 1,
+   "composerPixelRatio": 1,
+   "maxPixelRatio": 1,
+   "pointCount": 960000,
+   "drawCount": 960000,
+   "runtimes": 1,
+   "shaderIssues": [],
+   "assetFailures": [],
+   "webgl2": true,
+   "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+   "cameraAnimProgress": 0.18235228799120964,
+   "dispersalProgress": 0,
+   "fps": 2,
+   "placementMs": 697.9000000022352,
+   "bootMs": 159.79999999701977,
+   "introDone": true
+  },
+  "canvasPresent": true,
+  "consoleErrors": []
+ },
+ "scrollDiag_x4": {
+  "hasQaBridge": true,
+  "diagnostics": {
+   "mode": "live",
+   "degraded": false,
+   "degradeReasons": [],
+   "quality": "high",
+   "dpr": 1,
+   "composerPixelRatio": 1,
+   "maxPixelRatio": 1,
+   "pointCount": 960000,
+   "drawCount": 960000,
+   "runtimes": 1,
+   "shaderIssues": [],
+   "assetFailures": [],
+   "webgl2": true,
+   "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+   "cameraAnimProgress": 0.19350138072826895,
+   "dispersalProgress": 0,
+   "fps": 2,
+   "placementMs": 697.9000000022352,
+   "bootMs": 159.79999999701977,
+   "introDone": true
+  },
+  "canvasPresent": true,
+  "consoleErrors": []
+ },
+ "scrollDiag_x5": {
+  "hasQaBridge": true,
+  "diagnostics": {
+   "mode": "live",
+   "degraded": false,
+   "degradeReasons": [],
+   "quality": "high",
+   "dpr": 1,
+   "composerPixelRatio": 1,
+   "maxPixelRatio": 1,
+   "pointCount": 960000,
+   "drawCount": 960000,
+   "runtimes": 1,
+   "shaderIssues": [],
+   "assetFailures": [],
+   "webgl2": true,
+   "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+   "cameraAnimProgress": 0.20325145565130803,
+   "dispersalProgress": 0,
+   "fps": 2,
+   "placementMs": 697.9000000022352,
+   "bootMs": 159.79999999701977,
+   "introDone": true
+  },
+  "canvasPresent": true,
+  "consoleErrors": []
+ },
+ "scrollDiag_x6": {
+  "hasQaBridge": true,
+  "diagnostics": {
+   "mode": "live",
+   "degraded": false,
+   "degradeReasons": [],
+   "quality": "high",
+   "dpr": 1,
+   "composerPixelRatio": 1,
+   "maxPixelRatio": 1,
+   "pointCount": 960000,
+   "drawCount": 960000,
+   "runtimes": 1,
+   "shaderIssues": [],
+   "assetFailures": [],
+   "webgl2": true,
+   "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+   "cameraAnimProgress": 0.21095138220950183,
+   "dispersalProgress": 0,
+   "fps": 2,
+   "placementMs": 697.9000000022352,
+   "bootMs": 159.79999999701977,
+   "introDone": true
+  },
+  "canvasPresent": true,
+  "consoleErrors": []
+ },
+ "scrollDiag_x8": {
+  "hasQaBridge": true,
+  "diagnostics": {
+   "mode": "live",
+   "degraded": false,
+   "degradeReasons": [],
+   "quality": "high",
+   "dpr": 1,
+   "composerPixelRatio": 1,
+   "maxPixelRatio": 1,
+   "pointCount": 960000,
+   "drawCount": 960000,
+   "runtimes": 1,
+   "shaderIssues": [],
+   "assetFailures": [],
+   "webgl2": true,
+   "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+   "cameraAnimProgress": 0.21625110123878477,
+   "dispersalProgress": 0,
+   "fps": 2,
+   "placementMs": 697.9000000022352,
+   "bootMs": 159.79999999701977,
+   "introDone": true
+  },
+  "canvasPresent": true,
+  "consoleErrors": []
+ },
+ "scrollDiag_x10": {
+  "hasQaBridge": true,
+  "diagnostics": {
+   "mode": "live",
+   "degraded": false,
+   "degradeReasons": [],
+   "quality": "high",
+   "dpr": 1,
+   "composerPixelRatio": 1,
+   "maxPixelRatio": 1,
+   "pointCount": 960000,
+   "drawCount": 960000,
+   "runtimes": 1,
+   "shaderIssues": [],
+   "assetFailures": [],
+   "webgl2": true,
+   "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+   "cameraAnimProgress": 0.22180014109298898,
+   "dispersalProgress": 0,
+   "fps": 2,
+   "placementMs": 697.9000000022352,
+   "bootMs": 159.79999999701977,
+   "introDone": true
+  },
+  "canvasPresent": true,
+  "consoleErrors": []
+ },
+ "finalDiag": {
+  "hasQaBridge": true,
+  "diagnostics": {
+   "mode": "live",
+   "degraded": false,
+   "degradeReasons": [],
+   "quality": "high",
+   "dpr": 1,
+   "composerPixelRatio": 1,
+   "maxPixelRatio": 1,
+   "pointCount": 960000,
+   "drawCount": 960000,
+   "runtimes": 1,
+   "shaderIssues": [],
+   "assetFailures": [],
+   "webgl2": true,
+   "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+   "cameraAnimProgress": 0.22180014109298898,
+   "dispersalProgress": 0,
+   "fps": 2,
+   "placementMs": 697.9000000022352,
+   "bootMs": 159.79999999701977,
+   "introDone": true
+  },
+  "canvasPresent": true,
+  "consoleErrors": []
+ },
+ "pageCrashed": null
+}

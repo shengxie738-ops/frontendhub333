@@ -1,0 +1,708 @@
+{
+ "route": "/work/ekos-genesis",
+ "imgs": [
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/f4f3efc1b2/ekos-cover-portrait.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/f4f3efc1b2/ekos-cover-portrait.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/cc05d8056c/ekos-cover.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/cc05d8056c/ekos-cover.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2234/d5778b2844/ekos-first-look.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2234/d5778b2844/ekos-first-look.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2234/3acebaf5a0/energy-building.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2234/3acebaf5a0/energy-building.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2234/6a13ab6b51/bloom-transition.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2234/6a13ab6b51/bloom-transition.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2234/70cc416bbd/ekos-intro-6.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2234/70cc416bbd/ekos-intro-6.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/b388d46179/ekos-gallery-dutch.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/b388d46179/ekos-gallery-dutch.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/c6e37e7e34/ekos-rainier.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/c6e37e7e34/ekos-rainier.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2234/e64d426aad/frame-185.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2234/e64d426aad/frame-185.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2234/f1bf57b79b/frame-236.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2234/f1bf57b79b/frame-236.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2234/bdcfbe3b68/frame-184.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2234/bdcfbe3b68/frame-184.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/f40f40cf83/ekos-sq-red.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/f40f40cf83/ekos-sq-red.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/ec5e4061d1/ekos-sq-green.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/ec5e4061d1/ekos-sq-green.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/ac966491fd/ekos-sq-yellow.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/ac966491fd/ekos-sq-yellow.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/ae6cf426db/ekos-sq-blue.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/ae6cf426db/ekos-sq-blue.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/4fe0f2e36b/ekos-sq-red2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/4fe0f2e36b/ekos-sq-red2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/3544caf723/ekos-sq-blue2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1656x1656/3544caf723/ekos-sq-blue2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/df95eb6ab1/ekos-cards.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/df95eb6ab1/ekos-cards.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/07624c4826/ekos-gradient.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/07624c4826/ekos-gradient.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/6b113ed0cf/ekos-gold-auction.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/6b113ed0cf/ekos-gold-auction.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/0f1e30d5f7/ekos-journey.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3360x1940/0f1e30d5f7/ekos-journey.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  }
+ ],
+ "vids": [
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/840679625/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=a29489c9346341ab30ee3eed8529fd7b8e0f7f5eae81fb45d8614da8fd6fd462\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/855289868/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=11dabfa209c583cffabf7c136d399e504d061f254e1afa9084e6391c5ca141ac\" muted=\"\" loop=\"\" playsInline=\"\" color=\"#f0c384\" _uid=\"a8e66154-3f13-4484-a6ad-93b7a9561ebe\" cms_label=\"\" component=\"work_bloks_video\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/858544300/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=77e99f8776591f12305416a640a82c57dedf60675826cb54656879bfc5828c64\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/858546041/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=4ec77faf54ede615021a22ef692fcbc56f2e0b53b19296d1cdaf22bef7dd2e1a\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/858545237/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=90d78e327963694f3b1ce91bc456a9b1ceb406a611da69dd8e3c36d580997942\" muted=\"\" loop=\"\" playsInline=\"\"></video>"
+ ],
+ "headings": [
+  {
+   "level": 1,
+   "html": "Ekos Genesis",
+   "text": "Ekos Genesis"
+  },
+  {
+   "level": 2,
+   "html": "A <i>luminously beautiful </i>comic book<i> </i>art collection",
+   "text": "A luminously beautiful comic book art collection"
+  },
+  {
+   "level": 3,
+   "html": "Client",
+   "text": "Client"
+  },
+  {
+   "level": 4,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://mythosstudios.com/\"><span class=\"relative\"><span>Mythos Studios</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03",
+   "text": "Mythos Studios"
+  },
+  {
+   "level": 3,
+   "html": "Category",
+   "text": "Category"
+  },
+  {
+   "level": 4,
+   "html": "Website",
+   "text": "Website"
+  },
+  {
+   "level": 3,
+   "html": "Date",
+   "text": "Date"
+  },
+  {
+   "level": 4,
+   "html": "2023 - ∞",
+   "text": "2023 - ∞"
+  },
+  {
+   "level": 3,
+   "html": "Welcome to Ekos",
+   "text": "Welcome to Ekos"
+  },
+  {
+   "level": 3,
+   "html": "Journey in time",
+   "text": "Journey in time"
+  },
+  {
+   "level": 3,
+   "html": "Enter the gallery",
+   "text": "Enter the gallery"
+  },
+  {
+   "level": 3,
+   "html": "Everything old is new",
+   "text": "Everything old is new"
+  },
+  {
+   "level": 3,
+   "html": "The art is the thing",
+   "text": "The art is the thing"
+  },
+  {
+   "level": 3,
+   "html": "Crafting the space",
+   "text": "Crafting the space"
+  },
+  {
+   "level": 3,
+   "html": "Inviting in the collectors",
+   "text": "Inviting in the collectors"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span>Haven’t been this excited since my early days of creating Marvel Studios.<span>”</span>",
+   "text": "“Haven’t been this excited since my early days of creating Marvel Studios.”"
+  },
+  {
+   "level": 4,
+   "html": "David Maisel",
+   "text": "David Maisel"
+  },
+  {
+   "level": 5,
+   "html": "Founder, MCU",
+   "text": "Founder, MCU"
+  },
+  {
+   "level": 3,
+   "html": "Project Awards",
+   "text": "Project Awards"
+  },
+  {
+   "level": 4,
+   "html": "The FWA",
+   "text": "The FWA"
+  },
+  {
+   "level": 5,
+   "html": "Site of the Day",
+   "text": "Site of the Day"
+  },
+  {
+   "level": 4,
+   "html": "CSS Winner",
+   "text": "CSS Winner"
+  },
+  {
+   "level": 5,
+   "html": "Site of the Day",
+   "text": "Site of the Day"
+  },
+  {
+   "level": 3,
+   "html": "Project Statistics",
+   "text": "Project Statistics"
+  },
+  {
+   "level": 4,
+   "html": "50ETH",
+   "text": "50ETH"
+  },
+  {
+   "level": 3,
+   "html": "Up Next",
+   "text": "Up Next"
+  },
+  {
+   "level": 3,
+   "html": "Elemental Excelerator",
+   "text": "Elemental Excelerator"
+  },
+  {
+   "level": 4,
+   "html": "Elemental Excelerator Cohort X",
+   "text": "Elemental Excelerator Cohort X"
+  },
+  {
+   "level": 4,
+   "html": "Innovation that tackles the <i>global climate crisis</i>",
+   "text": "Innovation that tackles the global climate crisis"
+  },
+  {
+   "level": 2,
+   "html": "<span>Subscribe to<br/>our newsletter</span>",
+   "text": "Subscribe toour newsletter"
+  },
+  {
+   "level": 3,
+   "html": "Request a proposal",
+   "text": "Request a proposal"
+  },
+  {
+   "level": 3,
+   "html": "Follow us",
+   "text": "Follow us"
+  },
+  {
+   "level": 3,
+   "html": "Join the team",
+   "text": "Join the team"
+  },
+  {
+   "level": 3,
+   "html": "Find us",
+   "text": "Find us"
+  }
+ ],
+ "paragraphs": [
+  {
+   "html": "</path></svg></a></div><div class=\"flex justify-center Header_buttonContainer__rN6i5\"><button class=\"pointer-events-auto Header_button__qn2Wj Button_main__NewW7 Button_default__CcbQU\"><span class=\"Button_inner__d7ZPg\">Menu</span></button></div><div class=\"hidden w-[130px] justify-end md:flex\"><a class=\"pointer-events-auto\" aria-label=\"About\" href=\"/about\"></a></div></div></div><main style=\"--theme-primary:16 16 16;--theme-secondary:255 255 255;--theme-tertiary:255 255 255\" class=\"bg-black\"><div style=\"opacity:1\"><div class=\"relative z-main bg-theme-primary transition-bg duration-theme\"><sectio",
+   "text": "MenuEkos GenesisA luminously beautiful comic book art collectionVisit SiteEkos Geneis is the new Web3 venture from passionate comics fan David Maisel - who created the Marvel Cinematic Universe with Iron Man in 2008."
+  },
+  {
+   "html": "Ekos is based on the work of Iate artist Michael Turner, full of fantastic creatures, epic characters, and themes of climate crisis. As an OG Turner collector, David sees incredible potential to build a new IP universe. It debuts here with an incredible NFT drop from Mythos Studios.",
+   "text": "Ekos is based on the work of Iate artist Michael Turner, full of fantastic creatures, epic characters, and themes of climate crisis. As an OG Turner collector, David sees incredible potential to build a new IP universe. It debuts here with an incredible NFT drop from Mythos Studios."
+  },
+  {
+   "html": "</path></svg></span></span></a></div></h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Category</h3><h4>Website</h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Date</h3><h4>2023 - ∞</h4></div></div></div></div></div></section><section data-theme=\"light\" class=\"text-theme-secondary transition-colors duration-theme\"><div class=\"WrokBloks_main__IqYqU\"><div class=\"ui-grid mx-auto my-xl-20 max-w-site gap-y-6 md:my-xl-40\"><div class=\"col-span-full lg:col-span-7 xl:col-span-12\"><h3 class=\"t-p-md font-medium\">Welc",
+   "text": "CategoryWebsiteDate2023 - ∞Welcome to EkosThe Ekos Genesis Gallery website is the unveiling of a new vision and a chance for fans to own digital artworks from Turner, beautiful recoloured by his original collaborators in a series of limited edition NFTs. It’s a place to dive deeper into the stories of Turner and Maisel, exploring the provenance behind this unique collection of digital art."
+  },
+  {
+   "html": "The <a href=\"http://Ekos.io\">Ekos.io</a> experience begins with a journey through space towards earth.",
+   "text": "The Ekos.io experience begins with a journey through space towards earth."
+  },
+  {
+   "html": "We fly past the major events in Maisel and Turner&#x27;s lives as they blaze their own paths through pop culture. Glowing years and sepia-toned newspaper covers glide past us as our virtual camera moves toward the pale blue dot.",
+   "text": "We fly past the major events in Maisel and Turner&#x27;s lives as they blaze their own paths through pop culture. Glowing years and sepia-toned newspaper covers glide past us as our virtual camera moves toward the pale blue dot."
+  },
+  {
+   "html": "Our creative concept here is  two souls intertwined by events in time and joined by a host of new collaborators as the Ekos project gathers momentum.",
+   "text": "Our creative concept here is  two souls intertwined by events in time and joined by a host of new collaborators as the Ekos project gathers momentum."
+  },
+  {
+   "html": "We reach earth and dive into the Ekos Genesis art gallery with its floating globe foreshadowing the ecological themes that will be at the heart of the Ekos stories.",
+   "text": "We reach earth and dive into the Ekos Genesis art gallery with its floating globe foreshadowing the ecological themes that will be at the heart of the Ekos stories."
+  },
+  {
+   "html": "Ekos wanted their artworks to be rendered in an immersive gallery space that gives visitors a sense of David’s reverence for the artwork.",
+   "text": "Ekos wanted their artworks to be rendered in an immersive gallery space that gives visitors a sense of David’s reverence for the artwork."
+  },
+  {
+   "html": "The gallery is designed to feel California brutalist meets classical ruin. We wanted the sense of a beautiful art gallery hidden somewhere on earth, a secret place frozen in the golden hour and accessible by a chosen few.",
+   "text": "The gallery is designed to feel California brutalist meets classical ruin. We wanted the sense of a beautiful art gallery hidden somewhere on earth, a secret place frozen in the golden hour and accessible by a chosen few."
+  },
+  {
+   "html": "We built on Mythos Studios&#x27; brand identity elements of black, gold and undertones of art deco fonts and geometry throughout the experience. It’s a fusion of classic Hollywood style combined with the sensibility of Web3.",
+   "text": "We built on Mythos Studios&#x27; brand identity elements of black, gold and undertones of art deco fonts and geometry throughout the experience. It’s a fusion of classic Hollywood style combined with the sensibility of Web3."
+  },
+  {
+   "html": "We used elements of “heads up display” design in the art gallery to help the experience feel game-like and intuitive.",
+   "text": "We used elements of “heads up display” design in the art gallery to help the experience feel game-like and intuitive."
+  },
+  {
+   "html": "A map legend overlay shows the visitor’s position as they scroll through the 3D gallery space and a cursor that acts as if it is “scanning” each artwork for metadata from the blockchain - the color palette, the limited edition.",
+   "text": "A map legend overlay shows the visitor’s position as they scroll through the 3D gallery space and a cursor that acts as if it is “scanning” each artwork for metadata from the blockchain - the color palette, the limited edition."
+  },
+  {
+   "html": "In presenting the artworks we wanted to strike a balance between accuracy and ambience. We experimented with different ways to present them, settling on a simple floating canvas that showcasing the incredible colourisations from Peter Steigerwald.",
+   "text": "In presenting the artworks we wanted to strike a balance between accuracy and ambience. We experimented with different ways to present them, settling on a simple floating canvas that showcasing the incredible colourisations from Peter Steigerwald."
+  },
+  {
+   "html": "They’re crisply rendered and lightly enhanced to feel more physical; moving with the cursor position and projecting glowing back lights.",
+   "text": "They’re crisply rendered and lightly enhanced to feel more physical; moving with the cursor position and projecting glowing back lights."
+  },
+  {
+   "html": "With our collaborator, 3D artist <a href=\"https://www.behance.net/carlosgm\" target=\"_blank\">Carlos Garcia</a> we created a three leaf clover shaped gallery, that gave a sense of exploration to the space, and allowed beautiful curved lines.",
+   "text": "With our collaborator, 3D artist Carlos Garcia we created a three leaf clover shaped gallery, that gave a sense of exploration to the space, and allowed beautiful curved lines."
+  },
+  {
+   "html": "To improve performance our lighting was baked directly into the model, shadows and all. A skybox surrounds the scene with a dusky evening light providing a strong sense of atmosphere.",
+   "text": "To improve performance our lighting was baked directly into the model, shadows and all. A skybox surrounds the scene with a dusky evening light providing a strong sense of atmosphere."
+  },
+  {
+   "html": "We created blackroom experiences within the gallery to immerse visitors in the brilliant neon colour treatments, activated on a switch as our WebGL camera glides into the rooms.",
+   "text": "We created blackroom experiences within the gallery to immerse visitors in the brilliant neon colour treatments, activated on a switch as our WebGL camera glides into the rooms."
+  },
+  {
+   "html": "<span style=\"color:rgb(0, 0, 0)\">A dutch auction of 995 one-of-one digital artworks from the Ekos collection sold out rapidly, with bids placed of up to 50ETH. </span><span>The auction experience was crafted by Gladeye in collaboration with the team at </span><a href=\"https://www.westcoastnft.com/\" target=\"_blank\"><span>West Coast NFT</span></a><span>. </span>",
+   "text": "A dutch auction of 995 one-of-one digital artworks from the Ekos collection sold out rapidly, with bids placed of up to 50ETH. The auction experience was crafted by Gladeye in collaboration with the team at West Coast NFT."
+  },
+  {
+   "html": "<span>Each collector was then revealed their artwork over the coming weeks, as it was gradually updated on chain starting with a cloth covered easel, to eventually show which beautiful Turner character edition they had received. </span>",
+   "text": "Each collector was then revealed their artwork over the coming weeks, as it was gradually updated on chain starting with a cloth covered easel, to eventually show which beautiful Turner character edition they had received."
+  },
+  {
+   "html": "</path></svg></div></div></a><a class=\"Awards_item__YgOl7\" href=\"https://www.csswinner.com/details/ekos-genesis/17427\"><div class=\"flex items-center justify-start gap-x-2 py-3 sm:gap-x-4 sm:py-4\"><h4 class=\"t-work-award flex-shrink-0 font-medium\">CSS Winner</h4><h5 class=\"t-work-award-alt truncate\">Site of the Day</h5><div class=\"h-3 w-3 flex-shrink-0 sm:h-lg-4 sm:w-lg-4\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 ",
+   "text": "CSS WinnerSite of the DayProject Statistics50ETHlargest pre-sale in the auction"
+  },
+  {
+   "html": "</path></svg></div></a></div></div></div></section></div><div class=\"z-Main min-h-[100vh] w-full desktop:h-auto desktop:aspect-[1728/600]\"></div><footer class=\"lg:fixed lg:flex lg:items-center inset-x-0 bottom-0 z-Footer bg-yellow lg:justify-center min-h-[100vh] w-full desktop:h-auto desktop:aspect-[1728/600]\" data-theme=\"yellow\" data-scroll-lock-fill-gap=\"true\"><div class=\"absolute inset-x-0 bottom-full h-[20vh]  bg-yellow\"></div><div style=\"transform:none\" class=\"ui-grid w-full max-w-site gap-y-12 pb-32 pt-32 lg:gap-y-0\"><div class=\"col-span-full lg:col-span-11 lg:col-start-3 xl:col-span-8 x",
+   "text": "Subscribe toour newsletterRequest a proposalhello@gladeye.comhello@gladeye.comFollow usInstagramInstagram|LinkedInLinkedIn|XXJoin the teamcareers@gladeye.comcareers@gladeye.comFind us29 Princes Street, Auckland 101029 Princes Street, Auckland 1010© Gladeye 2025"
+  }
+ ],
+ "links": [
+  {
+   "href": "/",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "/about",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "https://www.ekos.io/",
+   "text": "Visit Site",
+   "cls": "Button_main__NewW7 Button_default__CcbQU"
+  },
+  {
+   "href": "https://mythosstudios.com/",
+   "text": "Mythos Studios",
+   "cls": "ui-link"
+  },
+  {
+   "href": "http://Ekos.io",
+   "text": "Ekos.io"
+  },
+  {
+   "href": "https://www.behance.net/carlosgm",
+   "text": "Carlos Garcia"
+  },
+  {
+   "href": "https://www.westcoastnft.com/",
+   "text": "West Coast NFT"
+  },
+  {
+   "href": "https://thefwa.com/cases/ekos-genesis",
+   "text": "The FWASite of the Day",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "https://www.csswinner.com/details/ekos-genesis/17427",
+   "text": "CSS WinnerSite of the Day",
+   "cls": "Awards_item__YgOl7"
+  },
+  {
+   "href": "/work/elemental-excelerator-cohort-x",
+   "text": "Next Project",
+   "cls": "Button_main__NewW7 Button_default__CcbQU Button_ghost__gZqlA"
+  },
+  {
+   "href": "mailto:hello@gladeye.com",
+   "text": "hello@gladeye.comhello@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.instagram.com/gladeyedigital/",
+   "text": "InstagramInstagram",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://linkedin.com/company/gladeye",
+   "text": "LinkedInLinkedIn",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://twitter.com/gladeye",
+   "text": "XX",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "mailto:careers@gladeye.com",
+   "text": "careers@gladeye.comcareers@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.google.com/maps/place/Gladeye/@-36.8497288,174.7662306,17z/data=!3m1!4b1!4m6!3m5!1s0x6d0d480fd64adab1:0xfa505ffed6ead32a!8m2!3d-36.8497288!4d174.7688055!16s%2Fg%2F1q5gm4f92?entry=ttu",
+   "text": "29 Princes Street, Auckland 101029 Princes Street, Auckland 1010",
+   "cls": "MotionLink_main__kgq4W"
+  }
+ ],
+ "svgCount": 8,
+ "svgs": [
+  "<svg viewBox=\"0 0 2401 590\" class=\"h-auto w-full fill-current\"><path d=\"M577.79 473.96h-86.85V.2h86.85v473.76Zm315.55-34.35c-13.61 16.85-47.96 40.18-103.69 40.18-105.64 0-177.58-71.94-177.58-179.52S683.36 121.4 789.65 121.4c42.77 0 82.31 15.55 102.4 38.24v-32.4h82.31v346.72h-81.01v-34.35Zm-98.51-36.94c58.33 0 95.27-43.42 95.27-102.4s-39.53-101.75-95.27-101.75c-58.98 0-95.92 44.07-95.92 101.75s38.89 102.4 95.92 102.4Zm495.34 36.94c-20.74 22.04-58.33 40.18-102.4 40.18-107.58 0-178.87-73.88-178.87-178.23s71.29-180.17 175.63-180.17c44.07 0 78.42 14.26 99.81 33.7V.2h86.84v473.76h-81.01v-34.35Zm-98.51-37.59c58.33 0 95.27-44.07 95.27-101.75s-38.24-101.75-95.27-101.75-95.92 44.07-95.92 101.75 39.54 101.75 95.92 101.75Zm304.73-73.23c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm316.79 324.02 46.66-127.03-132.21-333.12h95.92l81.01 215.17 78.42-215.17h89.44l-174.99 460.15h-84.25Zm336.41-258.56c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm-1798.2-34.75H243.77v84.75H352.8v35.82l-10.84 10.07c-18.8 19.44-55.09 39.53-106.94 39.53-81.01 0-140.64-58.98-140.64-149.71s55.74-148.41 136.75-148.41c59.62 0 93.33 29.16 114.06 57.03l69.99-51.85c-31.11-47.96-89.44-88.79-184.06-88.79C92.44 17.05.41 121.39.41 249.07c0 139.34 93.97 232.67 230.72 232.67 24.9 0 46.59-3.69 64.99-9.65.05 0 .1-.02.15-.05 2.59-.85 5.16-1.72 7.63-2.67 15.15-5.71 27.79-12.99 37.91-20.89.23-.17 5.29-4.11 10.99-8.52v33.98h84.75V310.82c0-45.37-36.89-82.26-82.26-82.26v.02Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>"
+ ],
+ "themes": [
+  "--theme-primary:16 16 16",
+  "--theme-secondary:255 255 255",
+  "--theme-tertiary:255 255 255",
+  "--theme-header:255 255 255",
+  "--theme-header-secondary:125 125 125",
+  "--theme-header-button-text-default:255 255 255",
+  "--theme-header-button-text-roll-over:0 0 0",
+  "--theme-header-button-bg-default:125 125 125",
+  "--theme-header-button-bg-roll-over:255 255 255"
+ ],
+ "title": ""
+}

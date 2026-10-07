@@ -1,0 +1,209 @@
+{
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "deviceScaleFactor": 1,
+ "headless": true,
+ "channel": "msedge",
+ "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+ "webgl": null,
+ "startedAt": "2026-10-06T17:57:28.293Z",
+ "shots": [
+  "home__00_intro",
+  "home__01_stable",
+  "home__pointer-0.5-0.5",
+  "home__pointer-0.12-0.2",
+  "home__pointer-0.88-0.2",
+  "home__pointer-0.88-0.85",
+  "home__pointer-0.12-0.85",
+  "home__scroll-x1",
+  "home__scroll-x2",
+  "home__scroll-x3",
+  "home__scroll-x4",
+  "home__scroll-x5",
+  "home__scroll-x6",
+  "home__scroll-x8",
+  "home__scroll-x10",
+  "home__full",
+  "menu__open",
+  "menu__hover-item",
+  "menu__closing-mid",
+  "work__0_top",
+  "work__25pct",
+  "work__50pct",
+  "work__75pct",
+  "work__100pct",
+  "work__full",
+  "about__0_top",
+  "about__25pct",
+  "about__50pct",
+  "about__75pct",
+  "about__100pct",
+  "about__full",
+  "contact__0_top",
+  "contact__25pct",
+  "contact__50pct",
+  "contact__75pct",
+  "contact__100pct",
+  "contact__full",
+  "careers__0_top",
+  "careers__25pct",
+  "careers__50pct",
+  "careers__75pct",
+  "careers__100pct",
+  "careers__full",
+  "case-into-the-amazon__hero",
+  "case-into-the-amazon__25pct",
+  "case-into-the-amazon__50pct",
+  "case-into-the-amazon__75pct",
+  "case-into-the-amazon__bottom",
+  "case-into-the-amazon__full",
+  "case-cyberbrokers__hero",
+  "case-cyberbrokers__25pct",
+  "case-cyberbrokers__50pct",
+  "case-cyberbrokers__75pct",
+  "case-cyberbrokers__bottom",
+  "case-cyberbrokers__full",
+  "case-ekos-genesis__hero",
+  "case-ekos-genesis__25pct",
+  "case-ekos-genesis__50pct",
+  "case-ekos-genesis__75pct",
+  "case-ekos-genesis__bottom",
+  "case-ekos-genesis__full",
+  "case-the-virtual-economy__hero",
+  "case-the-virtual-economy__25pct",
+  "case-the-virtual-economy__50pct",
+  "case-the-virtual-economy__75pct",
+  "case-the-virtual-economy__bottom",
+  "case-the-virtual-economy__full",
+  "case-hypercinema__hero",
+  "case-hypercinema__25pct",
+  "case-hypercinema__50pct",
+  "case-hypercinema__75pct",
+  "case-hypercinema__bottom",
+  "case-hypercinema__full"
+ ],
+ "homeProbe": {
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "rendererString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "bodyPosition": "fixed"
+ },
+ "scrollProbe_x1": {
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "rendererString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "bodyPosition": "fixed"
+ },
+ "scrollProbe_x2": {
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "rendererString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "bodyPosition": "fixed"
+ },
+ "scrollProbe_x3": {
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "rendererString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "bodyPosition": "fixed"
+ },
+ "scrollProbe_x4": {
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "rendererString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "bodyPosition": "fixed"
+ },
+ "scrollProbe_x5": {
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "rendererString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "bodyPosition": "fixed"
+ },
+ "scrollProbe_x6": {
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "rendererString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "bodyPosition": "fixed"
+ },
+ "scrollProbe_x8": {
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "rendererString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "bodyPosition": "fixed"
+ },
+ "scrollProbe_x10": {
+  "canvasPresent": true,
+  "canvasRect": [
+   1440,
+   900
+  ],
+  "engine": "three.js r154",
+  "rendererString": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "scrollHeight": 900,
+  "innerH": 900,
+  "bodyPosition": "fixed"
+ },
+ "menuItems": [
+  "Home",
+  "Work",
+  "About",
+  "Ventures",
+  "Careers",
+  "Contact",
+  "hello@gladeye.comhello@gladeye.com",
+  "InstagramInstagram",
+  "LinkedInLinkedIn",
+  "XX",
+  "careers@gladeye.comcareers@gladeye.com",
+  "29 Princes Street, Auckland 101029 Princes Street, Auckland 1010"
+ ]
+}

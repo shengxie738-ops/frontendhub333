@@ -1,0 +1,2041 @@
+[
+ {
+  "key": "case-ekos-genesis__75pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 251.6,
+   "stdev": 24.42,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 158
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 235.31,
+  "pctPixelsOver12": 99.6,
+  "pctPixelsOver60": 99.01,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "work__75pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 247.98,
+   "stdev": 36.05,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 30
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 231.69,
+  "pctPixelsOver12": 99.11,
+  "pctPixelsOver60": 97.31,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-ekos-genesis__50pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 221,
+   "stdev": 56.07,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 666
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 204.47,
+  "pctPixelsOver12": 99.71,
+  "pctPixelsOver60": 95.46,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-into-the-amazon__50pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 220.85,
+   "stdev": 53.52,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 252
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 202.64,
+  "pctPixelsOver12": 96.48,
+  "pctPixelsOver60": 95.73,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-into-the-amazon__25pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 211.71,
+   "stdev": 35.9,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 403
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 193.4,
+  "pctPixelsOver12": 99.71,
+  "pctPixelsOver60": 98.42,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "work__0_top",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 178.31,
+   "stdev": 88.74,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1265
+  },
+  "candidate": {
+   "meanLuma": 16.59,
+   "stdev": 10.83,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 19
+  },
+  "meanAbsDiff": 163.18,
+  "pctPixelsOver12": 93.95,
+  "pctPixelsOver60": 85.89,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-cyberbrokers__25pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 175.79,
+   "stdev": 96.37,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1359
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 162,
+  "pctPixelsOver12": 84.92,
+  "pctPixelsOver60": 73.52,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "work__50pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 165.39,
+   "stdev": 120.49,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 32
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 159.88,
+  "pctPixelsOver12": 99.25,
+  "pctPixelsOver60": 64.91,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-the-virtual-economy__50pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 142.22,
+   "stdev": 106.02,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 180
+  },
+  "candidate": {
+   "meanLuma": 16.35,
+   "stdev": 6.05,
+   "min": 0,
+   "max": 148,
+   "uniqueColors": 21
+  },
+  "meanAbsDiff": 154.07,
+  "pctPixelsOver12": 99.52,
+  "pctPixelsOver60": 79.23,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-hypercinema__bottom",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 192.15,
+   "stdev": 19.84,
+   "min": 0,
+   "max": 212.9,
+   "uniqueColors": 56
+  },
+  "candidate": {
+   "meanLuma": 16.53,
+   "stdev": 9.62,
+   "min": 0,
+   "max": 228,
+   "uniqueColors": 22
+  },
+  "meanAbsDiff": 142.95,
+  "pctPixelsOver12": 99.91,
+  "pctPixelsOver60": 98.99,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-cyberbrokers__bottom",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 192.16,
+   "stdev": 19.76,
+   "min": 0,
+   "max": 212.9,
+   "uniqueColors": 58
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 142.6,
+  "pctPixelsOver12": 99.74,
+  "pctPixelsOver60": 98.81,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-into-the-amazon__bottom",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 192.15,
+   "stdev": 19.86,
+   "min": 0,
+   "max": 212.9,
+   "uniqueColors": 55
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 142.6,
+  "pctPixelsOver12": 99.74,
+  "pctPixelsOver60": 98.81,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "work__100pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 192.14,
+   "stdev": 19.92,
+   "min": 0,
+   "max": 212.9,
+   "uniqueColors": 57
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 142.6,
+  "pctPixelsOver12": 99.74,
+  "pctPixelsOver60": 98.81,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-ekos-genesis__bottom",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 192.15,
+   "stdev": 19.88,
+   "min": 0,
+   "max": 212.9,
+   "uniqueColors": 57
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 142.58,
+  "pctPixelsOver12": 99.73,
+  "pctPixelsOver60": 98.8,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-the-virtual-economy__bottom",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 192.16,
+   "stdev": 19.84,
+   "min": 0,
+   "max": 212.9,
+   "uniqueColors": 58
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 142.58,
+  "pctPixelsOver12": 99.74,
+  "pctPixelsOver60": 98.8,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "careers__100pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 192.14,
+   "stdev": 19.89,
+   "min": 0,
+   "max": 212.9,
+   "uniqueColors": 55
+  },
+  "candidate": {
+   "meanLuma": 27.84,
+   "stdev": 47.13,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 253
+  },
+  "meanAbsDiff": 140.74,
+  "pctPixelsOver12": 99.93,
+  "pctPixelsOver60": 98.54,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "case-the-virtual-economy__25pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 142.32,
+   "stdev": 93.8,
+   "min": 3.6,
+   "max": 255,
+   "uniqueColors": 993
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 138.42,
+  "pctPixelsOver12": 98.32,
+  "pctPixelsOver60": 69.83,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "about__100pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 192.15,
+   "stdev": 19.85,
+   "min": 0,
+   "max": 212.9,
+   "uniqueColors": 57
+  },
+  "candidate": {
+   "meanLuma": 38.17,
+   "stdev": 23.25,
+   "min": 34.9,
+   "max": 255,
+   "uniqueColors": 102
+  },
+  "meanAbsDiff": 133.4,
+  "pctPixelsOver12": 100,
+  "pctPixelsOver60": 98.83,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "work__25pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 144.92,
+   "stdev": 110.42,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 410
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 127.72,
+  "pctPixelsOver12": 66.1,
+  "pctPixelsOver60": 59.52,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-cyberbrokers__75pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 131.23,
+   "stdev": 81.93,
+   "min": 2.4,
+   "max": 255,
+   "uniqueColors": 3215
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 119.78,
+  "pctPixelsOver12": 92.47,
+  "pctPixelsOver60": 69.16,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-hypercinema__75pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 125.1,
+   "stdev": 91.35,
+   "min": 1,
+   "max": 255,
+   "uniqueColors": 1712
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 110.48,
+  "pctPixelsOver12": 83.63,
+  "pctPixelsOver60": 58.93,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-ekos-genesis__25pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 120.61,
+   "stdev": 104.48,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 435
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 107.24,
+  "pctPixelsOver12": 69.2,
+  "pctPixelsOver60": 54.33,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "home__full",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 65.42,
+   "stdev": 70.99,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1982
+  },
+  "candidate": {
+   "meanLuma": 58.21,
+   "stdev": 26.74,
+   "min": 54.2,
+   "max": 255,
+   "uniqueColors": 40
+  },
+  "meanAbsDiff": 101.71,
+  "pctPixelsOver12": 99.7,
+  "pctPixelsOver60": 99.41,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-cyberbrokers__50pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 113.9,
+   "stdev": 87.82,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 2635
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 99.95,
+  "pctPixelsOver12": 81.55,
+  "pctPixelsOver60": 54.82,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "menu__closing-mid",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 39.98,
+   "stdev": 42.69,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1608
+  },
+  "candidate": {
+   "meanLuma": 58.77,
+   "stdev": 28.82,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 40
+  },
+  "meanAbsDiff": 94.89,
+  "pctPixelsOver12": 99.7,
+  "pctPixelsOver60": 99.38,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-into-the-amazon__75pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 95.62,
+   "stdev": 61.21,
+   "min": 9.6,
+   "max": 255,
+   "uniqueColors": 1049
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 84.13,
+  "pctPixelsOver12": 95.77,
+  "pctPixelsOver60": 63.5,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-the-virtual-economy__75pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 78.51,
+   "stdev": 83.5,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1370
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 76.62,
+  "pctPixelsOver12": 91.84,
+  "pctPixelsOver60": 38.82,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-hypercinema__25pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 92.31,
+   "stdev": 78.59,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 141
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 76.4,
+  "pctPixelsOver12": 64.52,
+  "pctPixelsOver60": 53.78,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-hypercinema__50pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 84.85,
+   "stdev": 58.41,
+   "min": 5.1,
+   "max": 255,
+   "uniqueColors": 1723
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 69.5,
+  "pctPixelsOver12": 93.84,
+  "pctPixelsOver60": 43.27,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "careers__0_top",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 27.8,
+   "stdev": 47.07,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 252
+  },
+  "candidate": {
+   "meanLuma": 76.05,
+   "stdev": 102.41,
+   "min": 13,
+   "max": 255,
+   "uniqueColors": 54
+  },
+  "meanAbsDiff": 65.27,
+  "pctPixelsOver12": 30.7,
+  "pctPixelsOver60": 28.85,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-into-the-amazon__hero",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 73.27,
+   "stdev": 44.51,
+   "min": 9.5,
+   "max": 255,
+   "uniqueColors": 660
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 62.56,
+  "pctPixelsOver12": 97.06,
+  "pctPixelsOver60": 41.34,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "careers__75pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 85.89,
+   "stdev": 86.42,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 379
+  },
+  "candidate": {
+   "meanLuma": 27.83,
+   "stdev": 47.15,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 253
+  },
+  "meanAbsDiff": 62.44,
+  "pctPixelsOver12": 45.46,
+  "pctPixelsOver60": 41.9,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "careers__50pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 70.21,
+   "stdev": 74.16,
+   "min": 0.2,
+   "max": 255,
+   "uniqueColors": 2038
+  },
+  "candidate": {
+   "meanLuma": 27.86,
+   "stdev": 47.19,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 254
+  },
+  "meanAbsDiff": 58.71,
+  "pctPixelsOver12": 49.2,
+  "pctPixelsOver60": 36.24,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "case-ekos-genesis__hero",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 69.92,
+   "stdev": 44.19,
+   "min": 14,
+   "max": 255,
+   "uniqueColors": 762
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 56.13,
+  "pctPixelsOver12": 86.93,
+  "pctPixelsOver60": 36.21,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-cyberbrokers__hero",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 60.6,
+   "stdev": 66.54,
+   "min": 1.7,
+   "max": 255,
+   "uniqueColors": 3301
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 51.64,
+  "pctPixelsOver12": 66.61,
+  "pctPixelsOver60": 28.36,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-the-virtual-economy__hero",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 42.01,
+   "stdev": 84.18,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 34
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 47.14,
+  "pctPixelsOver12": 80.85,
+  "pctPixelsOver60": 18.08,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "home__scroll-x10",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 65.23,
+   "stdev": 69.28,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 2160
+  },
+  "candidate": {
+   "meanLuma": 45.18,
+   "stdev": 48.7,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1550
+  },
+  "meanAbsDiff": 43.55,
+  "pctPixelsOver12": 71.44,
+  "pctPixelsOver60": 23.02,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x3",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 42.77,
+   "stdev": 45.09,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1797
+  },
+  "candidate": {
+   "meanLuma": 53.35,
+   "stdev": 56.72,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1897
+  },
+  "meanAbsDiff": 41.06,
+  "pctPixelsOver12": 71.01,
+  "pctPixelsOver60": 20.82,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x6",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 44.88,
+   "stdev": 47.17,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1916
+  },
+  "candidate": {
+   "meanLuma": 47.48,
+   "stdev": 56.58,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1751
+  },
+  "meanAbsDiff": 39.66,
+  "pctPixelsOver12": 71.29,
+  "pctPixelsOver60": 20.63,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x2",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 40.97,
+   "stdev": 43.81,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1731
+  },
+  "candidate": {
+   "meanLuma": 53.27,
+   "stdev": 55.06,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 2022
+  },
+  "meanAbsDiff": 38.94,
+  "pctPixelsOver12": 68.95,
+  "pctPixelsOver60": 19.24,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x1",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 41.55,
+   "stdev": 43.59,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1704
+  },
+  "candidate": {
+   "meanLuma": 53.69,
+   "stdev": 56.22,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1823
+  },
+  "meanAbsDiff": 38.8,
+  "pctPixelsOver12": 69.44,
+  "pctPixelsOver60": 18.4,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__pointer-0.12-0.85",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 41.36,
+   "stdev": 43.56,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1686
+  },
+  "candidate": {
+   "meanLuma": 52.26,
+   "stdev": 55.57,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1735
+  },
+  "meanAbsDiff": 38.65,
+  "pctPixelsOver12": 68.95,
+  "pctPixelsOver60": 17.97,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x5",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 47.55,
+   "stdev": 50.12,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1820
+  },
+  "candidate": {
+   "meanLuma": 43.43,
+   "stdev": 45.97,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1725
+  },
+  "meanAbsDiff": 37.23,
+  "pctPixelsOver12": 70.03,
+  "pctPixelsOver60": 17.57,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x4",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 42.32,
+   "stdev": 45.6,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1766
+  },
+  "candidate": {
+   "meanLuma": 48.16,
+   "stdev": 51.36,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1790
+  },
+  "meanAbsDiff": 36.23,
+  "pctPixelsOver12": 68.46,
+  "pctPixelsOver60": 17.86,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__pointer-0.88-0.85",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 46.05,
+   "stdev": 46.63,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1830
+  },
+  "candidate": {
+   "meanLuma": 42.4,
+   "stdev": 42.61,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1523
+  },
+  "meanAbsDiff": 34.52,
+  "pctPixelsOver12": 67.22,
+  "pctPixelsOver60": 16.67,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__scroll-x8",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 42.81,
+   "stdev": 47.95,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1794
+  },
+  "candidate": {
+   "meanLuma": 44.87,
+   "stdev": 44.61,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1659
+  },
+  "meanAbsDiff": 34.34,
+  "pctPixelsOver12": 70.5,
+  "pctPixelsOver60": 15.12,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "careers__25pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 42.03,
+   "stdev": 61.54,
+   "min": 2.3,
+   "max": 255,
+   "uniqueColors": 1001
+  },
+  "candidate": {
+   "meanLuma": 27.86,
+   "stdev": 47.18,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 252
+  },
+  "meanAbsDiff": 33.89,
+  "pctPixelsOver12": 23,
+  "pctPixelsOver60": 19.74,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__pointer-0.5-0.5",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 40.83,
+   "stdev": 42.69,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1673
+  },
+  "candidate": {
+   "meanLuma": 42.49,
+   "stdev": 42.72,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1587
+  },
+  "meanAbsDiff": 32.26,
+  "pctPixelsOver12": 67.61,
+  "pctPixelsOver60": 14.03,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__01_stable",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 41.37,
+   "stdev": 42.83,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1680
+  },
+  "candidate": {
+   "meanLuma": 41.84,
+   "stdev": 42.5,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1552
+  },
+  "meanAbsDiff": 32.21,
+  "pctPixelsOver12": 67.53,
+  "pctPixelsOver60": 13.98,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__00_intro",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 41,
+   "stdev": 42.89,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1687
+  },
+  "candidate": {
+   "meanLuma": 41.39,
+   "stdev": 42.05,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1526
+  },
+  "meanAbsDiff": 32.05,
+  "pctPixelsOver12": 67.65,
+  "pctPixelsOver60": 13.83,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__pointer-0.12-0.2",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 37.77,
+   "stdev": 41.97,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1523
+  },
+  "candidate": {
+   "meanLuma": 41.98,
+   "stdev": 42.63,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1575
+  },
+  "meanAbsDiff": 31.46,
+  "pctPixelsOver12": 66.57,
+  "pctPixelsOver60": 13.17,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "home__pointer-0.88-0.2",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 40.39,
+   "stdev": 43.18,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1616
+  },
+  "candidate": {
+   "meanLuma": 38.75,
+   "stdev": 40.7,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1383
+  },
+  "meanAbsDiff": 31.43,
+  "pctPixelsOver12": 65.9,
+  "pctPixelsOver60": 13.25,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "about__50pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 21.46,
+   "stdev": 31.51,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 155
+  },
+  "candidate": {
+   "meanLuma": 42.36,
+   "stdev": 35.54,
+   "min": 34.9,
+   "max": 255,
+   "uniqueColors": 224
+  },
+  "meanAbsDiff": 30.36,
+  "pctPixelsOver12": 99.8,
+  "pctPixelsOver60": 7,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "about__75pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 21.27,
+   "stdev": 30.2,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 116
+  },
+  "candidate": {
+   "meanLuma": 39.82,
+   "stdev": 28.67,
+   "min": 34.9,
+   "max": 255,
+   "uniqueColors": 122
+  },
+  "meanAbsDiff": 27.39,
+  "pctPixelsOver12": 99.79,
+  "pctPixelsOver60": 5.91,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "about__0_top",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 110.25,
+   "stdev": 42.87,
+   "min": 0.1,
+   "max": 255,
+   "uniqueColors": 1915
+  },
+  "candidate": {
+   "meanLuma": 109.2,
+   "stdev": 34.57,
+   "min": 36.6,
+   "max": 255,
+   "uniqueColors": 637
+  },
+  "meanAbsDiff": 19.17,
+  "pctPixelsOver12": 42.96,
+  "pctPixelsOver60": 7.79,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "case-hypercinema__hero",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 12.14,
+   "stdev": 39.66,
+   "min": 0.2,
+   "max": 255,
+   "uniqueColors": 69
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": 15.63,
+  "pctPixelsOver12": 3.27,
+  "pctPixelsOver60": 2.93,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "contact__100pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 185.11,
+   "stdev": 42.05,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 215
+  },
+  "candidate": {
+   "meanLuma": 184.56,
+   "stdev": 40.81,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 53
+  },
+  "meanAbsDiff": 14.84,
+  "pctPixelsOver12": 14.73,
+  "pctPixelsOver60": 12.11,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "contact__50pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 185.41,
+   "stdev": 41.24,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 196
+  },
+  "candidate": {
+   "meanLuma": 183.8,
+   "stdev": 42.24,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 54
+  },
+  "meanAbsDiff": 14.38,
+  "pctPixelsOver12": 13.99,
+  "pctPixelsOver60": 11.54,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "contact__full",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 185.08,
+   "stdev": 42.18,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 216
+  },
+  "candidate": {
+   "meanLuma": 184.43,
+   "stdev": 41,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 55
+  },
+  "meanAbsDiff": 14.27,
+  "pctPixelsOver12": 14.42,
+  "pctPixelsOver60": 11.74,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "about__25pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 42.39,
+   "stdev": 29.93,
+   "min": 0.4,
+   "max": 255,
+   "uniqueColors": 760
+  },
+  "candidate": {
+   "meanLuma": 40.42,
+   "stdev": 30.3,
+   "min": 34.9,
+   "max": 255,
+   "uniqueColors": 222
+  },
+  "meanAbsDiff": 14.23,
+  "pctPixelsOver12": 16.47,
+  "pctPixelsOver60": 8.34,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": []
+ },
+ {
+  "key": "contact__75pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 184.69,
+   "stdev": 42.65,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 196
+  },
+  "candidate": {
+   "meanLuma": 184.26,
+   "stdev": 41.37,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 55
+  },
+  "meanAbsDiff": 13.66,
+  "pctPixelsOver12": 13.5,
+  "pctPixelsOver60": 11.02,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "contact__25pct",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 184.96,
+   "stdev": 41.81,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 186
+  },
+  "candidate": {
+   "meanLuma": 184.25,
+   "stdev": 41.42,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 55
+  },
+  "meanAbsDiff": 13.59,
+  "pctPixelsOver12": 12.86,
+  "pctPixelsOver60": 10.7,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "contact__0_top",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 184.92,
+   "stdev": 41.99,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 169
+  },
+  "candidate": {
+   "meanLuma": 184,
+   "stdev": 41.92,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 55
+  },
+  "meanAbsDiff": 13.57,
+  "pctPixelsOver12": 12.8,
+  "pctPixelsOver60": 10.71,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "menu__open",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 40.89,
+   "stdev": 34.15,
+   "min": 34.9,
+   "max": 255,
+   "uniqueColors": 53
+  },
+  "candidate": {
+   "meanLuma": 40.93,
+   "stdev": 34.39,
+   "min": 34.9,
+   "max": 255,
+   "uniqueColors": 91
+  },
+  "meanAbsDiff": 0.34,
+  "pctPixelsOver12": 0.53,
+  "pctPixelsOver60": 0.16,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "menu__hover-item",
+  "status": "compared",
+  "ref": {
+   "meanLuma": 38.61,
+   "stdev": 23.1,
+   "min": 34.9,
+   "max": 255,
+   "uniqueColors": 95
+  },
+  "candidate": {
+   "meanLuma": 38.63,
+   "stdev": 23.16,
+   "min": 34.9,
+   "max": 255,
+   "uniqueColors": 96
+  },
+  "meanAbsDiff": 0.12,
+  "pctPixelsOver12": 0.09,
+  "pctPixelsOver60": 0.07,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "about__full",
+  "status": "dim-mismatch",
+  "ref": {
+   "meanLuma": 44.96,
+   "stdev": 57.94,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 3511
+  },
+  "candidate": {
+   "meanLuma": 38.17,
+   "stdev": 23.25,
+   "min": 34.9,
+   "max": 255,
+   "uniqueColors": 104
+  },
+  "meanAbsDiff": null,
+  "pctPixelsOver12": null,
+  "pctPixelsOver60": null,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "DIM-MISMATCH ref=1440x8654 can=1440x900",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "careers__full",
+  "status": "dim-mismatch",
+  "ref": {
+   "meanLuma": 84.84,
+   "stdev": 85.67,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1821
+  },
+  "candidate": {
+   "meanLuma": 27.85,
+   "stdev": 47.14,
+   "min": 16,
+   "max": 255,
+   "uniqueColors": 252
+  },
+  "meanAbsDiff": null,
+  "pctPixelsOver12": null,
+  "pctPixelsOver60": null,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "DIM-MISMATCH ref=1440x3221 can=1440x900"
+  ]
+ },
+ {
+  "key": "case-cyberbrokers__full",
+  "status": "dim-mismatch",
+  "ref": {
+   "meanLuma": 171.81,
+   "stdev": 96.41,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 4000
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": null,
+  "pctPixelsOver12": null,
+  "pctPixelsOver60": null,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "DIM-MISMATCH ref=1440x19883 can=1440x900",
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-ekos-genesis__full",
+  "status": "dim-mismatch",
+  "ref": {
+   "meanLuma": 184.24,
+   "stdev": 83.53,
+   "min": 0.1,
+   "max": 255,
+   "uniqueColors": 4000
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": null,
+  "pctPixelsOver12": null,
+  "pctPixelsOver60": null,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "DIM-MISMATCH ref=1440x18917 can=1440x900",
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-hypercinema__full",
+  "status": "dim-mismatch",
+  "ref": {
+   "meanLuma": 169.36,
+   "stdev": 100.02,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 2509
+  },
+  "candidate": {
+   "meanLuma": 16.3,
+   "stdev": 5.13,
+   "min": 0,
+   "max": 127,
+   "uniqueColors": 18
+  },
+  "meanAbsDiff": null,
+  "pctPixelsOver12": null,
+  "pctPixelsOver60": null,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "DIM-MISMATCH ref=1440x17296 can=1440x900",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-into-the-amazon__full",
+  "status": "dim-mismatch",
+  "ref": {
+   "meanLuma": 217.62,
+   "stdev": 72.26,
+   "min": 0.2,
+   "max": 255,
+   "uniqueColors": 1993
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": null,
+  "pctPixelsOver12": null,
+  "pctPixelsOver60": null,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "DIM-MISMATCH ref=1440x22000 can=1440x900",
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "case-the-virtual-economy__full",
+  "status": "dim-mismatch",
+  "ref": {
+   "meanLuma": 178.78,
+   "stdev": 100.84,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1564
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": null,
+  "pctPixelsOver12": null,
+  "pctPixelsOver60": null,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "DIM-MISMATCH ref=1440x17006 can=1440x900",
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ },
+ {
+  "key": "work__full",
+  "status": "dim-mismatch",
+  "ref": {
+   "meanLuma": 199.87,
+   "stdev": 95.75,
+   "min": 0,
+   "max": 255,
+   "uniqueColors": 1570
+  },
+  "candidate": {
+   "meanLuma": 16.06,
+   "stdev": 1.25,
+   "min": 0,
+   "max": 38,
+   "uniqueColors": 10
+  },
+  "meanAbsDiff": null,
+  "pctPixelsOver12": null,
+  "pctPixelsOver60": null,
+  "size": [
+   1440,
+   900
+  ],
+  "flags": [
+   "DIM-MISMATCH ref=1440x7625 can=1440x900",
+   "FLAT-FILL",
+   "LOW-COLOR-COUNT(fallback?)"
+  ]
+ }
+]

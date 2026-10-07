@@ -1,0 +1,524 @@
+{
+ "route": "/work/openavn",
+ "imgs": [
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/b9a94f4e72/openavn-cover-portrait.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/1600x2160/b9a94f4e72/openavn-cover-portrait.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/1f4449aeb7/openavn-cover.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/3456x2160/1f4449aeb7/openavn-cover.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/3f1001b6c6/open-sketces.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/3f1001b6c6/open-sketces.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/d567ead363/open-icons.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/d567ead363/open-icons.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/1c5993e2d5/open-old-and-news.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/1c5993e2d5/open-old-and-news.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/bc049c81e0/open-logos.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/bc049c81e0/open-logos.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5118x3200/d1ac377636/open-more-side-on.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5118x3200/d1ac377636/open-more-side-on.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5120x3631/f1dfd87cbe/open-desktop2.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/5120x3631/f1dfd87cbe/open-desktop2.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/aa2e86a09e/open-earth.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/2732x1540/aa2e86a09e/open-earth.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4382x2496/6acffdcddc/open-purples.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4382x2496/6acffdcddc/open-purples.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4436x2480/f3c8830783/open-mob.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4436x2480/f3c8830783/open-mob.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4436x2480/21692ee4b4/open-sideon.jpg/m/20x0",
+   "alt": "Placeholder",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  },
+  {
+   "src": "https://a-us.storyblok.com/f/1014779/4436x2480/21692ee4b4/open-sideon.jpg",
+   "alt": "Gladeye",
+   "w": null,
+   "h": null,
+   "cls": "blur-lg transition-all duration-750 ease-in-out",
+   "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;object-position:50% 50%;color:transparent"
+  }
+ ],
+ "vids": [
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/858846014/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=0d642012abdf90e1af0fc468520be766be96ff38a8911f3f0db9b5086d8502b9\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/858845966/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=9dece2e01c77267977f6820218da6ce9e55da73529945c2f35e0e25ef1ec9ab1\" muted=\"\" loop=\"\" playsInline=\"\"></video>",
+  "<video class=\"h-full w-full object-cover\" src=\"https://player.vimeo.com/progressive_redirect/playback/858844874/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=85350cc603f3baac9590909df034fee2f6854d4b4138546ba4a7f215e77abdb8\" muted=\"\" loop=\"\" playsInline=\"\"></video>"
+ ],
+ "headings": [
+  {
+   "level": 1,
+   "html": "OpenAVN",
+   "text": "OpenAVN"
+  },
+  {
+   "level": 2,
+   "html": "AI antivirus platform that <i>evolves </i>to combat malware",
+   "text": "AI antivirus platform that evolves to combat malware"
+  },
+  {
+   "level": 3,
+   "html": "Client",
+   "text": "Client"
+  },
+  {
+   "level": 4,
+   "html": "<div class=\"inline-flex pr-[1em]\"><a class=\"ui-link\" target=\"_blank\" rel=\"nofollow noopener\" href=\"https://openavn.com/\"><span class=\"relative\"><span>OpenAVN</span><span class=\"absolute -right-[1em] bottom-[0.5em] h-[0.5em] w-[0.5em]\"><svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0",
+   "text": "OpenAVN"
+  },
+  {
+   "level": 3,
+   "html": "Category",
+   "text": "Category"
+  },
+  {
+   "level": 4,
+   "html": "Brand + Website",
+   "text": "Brand + Website"
+  },
+  {
+   "level": 3,
+   "html": "Date",
+   "text": "Date"
+  },
+  {
+   "level": 4,
+   "html": "2020",
+   "text": "2020"
+  },
+  {
+   "level": 3,
+   "html": "First things first",
+   "text": "First things first"
+  },
+  {
+   "level": 3,
+   "html": "Finding their DNA",
+   "text": "Finding their DNA"
+  },
+  {
+   "level": 3,
+   "html": "Product naming",
+   "text": "Product naming"
+  },
+  {
+   "level": 3,
+   "html": "Crafting the brand",
+   "text": "Crafting the brand"
+  },
+  {
+   "level": 3,
+   "html": "Site design",
+   "text": "Site design"
+  },
+  {
+   "level": 3,
+   "html": "Site development",
+   "text": "Site development"
+  },
+  {
+   "level": 3,
+   "html": "Product design",
+   "text": "Product design"
+  },
+  {
+   "level": 3,
+   "html": "<span>“</span>It was our No.1 priority to storytell our #cybersecurity vision in the simplest yet creative way. Thanks to Gladeye for bringing our vision to life and beyond!<span>”</span>",
+   "text": "“It was our No.1 priority to storytell our #cybersecurity vision in the simplest yet creative way. Thanks to Gladeye for bringing our vision to life and beyond!”"
+  },
+  {
+   "level": 4,
+   "html": "Harish Prasanna",
+   "text": "Harish Prasanna"
+  },
+  {
+   "level": 5,
+   "html": "CEO &amp; Founder, OpenAVN",
+   "text": "CEO &amp; Founder, OpenAVN"
+  },
+  {
+   "level": 3,
+   "html": "Project Awards",
+   "text": "Project Awards"
+  },
+  {
+   "level": 4,
+   "html": "Awwwards",
+   "text": "Awwwards"
+  },
+  {
+   "level": 5,
+   "html": "Honoree",
+   "text": "Honoree"
+  },
+  {
+   "level": 4,
+   "html": "CSS Design Awards",
+   "text": "CSS Design Awards"
+  },
+  {
+   "level": 5,
+   "html": "Special Kudos, Innovation, UI Design",
+   "text": "Special Kudos, Innovation, UI Design"
+  },
+  {
+   "level": 3,
+   "html": "Up Next",
+   "text": "Up Next"
+  },
+  {
+   "level": 3,
+   "html": "2degrees",
+   "text": "2degrees"
+  },
+  {
+   "level": 4,
+   "html": "Orcon - App",
+   "text": "Orcon - App"
+  },
+  {
+   "level": 4,
+   "html": "Putting your ISP at the heart of your <i>digital life</i>",
+   "text": "Putting your ISP at the heart of your digital life"
+  },
+  {
+   "level": 2,
+   "html": "<span>Subscribe to<br/>our newsletter</span>",
+   "text": "Subscribe toour newsletter"
+  },
+  {
+   "level": 3,
+   "html": "Request a proposal",
+   "text": "Request a proposal"
+  },
+  {
+   "level": 3,
+   "html": "Follow us",
+   "text": "Follow us"
+  },
+  {
+   "level": 3,
+   "html": "Join the team",
+   "text": "Join the team"
+  },
+  {
+   "level": 3,
+   "html": "Find us",
+   "text": "Find us"
+  }
+ ],
+ "paragraphs": [
+  {
+   "html": "</path></svg></a></div><div class=\"flex justify-center Header_buttonContainer__rN6i5\"><button class=\"pointer-events-auto Header_button__qn2Wj Button_main__NewW7 Button_default__CcbQU\"><span class=\"Button_inner__d7ZPg\">Menu</span></button></div><div class=\"hidden w-[130px] justify-end md:flex\"><a class=\"pointer-events-auto\" aria-label=\"About\" href=\"/about\"></a></div></div></div><main style=\"--theme-primary:16 16 16;--theme-secondary:255 255 255;--theme-tertiary:255 255 255\" class=\"bg-black\"><div style=\"opacity:1\"><div class=\"relative z-main bg-theme-primary transition-bg duration-theme\"><sectio",
+   "text": "MenuOpenAVNAI antivirus platform that evolves to combat malwareVisit SiteOpenAVN are building the future of online protection."
+  },
+  {
+   "html": "They<span style=\"color:rgb(16, 16, 16)\"> have a powerful vision to be the storehouse of knowledge for products against malware; already amassing over 300 terabytes of virus definitions.</span>",
+   "text": "They have a powerful vision to be the storehouse of knowledge for products against malware; already amassing over 300 terabytes of virus definitions."
+  },
+  {
+   "html": "</path></svg></span></span></a></div></h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Category</h3><h4>Brand + Website</h4></div><div class=\"col-span-full space-y-1.5 md:col-span-4\"><h3 class=\"t-p font-semibold\">Date</h3><h4>2020</h4></div></div></div></div></div></section><section data-theme=\"light\" class=\"text-theme-secondary transition-colors duration-theme\"><div class=\"WrokBloks_main__IqYqU\"><div class=\"mx-auto my-sgs max-w-site px-sms\"><div style=\"background:#e8e8e8;--outerAspect:15/9\" class=\"FramedVideo_outer__zdvd0 ui-grid items-center bg-the",
+   "text": "CategoryBrand + WebsiteDate2020First things firstOpenAVN came to us as a seed stage startup - building a powerful but complex anti-malware product. They&#x27;d bootstrapped their branding but now needed a partner to take it to the next level—creating a brand to inspire investors and captivate users."
+  },
+  {
+   "html": "Our first step was to gain a deep understanding of OpenAVN and their market.",
+   "text": "Our first step was to gain a deep understanding of OpenAVN and their market."
+  },
+  {
+   "html": "Through stakeholder interviews and desktop research we dove into cybersecurity; analysing OpenAVN’s vision, business strategy,  technical advantages, and audience needs.",
+   "text": "Through stakeholder interviews and desktop research we dove into cybersecurity; analysing OpenAVN’s vision, business strategy,  technical advantages, and audience needs."
+  },
+  {
+   "html": "In collaborative workshops we surfaced OpenAVN’s points of difference and core values.",
+   "text": "In collaborative workshops we surfaced OpenAVN’s points of difference and core values."
+  },
+  {
+   "html": "We laid out the functional benefits that would compel people to trial the products; and the emotional benefits to weave this software into their daily lives.",
+   "text": "We laid out the functional benefits that would compel people to trial the products; and the emotional benefits to weave this software into their daily lives."
+  },
+  {
+   "html": "We wanted new users to feel - &quot;the confidence to operate in an online world&quot;.",
+   "text": "We wanted new users to feel - &quot;the confidence to operate in an online world&quot;."
+  },
+  {
+   "html": "OpenAVN have AI-based nodes around the world that search for new patterns emerging in viruses, allowing them to update for new malware in days not weeks.",
+   "text": "OpenAVN have AI-based nodes around the world that search for new patterns emerging in viruses, allowing them to update for new malware in days not weeks."
+  },
+  {
+   "html": "We explored hundreds of names, words, and concepts around protection, security, defence and intelligence before zeroing in on the first product – Brightscan, an antivirus app.",
+   "text": "We explored hundreds of names, words, and concepts around protection, security, defence and intelligence before zeroing in on the first product – Brightscan, an antivirus app."
+  },
+  {
+   "html": "Brightscan evokes scanning the horizon for threats, and brightness as intelligence; a process that gets smarter with every scan.",
+   "text": "Brightscan evokes scanning the horizon for threats, and brightness as intelligence; a process that gets smarter with every scan."
+  },
+  {
+   "html": "The OpenAVN logo has a feeling of active intelligence; we were inspired by ark-like projects such as the Svalbard Seed Vault. It&#x27;s created from scan lines, echoing the constant analysis of data to find patterns.",
+   "text": "The OpenAVN logo has a feeling of active intelligence; we were inspired by ark-like projects such as the Svalbard Seed Vault. It&#x27;s created from scan lines, echoing the constant analysis of data to find patterns."
+  },
+  {
+   "html": "We drew inspiration from patterns in nature throughout the graphic elements, reflecting the pattern recognition at the heart of OpenAVN.",
+   "text": "We drew inspiration from patterns in nature throughout the graphic elements, reflecting the pattern recognition at the heart of OpenAVN."
+  },
+  {
+   "html": "And we chose a deep blue for the master brand to feel established but which can house different products underneath it - with their own lighter, friendlier palettes.",
+   "text": "And we chose a deep blue for the master brand to feel established but which can house different products underneath it - with their own lighter, friendlier palettes."
+  },
+  {
+   "html": "Antivirus websites are crowded with generic visuals – stock photography, connected dots, bright red shields, and bug shapes. OpenAVN wanted their site to tell a unique and visual story in this busy market, to cut through buzzwords, and show how they are harnessing new technology to vastly improve the speed of response to malware.",
+   "text": "Antivirus websites are crowded with generic visuals – stock photography, connected dots, bright red shields, and bug shapes. OpenAVN wanted their site to tell a unique and visual story in this busy market, to cut through buzzwords, and show how they are harnessing new technology to vastly improve the speed of response to malware."
+  },
+  {
+   "html": "We needed to find a great balance of introducing the master brand of OpenAVN, at the same time as debuting their products, Brightscan and Torus – so we designed each product section to have its own feeling while living harmoniously within the rest of the site.",
+   "text": "We needed to find a great balance of introducing the master brand of OpenAVN, at the same time as debuting their products, Brightscan and Torus – so we designed each product section to have its own feeling while living harmoniously within the rest of the site."
+  },
+  {
+   "html": "The site is built on CraftCMS, an API-driven CMS which provides a beautiful experience for both developers and content editors. Employing a modular design system, the site is flexible and easily updatable – allowing it to grow along with OpenAVN’s ambitious product roadmap. Our fluid approach to responsive ensures an ideal reading experience for visitors, whatever their screen size.",
+   "text": "The site is built on CraftCMS, an API-driven CMS which provides a beautiful experience for both developers and content editors. Employing a modular design system, the site is flexible and easily updatable – allowing it to grow along with OpenAVN’s ambitious product roadmap. Our fluid approach to responsive ensures an ideal reading experience for visitors, whatever their screen size."
+  },
+  {
+   "html": "Interactive touches are employed throughout the site to engage and excite – the WebGL homepage experience shows endpoint threats around the world being identified and instantly contained, while an SVG animation used as a background pattern takes the brand’s logo shapes and sends “data” through it in animated bursts.",
+   "text": "Interactive touches are employed throughout the site to engage and excite – the WebGL homepage experience shows endpoint threats around the world being identified and instantly contained, while an SVG animation used as a background pattern takes the brand’s logo shapes and sends “data” through it in animated bursts."
+  },
+  {
+   "html": "Our design team worked alongside OpenAVN’s product team to ensure their brand would be expressed where users interact with it the most – in their products. We co-designed the Brightscan and Torus interfaces with striking, bold colours and clean layouts to provide at-a-glance clarity on users’ device status. With OpenAVN everything happens powerfully in the background; so we wanted people to feel visually reassured that their devices are secured, at all times.",
+   "text": "Our design team worked alongside OpenAVN’s product team to ensure their brand would be expressed where users interact with it the most – in their products. We co-designed the Brightscan and Torus interfaces with striking, bold colours and clean layouts to provide at-a-glance clarity on users’ device status. With OpenAVN everything happens powerfully in the background; so we wanted people to feel visually reassured that their devices are secured, at all times."
+  },
+  {
+   "html": "</path></svg></div></a></div></div></div></section></div><div class=\"z-Main min-h-[100vh] w-full desktop:h-auto desktop:aspect-[1728/600]\"></div><footer class=\"lg:fixed lg:flex lg:items-center inset-x-0 bottom-0 z-Footer bg-yellow lg:justify-center min-h-[100vh] w-full desktop:h-auto desktop:aspect-[1728/600]\" data-theme=\"yellow\" data-scroll-lock-fill-gap=\"true\"><div class=\"absolute inset-x-0 bottom-full h-[20vh]  bg-yellow\"></div><div style=\"transform:none\" class=\"ui-grid w-full max-w-site gap-y-12 pb-32 pt-32 lg:gap-y-0\"><div class=\"col-span-full lg:col-span-11 lg:col-start-3 xl:col-span-8 x",
+   "text": "Subscribe toour newsletterRequest a proposalhello@gladeye.comhello@gladeye.comFollow usInstagramInstagram|LinkedInLinkedIn|XXJoin the teamcareers@gladeye.comcareers@gladeye.comFind us29 Princes Street, Auckland 101029 Princes Street, Auckland 1010© Gladeye 2025"
+  }
+ ],
+ "links": [
+  {
+   "href": "/",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "/about",
+   "text": "",
+   "cls": "pointer-events-auto"
+  },
+  {
+   "href": "https://openavn.com/",
+   "text": "Visit Site",
+   "cls": "Button_main__NewW7 Button_default__CcbQU"
+  },
+  {
+   "href": "https://openavn.com/",
+   "text": "OpenAVN",
+   "cls": "ui-link"
+  },
+  {
+   "href": "/work/orcon-app",
+   "text": "Next Project",
+   "cls": "Button_main__NewW7 Button_default__CcbQU Button_ghost__gZqlA"
+  },
+  {
+   "href": "mailto:hello@gladeye.com",
+   "text": "hello@gladeye.comhello@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.instagram.com/gladeyedigital/",
+   "text": "InstagramInstagram",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://linkedin.com/company/gladeye",
+   "text": "LinkedInLinkedIn",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://twitter.com/gladeye",
+   "text": "XX",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "mailto:careers@gladeye.com",
+   "text": "careers@gladeye.comcareers@gladeye.com",
+   "cls": "MotionLink_main__kgq4W"
+  },
+  {
+   "href": "https://www.google.com/maps/place/Gladeye/@-36.8497288,174.7662306,17z/data=!3m1!4b1!4m6!3m5!1s0x6d0d480fd64adab1:0xfa505ffed6ead32a!8m2!3d-36.8497288!4d174.7688055!16s%2Fg%2F1q5gm4f92?entry=ttu",
+   "text": "29 Princes Street, Auckland 101029 Princes Street, Auckland 1010",
+   "cls": "MotionLink_main__kgq4W"
+  }
+ ],
+ "svgCount": 6,
+ "svgs": [
+  "<svg viewBox=\"0 0 2401 590\" class=\"h-auto w-full fill-current\"><path d=\"M577.79 473.96h-86.85V.2h86.85v473.76Zm315.55-34.35c-13.61 16.85-47.96 40.18-103.69 40.18-105.64 0-177.58-71.94-177.58-179.52S683.36 121.4 789.65 121.4c42.77 0 82.31 15.55 102.4 38.24v-32.4h82.31v346.72h-81.01v-34.35Zm-98.51-36.94c58.33 0 95.27-43.42 95.27-102.4s-39.53-101.75-95.27-101.75c-58.98 0-95.92 44.07-95.92 101.75s38.89 102.4 95.92 102.4Zm495.34 36.94c-20.74 22.04-58.33 40.18-102.4 40.18-107.58 0-178.87-73.88-178.87-178.23s71.29-180.17 175.63-180.17c44.07 0 78.42 14.26 99.81 33.7V.2h86.84v473.76h-81.01v-34.35Zm-98.51-37.59c58.33 0 95.27-44.07 95.27-101.75s-38.24-101.75-95.27-101.75-95.92 44.07-95.92 101.75 39.54 101.75 95.92 101.75Zm304.73-73.23c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm316.79 324.02 46.66-127.03-132.21-333.12h95.92l81.01 215.17 78.42-215.17h89.44l-174.99 460.15h-84.25Zm336.41-258.56c4.54 46.01 36.94 73.88 86.2 73.88 44.07 0 69.34-23.33 87.49-51.85l64.16 38.89c-20.74 43.42-67.4 90.08-151.65 90.08-104.99 0-177.58-68.05-177.58-178.23 0-103.7 69.99-180.17 170.45-180.17s169.8 68.05 169.8 171.75c0 8.43 0 20.74-1.3 35.65h-247.57Zm1.95-65.46h156.83c-3.88-38.89-33.05-68.7-80.36-68.7-44.07 0-71.94 29.16-76.47 68.7Zm-1798.2-34.75H243.77v84.75H352.8v35.82l-10.84 10.07c-18.8 19.44-55.09 39.53-106.94 39.53-81.01 0-140.64-58.98-140.64-149.71s55.74-148.41 136.75-148.41c59.62 0 93.33 29.16 114.06 57.03l69.99-51.85c-31.11-47.96-89.44-88.79-184.06-88.79C92.44 17.05.41 121.39.41 249.07c0 139.34 93.97 232.67 230.72 232.67 24.9 0 46.59-3.69 64.99-9.65.05 0 .1-.02.15-.05 2.59-.85 5.16-1.72 7.63-2.67 15.15-5.71 27.79-12.99 37.91-20.89.23-.17 5.29-4.11 10.99-8.52v33.98h84.75V310.82c0-45.37-36.89-82.26-82.26-82.26v.02Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>",
+  "<svg viewBox=\"0 0 11 10.55\" class=\"h-s-4 w-s-4 fill-current\"><path d=\"M5.5 10.55a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L9.3 5.54H.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8.79L5.59.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.55 4.55.01.01s.07.1.1.15c.02.06.04.12.04.19s-.01.14-.04.19c-.02.06-.06.12-.11.16l-5 5c-.1.1-.23.15-.35.15Z\"></path></svg>",
+  "<svg viewBox=\"0 0 17.57 17.57\" class=\"fill-current\"><path d=\"M1.03 17.57c-.26 0-.53-.1-.73-.3-.4-.4-.4-1.06 0-1.46L14.04 2.07H1.03C.46 2.07 0 1.6 0 1.03S.46 0 1.03 0h15.53c.13 0 .25.03.36.08.12.05.23.12.33.22a1.04 1.04 0 0 1 .29.72v14.14c0 .57-.46 1.03-1.03 1.03s-1.03-.46-1.03-1.03V3.53L1.76 17.26c-.2.2-.47.3-.73.3Z\"></path></svg>"
+ ],
+ "themes": [
+  "--theme-primary:16 16 16",
+  "--theme-secondary:255 255 255",
+  "--theme-tertiary:255 255 255",
+  "--theme-header:255 255 255",
+  "--theme-header-secondary:125 125 125",
+  "--theme-header-button-text-default:255 255 255",
+  "--theme-header-button-text-roll-over:0 0 0",
+  "--theme-header-button-bg-default:125 125 125",
+  "--theme-header-button-bg-roll-over:255 255 255"
+ ],
+ "title": ""
+}

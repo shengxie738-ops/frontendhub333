@@ -1,0 +1,823 @@
+{
+  "_uid": "fb0a5a15-3e9d-43aa-abab-093ae860206a",
+  "route": "/about",
+  "storyUuid": "46def034-c621-40d4-860d-59206eacd29a",
+  "storyName": "About",
+  "publishedAt": "2024-10-10T20:52:41.010Z",
+  "sourceHtml": "evidence/source-pages/_about.html",
+  "seo": {
+    "_uid": "5890a004-2a4a-45a0-a73f-57380025126a",
+    "title": "About Gladeye",
+    "description": "Gladeye is New Zealand's Creative Digital Agency. We work with thoughtful global organisations and ambitious, digital-first brands on brand design, websites, editorial storytelling and campaigns that make a positive impact on people and planet.\n"
+  },
+  "hero": {
+    "order": 0,
+    "_uid": null,
+    "theme": "green",
+    "heading": [
+      {
+        "t": "text",
+        "v": "Design creates the future. "
+      },
+      {
+        "t": "br"
+      },
+      {
+        "t": "text",
+        "v": "Let's make it "
+      },
+      {
+        "t": "i",
+        "v": "beautiful"
+      },
+      {
+        "t": "text",
+        "v": "."
+      }
+    ],
+    "headingCompact": [
+      {
+        "t": "text",
+        "v": "Design "
+      },
+      {
+        "t": "i",
+        "v": "creates"
+      },
+      {
+        "t": "br"
+      },
+      {
+        "t": "text",
+        "v": "the future"
+      },
+      {
+        "t": "i",
+        "v": "."
+      },
+      {
+        "t": "br"
+      },
+      {
+        "t": "text",
+        "v": "Let's make it"
+      },
+      {
+        "t": "br"
+      },
+      {
+        "t": "i",
+        "v": "beautiful."
+      }
+    ],
+    "image": {
+      "filename": "https://a-us.storyblok.com/f/1014779/4032x3024/5077b19f33/img_0720.jpg",
+      "alt": "Gladeye",
+      "id": 202393,
+      "dims": "5077b19f33"
+    },
+    "imagePortrait": {
+      "filename": "https://a-us.storyblok.com/f/1014779/4032x3024/5077b19f33/img_0720.jpg",
+      "alt": "Gladeye",
+      "id": 202393
+    }
+  },
+  "sections": [
+    {
+      "order": 1,
+      "_uid": "9d6807ac-33c3-41a8-b5fa-51679fa5049f",
+      "component": "page_bloks_content",
+      "theme": "green",
+      "heading": "Who we are",
+      "lead": [
+        {
+          "t": "text",
+          "v": "Gladeye is a creative digital agency from Aotearoa, New Zealand"
+        },
+        {
+          "t": "span",
+          "v": "—",
+          "color": "rgb(77, 81, 86)"
+        },
+        {
+          "t": "text",
+          "v": "blending storytelling and technology."
+        }
+      ],
+      "columns": [
+        [
+          {
+            "t": "text",
+            "v": "We partner with clients from New Zealand to New York to launch strikingly beautiful brand identities, storytelling experiences, campaigns, websites, ecommerce, and product designs."
+          }
+        ],
+        [
+          {
+            "t": "text",
+            "v": "We avoid work which accelerates wasteful consumerism; we love working with brands that promote sustainability and protect biodiversity."
+          }
+        ],
+        [
+          {
+            "t": "text",
+            "v": "Our team design brand identities that will distil your essence, craft campaigns to deeply engage your users, and build websites which bring joy and utility to peoples' lives."
+          }
+        ],
+        [
+          {
+            "t": "text",
+            "v": "Since our highly awarded long-form work with HuffPost Highline we've continued to push the boundaries of what's possible in browsers."
+          }
+        ],
+        [
+          {
+            "t": "text",
+            "v": "Our backgrounds in film, theatre, robotics, advertising and behavioural psychology let us bring worlds together to create storytelling experiences across multiple new media."
+          }
+        ],
+        [
+          {
+            "t": "text",
+            "v": "There is an incredible confluence of technologies happening in the digital<>human space. Interfaces are evolving and immersion is deepening at an order of magnitude. "
+          }
+        ],
+        [
+          {
+            "t": "text",
+            "v": "We believe that by keeping the twin concerns of people and planet at the "
+          },
+          {
+            "t": "i",
+            "v": "heart"
+          },
+          {
+            "t": "text",
+            "v": " of digital experiences - we can achieve a true net positive. "
+          }
+        ],
+        [
+          {
+            "t": "text",
+            "v": "Let’s make a more beautiful future together."
+          }
+        ]
+      ],
+      "media": []
+    },
+    {
+      "order": 2,
+      "_uid": "cbae77f6-9344-4e03-8a92-d59e20b84bf4",
+      "component": "page_bloks_definition_list",
+      "theme": "green",
+      "heading": "Our services",
+      "groups": [
+        {
+          "_uid": "c7244e6e-a5e3-438f-8d38-2f28faf6e3cf",
+          "heading": "Digital ",
+          "items": [
+            "Product Innovation",
+            "Digital Storytelling",
+            "Websites",
+            "Mobile App Design",
+            "Digital Campaigns",
+            "Headless CMS",
+            "E-Commerce",
+            "Creative Technology",
+            "SEO + Analytics"
+          ]
+        },
+        {
+          "_uid": "39cfe014-e460-46a9-981e-b6d8694fdc6d",
+          "heading": "Brand",
+          "items": [
+            "Strategy",
+            "Naming ",
+            "Identity ",
+            "Logos + Icons",
+            "Design Systems",
+            "Kinetic "
+          ]
+        },
+        {
+          "_uid": "fc8ba682-ab0c-42b3-91d2-08e29b902430",
+          "heading": "AI",
+          "items": [
+            "Training",
+            "Workshops",
+            "Content Creation",
+            "Image + Voice Models"
+          ]
+        },
+        {
+          "_uid": "35d9d1ed-1406-4c19-affc-377d616da595",
+          "heading": "Content",
+          "items": [
+            "Art Direction",
+            "3D Scenes + Assets",
+            "Photography",
+            "Copywriting",
+            "Illustration",
+            "Animation",
+            "Data Viz"
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "_uid": "a6651b62-b97d-4f43-aa83-61874e7dfaba",
+      "component": "page_bloks_content",
+      "theme": "black",
+      "heading": "Our process",
+      "lead": [
+        {
+          "t": "text",
+          "v": "People talk about Gladeye Magic."
+        }
+      ],
+      "columns": [
+        [
+          {
+            "t": "text",
+            "v": "For us that means making digital experiences which create "
+          },
+          {
+            "t": "i",
+            "v": "emotional"
+          },
+          {
+            "t": "text",
+            "v": " connections between brands and people. "
+          }
+        ],
+        [
+          {
+            "t": "text",
+            "v": "Movement, surprise, wonder."
+          }
+        ],
+        [
+          {
+            "t": "text",
+            "v": "We bring brands to life through striking creativity and craft, taking people out of their everyday and into something more special."
+          }
+        ],
+        [
+          {
+            "t": "text",
+            "v": "For creative digital to be truly effective we must understand "
+          },
+          {
+            "t": "i",
+            "v": "who"
+          },
+          {
+            "t": "text",
+            "v": " your brand is. And who your audience are, what they want, and what you want them to know, feel and do."
+          }
+        ],
+        [
+          {
+            "t": "text",
+            "v": "So our projects always begin with discovery and strategy, we call it our Think phase. "
+          }
+        ],
+        [
+          {
+            "t": "text",
+            "v": "We immerse ourselves in your world, understanding your most valuable and exciting points of difference"
+          },
+          {
+            "t": "span",
+            "v": "—",
+            "color": "rgb(32, 33, 36)"
+          },
+          {
+            "t": "text",
+            "v": "then we amplify them in "
+          },
+          {
+            "t": "a",
+            "v": "incredible ways",
+            "href": "/work/",
+            "target": "_self",
+            "linktype": "story"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          }
+        ],
+        [
+          {
+            "t": "text",
+            "v": "Tell us what you want your brand to achieve in the world, say "
+          },
+          {
+            "t": "a",
+            "v": "hello@gladeye.com",
+            "href": "mailto:hello@gladeye.com",
+            "target": null,
+            "linktype": "url"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        []
+      ],
+      "media": [
+        {
+          "_uid": "2942bb9e-ff13-4eea-88e2-bb767d2527fc",
+          "order": 0,
+          "filename": "https://a-us.storyblok.com/f/1014779/3693x2769/6803ca3ce1/hamurana-pohutakawa-warm.jpg",
+          "alt": "Gladeye",
+          "id": 217956,
+          "focus": "3451x1451:3452x1452",
+          "dims": "6803ca3ce1"
+        },
+        {
+          "_uid": "70f8a3a0-e1e5-4aeb-b47f-59c98aee403e",
+          "order": 1,
+          "filename": "https://a-us.storyblok.com/f/1014779/3654x2740/3c019933a8/hamurana-side-warm.jpg",
+          "alt": "Gladeye",
+          "id": 217955,
+          "focus": "2834x1590:2835x1591",
+          "dims": "3c019933a8"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "_uid": "bf7c1909-b17a-473c-aa15-e75e39a019d8",
+      "component": "page_bloks_awards",
+      "theme": "black",
+      "heading": "Awards",
+      "countLabel": "216",
+      "groups": [
+        {
+          "_uid": "2128e52e-bba2-4a28-b850-ad3f09976414",
+          "type": "American Society of Magazine Editors",
+          "href": "https://www.asme.media/",
+          "items": [
+            {
+              "_uid": "b9fe0f6a-b18a-4410-a3b1-47f3ed7fb761",
+              "name": "Punch Sulzberger Award",
+              "quantity": "1"
+            },
+            {
+              "_uid": "5d5cae62-3828-421b-88d7-3974e52655c9",
+              "name": "Winners",
+              "quantity": "3"
+            },
+            {
+              "_uid": "bf52436f-6e05-4529-878f-5629146c766b",
+              "name": "Finalists",
+              "quantity": "2"
+            }
+          ]
+        },
+        {
+          "_uid": "8ede9404-cc06-483d-b472-7c73a2674ca0",
+          "type": "Awwwards",
+          "href": "https://www.awwwards.com/",
+          "items": [
+            {
+              "_uid": "83de04ef-0ce1-4145-bd71-9dd2ec6bc464",
+              "name": "Sites of the day",
+              "quantity": "13"
+            },
+            {
+              "_uid": "8e53e677-3bf8-4565-a8f5-32870fc81a81",
+              "name": "Honorees",
+              "quantity": "23"
+            },
+            {
+              "_uid": "8e77b744-0838-44e9-8101-c7fe618684a0",
+              "name": "Dev Awards",
+              "quantity": "3"
+            },
+            {
+              "_uid": "efb6510a-03ad-479a-894f-1a5b8b466809",
+              "name": "Mobile Excellence",
+              "quantity": "3"
+            }
+          ]
+        },
+        {
+          "_uid": "a07d5ee5-5e86-4b83-bec0-3339544ead20",
+          "type": "Best Design Awards",
+          "href": "https://bestawards.co.nz/",
+          "items": [
+            {
+              "_uid": "9014928c-e96e-42ef-ac08-8cdb2f5a1e30",
+              "name": "Purple Pins",
+              "quantity": "3"
+            },
+            {
+              "_uid": "13a4b417-dfe5-405c-a759-2a365a5fdcaa",
+              "name": "Gold Pins",
+              "quantity": "6"
+            },
+            {
+              "_uid": "b05a0b76-48fd-4ff5-88a3-a111f16956b6",
+              "name": "Silver Pins",
+              "quantity": "10"
+            },
+            {
+              "_uid": "20b23a7e-590c-4b42-b76e-0fc8af33475a",
+              "name": "Bronze Pins",
+              "quantity": "13"
+            },
+            {
+              "_uid": "54304913-fb28-4760-9cab-27ce6e8dc03a",
+              "name": "Finalists",
+              "quantity": "11"
+            }
+          ]
+        },
+        {
+          "_uid": "54048980-2469-49a9-a087-5f20f26add8e",
+          "type": "Communicator Awards",
+          "href": "https://www.communicatorawards.com/",
+          "items": [
+            {
+              "_uid": "87f6a591-b00d-4469-8b87-5b9d8630b3d2",
+              "name": "Excellence ",
+              "quantity": "6"
+            },
+            {
+              "_uid": "38b910c7-b879-48ff-9b07-6c69a1c6441b",
+              "name": "Distinction",
+              "quantity": "5"
+            }
+          ]
+        },
+        {
+          "_uid": "b356e835-16a5-4299-bbc7-31832a8f1f03",
+          "type": "CSS Design Awards",
+          "href": "https://www.cssdesignawards.com/",
+          "items": [
+            {
+              "_uid": "eb37bc5a-0ae5-452c-8790-b2d52193e506",
+              "name": "Sites of the day",
+              "quantity": "11"
+            },
+            {
+              "_uid": "d2a04bdc-df9b-4fdd-8649-22076cb2f1a0",
+              "name": "Special Kudos",
+              "quantity": "5"
+            },
+            {
+              "_uid": "ae67d240-3663-4bb6-bf4e-96fc7284f8ba",
+              "name": "Innnovation",
+              "quantity": "7"
+            },
+            {
+              "_uid": "0445a099-1e97-4dfb-ab2c-5e5c0d3f81d7",
+              "name": "UX/UI Design",
+              "quantity": "14"
+            }
+          ]
+        },
+        {
+          "_uid": "f99264dc-0ad9-4e2b-9a02-8068588fc16a",
+          "type": "Effie Awards",
+          "href": "https://commscouncil.nz/effie",
+          "items": [
+            {
+              "_uid": "73667ea4-3de6-44eb-b3e4-19681e9bf8c1",
+              "name": "Bronzes",
+              "quantity": "2"
+            }
+          ]
+        },
+        {
+          "_uid": "70ff48d1-050e-4557-a96f-236b9418c7f2",
+          "type": "EPPY Awards",
+          "href": "https://www.eppyawards.com/",
+          "items": [
+            {
+              "_uid": "1920f3f3-46d9-4c42-9297-98adf76ab1c2",
+              "name": "Winner ",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "_uid": "de1eef98-b571-4e94-835e-a688ba5ec19c",
+          "type": "Front Page Award",
+          "href": "https://www.newswomensclubnewyork.com/fps-index",
+          "items": [
+            {
+              "_uid": "1201f3e2-97b5-4653-8988-e7b6dabb6e05",
+              "name": "Winner",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "_uid": "5323e4f8-d499-4e15-a24e-7182d168378e",
+          "type": "Good Design Awards",
+          "href": "https://good-design.org/",
+          "items": [
+            {
+              "_uid": "db64dd36-5c41-4764-93e8-b6f7a8a2cc52",
+              "name": "Best in Class",
+              "quantity": "1"
+            },
+            {
+              "_uid": "125e6954-46a9-4251-a263-124090d34e47",
+              "name": "Golds",
+              "quantity": "3"
+            },
+            {
+              "_uid": "df3ea1ee-ca2c-4303-91e6-204be9018554",
+              "name": "Winner",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "_uid": "1c146564-605e-460a-b0ef-70c611c5c211",
+          "type": "Interactive Media Awards",
+          "href": "",
+          "items": [
+            {
+              "_uid": "e24457c2-3288-4f20-afc1-6938e4ff2dab",
+              "name": "Best in Class",
+              "quantity": "1"
+            },
+            {
+              "_uid": "8200b5fc-65fa-4067-9709-de443095bbbc",
+              "name": "Outstanding ",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "_uid": "14c59ba4-eb2b-404d-8e1e-c6edcbe3722b",
+          "type": "International Business Awards ",
+          "href": "https://www.nzte.govt.nz/page/new-zealand-international-business-awards",
+          "items": [
+            {
+              "_uid": "4581b376-c86f-4e2b-ae9e-c56d3b82b6c2",
+              "name": "Winner",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "_uid": "58ca8dc4-e489-4c01-9e01-6b39a9fb62c3",
+          "type": "Mindsparkle Mag",
+          "href": "https://mindsparklemag.com/",
+          "items": [
+            {
+              "_uid": "ecbabf56-8f5e-4035-968e-20ccea79cbe9",
+              "name": "Sites of the Day",
+              "quantity": "2"
+            }
+          ]
+        },
+        {
+          "_uid": "324b88d4-e988-49e8-b7cd-8209ce8088ee",
+          "type": "National Edward R. Murrow Award",
+          "href": "https://www.rtdna.org/edward-r-murrow-awards",
+          "items": [
+            {
+              "_uid": "14862b14-f772-4975-9477-baf195d8b053",
+              "name": "Winner",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "_uid": "32867ad9-9967-4abe-abbe-511135f14d8f",
+          "type": "National Magazine Award",
+          "href": "https://www.asme.media/asme-awards",
+          "items": [
+            {
+              "_uid": "2e27004c-8f4d-43e0-99c4-87a9413ee252",
+              "name": "Winners",
+              "quantity": "2"
+            }
+          ]
+        },
+        {
+          "_uid": "4ad5e77d-75fa-4ae1-ab66-b4912da394ae",
+          "type": "National Press Club",
+          "href": "",
+          "items": [
+            {
+              "_uid": "65e6512e-9b83-4575-9ced-41b155948637",
+              "name": "Runner-up",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "_uid": "ee6a6eec-68da-4e54-a6db-fd26adb1af6e",
+          "type": "National Press Photographers Association",
+          "href": "https://nppa.org/awards/awards",
+          "items": [
+            {
+              "_uid": "0fb57cc6-c882-4033-97a9-06185db9020e",
+              "name": "Winners",
+              "quantity": "5"
+            },
+            {
+              "_uid": "cd7fe33a-90e1-4890-8682-bed6615d1bbb",
+              "name": "Honoree",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "_uid": "a73164bd-a4f1-49f1-92b9-231e9f49c606",
+          "type": "Nexus Awards",
+          "href": "",
+          "items": [
+            {
+              "_uid": "bea53337-ecea-4fbd-afde-40214bd83420",
+              "name": "Silver",
+              "quantity": "2"
+            }
+          ]
+        },
+        {
+          "_uid": "059b803f-6205-42d9-9108-78f403296d04",
+          "type": "Orpetron",
+          "href": "https://orpetron.com/",
+          "items": [
+            {
+              "_uid": "42dfcf18-5b30-4cde-9d42-cef7824eb2a5",
+              "name": "Site of the Month",
+              "quantity": "1"
+            },
+            {
+              "_uid": "4a791da3-0043-40e9-93d5-b9873fcc0064",
+              "name": "Site of the Day",
+              "quantity": "3"
+            }
+          ]
+        },
+        {
+          "_uid": "9f010610-1063-496f-ba4e-3ba5e5fc63fd",
+          "type": "Overseas Press Club Award",
+          "href": "https://opcofamerica.org/",
+          "items": [
+            {
+              "_uid": "81d945e6-f4f4-49db-8e21-dd3984addf0e",
+              "name": "Winner",
+              "quantity": "1"
+            },
+            {
+              "_uid": "ff27ff1c-9b99-41f5-b16e-cab64e3f96ee",
+              "name": "Excellence",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "_uid": "f11ae6f4-9494-4b6c-a28a-a16b25a26b22",
+          "type": "Peabody Award",
+          "href": "https://peabodyawards.com/",
+          "items": [
+            {
+              "_uid": "8ae29c85-377c-44a6-8e47-cb8632c4a04b",
+              "name": "Nominee",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "_uid": "4fdffdb5-3b39-4265-b9bf-ef84ccb24f1c",
+          "type": "Pixel Awards",
+          "href": "",
+          "items": [
+            {
+              "_uid": "8f616800-68df-47ff-b812-cd22680ce3cf",
+              "name": "Winner",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "_uid": "4078eb8b-eacd-4ca8-8b32-2c8eefb02409",
+          "type": "PDN Storytellers",
+          "href": "https://thephotosociety.org/pdn-storytellers/",
+          "items": [
+            {
+              "_uid": "3feeea1e-9154-49dc-8f7e-990dac7baa32",
+              "name": "Winner",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "_uid": "a2c23baf-79e6-49b0-9824-9c1df5bbaabf",
+          "type": "Society of Publication Designers",
+          "href": "https://www.spd.org/",
+          "items": [
+            {
+              "_uid": "b3494f16-f02d-435d-adb5-02720e130ea9",
+              "name": "Gold Medals",
+              "quantity": "5"
+            }
+          ]
+        },
+        {
+          "_uid": "15cc2b99-f57b-47e9-9a2b-7f4d36e932d6",
+          "type": "The Emmy Awards",
+          "href": "https://theemmys.tv/news/",
+          "items": [
+            {
+              "_uid": "764337b2-a343-44ba-ba8a-124ac6ed907b",
+              "name": "Nominee",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "_uid": "98654cb0-8503-40e6-916b-b99d22241307",
+          "type": "The FWA",
+          "href": "https://thefwa.com/",
+          "items": [
+            {
+              "_uid": "892f6cd8-f672-47de-a463-761ac22c741c",
+              "name": "Sites of the Day",
+              "quantity": "8"
+            }
+          ]
+        },
+        {
+          "_uid": "46a830fb-9772-4b2a-8847-93c942c40b9e",
+          "type": "The One Show",
+          "href": "https://oneshow.org/",
+          "items": [
+            {
+              "_uid": "b81b2dbe-046f-465e-ad83-39f90be12d7a",
+              "name": "Merit",
+              "quantity": "1"
+            }
+          ]
+        },
+        {
+          "_uid": "da01c8eb-3592-4abc-ab47-13ed52613bd8",
+          "type": "The Webby Awards",
+          "href": "https://www.webbyawards.com/",
+          "items": [
+            {
+              "_uid": "74560dff-4571-4337-9280-82ef439a1a18",
+              "name": "Winner",
+              "quantity": "1"
+            },
+            {
+              "_uid": "38dfc224-6475-4305-ab87-5252df68bbb0",
+              "name": "Nominees",
+              "quantity": "2"
+            },
+            {
+              "_uid": "55db89cc-94a3-471f-b3b3-0696356a43c0",
+              "name": "Honorees",
+              "quantity": "5"
+            }
+          ]
+        },
+        {
+          "_uid": "e7bd7677-a434-485e-a72d-a865f7c5ac2f",
+          "type": "w3 Awards",
+          "href": "https://www.w3award.com/",
+          "items": [
+            {
+              "_uid": "1970d9c0-2437-44bd-b22f-89f9dc7c0a6a",
+              "name": "Best in Shows",
+              "quantity": "2"
+            },
+            {
+              "_uid": "4f1a896c-1141-4287-83bb-ca9f26cf85d5",
+              "name": "Golds",
+              "quantity": "5"
+            },
+            {
+              "_uid": "f476c620-965f-47c1-ade6-157a42fa9bca",
+              "name": "Silvers",
+              "quantity": "12"
+            }
+          ]
+        }
+      ],
+      "groupsTotal": 28,
+      "computedTotal": 216
+    },
+    {
+      "order": 5,
+      "_uid": "8df35305-8b00-49b1-90da-5895062e471e",
+      "component": "page_bloks_careers",
+      "theme": "green",
+      "heading": "Join the family",
+      "roles": []
+    }
+  ]
+}

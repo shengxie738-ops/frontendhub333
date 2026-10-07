@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-10-06T19:03:30Z",
+  "note": "8 /work featured cover videos were requested from the Vimeo progressive_redirect URLs recorded in src/content/video-manifest.json. 5 returned real MP4 (ftyp magic verified). 3 returned Vimeo HTML pages that had been saved with a .mp4 extension; those files were deleted and are listed as blocked below. This is exactly the failure mode docs/asset-rights.md and Gladeye_Desktop_Codex_Goal_Clone_Plan.md §4.4 warn about (never store an error HTML body as a media file).",
+  "valid": [
+    "public/sites/gladeye/work/cyberbrokers/video/featured-894381115.mp4",
+    "public/sites/gladeye/work/hypercinema/video/featured-882705368.mp4",
+    "public/sites/gladeye/work/social-mobility-in-the-digital-age/video/featured-894383301.mp4",
+    "public/sites/gladeye/work/the-dj-and-the-war-crimes/video/featured-855535768.mp4",
+    "public/sites/gladeye/work/the-examination/video/featured-865174986.mp4"
+  ],
+  "blocked": [
+    {
+      "slug": "into-the-amazon",
+      "vimeoTitle": "Gladeye - National Geographic Preview",
+      "reason": "progressive_redirect served Vimeo's HTML player/error page, not an MP4 rendition",
+      "deletedFile": "public/sites/gladeye/work/into-the-amazon/video/featured-1096787331.mp4",
+      "requiredFollowUp": "featured grid must fall back to this item's image layer; must not render the HTML body"
+    },
+    {
+      "slug": "where-opportunity-takes-root",
+      "vimeoTitle": "Vimeo error page (body background #141531, 'Sorry / We're having a little trouble.')",
+      "reason": "progressive_redirect served Vimeo's HTML error page, not an MP4 rendition",
+      "deletedFile": "public/sites/gladeye/work/where-opportunity-takes-root/video/featured-1221018160.mp4",
+      "requiredFollowUp": "same image-layer fallback"
+    },
+    {
+      "slug": "eqty-lab-website",
+      "vimeoTitle": "EQTY-motion",
+      "reason": "progressive_redirect served Vimeo's HTML player/error page, not an MP4 rendition",
+      "deletedFile": "public/sites/gladeye/work/eqty-lab-website/video/featured-1068684498.mp4",
+      "requiredFollowUp": "same image-layer fallback"
+    }
+  ],
+  "notFetched": {
+    "count": 166,
+    "kinds": { "framed": 83, "iframe": 83 },
+    "reason": "Case-body videos are hosted on Gladeye's own Vimeo account and total multiple gigabytes; bulk scraping was not performed. Components must fall back to the poster/first-frame image and the manifest keeps the source URL so a rights-cleared pass can fetch them later.",
+    "regenerateWith": "KINDS=framed,iframe node scripts/download-featured-videos.mjs"
+  },
+  "bytesOnDisk": 45088768
+}

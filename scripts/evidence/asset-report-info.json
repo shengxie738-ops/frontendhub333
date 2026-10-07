@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-10-06T17:43:04.055Z",
+  "generator": "scripts/download-assets-gladeye-info.mjs",
+  "concurrency": 4,
+  "policy": {
+    "validatesHttpStatus": true,
+    "validatesContentType": true,
+    "validatesFileMagic": true,
+    "rejectsEmpty": true,
+    "rejectsHtmlAsImage": true,
+    "placeholdersUsed": false
+  },
+  "pages": {
+    "about": {
+      "dir": "gladeye-app/public/sites/gladeye/about",
+      "files": [],
+      "requested": 0,
+      "ok": 0,
+      "failed": 0
+    },
+    "contact": {
+      "dir": "gladeye-app/public/sites/gladeye/contact",
+      "files": [],
+      "requested": 0,
+      "ok": 0,
+      "failed": 0
+    },
+    "careers": {
+      "dir": "gladeye-app/public/sites/gladeye/careers",
+      "files": [],
+      "requested": 0,
+      "ok": 0,
+      "failed": 0
+    }
+  },
+  "assets": {},
+  "summary": {
+    "requested": 0,
+    "ok": 0,
+    "failed": 0,
+    "bytes": 0,
+    "byPage": {
+      "about": {
+        "requested": 0,
+        "ok": 0,
+        "failed": 0
+      },
+      "contact": {
+        "requested": 0,
+        "ok": 0,
+        "failed": 0
+      },
+      "careers": {
+        "requested": 0,
+        "ok": 0,
+        "failed": 0
+      }
+    },
+    "elapsedMs": 0
+  }
+}
