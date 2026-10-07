@@ -79,6 +79,19 @@ if (typeof TextureLoader !== 'undefined') TextureLoader.prototype.crossOrigin = 
 /** live runtimes, reported as `diagnostics.runtimes` */
 let activeRuntimes = 0;
 
+// Engineering failure bound for the entire asset load, not a source-site value.
+const ASSET_LOAD_DEADLINE_MS = 30_000;
+
+class AssetLoadTimeout extends Error {
+  readonly issue: AssetIssue;
+
+  constructor(url: string, kind: AssetIssue['kind'], stage: string) {
+    super(`asset loading timeout after ${ASSET_LOAD_DEADLINE_MS}ms during ${stage} (${assetUrl(url)})`);
+    this.name = 'AssetLoadTimeout';
+    this.issue = { url: assetUrl(url), kind, message: this.message };
+  }
+}
+
 export interface ValleyCallbacks {
   onProgress?: (loaded: number, total: number) => void;
   onReady?: () => void;
@@ -248,6 +261,7 @@ export class FlowerValleyScene {
   private resizeTimeout: ReturnType<typeof setTimeout> | undefined;
   private textureCache: Record<string, Texture> = {};
   private readonly pendingTextures = new Set<Texture>();
+  private cancelAssetLoad: (() => void) | null = null;
   private disposed = false;
   private gltfCamPosition = new Vector3();
   private disposedGeometry: BufferGeometry | null = null;
@@ -378,9 +392,38 @@ export class FlowerValleyScene {
     const urls = ASSETS.textureOrder;
     const total = urls.length + 1;
     const pending = new Set<Texture>();
+    const pendingUrls = new Set<string>(urls);
+    let terrainRequested = false;
     let abandoned = false;
+    let settled = false;
+    let deadline: ReturnType<typeof setTimeout> | undefined;
+    let rejectLoad!: (error: Error) => void;
+    const interruption = new Promise<never>((_resolve, reject) => { rejectLoad = reject; });
+    const clearDeadline = (): void => {
+      if (deadline !== undefined) clearTimeout(deadline);
+      deadline = undefined;
+    };
+    const cancel = (): void => {
+      if (settled || abandoned) return;
+      abandoned = true;
+      clearDeadline();
+      rejectLoad(new Error('asset loading cancelled'));
+    };
+    this.cancelAssetLoad = cancel;
+    deadline = setTimeout(() => {
+      if (settled || abandoned || this.disposed) return;
+      abandoned = true;
+      rejectLoad(new AssetLoadTimeout(
+        terrainRequested ? ASSETS.terrain : pendingUrls.values().next().value ?? urls[0],
+        terrainRequested ? 'image-data' : 'texture',
+        terrainRequested ? 'terrain/scene preparation' : pendingUrls.size > 0 ? 'texture request' : 'texture batch completion',
+      ));
+      clearDeadline();
+      // Close ownership synchronously before any queued/late result can run.
+      try { this.dispose(); } catch { /* Preserve the timeout diagnostic. */ }
+    }, ASSET_LOAD_DEADLINE_MS);
 
-    try {
+    const load = async (): Promise<void> => {
       this.callbacks.onProgress?.(0, total);
       if (this.disposed) return;
       const results = await Promise.all(
@@ -390,6 +433,7 @@ export class FlowerValleyScene {
               loader.load(
                 assetUrl(url),
                 (texture) => {
+                  pendingUrls.delete(url);
                   if (this.disposed || abandoned) {
                     texture.dispose();
                     resolve({ url, texture: null });
@@ -401,7 +445,10 @@ export class FlowerValleyScene {
                   resolve({ url, texture });
                 },
                 undefined,
-                () => resolve({ url, texture: null }),
+                () => {
+                  pendingUrls.delete(url);
+                  resolve({ url, texture: null });
+                },
               );
             }),
         ),
@@ -431,6 +478,7 @@ export class FlowerValleyScene {
       this.uniforms.uSpriteSheetPool2.value = pool2;
 
       // `this.terrainMapImage = new Image(); … .onload = async () => { await buildScene(); startRender(); }`
+      terrainRequested = true;
       const terrainImage = await loadImage(assetUrl(ASSETS.terrain));
       if (this.disposed) return;
       this.terrainImage = terrainImage;
@@ -441,13 +489,23 @@ export class FlowerValleyScene {
       this.cameraAnim = new CameraAnimator(this.cameraContainer);
       await this.buildScene(terrainImage);
       if (this.disposed) return;
+      settled = true;
+      clearDeadline();
       this.callbacks.onReady?.();
+    };
+
+    try {
+      await Promise.race([load(), interruption]);
     } catch (error) {
       abandoned = true;
       pending.forEach((texture) => {
         if (this.pendingTextures.delete(texture)) texture.dispose();
       });
       throw error;
+    } finally {
+      settled = true;
+      clearDeadline();
+      if (this.cancelAssetLoad === cancel) this.cancelAssetLoad = null;
     }
   }
 
@@ -813,6 +871,9 @@ export class FlowerValleyScene {
   dispose(): void {
     if (this.disposed) return;
     this.disposed = true;
+    const cancelAssetLoad = this.cancelAssetLoad;
+    this.cancelAssetLoad = null;
+    cancelAssetLoad?.();
     // Detach ownership before releasing: a throwing cleanup must not prevent
     // another resource from being released or let a repeated dispose retry it.
     const resizeTimeout = this.resizeTimeout;
@@ -985,12 +1046,16 @@ export class HomeExperience {
     } catch (error) {
       if (this.destroyed) return;
       this.status = 'failed';
-      this.failures.push({
+      this.failures.push(error instanceof AssetLoadTimeout ? error.issue : {
         url: assetUrl(ASSETS.terrain),
         kind: 'image-data',
         message: error instanceof Error ? error.message : 'asset load failed',
       });
       this.degradeReasons.push('asset-load-failed');
+      if (error instanceof AssetLoadTimeout) {
+        // Keep failed/poster diagnostics while releasing the manager's owners.
+        try { this.destroy(); } catch { /* Preserve the timeout diagnostic. */ }
+      }
       // A failed scene must never break navigation: report and stay silent.
     }
   }
