@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 
 import MotionLink from './MotionLink';
+import { resolveFeaturedVideoSource } from './featured-video-source';
 import { canUseHover, prefersReducedMotion, scrollProgress, Spring, startTicker } from './motion';
 
 import type { FeaturedCard } from '@/content/schema';
@@ -48,7 +49,7 @@ export function cardLayers(card: FeaturedCard): CardLayer[] {
   const out: CardLayer[] = [];
 
   if (raw.thumbnail_video) {
-    out.push({ kind: 'video', source: raw.thumbnail_video, vimeoId: vimeoIdOf(raw.thumbnail_video) });
+    out.push({ kind: 'video', source: resolveFeaturedVideoSource(card.slug, raw.thumbnail_video), vimeoId: vimeoIdOf(raw.thumbnail_video) });
   } else if (card.image) {
     out.push({
       kind: 'image',
@@ -61,7 +62,7 @@ export function cardLayers(card: FeaturedCard): CardLayer[] {
 
   for (const m of raw.thumbnails_multimedia || []) {
     if (m?.component === 'work_item_video' && m.source) {
-      out.push({ kind: 'video', source: m.source, vimeoId: vimeoIdOf(m.source) });
+      out.push({ kind: 'video', source: resolveFeaturedVideoSource(card.slug, m.source), vimeoId: vimeoIdOf(m.source) });
     } else if (m?.component === 'work_item_image' && m.image?.filename) {
       const n = naturalOf(m.image.filename);
       out.push({
