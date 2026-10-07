@@ -598,6 +598,14 @@ record('F.aFlowerGrowNoise in simplex range', growMin >= -1.1 && growMax <= 1.1,
 
 /* ---------------- G. hard structural facts ---------------- */
 
+const allExperienceSources = fs.readdirSync(path.join(APP_ROOT, 'src/experience'), {
+  recursive: true,
+  withFileTypes: true,
+})
+  .filter((entry) => entry.isFile() && /\.tsx?$/.test(entry.name))
+  .map((entry) => fs.readFileSync(path.join(entry.parentPath, entry.name), 'utf8'))
+  .join('\n');
+
 const hardFactChecks = [
   ['G.Points instead of InstancedMesh', !/InstancedMesh|InstancedBufferGeometry/.test(valleySceneSource)],
   ['G.THREE.Points used', /new Points\(/.test(valleySceneSource)],
@@ -621,5 +629,6 @@ for (const result of results) {
   console.log(`${result.pass ? 'PASS' : 'FAIL'}  ${result.name.padEnd(62)} ${result.detail}`);
 }
 console.log('');
+const passed = results.filter((result) => result.pass).length;
 console.log(`scene-params: ${passed}/${results.length} checks passed, ${failures} failed`);
 process.exit(failures === 0 ? 0 : 1);
