@@ -49,12 +49,44 @@ export class Spring {
     this.velocity = 0;
   }
 
-  /** Semi-implicit Euler, clamped to 64 ms so a backgrounded tab cannot explode. */
+  /**
+   * Exact damped-spring solution while the sampled target is fixed for this step.
+   * This keeps the same k/c/m response at 30/60/120 Hz without Euler instability
+   * or another smoothing layer. Keep the 64 ms effective-time cap for tab gaps.
+   */
   step(dtMs: number): number {
     const dt = Math.min(0.064, dtMs / 1000);
-    const acceleration = (-this.stiffness * (this.value - this.target) - this.damping * this.velocity) / this.mass;
-    this.velocity += acceleration * dt;
-    this.value += this.velocity * dt;
+    if (!(dt > 0)) return this.value;
+    const displacement = this.value - this.target;
+    const velocity = this.velocity;
+    const alpha = this.damping / (2 * this.mass);
+    const omegaSquared = this.stiffness / this.mass;
+    const discriminant = alpha * alpha - omegaSquared;
+
+    if (discriminant > 0) {
+      const root = Math.sqrt(discriminant);
+      // The rationalized slow root and expm1 avoid cancellation, including
+      // near-critical damping. Decaying exponentials cannot overflow as cosh can.
+      const slow = -omegaSquared / (alpha + root);
+      const fast = -alpha - root;
+      const fastDecay = Math.exp(fast * dt);
+      const response = Math.exp(slow * dt) * -Math.expm1(-2 * root * dt) / (2 * root);
+      const coefficient = velocity - fast * displacement;
+      this.value = this.target + displacement * fastDecay + coefficient * response;
+      this.velocity = velocity * fastDecay + slow * coefficient * response;
+    } else if (discriminant < 0) {
+      const omega = Math.sqrt(-discriminant);
+      const decay = Math.exp(-alpha * dt);
+      const cosine = Math.cos(omega * dt);
+      const response = Math.sin(omega * dt) / omega;
+      this.value = this.target + decay * (displacement * cosine + (velocity + alpha * displacement) * response);
+      this.velocity = decay * (velocity * cosine - (alpha * velocity + omegaSquared * displacement) * response);
+    } else {
+      const decay = Math.exp(-alpha * dt);
+      const coefficient = velocity + alpha * displacement;
+      this.value = this.target + (displacement + coefficient * dt) * decay;
+      this.velocity = (velocity - alpha * coefficient * dt) * decay;
+    }
     return this.value;
   }
 
@@ -101,15 +133,27 @@ export function prefersReducedMotion(): boolean {
   return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 }
 
+/** Layout-space viewport top, matching the source scroll engine's offset chain.
+ * Painted frame/cropper scale must never feed back into the reveal target. */
+export function layoutTop(el: HTMLElement): number {
+  let top = 0;
+  let node: HTMLElement | null = el;
+  while (node && node !== document.documentElement) {
+    top += node.offsetTop;
+    node = node.offsetParent as HTMLElement | null;
+  }
+  return top - window.scrollY;
+}
+
 /**
- * Port of `useScroll({target, offset:["start end","end end"]})` from the featured
- * card: 0 when the element's top enters the bottom of the viewport, 1 when its
- * bottom leaves the top.
+ * Port of `useScroll({target, offset:["start end","end end"]})`: 0 when the
+ * layout top reaches the viewport bottom, 1 when the layout bottom reaches it.
+ * The original scroll engine also measures target.clientHeight, without scale.
  */
 export function scrollProgress(el: HTMLElement): number {
-  const rect = el.getBoundingClientRect();
   const vh = window.innerHeight || 1;
-  const total = vh + rect.height;
-  const p = (vh - rect.top) / total;
+  const height = el.clientHeight;
+  if (height <= 0) return 0;
+  const p = (vh - layoutTop(el)) / height;
   return Math.max(0, Math.min(1, p));
 }

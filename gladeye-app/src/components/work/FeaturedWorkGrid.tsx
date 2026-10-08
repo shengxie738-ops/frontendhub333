@@ -6,7 +6,7 @@ import Link from 'next/link';
 import MotionLink from './MotionLink';
 import { isManagedFeaturedVideo, ManagedFeaturedVideo, useFeaturedMediaEnvironment } from './ManagedFeaturedVideo';
 import { resolveFeaturedVideoSource } from './featured-video-source';
-import { canUseHover, prefersReducedMotion, scrollProgress, Spring, startTicker } from './motion';
+import { canUseHover, layoutTop, prefersReducedMotion, scrollProgress, Spring, startTicker } from './motion';
 
 import type { FeaturedCard } from '@/content/schema';
 
@@ -427,7 +427,7 @@ export function FeaturedWorkGrid({ cards }: { cards: FeaturedCard[] }) {
     entry.cropper = cropper;
     entry.frame = frame;
     // module 1959 `S`: a card already on screen when it mounts does not play the zoom
-    if (frame) entry.enabled = !(frame.getBoundingClientRect().top <= window.innerHeight);
+    if (frame) entry.enabled = !(layoutTop(frame) <= window.innerHeight);
     reveal.current.set(index, entry);
   }, []);
 

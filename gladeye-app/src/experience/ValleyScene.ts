@@ -235,7 +235,8 @@ export class FlowerValleyScene {
   introDoneFired = false;
   introCameraAngle = (MOTION.introAngleDeg * Math.PI) / 180;
   cameraAnimationProgress = 0;
-  cameraFov: number | null = null;
+  // Own the unmodulated base before frames; resize must not sample hover/exit FOV.
+  cameraFov: number = CAMERA.fov;
 
   /** QA overrides — replace the scroller / hover inputs when set. */
   timeOverride: number | null = null;
@@ -804,7 +805,6 @@ export class FlowerValleyScene {
     const { innerWidth, innerHeight } = window;
     this.camera.aspect = innerWidth / innerHeight;
     this.camera.updateProjectionMatrix();
-    this.cameraFov = this.camera.fov;
     this.uniforms.uCamFovBase.value = this.cameraFov;
 
     this.effects();
